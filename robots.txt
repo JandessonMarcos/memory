@@ -2,6 +2,7 @@
 # NOTE: replace the domain below with your real one (single find-replace across the project).
 User-agent: *
 Allow: /
+Disallow: /_automation/
 
 # Block nothing for now; all blog pages are meant to be indexed.
 Sitemap: https://www.memorylabdaily.com/sitemap.xml

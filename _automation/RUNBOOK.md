@@ -17,11 +17,11 @@
    - Internal links: MUST link the pillar `../how-to-improve-memory/`, the money page `../best-memory-supplements-2026/`, and 1–2 topically-related spokes.
    - canonical/og/url = `https://www.memorylabdaily.com/<slug>/`. og:image = `/assets/img/<slug>.jpg`.
    - ~1000–1500 words. Accurate, hedged, NO fabricated studies/stats. English/US. Brand "Memory Lab". NEVER write "Memopezil"; editorial #1 = "Advanced Memory Complex".
-3. Fetch a coherent CC0 image (Openverse, prefer `source=stocksnap`, `license=cc0`), `sips -Z 900` → `assets/img/<slug>.jpg`. Curate (skip junk).
+3. Fetch a coherent CC0 image (Openverse API, prefer `source=stocksnap`, `license=cc0`). **Resize with Python Pillow** (the cloud runs **Linux — do NOT use `sips`/macOS tools**). If Pillow is missing: `pip install --quiet Pillow`. Example: `python3 -c "from PIL import Image; im=Image.open('in.jpg').convert('RGB'); im.thumbnail((1100,1100)); im.save('assets/img/<slug>.jpg', quality=85)"`. Curate (skip junk/irrelevant results).
 4. Add a card to the right home section + add the URL to `sitemap.xml`.
 5. **Quality gate** (skip & log if fails): word count ≥ 900, has Article+FAQPage schema, single H1, links to pillar + money page, no "Memopezil", slug not duplicated.
 6. Mark each done in the queue: `"status":"done","published":"<date>"`.
-7. Deploy: `CLOUDFLARE_ACCOUNT_ID=b3b59e6ff582d44cfddea9c40ffafde1 npx -y wrangler@latest pages deploy <blogdir> --project-name memorylabdaily --branch main`.
+7. **Commit and push to `main`** with a clear message (e.g., `content: <slugs> + news`). Publishing is automatic: Cloudflare Pages is connected to this repo (Git integration) and deploys every push. *(If ever running locally instead, deploy with `CLOUDFLARE_ACCOUNT_ID=b3b59e6ff582d44cfddea9c40ffafde1 npx -y wrangler@latest pages deploy <blogdir> --project-name memorylabdaily --branch main`.)*
 8. Log what was published (and what was skipped) at the end of the run.
 
 ## When the queue runs low

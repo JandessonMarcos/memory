@@ -1,0 +1,7 @@
+# Memory Lab — robots.txt
+# NOTE: replace the domain below with your real one (single find-replace across the project).
+User-agent: *
+Allow: /
+
+# Block nothing for now; all blog pages are meant to be indexed.
+Sitemap: https://www.memorylabdaily.com/sitemap.xml

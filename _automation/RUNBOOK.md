@@ -17,7 +17,12 @@
    - Internal links: MUST link the pillar `../how-to-improve-memory/`, the money page `../best-memory-supplements-2026/`, and 1–2 topically-related spokes.
    - canonical/og/url = `https://www.memorylabdaily.com/<slug>/`. og:image = `/assets/img/<slug>.jpg`.
    - ~1000–1500 words. Accurate, hedged, NO fabricated studies/stats. English/US. Brand "Memory Lab". NEVER write "Memopezil"; editorial #1 = "Advanced Memory Complex".
-3. Fetch a coherent CC0 image (Openverse API, prefer `source=stocksnap`, `license=cc0`). **Resize with Python Pillow** (the cloud runs **Linux — do NOT use `sips`/macOS tools**). If Pillow is missing: `pip install --quiet Pillow`. Example: `python3 -c "from PIL import Image; im=Image.open('in.jpg').convert('RGB'); im.thumbnail((1100,1100)); im.save('assets/img/<slug>.jpg', quality=85)"`. Curate (skip junk/irrelevant results).
+3. **Image — curate with your own eyes (critical for quality):**
+   - Query Openverse for **concrete subjects** (people, objects, real scenes — e.g., "senior couple walking", "salmon fillet", "microscope lab"), NOT abstract concepts. Prefer `source=stocksnap&license=cc0`; fall back to `license=cc0` without source.
+   - Download **3-4 candidates** to /tmp, then **OPEN EACH with the Read tool and LOOK at it.** Pick the best **real photograph** that matches the topic.
+   - **REJECT:** diagrams, charts, brain scans/MRIs, illustrations, clip-art, gradients/abstract renders, anything with watermarks/text, and any file **< 40 KB** (usually junk/flat).
+   - Resize the chosen one with **Python Pillow** (cloud = **Linux, do NOT use `sips`**; `pip install --quiet Pillow` if missing): `python3 -c "from PIL import Image; im=Image.open('in.jpg').convert('RGB'); im.thumbnail((1100,1100)); im.save('assets/img/<slug>.jpg', quality=85)"`.
+   - If no good photo is found after a few queries, **reuse a relevant existing image from assets/img/** rather than shipping an ugly one.
 4. Add a card to the right home section + add the URL to `sitemap.xml`.
 5. **Quality gate** (skip & log if fails): word count ≥ 900, has Article+FAQPage schema, single H1, links to pillar + money page, no "Memopezil", slug not duplicated.
 6. Mark each done in the queue: `"status":"done","published":"<date>"`.

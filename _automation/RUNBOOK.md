@@ -29,9 +29,13 @@ When < 6 `pending` remain, generate ~20 new long-tail, low-KD memory/brain topic
 
 ## News / freshness track (newsjacking) — "publish on each new study"
 Besides the evergreen queue, scan reputable sources for NEW brain/memory/Alzheimer's research and publish a timely post per genuinely new item (Google rewards freshness; AI Overviews favor recent, sourced content).
-- **Scan (last ~7 days)** via WebSearch + WebFetch:
+- **Priority watch — WebFetch these directly each run** (high-authority; cite + link them for E-E-A-T):
+  - Harvard Health — Memory hub: https://www.health.harvard.edu/topics/memory  (lists recent memory articles → great for fresh, citable angles)
+  - NINDS / NIH — Brain Basics: https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain  (authoritative reference to cite)
+- **Also scan (last ~7 days)** via WebSearch + WebFetch:
   - Universities/medical: NIH / NIA, Harvard Health, Mayo Clinic, Cleveland Clinic, Stanford & MIT news, Alzheimer's Association (alz.org).
   - Health/science portals: ScienceDaily, Medical News Today, Healthline, WebMD, EurekAlert.
+  - **Always link to the original source** (never copy text); add original "what this means for you" analysis.
 - For each NEW, relevant item not already in `_automation/news-covered.json`:
   1. Write a **news-style** article: summarize the finding in plain English, add an original **"What this means for you"** analysis, **cite + link the original source**, end with a soft funnel to the pillar/offer. `cat: "News"`. datePublished = dateModified = today.
   2. Schema: Article (NewsArticle ok), with `dateModified`. Keep FAQ optional.

@@ -31,17 +31,17 @@ img{max-width:100%}
 .ico-search{justify-self:end;background:none;border:0;cursor:pointer;padding:4px;display:flex;align-items:center}
 .ico-search svg{width:21px;height:21px;display:block}
 .topnav{background:#fff;border-bottom:1px solid var(--line)}
-.topnav-inner{max-width:1100px;margin:0 auto;padding:11px 20px;display:flex;gap:22px;font-size:14px;font-weight:600;color:#333;overflow-x:auto;white-space:nowrap}
+.topnav-inner{max-width:1100px;margin:0 auto;padding:11px 20px;display:flex;justify-content:center;gap:22px;font-size:14px;font-weight:600;color:#333;overflow-x:auto;white-space:nowrap}
 .topnav-inner a{color:#333;flex:0 0 auto}
 .topnav-inner a:hover{color:var(--teal)}
 .topnav-inner::-webkit-scrollbar{display:none}
 @media (max-width:640px){.logo{font-size:19px}.topnav-inner{gap:18px;font-size:13px}}
 
 /* ===== BLOG HOME ===== */
-.home-wrap{max-width:1100px;margin:0 auto;padding:26px 20px 0}
-.home-hero{text-align:center;padding:8px 0 26px;border-bottom:1px solid var(--line);margin-bottom:26px}
-.home-hero h1{font-size:30px;font-weight:800;letter-spacing:-.5px;margin:0 0 10px;color:var(--ink)}
-.home-hero p{font-size:16px;color:#555;max-width:640px;margin:0 auto}
+.home-wrap{max-width:1100px;margin:0 auto;padding:14px 20px 0}
+.home-hero{text-align:center;padding:2px 0 14px;border-bottom:1px solid var(--line);margin-bottom:18px}
+.home-hero h1{font-size:23px;font-weight:800;letter-spacing:-.5px;margin:0 0 6px;color:var(--ink)}
+.home-hero p{font-size:14.5px;color:#555;max-width:600px;margin:0 auto;line-height:1.45}
 .section-label{font-size:12px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--red);margin:0 0 14px}
 .card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 @media (max-width:880px){.card-grid{grid-template-columns:repeat(2,1fr)}}
@@ -204,7 +204,7 @@ footer{background:#0b1f3a;color:#cbd3dd;margin-top:28px;padding:24px 20px}
    ============================================================================ */
 .byline .av{display:none}                 /* byline: keep author name only */
 .ftc{display:none}                        /* top advertising-disclosure bar hidden (disclosure stays in footer) */
-.ico-grid{display:none}                    /* decorative 9-dot menu removed */
+.ico-grid{visibility:hidden}               /* 9-dot hidden but keeps grid slot so logo stays centered */
 .recbox{grid-template-columns:1fr}        /* recommendation/team box: image removed */
 .recbox>div:first-child{display:none}     /* hides the (now empty) image cell */
 .bottle{display:none}                     /* no drawn product bottles anywhere */
@@ -213,7 +213,7 @@ footer{background:#0b1f3a;color:#cbd3dd;margin-top:28px;padding:24px 20px}
 /* photo thumbnails */
 .post-thumb img{width:100%;height:100%;object-fit:cover;display:block}
 /* article hero image (top of each article) */
-.article-hero{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:12px;margin:6px 0 22px;display:block;box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.article-hero{width:100%;aspect-ratio:16/9;max-height:360px;object-fit:cover;border-radius:12px;margin:6px 0 22px;display:block;box-shadow:0 6px 18px rgba(0,0,0,.08)}
 @media(max-width:640px){.article-hero{aspect-ratio:3/2;margin:4px 0 18px}}
 
 /* ===== site search overlay ===== */
@@ -237,8 +237,13 @@ footer{background:#0b1f3a;color:#cbd3dd;margin-top:28px;padding:24px 20px}
 .lead-hero:hover{text-decoration:none}
 .lead-hero:hover .lead-cta{transform:translateY(1px);box-shadow:0 4px 0 #92300a}
 @media(max-width:640px){.lead-hero{aspect-ratio:4/3}.lead-hero h2{font-size:21px}.lead-hero .lead-overlay{padding:18px}}
-.home-feature .hf-img{padding:0}
-.home-feature .hf-img img{width:100%;height:100%;min-height:200px;object-fit:cover;display:block}
+/* lead story reuses the clean home-feature split layout, teal accent */
+.lead-feature{border-color:var(--teal);background:#f5fbfa}
+.lead-feature .hf-img{background:linear-gradient(135deg,#1f9e8a,#0d5247)}
+.lead-badge{background:var(--teal) !important;color:#fff !important}
+.home-feature .hf-img{padding:0;position:relative;min-height:240px}
+.home-feature .hf-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+@media(max-width:680px){.home-feature .hf-img{min-height:200px}}
 
 /* ===== 3-pack price chooser (money page #1) ===== */
 .packbox{display:grid;grid-template-columns:1fr;gap:10px;margin:8px 0 4px}

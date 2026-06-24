@@ -1,0 +1,13 @@
+# Files in the asset directory (".") that must NOT be served publicly.
+src/
+functions/
+node_modules/
+.git/
+.wrangler/
+_automation/
+*.sql
+wrangler.jsonc
+.gitignore
+.assetsignore
+.dev.vars
+.DS_Store

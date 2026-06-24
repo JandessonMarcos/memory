@@ -1,8 +1,18 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "memory",
+  "main": "src/index.js",
   "compatibility_date": "2026-06-23",
   "assets": {
-    "directory": "."
-  }
+    "directory": ".",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "memorylab-leads",
+      "database_id": "86417d69-c419-4296-af6c-fa935639b54a"
+    }
+  ],
+  "observability": { "enabled": true }
 }

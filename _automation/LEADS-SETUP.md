@@ -5,6 +5,13 @@ writes leads into a D1 database bound as **`DB`**. Until that binding exists, th
 endpoint fails open (stores nothing, returns ok:false) and the quiz still works for
 the visitor — nothing breaks. Do this once to turn storage on.
 
+## Status (2026-06-24)
+- ✅ DB created: `memorylab-leads` (id `86417d69-c419-4296-af6c-fa935639b54a`) in the **work** account (`b3b59e6ff582d44cfddea9c40ffafde1`).
+- ✅ Schema applied — table `leads` exists, empty.
+- ⬜ **Remaining: bind it as `DB` on the Pages project (dashboard), then redeploy.** See step 3.
+- ⚠️ Cleanup: an empty duplicate `memorylab-leads` was mistakenly created in the **manager** account (`84f1…`); delete it from that account's dashboard.
+- ⚠️ When running wrangler for this DB, prefix with `CLOUDFLARE_ACCOUNT_ID=b3b59e6ff582d44cfddea9c40ffafde1` (the project's `.wrangler` cache may still point at the manager account).
+
 ## One-time setup
 
 **1. Create the database**

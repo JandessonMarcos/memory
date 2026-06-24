@@ -18,6 +18,19 @@
 (function(){
   "use strict";
 
+  // Load the "Memory Check" quiz (lead capture) site-wide — one place, every page.
+  // Absolute /assets/ paths so it works from the home and from any post subfolder.
+  (function(){
+    try{
+      if(!document.querySelector('link[href*="quiz.css"]')){
+        var l=document.createElement('link'); l.rel='stylesheet'; l.href='/assets/quiz.css'; document.head.appendChild(l);
+      }
+      if(!document.querySelector('script[src*="quiz.js"]')){
+        var s=document.createElement('script'); s.src='/assets/quiz.js'; s.defer=true; document.body.appendChild(s);
+      }
+    }catch(e){}
+  })();
+
   var OFFERS = {
     "2": "https://buygoods.com/secure/checkout.html?account_id=12340&product_codename=PP_MMP2UNITS_AFF&aff_id=21099&subid={clickid}&redirect=aHR0cHM6Ly9pbXByb3ZpbmdvdXJoZWFsdGguY29tL21tcC1hZmYtYnV5LXVwMS8=&sub5=redirect_test",
     "3": "https://buygoods.com/secure/checkout.html?account_id=12340&product_codename=PP_MMP3UNITS_AFF&aff_id=21099&subid={clickid}&redirect=aHR0cHM6Ly9pbXByb3ZpbmdvdXJoZWFsdGguY29tL21tcC1hZmYtYnV5LXVwMS8=&sub5=redirect_test",

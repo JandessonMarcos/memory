@@ -49,7 +49,7 @@ img{max-width:100%}
 @media (max-width:540px){.card-grid{grid-template-columns:1fr}}
 .post-card{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;display:flex;flex-direction:column;transition:box-shadow .15s,transform .15s}
 .post-card:hover{box-shadow:0 12px 28px rgba(0,0,0,.1);transform:translateY(-3px);text-decoration:none}
-.post-thumb{height:150px;display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--serif);font-weight:900;font-size:20px;text-align:center;padding:14px;line-height:1.2}
+.post-thumb{height:150px;display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--serif);font-weight:900;font-size:20px;text-align:center;padding:0;line-height:1.2}
 .post-thumb.t1{background:linear-gradient(135deg,#1f9e8a,#0d5247)}
 .post-thumb.t2{background:linear-gradient(135deg,#2e7bd6,#15498f)}
 .post-thumb.t3{background:linear-gradient(135deg,#c8102e,#7a0b1f)}

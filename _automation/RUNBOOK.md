@@ -17,6 +17,7 @@
    - Internal links: MUST link the pillar `../how-to-improve-memory/`, the money page `../best-memory-supplements-2026/`, and 1–2 topically-related spokes.
    - canonical/og/url = `https://www.memorylabdaily.com/<slug>/`. og:image = `/assets/img/<slug>.jpg`.
    - ~1000–1500 words. Accurate, hedged, NO fabricated studies/stats. English/US. Brand "Memory Lab". NEVER write "Memopezil"; editorial #1 = "Advanced Memory Complex".
+   - **Write like a human (see `## Writing style` below).** Mirror the template's *structure and markup*, NOT its punctuation habits: the old posts overuse the em dash, so do not copy that density.
 3. **Image — curate with your own eyes (critical for quality):**
    - Query Openverse for **concrete subjects** (people, objects, real scenes — e.g., "senior couple walking", "salmon fillet", "microscope lab"), NOT abstract concepts. Prefer `source=stocksnap&license=cc0`; fall back to `license=cc0` without source.
    - Download **3-4 candidates** to /tmp, then **OPEN EACH with the Read tool and LOOK at it.** Pick the best **real photograph** that matches the topic.
@@ -24,10 +25,22 @@
    - Resize the chosen one with **Python Pillow** (cloud = **Linux, do NOT use `sips`**; `pip install --quiet Pillow` if missing): `python3 -c "from PIL import Image; im=Image.open('in.jpg').convert('RGB'); im.thumbnail((1100,1100)); im.save('assets/img/<slug>.jpg', quality=85)"`.
    - If no good photo is found after a few queries, **reuse a relevant existing image from assets/img/** rather than shipping an ugly one.
 4. **Home placement — newest first:** insert the new post's card at the **TOP** of the **`Latest`** section in `index.html` (as the first child of that section's `.card-grid`, right after `<p class="section-label">Latest</p>`). Keep **Latest capped at 4 cards**: if it now exceeds 4, move the **oldest** (last) card out of Latest and append it to its proper **thematic** section (`Memory & brain health`, `Ingredients & evidence`, `Reviews & comparisons`, or `Bill Gates & brain research`) based on its category/topic. Then add the URL to `sitemap.xml`. *(Copy an existing `.post-card` block verbatim for the markup; NEVER let the same slug appear in two sections.)*
-5. **Quality gate** (skip & log if fails): word count ≥ 900, has Article+FAQPage schema, single H1, links to pillar + money page, no "Memopezil", slug not duplicated.
+5. **Quality gate** (skip & log if fails): word count ≥ 900, has Article+FAQPage schema, single H1, links to pillar + money page, no "Memopezil", slug not duplicated, **≤ 1 em dash (—) in the whole article**.
 6. Mark each done in the queue: `"status":"done","published":"<date>"`.
 7. **Commit and push to `main`** with a clear message (e.g., `content: <slugs> + news`). Publishing is automatic: Cloudflare Pages is connected to this repo (Git integration) and deploys every push. *(If ever running locally instead, deploy with `CLOUDFLARE_ACCOUNT_ID=b3b59e6ff582d44cfddea9c40ffafde1 npx -y wrangler@latest pages deploy <blogdir> --project-name memorylabdaily --branch main`.)*
 8. Log what was published (and what was skipped) at the end of the run.
+
+## Writing style: sound human (anti-AI-tell)
+Affiliate + YMYL content has to read like a person wrote it. That is an E-E-A-T, anti-spam-review, and conversion requirement, not a nicety. Bake these into every generation:
+
+- **Em dash (—): 1 per article, maximum.** It is the #1 "written by AI" tell, and the model defaults to overusing it. Replace it with a period (splitting into two sentences is best, because it varies the rhythm), a comma, a colon, or parentheses. *(The en dash "–" in number ranges like "1–3 weeks" is correct typography. Keep those.)*
+- **Vary sentence length (burstiness).** Mix long sentences with short ones. Let some land under 8 words. A run of uniform, medium-length sentences is the clearest machine signature.
+- **Cut the tell-tale constructions:** "it's not just X, it's Y", "here's the thing", "the truth is", "let's be honest", a rule-of-three in every list, and wrap-ups like "in conclusion / ultimately / at the end of the day".
+- **Cut the tell-tale words:** delve, robust, boost, leverage, navigate, testament, crucial, vital, unlock, elevate, realm, foster, myriad, seamless, game-changer. Use plain ones instead.
+- **Do not open consecutive sentences or paragraphs the same way.** Vary how each one starts.
+- **Use contractions, an occasional fragment, and concrete nouns.** Write the way the byline persona (a health editor) actually speaks.
+
+Self-check before saving each article: count the em dashes (must be ≤ 1), scan the first word of every paragraph (are they varied?), and confirm two or three sentences run under 8 words.
 
 ## When the queue runs low
 When < 6 `pending` remain, generate ~20 new long-tail, low-KD memory/brain topics (distinct from everything published) and append them as `pending`.

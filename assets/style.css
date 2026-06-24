@@ -58,7 +58,7 @@ img{max-width:100%}
 .post-card h3{font-size:18px;font-weight:600;color:#0a0a0a;margin:0 0 8px;line-height:28px}
 .post-card p{font-size:18px;font-weight:400;color:#0a0a0a;margin:0 0 12px;line-height:28px;flex:1}
 .post-card .pc-more{font-size:13px;font-weight:800;color:var(--red)}
-.home-feature{display:grid;grid-template-columns:1.1fr 1fr;gap:0;border:2px solid var(--gold);border-radius:14px;overflow:hidden;margin-bottom:34px;background:#fffdf6}
+.home-feature{display:grid;grid-template-columns:1.1fr 1fr;gap:0;border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-bottom:34px;background:#fff;box-shadow:0 6px 22px rgba(0,0,0,.06)}
 @media (max-width:680px){.home-feature{grid-template-columns:1fr}}
 .home-feature .hf-img{background:linear-gradient(135deg,#e0b23c,#caa00f);display:flex;align-items:center;justify-content:center;padding:24px;min-height:170px}
 .home-feature .hf-body{padding:22px 22px 24px}
@@ -88,7 +88,7 @@ h1.headline .hl{color:var(--red)}
 @media (max-width:640px){h1.headline{font-size:23px;line-height:1.22}.subhead{font-size:15px}.article p,.article ul,.article ol{font-size:15.5px}.home-hero h1{font-size:24px}}
 
 /* ===== inline recommendation box (for editorial articles) ===== */
-.recbox{border:2px solid var(--gold);background:#fffdf6;border-radius:14px;padding:18px;margin:24px 0;display:grid;grid-template-columns:90px 1fr;gap:16px;align-items:center}
+.recbox{border:1px solid var(--line);background:#fff;border-radius:14px;padding:18px;margin:24px 0;display:grid;grid-template-columns:90px 1fr;gap:16px;align-items:center;box-shadow:0 6px 22px rgba(0,0,0,.06)}
 @media (max-width:560px){.recbox{grid-template-columns:70px 1fr;gap:12px}}
 .recbox .rb-badge{font-size:11px;font-weight:900;letter-spacing:1px;text-transform:uppercase;background:var(--gold);color:#3a2c00;padding:3px 9px;border-radius:20px;display:inline-block;margin-bottom:6px}
 .recbox h4{margin:0 0 6px;font-size:17px;color:var(--ink);font-weight:800}
@@ -115,7 +115,7 @@ table.cmp tr.row1 td{background:#fffaf0;font-weight:600}
 
 /* ===== RANK CARDS ===== */
 .rank-card{border:1px solid #e2e2e2;border-radius:14px;padding:20px;margin:18px 0;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.04)}
-.rank-card.top{border:2px solid var(--gold);background:#fffdf6;box-shadow:0 10px 30px rgba(224,178,60,.22)}
+.rank-card.top{border:1px solid var(--line);background:#fff;box-shadow:0 8px 26px rgba(0,0,0,.08)}
 .rc-head{display:flex;align-items:center;gap:12px;margin-bottom:6px;flex-wrap:wrap}
 .rc-badge{font-size:11px;font-weight:900;letter-spacing:1px;text-transform:uppercase;color:#fff;background:#7a8699;padding:5px 10px;border-radius:20px}
 .rank-card.top .rc-badge{background:linear-gradient(90deg,#e0b23c,#caa00f);color:#3a2c00}

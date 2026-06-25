@@ -1,63 +1,367 @@
 {
   "_comment": "Fila de conteúdo do Memory Lab. status: pending | done. A rotina diária consome os 'pending' mais ao topo, gera o artigo, e marca 'done' com a data. NÃO repetir slugs já publicados (14 iniciais).",
   "niche": "memory / brain health",
-  "ramp": { "week1": 2, "week2": 3, "week3plus": 3 },
+  "ramp": {
+    "week1": 2,
+    "week2": 3,
+    "week3plus": 3
+  },
   "published_base": [
-    "how-to-improve-memory","best-memory-supplements-2026","why-you-keep-forgetting",
-    "foods-and-habits-for-memory","brain-fog-causes-and-fixes","memory-loss-vs-normal-aging",
-    "citicoline-for-memory","bacopa-monnieri-benefits","best-vitamins-for-brain-fog",
-    "prevagen-alternatives","neuriva-review-alternatives","memory-exercises",
-    "omega-3-for-brain-health","magnesium-for-memory"
+    "how-to-improve-memory",
+    "best-memory-supplements-2026",
+    "why-you-keep-forgetting",
+    "foods-and-habits-for-memory",
+    "brain-fog-causes-and-fixes",
+    "memory-loss-vs-normal-aging",
+    "citicoline-for-memory",
+    "bacopa-monnieri-benefits",
+    "best-vitamins-for-brain-fog",
+    "prevagen-alternatives",
+    "neuriva-review-alternatives",
+    "memory-exercises",
+    "omega-3-for-brain-health",
+    "magnesium-for-memory"
   ],
   "queue": [
-    {"slug":"bill-gates-alzheimers-research","title":"Why Bill Gates Is Investing Millions in Alzheimer's Research","kw":"bill gates alzheimers","cat":"Brain Health","status":"done","published":"2026-06-23","angle":"FACTUAL ONLY: Gates's real personal investment in Alzheimer's/dementia research (Dementia Discovery Fund, ADDF) and why; tie to brain-health awareness. Do NOT claim Gates endorses or studied any supplement."},
-    {"slug":"bill-gates-dementia-fight","title":"Bill Gates's Bet on Beating Dementia — and What It Means for You","kw":"bill gates dementia","cat":"Brain Health","status":"done","published":"2026-06-23","angle":"FACTUAL: early-detection push, research funding; reader takeaways for protecting memory. No fabricated endorsement."},
-    {"slug":"bill-gates-brain-health-lessons","title":"3 Brain-Health Lessons From Bill Gates's Push Against Alzheimer's","kw":"bill gates brain health","cat":"Brain Health","status":"done","published":"2026-06-23","angle":"FACTUAL: early detection, lifestyle, research; funnel to memory support. No fake claims."},
-    {"slug":"bill-gates-father-alzheimers","title":"Bill Gates on His Father's Alzheimer's — and What It Taught Him","kw":"bill gates father alzheimers","cat":"Brain Health","status":"done","published":"2026-06-24","angle":"FACTUAL: Bill Gates Sr. had Alzheimer's; Gates wrote/spoke about it publicly. Empathetic, real quotes only."},
-    {"slug":"bill-gates-alzheimers-blood-test","title":"The Early Alzheimer's Blood Test Bill Gates Helped Fund","kw":"alzheimers blood test","cat":"Brain Health","status":"done","published":"2026-06-24","angle":"FACTUAL: Gates funded early-detection diagnostics (Diagnostics Accelerator/ADDF). Explain real science of early detection."},
-    {"slug":"is-there-a-bill-gates-brain-pill","title":"Is There a 'Bill Gates Brain Pill'? The Truth Behind the Viral Ads","kw":"bill gates brain pill","cat":"Reviews","status":"done","published":"2026-06-23","angle":"DEBUNK (critical): Bill Gates does NOT endorse any brain pill; warn that those ads are SCAMS using his name. Then pivot to what actually supports memory + our editorial pick. Must clearly state it's a scam, never imply endorsement."},
-    {"slug":"bill-gates-alzheimers-prediction","title":"What Bill Gates Predicts About Beating Alzheimer's","kw":"bill gates alzheimers cure","cat":"Brain Health","status":"pending","angle":"FACTUAL: use real, sourced Gates statements about treatment/diagnosis timelines. No invented quotes."},
-    {"slug":"bill-gates-diagnostics-accelerator","title":"Inside the Diagnostics Accelerator Bill Gates Co-Founded","kw":"diagnostics accelerator alzheimers","cat":"Brain Health","status":"pending","angle":"FACTUAL: explain the initiative + why early detection matters for readers."},
-    {"slug":"bill-gates-on-preventing-dementia","title":"What Bill Gates Says About Preventing Dementia","kw":"bill gates preventing dementia","cat":"Brain Health","status":"pending","angle":"FACTUAL: sourced statements + evidence-based prevention takeaways; funnel to memory support."},
-    {"slug":"billionaires-funding-alzheimers-research","title":"Bill Gates and the Billionaires Funding the Fight Against Alzheimer's","kw":"billionaires alzheimers research","cat":"Brain Health","status":"pending","angle":"FACTUAL: Gates, Zuckerberg/CZI, etc. Broadens beyond one name to avoid over-reliance."},
-    {"slug":"short-term-memory-loss-causes","title":"Short-Term Memory Loss: Causes and What to Do","kw":"short term memory loss","cat":"Memory","status":"pending"},
-    {"slug":"how-to-remember-names","title":"How to Remember Names: 7 Tricks That Actually Stick","kw":"how to remember names","cat":"Memory","status":"pending"},
-    {"slug":"forgetfulness-in-your-40s","title":"Forgetfulness in Your 40s: Is It Normal?","kw":"forgetfulness in your 40s","cat":"Memory","status":"pending"},
-    {"slug":"stress-and-memory-loss","title":"How Stress Affects Memory (and How to Reverse It)","kw":"stress and memory loss","cat":"Brain Health","status":"pending"},
-    {"slug":"sleep-and-memory","title":"Sleep and Memory: Why Deep Sleep Locks In Recall","kw":"sleep and memory","cat":"Brain Health","status":"pending"},
-    {"slug":"anxiety-and-forgetfulness","title":"Anxiety and Forgetfulness: The Overlooked Link","kw":"anxiety and memory","cat":"Brain Health","status":"pending"},
-    {"slug":"menopause-brain-fog","title":"Menopause Brain Fog: Why It Happens and What Helps","kw":"menopause brain fog","cat":"Brain Health","status":"pending"},
-    {"slug":"why-cant-i-concentrate","title":"Why Can't I Concentrate? 8 Hidden Causes","kw":"why can't i concentrate","cat":"Brain Health","status":"pending"},
-    {"slug":"dehydration-and-brain-fog","title":"Dehydration and Brain Fog: How Water Affects Focus","kw":"dehydration brain fog","cat":"Brain Health","status":"pending"},
-    {"slug":"tip-of-the-tongue","title":"Tip-of-the-Tongue: Why Words Vanish and How to Recall Them","kw":"tip of the tongue","cat":"Memory","status":"pending"},
-
-    {"slug":"phosphatidylserine-for-memory","title":"Phosphatidylserine for Memory: Benefits & Dosage","kw":"phosphatidylserine memory","cat":"Ingredients","status":"pending"},
-    {"slug":"ginkgo-biloba-for-memory","title":"Ginkgo Biloba for Memory: Does It Really Work?","kw":"ginkgo biloba memory","cat":"Ingredients","status":"pending"},
-    {"slug":"lions-mane-for-memory","title":"Lion's Mane for Memory & Focus: What the Research Says","kw":"lions mane memory","cat":"Ingredients","status":"pending"},
-    {"slug":"l-theanine-for-focus","title":"L-Theanine for Focus and Calm: Benefits & Dosage","kw":"l-theanine focus","cat":"Ingredients","status":"pending"},
-    {"slug":"alpha-gpc-vs-citicoline","title":"Alpha-GPC vs Citicoline: Which Is Better for Memory?","kw":"alpha gpc vs citicoline","cat":"Ingredients","status":"pending"},
-    {"slug":"vitamin-b12-and-memory","title":"Vitamin B12 and Memory: The Deficiency Link","kw":"vitamin b12 memory","cat":"Ingredients","status":"pending"},
-    {"slug":"vitamin-d-and-brain-health","title":"Vitamin D and Brain Health: Why Levels Matter","kw":"vitamin d brain","cat":"Ingredients","status":"pending"},
-    {"slug":"acetyl-l-carnitine-for-brain","title":"Acetyl-L-Carnitine for Brain & Memory: Benefits","kw":"acetyl l carnitine brain","cat":"Ingredients","status":"pending"},
-    {"slug":"rhodiola-for-mental-fatigue","title":"Rhodiola Rosea for Mental Fatigue and Focus","kw":"rhodiola mental fatigue","cat":"Ingredients","status":"pending"},
-    {"slug":"caffeine-and-memory","title":"Caffeine and Memory: Helpful or Harmful?","kw":"caffeine and memory","cat":"Ingredients","status":"pending"},
-    {"slug":"huperzine-a-for-memory","title":"Huperzine A for Memory: Benefits, Dosage & Safety","kw":"huperzine a memory","cat":"Ingredients","status":"pending"},
-
-    {"slug":"prevagen-vs-neuriva","title":"Prevagen vs Neuriva: Which Is Worth It in 2026?","kw":"prevagen vs neuriva","cat":"Reviews","status":"pending"},
-    {"slug":"focus-factor-review","title":"Focus Factor Review: Does It Work, and Alternatives","kw":"focus factor review","cat":"Reviews","status":"pending"},
-    {"slug":"alpha-brain-review","title":"Alpha Brain Review: Honest Take + Better Alternatives","kw":"alpha brain review","cat":"Reviews","status":"pending"},
-    {"slug":"best-nootropics-for-seniors","title":"The Best Nootropics for Seniors in 2026","kw":"best nootropics for seniors","cat":"Reviews","status":"pending"},
-    {"slug":"best-supplements-for-studying","title":"Best Supplements for Studying and Focus (2026)","kw":"best supplements for studying","cat":"Reviews","status":"pending"},
-    {"slug":"best-brain-supplements-for-adults","title":"Best Brain Supplements for Adults Over 50","kw":"best brain supplements","cat":"Reviews","status":"pending"},
-
-    {"slug":"mediterranean-diet-and-memory","title":"The Mediterranean Diet and Memory: What to Eat","kw":"mediterranean diet memory","cat":"Aging Well","status":"pending"},
-    {"slug":"exercise-and-brain-health","title":"Exercise and Brain Health: The Memory Connection","kw":"exercise brain health","cat":"Aging Well","status":"pending"},
-    {"slug":"meditation-and-memory","title":"Does Meditation Improve Memory? The Evidence","kw":"meditation and memory","cat":"Aging Well","status":"pending"},
-    {"slug":"best-brain-foods","title":"11 Best Brain Foods to Boost Memory and Focus","kw":"best brain foods","cat":"Aging Well","status":"pending"},
-    {"slug":"how-to-stop-forgetting-things","title":"How to Stop Forgetting Things: 9 Practical Fixes","kw":"how to stop forgetting things","cat":"Memory","status":"pending"},
-    {"slug":"brain-games-for-adults","title":"Brain Games for Adults: Which Ones Actually Help","kw":"brain games for adults","cat":"Memory","status":"pending"},
-    {"slug":"signs-of-cognitive-decline","title":"7 Early Signs of Cognitive Decline to Watch For","kw":"signs of cognitive decline","cat":"Brain Health","status":"pending"},
-    {"slug":"how-to-focus-better","title":"How to Focus Better: 10 Science-Backed Tactics","kw":"how to focus better","cat":"Brain Health","status":"pending"},
-    {"slug":"nootropics-explained","title":"Nootropics Explained: A Beginner's Guide for 2026","kw":"what are nootropics","cat":"Ingredients","status":"pending"}
+    {
+      "slug": "bill-gates-alzheimers-research",
+      "title": "Why Bill Gates Is Investing Millions in Alzheimer's Research",
+      "kw": "bill gates alzheimers",
+      "cat": "Brain Health",
+      "status": "done",
+      "published": "2026-06-23",
+      "angle": "FACTUAL ONLY: Gates's real personal investment in Alzheimer's/dementia research (Dementia Discovery Fund, ADDF) and why; tie to brain-health awareness. Do NOT claim Gates endorses or studied any supplement."
+    },
+    {
+      "slug": "bill-gates-dementia-fight",
+      "title": "Bill Gates's Bet on Beating Dementia — and What It Means for You",
+      "kw": "bill gates dementia",
+      "cat": "Brain Health",
+      "status": "done",
+      "published": "2026-06-23",
+      "angle": "FACTUAL: early-detection push, research funding; reader takeaways for protecting memory. No fabricated endorsement."
+    },
+    {
+      "slug": "bill-gates-brain-health-lessons",
+      "title": "3 Brain-Health Lessons From Bill Gates's Push Against Alzheimer's",
+      "kw": "bill gates brain health",
+      "cat": "Brain Health",
+      "status": "done",
+      "published": "2026-06-23",
+      "angle": "FACTUAL: early detection, lifestyle, research; funnel to memory support. No fake claims."
+    },
+    {
+      "slug": "bill-gates-father-alzheimers",
+      "title": "Bill Gates on His Father's Alzheimer's — and What It Taught Him",
+      "kw": "bill gates father alzheimers",
+      "cat": "Brain Health",
+      "status": "done",
+      "published": "2026-06-24",
+      "angle": "FACTUAL: Bill Gates Sr. had Alzheimer's; Gates wrote/spoke about it publicly. Empathetic, real quotes only."
+    },
+    {
+      "slug": "bill-gates-alzheimers-blood-test",
+      "title": "The Early Alzheimer's Blood Test Bill Gates Helped Fund",
+      "kw": "alzheimers blood test",
+      "cat": "Brain Health",
+      "status": "done",
+      "published": "2026-06-24",
+      "angle": "FACTUAL: Gates funded early-detection diagnostics (Diagnostics Accelerator/ADDF). Explain real science of early detection."
+    },
+    {
+      "slug": "is-there-a-bill-gates-brain-pill",
+      "title": "Is There a 'Bill Gates Brain Pill'? The Truth Behind the Viral Ads",
+      "kw": "bill gates brain pill",
+      "cat": "Reviews",
+      "status": "done",
+      "published": "2026-06-23",
+      "angle": "DEBUNK (critical): Bill Gates does NOT endorse any brain pill; warn that those ads are SCAMS using his name. Then pivot to what actually supports memory + our editorial pick. Must clearly state it's a scam, never imply endorsement."
+    },
+    {
+      "slug": "bill-gates-alzheimers-prediction",
+      "title": "What Bill Gates Predicts About Beating Alzheimer's",
+      "kw": "bill gates alzheimers cure",
+      "cat": "Brain Health",
+      "status": "done",
+      "angle": "FACTUAL: use real, sourced Gates statements about treatment/diagnosis timelines. No invented quotes.",
+      "published": "2026-06-25"
+    },
+    {
+      "slug": "bill-gates-diagnostics-accelerator",
+      "title": "Inside the Diagnostics Accelerator Bill Gates Co-Founded",
+      "kw": "diagnostics accelerator alzheimers",
+      "cat": "Brain Health",
+      "status": "done",
+      "angle": "FACTUAL: explain the initiative + why early detection matters for readers.",
+      "published": "2026-06-25"
+    },
+    {
+      "slug": "bill-gates-on-preventing-dementia",
+      "title": "What Bill Gates Says About Preventing Dementia",
+      "kw": "bill gates preventing dementia",
+      "cat": "Brain Health",
+      "status": "pending",
+      "angle": "FACTUAL: sourced statements + evidence-based prevention takeaways; funnel to memory support."
+    },
+    {
+      "slug": "billionaires-funding-alzheimers-research",
+      "title": "Bill Gates and the Billionaires Funding the Fight Against Alzheimer's",
+      "kw": "billionaires alzheimers research",
+      "cat": "Brain Health",
+      "status": "pending",
+      "angle": "FACTUAL: Gates, Zuckerberg/CZI, etc. Broadens beyond one name to avoid over-reliance."
+    },
+    {
+      "slug": "short-term-memory-loss-causes",
+      "title": "Short-Term Memory Loss: Causes and What to Do",
+      "kw": "short term memory loss",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "how-to-remember-names",
+      "title": "How to Remember Names: 7 Tricks That Actually Stick",
+      "kw": "how to remember names",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "forgetfulness-in-your-40s",
+      "title": "Forgetfulness in Your 40s: Is It Normal?",
+      "kw": "forgetfulness in your 40s",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "stress-and-memory-loss",
+      "title": "How Stress Affects Memory (and How to Reverse It)",
+      "kw": "stress and memory loss",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "sleep-and-memory",
+      "title": "Sleep and Memory: Why Deep Sleep Locks In Recall",
+      "kw": "sleep and memory",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "anxiety-and-forgetfulness",
+      "title": "Anxiety and Forgetfulness: The Overlooked Link",
+      "kw": "anxiety and memory",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "menopause-brain-fog",
+      "title": "Menopause Brain Fog: Why It Happens and What Helps",
+      "kw": "menopause brain fog",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "why-cant-i-concentrate",
+      "title": "Why Can't I Concentrate? 8 Hidden Causes",
+      "kw": "why can't i concentrate",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "dehydration-and-brain-fog",
+      "title": "Dehydration and Brain Fog: How Water Affects Focus",
+      "kw": "dehydration brain fog",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "tip-of-the-tongue",
+      "title": "Tip-of-the-Tongue: Why Words Vanish and How to Recall Them",
+      "kw": "tip of the tongue",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "phosphatidylserine-for-memory",
+      "title": "Phosphatidylserine for Memory: Benefits & Dosage",
+      "kw": "phosphatidylserine memory",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "ginkgo-biloba-for-memory",
+      "title": "Ginkgo Biloba for Memory: Does It Really Work?",
+      "kw": "ginkgo biloba memory",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "lions-mane-for-memory",
+      "title": "Lion's Mane for Memory & Focus: What the Research Says",
+      "kw": "lions mane memory",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "l-theanine-for-focus",
+      "title": "L-Theanine for Focus and Calm: Benefits & Dosage",
+      "kw": "l-theanine focus",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "alpha-gpc-vs-citicoline",
+      "title": "Alpha-GPC vs Citicoline: Which Is Better for Memory?",
+      "kw": "alpha gpc vs citicoline",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "vitamin-b12-and-memory",
+      "title": "Vitamin B12 and Memory: The Deficiency Link",
+      "kw": "vitamin b12 memory",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "vitamin-d-and-brain-health",
+      "title": "Vitamin D and Brain Health: Why Levels Matter",
+      "kw": "vitamin d brain",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "acetyl-l-carnitine-for-brain",
+      "title": "Acetyl-L-Carnitine for Brain & Memory: Benefits",
+      "kw": "acetyl l carnitine brain",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "rhodiola-for-mental-fatigue",
+      "title": "Rhodiola Rosea for Mental Fatigue and Focus",
+      "kw": "rhodiola mental fatigue",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "caffeine-and-memory",
+      "title": "Caffeine and Memory: Helpful or Harmful?",
+      "kw": "caffeine and memory",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "huperzine-a-for-memory",
+      "title": "Huperzine A for Memory: Benefits, Dosage & Safety",
+      "kw": "huperzine a memory",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "prevagen-vs-neuriva",
+      "title": "Prevagen vs Neuriva: Which Is Worth It in 2026?",
+      "kw": "prevagen vs neuriva",
+      "cat": "Reviews",
+      "status": "pending"
+    },
+    {
+      "slug": "focus-factor-review",
+      "title": "Focus Factor Review: Does It Work, and Alternatives",
+      "kw": "focus factor review",
+      "cat": "Reviews",
+      "status": "pending"
+    },
+    {
+      "slug": "alpha-brain-review",
+      "title": "Alpha Brain Review: Honest Take + Better Alternatives",
+      "kw": "alpha brain review",
+      "cat": "Reviews",
+      "status": "pending"
+    },
+    {
+      "slug": "best-nootropics-for-seniors",
+      "title": "The Best Nootropics for Seniors in 2026",
+      "kw": "best nootropics for seniors",
+      "cat": "Reviews",
+      "status": "pending"
+    },
+    {
+      "slug": "best-supplements-for-studying",
+      "title": "Best Supplements for Studying and Focus (2026)",
+      "kw": "best supplements for studying",
+      "cat": "Reviews",
+      "status": "pending"
+    },
+    {
+      "slug": "best-brain-supplements-for-adults",
+      "title": "Best Brain Supplements for Adults Over 50",
+      "kw": "best brain supplements",
+      "cat": "Reviews",
+      "status": "pending"
+    },
+    {
+      "slug": "mediterranean-diet-and-memory",
+      "title": "The Mediterranean Diet and Memory: What to Eat",
+      "kw": "mediterranean diet memory",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "exercise-and-brain-health",
+      "title": "Exercise and Brain Health: The Memory Connection",
+      "kw": "exercise brain health",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "meditation-and-memory",
+      "title": "Does Meditation Improve Memory? The Evidence",
+      "kw": "meditation and memory",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "best-brain-foods",
+      "title": "11 Best Brain Foods to Boost Memory and Focus",
+      "kw": "best brain foods",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "how-to-stop-forgetting-things",
+      "title": "How to Stop Forgetting Things: 9 Practical Fixes",
+      "kw": "how to stop forgetting things",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "brain-games-for-adults",
+      "title": "Brain Games for Adults: Which Ones Actually Help",
+      "kw": "brain games for adults",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "signs-of-cognitive-decline",
+      "title": "7 Early Signs of Cognitive Decline to Watch For",
+      "kw": "signs of cognitive decline",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "how-to-focus-better",
+      "title": "How to Focus Better: 10 Science-Backed Tactics",
+      "kw": "how to focus better",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "nootropics-explained",
+      "title": "Nootropics Explained: A Beginner's Guide for 2026",
+      "kw": "what are nootropics",
+      "cat": "Ingredients",
+      "status": "pending"
+    }
   ]
 }

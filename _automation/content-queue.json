@@ -134,14 +134,16 @@
       "title": "Forgetfulness in Your 40s: Is It Normal?",
       "kw": "forgetfulness in your 40s",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-06-28"
     },
     {
       "slug": "stress-and-memory-loss",
       "title": "How Stress Affects Memory (and How to Reverse It)",
       "kw": "stress and memory loss",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-06-28"
     },
     {
       "slug": "sleep-and-memory",

@@ -24,6 +24,12 @@
     privacyUrl: "/about/"
   };
 
+  // Site-wide popup surfaces (floating "Memory Check" button + exit-intent modal).
+  // TEMPORARILY DISABLED per request — the modal was surfacing too early.
+  // The inline quiz on the buyer's guide (#mlq-mount) is unaffected.
+  // Flip back to true to re-enable the FAB + exit-intent.
+  var POPUP_ENABLED = false;
+
   var STEPS = [
     { key: "symptom", q: "What bothers you most right now?", opts: [
       { v: "names", emoji: "🗣️", label: "Forgetting names &amp; words" },
@@ -174,7 +180,7 @@
   function boot() {
     var inline = document.getElementById("mlq-mount");
     if (inline) createQuiz(inline);          // inline lives on the buyer's guide
-    if (!isDone()) buildSiteWide(!!inline);  // FAB (skip if inline present) + exit-intent + modal
+    if (POPUP_ENABLED && !isDone()) buildSiteWide(!!inline);  // FAB + exit-intent + modal (temporarily off)
   }
 
   function buildSiteWide(hasInline) {

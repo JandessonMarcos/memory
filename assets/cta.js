@@ -41,11 +41,7 @@
 
   // ---- dates ----
   var y = new Date().getFullYear();
-  ["yr","upd"].forEach(function(id){ var el=document.getElementById(id); if(el) el.textContent=y; });
-  try{
-    var pd=document.getElementById('pubdate');
-    if(pd) pd.textContent=new Date().toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'});
-  }catch(e){}
+  ["yr"].forEach(function(id){ var el=document.getElementById(id); if(el) el.textContent=y; });
 
   // ---- offer links ----
   var qs = new URLSearchParams(location.search);

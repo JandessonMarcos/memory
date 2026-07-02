@@ -25,10 +25,13 @@
   };
 
   // Site-wide popup surfaces (floating "Memory Check" button + exit-intent modal).
-  // TEMPORARILY DISABLED per request — the modal was surfacing too early.
-  // The inline quiz on the buyer's guide (#mlq-mount) is unaffected.
-  // Flip back to true to re-enable the FAB + exit-intent.
-  var POPUP_ENABLED = false;
+  // Re-enabled with an ENGAGEMENT GATE: the FAB and exit-intent stay dormant
+  // until the visitor has scrolled >=50% of the page OR spent >=30s on it — this
+  // fixes the old "surfacing too early" problem. The inline quiz (#mlq-mount) is
+  // unaffected. Set to false to fully disable the FAB + exit-intent again.
+  var POPUP_ENABLED = true;
+  var ARM_SCROLL_PCT = 50;   // arm once the visitor scrolls this far, OR
+  var ARM_DELAY_MS   = 30000; // ...this long on the page, whichever comes first
 
   var STEPS = [
     { key: "symptom", q: "What bothers you most right now?", opts: [
@@ -211,20 +214,41 @@
     modal.addEventListener("click", function (e) { if (e.target === modal) close(); });
     document.addEventListener("keydown", function (e) { if (e.key === "Escape") close(); });
 
+    // ---- engagement gate: don't surface until the visitor is invested ----
+    // The popup used to appear too early. Now the FAB and exit-intent stay
+    // dormant until the visitor scrolls >= ARM_SCROLL_PCT% OR spends
+    // >= ARM_DELAY_MS on the page, whichever comes first.
+    var armed = false, fab = null;
+    function scrollPct() {
+      var h = document.documentElement;
+      var max = h.scrollHeight - h.clientHeight;
+      return max > 0 ? ((h.scrollTop || document.body.scrollTop) / max) * 100 : 0;
+    }
+    function arm() {
+      if (armed || isDone()) return;
+      armed = true;
+      window.removeEventListener("scroll", onScroll);
+      if (fab) fab.classList.add("show");
+      track("quiz_armed", {});
+    }
+    function onScroll() { if (scrollPct() >= ARM_SCROLL_PCT) arm(); }
+    window.addEventListener("scroll", onScroll, { passive: true });
+    setTimeout(arm, ARM_DELAY_MS);
+
     // floating button (only on pages without the inline quiz, to avoid redundancy)
     if (!hasInline) {
-      var btn = document.createElement("button");
-      btn.className = "mlq-fab"; btn.type = "button";
-      btn.innerHTML = '<span class="mlq-fab-ic">🧠</span><span class="mlq-fab-tx">Memory Check<small>Free 60-sec quiz</small></span>';
-      document.body.appendChild(btn);
-      btn.addEventListener("click", open);
-      setTimeout(function () { btn.classList.add("show"); }, 1200);
+      fab = document.createElement("button");
+      fab.className = "mlq-fab"; fab.type = "button";
+      fab.innerHTML = '<span class="mlq-fab-ic">🧠</span><span class="mlq-fab-tx">Memory Check<small>Free 60-sec quiz</small></span>';
+      document.body.appendChild(fab);
+      fab.addEventListener("click", open);
+      if (armed) fab.classList.add("show");
     }
 
-    // exit-intent (desktop): pointer leaves toward the top of the viewport
+    // exit-intent (desktop): pointer leaves toward the top — only once armed
     var exitShown = false;
     document.addEventListener("mouseout", function (e) {
-      if (exitShown || isDone()) return;
+      if (!armed || exitShown || isDone()) return;
       if (e.clientY <= 0 && !e.relatedTarget) { exitShown = true; open(); }
     });
   }

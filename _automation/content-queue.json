@@ -358,14 +358,16 @@
       "title": "11 Best Brain Foods to Boost Memory and Focus",
       "kw": "best brain foods",
       "cat": "Aging Well",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-12"
     },
     {
       "slug": "how-to-stop-forgetting-things",
       "title": "How to Stop Forgetting Things: 9 Practical Fixes",
       "kw": "how to stop forgetting things",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-12"
     },
     {
       "slug": "brain-games-for-adults",
@@ -393,6 +395,139 @@
       "title": "Nootropics Explained: A Beginner's Guide for 2026",
       "kw": "what are nootropics",
       "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "memory-palace-technique",
+      "title": "The Memory Palace Technique: How to Build One and Use It",
+      "kw": "memory palace technique",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "how-to-study-more-effectively",
+      "title": "How to Study More Effectively: Science-Backed Methods",
+      "kw": "how to study more effectively",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "why-do-we-dream",
+      "title": "Why Do We Dream? What Dreams Do for Memory and the Brain",
+      "kw": "why do we dream",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "alcohol-and-memory",
+      "title": "Alcohol and Memory: What Heavy Drinking Does to the Brain",
+      "kw": "alcohol and memory",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "dementia-prevention-tips",
+      "title": "Dementia Prevention: 8 Evidence-Based Strategies",
+      "kw": "dementia prevention",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "intermittent-fasting-brain",
+      "title": "Intermittent Fasting and Brain Health: What the Research Shows",
+      "kw": "intermittent fasting brain health",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "social-connection-brain-health",
+      "title": "How Social Connection Protects Your Brain as You Age",
+      "kw": "social connection brain health",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "music-and-memory",
+      "title": "Music and Memory: Why Songs Stick When Words Don't",
+      "kw": "music and memory",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "cold-water-and-brain",
+      "title": "Cold Water Therapy and Brain Health: What the Evidence Says",
+      "kw": "cold water therapy brain",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "gut-brain-connection",
+      "title": "The Gut-Brain Connection: How Your Microbiome Affects Memory",
+      "kw": "gut brain connection memory",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "reading-and-brain-health",
+      "title": "Reading and Brain Health: What Books Do for Your Memory",
+      "kw": "reading brain health",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "air-quality-brain-fog",
+      "title": "Air Quality and Brain Fog: The Pollution Connection",
+      "kw": "air quality brain fog",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "how-to-learn-faster",
+      "title": "How to Learn Faster: Neuroscience-Backed Techniques",
+      "kw": "how to learn faster",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "quercetin-for-brain",
+      "title": "Quercetin for Brain Health: Evidence, Dosage and Sources",
+      "kw": "quercetin brain health",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "curcumin-for-memory",
+      "title": "Curcumin for Memory: Does Turmeric Actually Help the Brain?",
+      "kw": "curcumin memory",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "creatine-for-brain",
+      "title": "Creatine for Brain Health and Cognitive Performance",
+      "kw": "creatine brain health",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "ageing-well-brain-checklist",
+      "title": "The Brain Health Checklist for Adults Over 50",
+      "kw": "brain health checklist",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "what-is-working-memory",
+      "title": "What Is Working Memory and Why It Matters After 40",
+      "kw": "what is working memory",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "thyroid-and-brain-fog",
+      "title": "Thyroid and Brain Fog: How Thyroid Issues Affect Memory",
+      "kw": "thyroid brain fog",
+      "cat": "Brain Health",
       "status": "pending"
     }
   ]

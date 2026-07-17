@@ -1,5 +1,5 @@
 {
-  "_comment": "Fila de conteúdo do Memory Lab. status: pending | done. A rotina diária consome os 'pending' mais ao topo, gera o artigo, e marca 'done' com a data. NÃO repetir slugs já publicados (14 iniciais).",
+  "_comment": "Fila de conte\u00fado do Memory Lab. status: pending | done. A rotina di\u00e1ria consome os 'pending' mais ao topo, gera o artigo, e marca 'done' com a data. N\u00c3O repetir slugs j\u00e1 publicados (14 iniciais).",
   "niche": "memory / brain health",
   "ramp": {
     "week1": 2,
@@ -34,7 +34,7 @@
     },
     {
       "slug": "bill-gates-dementia-fight",
-      "title": "Bill Gates's Bet on Beating Dementia — and What It Means for You",
+      "title": "Bill Gates's Bet on Beating Dementia \u2014 and What It Means for You",
       "kw": "bill gates dementia",
       "cat": "Brain Health",
       "status": "done",
@@ -52,7 +52,7 @@
     },
     {
       "slug": "bill-gates-father-alzheimers",
-      "title": "Bill Gates on His Father's Alzheimer's — and What It Taught Him",
+      "title": "Bill Gates on His Father's Alzheimer's \u2014 and What It Taught Him",
       "kw": "bill gates father alzheimers",
       "cat": "Brain Health",
       "status": "done",
@@ -438,14 +438,16 @@
       "title": "Dementia Prevention: 8 Evidence-Based Strategies",
       "kw": "dementia prevention",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-17"
     },
     {
       "slug": "intermittent-fasting-brain",
       "title": "Intermittent Fasting and Brain Health: What the Research Shows",
       "kw": "intermittent fasting brain health",
       "cat": "Aging Well",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-17"
     },
     {
       "slug": "social-connection-brain-health",

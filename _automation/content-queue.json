@@ -470,14 +470,16 @@
       "title": "Cold Water Therapy and Brain Health: What the Evidence Says",
       "kw": "cold water therapy brain",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-19"
     },
     {
       "slug": "gut-brain-connection",
       "title": "The Gut-Brain Connection: How Your Microbiome Affects Memory",
       "kw": "gut brain connection memory",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-19"
     },
     {
       "slug": "reading-and-brain-health",

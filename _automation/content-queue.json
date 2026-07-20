@@ -486,14 +486,16 @@
       "title": "Reading and Brain Health: What Books Do for Your Memory",
       "kw": "reading brain health",
       "cat": "Aging Well",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-20"
     },
     {
       "slug": "air-quality-brain-fog",
       "title": "Air Quality and Brain Fog: The Pollution Connection",
       "kw": "air quality brain fog",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-20"
     },
     {
       "slug": "how-to-learn-faster",

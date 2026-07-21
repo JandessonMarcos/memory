@@ -5,7 +5,11 @@
   "compatibility_date": "2026-06-23",
   "assets": {
     "directory": ".",
-    "binding": "ASSETS"
+    "binding": "ASSETS",
+    // Run the Worker BEFORE static assets so the apex->www 301 in src/index.js fires
+    // on every request (including existing pages). For www requests the Worker falls
+    // through to env.ASSETS.fetch(), so static serving is unchanged.
+    "run_worker_first": true
   },
   "d1_databases": [
     {

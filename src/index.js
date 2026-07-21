@@ -25,6 +25,14 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
 
+    // Canonical host: force apex (non-www) -> www with a 301 so Google consolidates
+    // ranking signals on a single hostname. Preserves path + query. Leaves *.workers.dev
+    // preview URLs and any other host untouched.
+    if (url.hostname === "memorylabdaily.com") {
+      url.hostname = "www.memorylabdaily.com";
+      return Response.redirect(url.toString(), 301);
+    }
+
     if (url.pathname === "/api/lead") {
       if (request.method === "OPTIONS") return new Response(null, { headers: CORS });
       if (request.method === "POST") return handleLead(request, env);

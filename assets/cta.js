@@ -45,7 +45,12 @@
 
   // ---- offer links ----
   var qs = new URLSearchParams(location.search);
-  var incoming = qs.get('clickid') || qs.get('rtkcid') || qs.get('cid') || qs.get('sub1') || '';
+  // Incoming paid click id. Google Ads passes gclid (or gbraid/wbraid on some
+  // Display/Discovery/iOS placements) — capture those too so paid clicks flow
+  // into the BuyGoods subid and tie a sale back to the campaign.
+  var incoming = qs.get('clickid') || qs.get('gclid') || qs.get('gbraid') || qs.get('wbraid')
+              || qs.get('rtkcid') || qs.get('cid') || qs.get('sub1') || '';
+  incoming = (incoming || '').replace(/[^a-zA-Z0-9_-]/g,'').slice(0,60);
   // Which post the click came from: derived automatically from the URL slug so
   // every page (existing + future) self-attributes with no per-post edits.
   // "/how-to-learn-faster/" -> "how-to-learn-faster"; home "/" -> "home".
@@ -67,6 +72,14 @@
     a.setAttribute('href', buildHref(pack, rank));
     a.setAttribute('target','_blank');
     a.setAttribute('rel','nofollow sponsored noopener');
+    // Proxy conversion: the real sale happens off-site on BuyGoods, so fire an
+    // "outbound checkout click" into GA4 + Meta. This is the event Google Ads /
+    // Meta optimize toward when you buy traffic. Label carries page+pack+rank.
+    a.addEventListener('click', function(){
+      var label = pageTag() + '_p' + pack + '_r' + rank;
+      try{ if(window.gtag){ gtag('event','checkout_click',{event_category:'outbound',event_label:label,page_slug:pageTag(),pack:pack,rank:rank}); } }catch(e){}
+      try{ if(window.fbq){ fbq('track','InitiateCheckout',{content_name:pageTag(),content_category:'pack'+pack}); } }catch(e){}
+    });
   });
 
   // ---- site search (magnifier) ----

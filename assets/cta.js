@@ -46,9 +46,17 @@
   // ---- offer links ----
   var qs = new URLSearchParams(location.search);
   var incoming = qs.get('clickid') || qs.get('rtkcid') || qs.get('cid') || qs.get('sub1') || '';
+  // Which post the click came from: derived automatically from the URL slug so
+  // every page (existing + future) self-attributes with no per-post edits.
+  // "/how-to-learn-faster/" -> "how-to-learn-faster"; home "/" -> "home".
+  function pageTag(){
+    var seg = (location.pathname || '').replace(/^\/+|\/+$/g,'').split('/').pop() || 'home';
+    seg = seg.toLowerCase().replace(/\.html?$/,'').replace(/[^a-z0-9-]/g,'').slice(0,40);
+    return seg || 'home';
+  }
   function buildHref(pack, rank){
     var url = OFFERS[pack] || OFFERS[DEFAULT_PACK];
-    var sub = SUBID_TAG + '_p' + pack + '_r' + rank + (incoming ? '_' + incoming : '');
+    var sub = SUBID_TAG + '_' + pageTag() + '_p' + pack + '_r' + rank + (incoming ? '_' + incoming : '');
     return url.replace('{clickid}', encodeURIComponent(sub));
   }
   document.querySelectorAll('a.buy-link').forEach(function(a){

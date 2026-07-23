@@ -534,14 +534,16 @@
       "title": "The Brain Health Checklist for Adults Over 50",
       "kw": "brain health checklist",
       "cat": "Aging Well",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-23"
     },
     {
       "slug": "what-is-working-memory",
       "title": "What Is Working Memory and Why It Matters After 40",
       "kw": "what is working memory",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-23"
     },
     {
       "slug": "thyroid-and-brain-fog",

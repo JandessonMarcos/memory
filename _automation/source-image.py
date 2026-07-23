@@ -29,8 +29,26 @@ from PIL import Image
 
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh) MemoryLab/1.0"}
 IMG_DIR = "assets/img"
+POOL_DIR = "assets/img-pool"                 # offline fallback pool (built by build-pool.py)
+MANIFEST = "_automation/img-pool.json"       # pool manifest; used_by=null means available
 STRUCT_MIN = 9.0     # structural edge energy on 24x24 (real photo territory)
 COLOR_MIN  = 1200    # distinct colors in 64x64 (clip-art/monochrome fail)
+
+# Map article keywords -> pool themes, so the offline fallback still picks an
+# on-topic photo when Openverse egress is blocked (the cloud sandbox denies it).
+THEME_HINTS = {
+    "senior-aging":      ["senior", "elderly", "aging", "ageing", "older", "old age", "grandmother", "grandfather", "grandparent", "retire", "dementia", "alzheimer"],
+    "food-nutrition":    ["food", "diet", "nutrition", "vegetable", "fruit", "berry", "berries", "salmon", "fish", "nut", "omega", "eat", "meal", "mediterranean", "curcumin", "turmeric", "quercetin", "choline", "green tea"],
+    "exercise-fitness":  ["exercise", "walk", "walking", "run", "running", "jog", "fitness", "gym", "yoga", "workout", "physical activity", "active", "cardio", "movement", "strength"],
+    "sleep-rest":        ["sleep", "rest", "insomnia", "nap", "bed", "night", "circadian", "tired", "fatigue"],
+    "study-focus":       ["study", "studying", "read", "reading", "learn", "learning", "focus", "concentration", "attention", "student", "book", "desk", "productivity", "exam"],
+    "supplement-pills":  ["supplement", "pill", "capsule", "vitamin", "dose", "dosage", "tablet", "medicine", "medication", "nootropic", "formula"],
+    "doctor-medical":    ["doctor", "medical", "blood pressure", "hypertension", "blood sugar", "glucose", "diabetes", "nurse", "checkup", "clinic", "diagnosis", "cholesterol", "physician", "health screening"],
+    "nature-lifestyle":  ["nature", "forest", "tea", "coffee", "outdoor", "outdoors", "sunrise", "lifestyle", "walk in nature", "fresh air"],
+    "meditation-calm":   ["meditation", "meditate", "calm", "stress", "relax", "mindfulness", "breathing", "anxiety", "cortisol", "wellbeing", "mood"],
+    "social-connection": ["social", "friend", "family", "connection", "lonely", "loneliness", "together", "people", "community", "relationship", "conversation"],
+    "thinking-memory":   ["memory", "remember", "recall", "think", "thinking", "puzzle", "chess", "forget", "forgetful", "brain training", "brain game", "notes", "working memory", "cognition", "cognitive", "mental", "brain", "neuron", "neural", "cortex", "mri", "scan", "anatomy", "mind"],
+}
 
 def structure(im):
     g = im.convert("L").resize((24, 24), Image.BILINEAR)
@@ -94,11 +112,64 @@ def source(slug, queries):
                 print(f'OK  {slug}  struct={structure(im):.1f} colors={color_count(im)} '
                       f'lic={r.get("license")}  <- "{q}"  {iu[:60]}')
                 return True
-    print(f"MISS {slug}  (no real photo passed; add different concrete subject queries)")
+    print(f"MISS {slug}  (openverse: no real photo passed)")
     return False
+
+def theme_scores(text):
+    text = text.lower()
+    scores = {}
+    for theme, kws in THEME_HINTS.items():
+        s = sum(text.count(k) for k in kws)
+        if s:
+            scores[theme] = s
+    return scores
+
+def pick_from_pool(slug, queries):
+    """Offline fallback: install the best-matching unused pool image for this slug.
+    Used when Openverse is unreachable (cloud egress block) or returns nothing."""
+    if not os.path.exists(MANIFEST):
+        print(f"POOL-MISS {slug}  (no pool manifest; run build-pool.py locally)"); return False
+    man = json.load(open(MANIFEST))
+    imgs = man.get("images", [])
+    avail = [e for e in imgs if not e.get("used_by")]
+    if not avail:
+        print(f"POOL-MISS {slug}  (pool exhausted; refill locally with build-pool.py)"); return False
+    text = slug.replace("-", " ") + " " + " ".join(queries)
+    scores = theme_scores(text)
+    existing = load_existing(slug)
+    # best-scoring themes first, then every remaining theme as a last resort
+    ordered = [t for t, _ in sorted(scores.items(), key=lambda kv: -kv[1])]
+    for t in THEME_HINTS:
+        if t not in ordered:
+            ordered.append(t)
+    for theme in ordered:
+        for e in [x for x in avail if theme in x.get("themes", [])]:
+            fp = os.path.join(POOL_DIR, e["file"])
+            try:
+                im = Image.open(fp).convert("RGB")
+            except Exception:
+                continue
+            if any(ham(ahash(im), x) <= 10 for x in existing):
+                continue  # never let one photo serve two slugs
+            nh = int(im.size[1] * 900 / im.size[0])
+            out = os.path.join(IMG_DIR, slug + ".jpg")
+            im.resize((900, nh), Image.LANCZOS).save(out, "JPEG", quality=86)
+            e["used_by"] = slug
+            json.dump(man, open(MANIFEST, "w"), ensure_ascii=False, indent=1)
+            print(f'OK  {slug}  (pool/{theme})  lic={e.get("license")}  attr="{e.get("attribution")}"  <- {e["file"]}')
+            return True
+    print(f"POOL-MISS {slug}  (no unique pool match left)"); return False
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
         print('usage: source-image.py <slug> "subject" ["alt subject" ...]'); sys.exit(1)
     slug = sys.argv[1]; queries = sys.argv[2:]
-    sys.exit(0 if source(slug, queries) else 1)
+    ok = False
+    try:
+        ok = source(slug, queries)          # 1) try Openverse (fresh, bespoke)
+    except Exception as e:
+        print(f"  openverse path error: {e}")
+    if not ok:
+        print(f"  Openverse unavailable/miss -> falling back to offline pool")
+        ok = pick_from_pool(slug, queries)  # 2) offline pool (works with no egress)
+    sys.exit(0 if ok else 1)

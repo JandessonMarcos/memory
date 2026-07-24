@@ -550,14 +550,16 @@
       "title": "Thyroid and Brain Fog: How Thyroid Issues Affect Memory",
       "kw": "thyroid brain fog",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-24"
     },
     {
       "slug": "choline-and-brain-function",
       "title": "Choline and Brain Function: Why This Nutrient Matters",
       "kw": "choline brain function",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-24"
     },
     {
       "slug": "ashwagandha-for-stress-and-memory",

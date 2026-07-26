@@ -582,14 +582,16 @@
       "title": "Dark Chocolate and Memory: The Flavanol Connection",
       "kw": "dark chocolate memory",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-26"
     },
     {
       "slug": "sleep-and-memory-consolidation",
       "title": "Sleep and Memory: How the Brain Files What You Learn",
       "kw": "sleep memory consolidation",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-26"
     },
     {
       "slug": "multitasking-and-the-brain",

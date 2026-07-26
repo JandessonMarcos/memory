@@ -341,5 +341,26 @@
 "c": "News",
 "k": "tau protein alzheimers memory study engram cells",
 "d": "A new mouse study finds tau, long blamed for Alzheimer's tangles, plays a normal, necessary role in forming long-term memories."
+},
+{
+"t": "Dark Chocolate and Memory: The Flavanol Connection",
+"u": "/dark-chocolate-and-memory/",
+"c": "Ingredients",
+"k": "dark chocolate cocoa flavanols memory brain blood flow",
+"d": "Dark chocolate's cocoa flavanols are linked to modest brain blood-flow and memory benefits in small trials. What the evidence really shows, and how much you'd need."
+},
+{
+"t": "Sleep and Memory: How the Brain Files What You Learn",
+"u": "/sleep-and-memory-consolidation/",
+"c": "Memory",
+"k": "sleep memory consolidation rem slow wave hippocampus",
+"d": "Memory consolidation happens mostly during sleep, as the brain replays and files new information into long-term storage. How that process works and how to protect it."
+},
+{
+"t": "A Brain Protein Called SORLA May Shield Against Tau Tangles",
+"u": "/sorla-protein-tau-tangles-alzheimers/",
+"c": "News",
+"k": "sorla protein tau tangles alzheimers amyloid",
+"d": "New mouse research finds the protein SORLA reduces tau tangle buildup and brain atrophy, alongside its known role limiting amyloid."
 }
 ]

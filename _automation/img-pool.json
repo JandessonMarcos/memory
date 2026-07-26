@@ -107,7 +107,7 @@
    "attribution": "Frankie Fouganthin / Wikimedia Commons",
    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Fresh_fruits_and_vegetables_in_2020_01.jpg/1280px-Fresh_fruits_and_vegetables_in_2020_01.jpg",
    "descurl": "https://commons.wikimedia.org/wiki/File:Fresh_fruits_and_vegetables_in_2020_01.jpg",
-   "used_by": null
+   "used_by": "dark-chocolate-and-memory"
   },
   {
    "file": "food-nutrition-04.jpg",
@@ -167,7 +167,7 @@
    "attribution": "Giles Laurent / Wikimedia Commons",
    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/014_Baby_cape_fur_seal_sleeping_at_Cape_cross_Photo_by_Giles_Laurent.jpg/1280px-014_Baby_cape_fur_seal_sleeping_at_Cape_cross_Photo_by_Giles_Laurent.jpg",
    "descurl": "https://commons.wikimedia.org/wiki/File:014_Baby_cape_fur_seal_sleeping_at_Cape_cross_Photo_by_Giles_Laurent.jpg",
-   "used_by": null
+   "used_by": "sleep-and-memory-consolidation"
   },
   {
    "file": "sleep-rest-02.jpg",
@@ -471,15 +471,14 @@
   },
   {
    "file": "thinking-memory-01.jpg",
-   "themes": [
-    "thinking-memory"
-   ],
+   "themes": [],
    "kw": "person thinking",
    "license": "CC0",
    "attribution": "Wendelin Jacober from Luzern, Schweiz / Wikimedia Commons",
    "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/HipHop_instrumental-_Sill_thinking_of_you_%2814253482185%29.jpg",
    "descurl": "https://commons.wikimedia.org/wiki/File:HipHop_instrumental-_Sill_thinking_of_you_(14253482185).jpg",
-   "used_by": null
+   "used_by": null,
+   "note": "MISLABELED: source file is a HipHop equipment photo, not person-thinking. Quarantined from theme matching."
   },
   {
    "file": "thinking-memory-02.jpg",
@@ -491,7 +490,7 @@
    "attribution": "Dareed / Wikimedia Commons",
    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Students_Engaged_in_Critical_Thinking_Activities.jpg/1280px-Students_Engaged_in_Critical_Thinking_Activities.jpg",
    "descurl": "https://commons.wikimedia.org/wiki/File:Students_Engaged_in_Critical_Thinking_Activities.jpg",
-   "used_by": null
+   "used_by": "sorla-protein-tau-tangles-alzheimers"
   },
   {
    "file": "thinking-memory-03.jpg",

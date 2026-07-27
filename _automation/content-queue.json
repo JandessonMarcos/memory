@@ -598,14 +598,16 @@
       "title": "Why Multitasking Hurts Your Memory and Focus",
       "kw": "multitasking brain",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-27"
     },
     {
       "slug": "spaced-repetition-explained",
       "title": "Spaced Repetition Explained: The Science of Remembering More",
       "kw": "spaced repetition",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-27"
     },
     {
       "slug": "active-recall-study-method",

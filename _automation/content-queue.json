@@ -614,14 +614,16 @@
       "title": "Active Recall: The Study Method That Actually Works",
       "kw": "active recall",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-28"
     },
     {
       "slug": "walking-and-brain-health",
       "title": "Walking and Brain Health: How Daily Steps Protect Memory",
       "kw": "walking brain health",
       "cat": "Aging Well",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-28"
     },
     {
       "slug": "hydration-and-cognitive-function",

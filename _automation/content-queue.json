@@ -630,14 +630,16 @@
       "title": "Hydration and Cognitive Function: How Water Affects Focus",
       "kw": "hydration cognition",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-29"
     },
     {
       "slug": "blood-sugar-and-brain-fog",
       "title": "Blood Sugar Swings and Brain Fog: The Glucose Connection",
       "kw": "blood sugar brain fog",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-29"
     },
     {
       "slug": "menopause-and-memory",

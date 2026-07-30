@@ -646,14 +646,16 @@
       "title": "Menopause and Memory: Why Brain Fog Happens and What Helps",
       "kw": "menopause memory",
       "cat": "Aging Well",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-30"
     },
     {
       "slug": "hearing-loss-and-dementia-risk",
       "title": "Hearing Loss and Dementia Risk: What the Evidence Shows",
       "kw": "hearing loss dementia",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-30"
     },
     {
       "slug": "bilingualism-and-brain-reserve",
@@ -681,6 +683,146 @@
       "title": "Does Napping Improve Memory? What the Science Says",
       "kw": "napping memory",
       "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "postpartum-brain-fog",
+      "title": "Postpartum Brain Fog: Why New Moms Forget Things",
+      "kw": "postpartum brain fog",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "long-covid-and-brain-fog",
+      "title": "Long COVID and Brain Fog: What the Research Has Found",
+      "kw": "long covid brain fog",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "adhd-and-working-memory",
+      "title": "ADHD and Working Memory: Why Focus and Recall Struggle Together",
+      "kw": "adhd working memory",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "chemo-brain-explained",
+      "title": "Chemo Brain: Why Cancer Treatment Affects Memory and Focus",
+      "kw": "chemo brain",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "vagus-nerve-and-memory",
+      "title": "The Vagus Nerve and Memory: How Gut-Brain Signaling Works",
+      "kw": "vagus nerve memory",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "journaling-for-memory",
+      "title": "Does Journaling Improve Memory? What the Evidence Shows",
+      "kw": "journaling memory",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "blue-light-and-brain-fog",
+      "title": "Blue Light and Brain Fog: Does Screen Time Affect Focus?",
+      "kw": "blue light brain fog",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "protein-intake-and-brain-aging",
+      "title": "Protein Intake and Brain Aging: How Much Do You Need?",
+      "kw": "protein intake brain aging",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "cholesterol-and-brain-health",
+      "title": "Cholesterol and Brain Health: What the Research Really Says",
+      "kw": "cholesterol brain health",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "cognitive-reserve-explained",
+      "title": "What Is Cognitive Reserve, and How Do You Build It?",
+      "kw": "cognitive reserve",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "does-retirement-affect-memory",
+      "title": "Does Retirement Speed Up Cognitive Decline?",
+      "kw": "retirement cognitive decline",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "jet-lag-and-memory",
+      "title": "Jet Lag and Memory: How Travel Disrupts Recall",
+      "kw": "jet lag memory",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "noise-pollution-and-focus",
+      "title": "Noise Pollution and Focus: How Sound Affects Concentration",
+      "kw": "noise pollution focus",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "sauna-use-and-brain-health",
+      "title": "Sauna Use and Brain Health: What the Research Shows",
+      "kw": "sauna brain health",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "omega-6-omega-3-ratio-brain",
+      "title": "Omega-6 to Omega-3 Ratio: Why It Matters for Brain Health",
+      "kw": "omega 6 omega 3 ratio brain",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "hormonal-birth-control-and-memory",
+      "title": "Does Hormonal Birth Control Affect Memory?",
+      "kw": "birth control memory",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "low-testosterone-and-memory",
+      "title": "Low Testosterone and Memory in Men: What's the Link?",
+      "kw": "low testosterone memory",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "probiotics-for-brain-fog",
+      "title": "Probiotics for Brain Fog: Do They Really Help Focus?",
+      "kw": "probiotics brain fog",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "fish-oil-vs-algae-omega3",
+      "title": "Fish Oil vs Algae Omega-3: Which Is Better for the Brain?",
+      "kw": "fish oil vs algae omega 3",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "standing-desks-and-focus",
+      "title": "Standing Desks and Focus: Do They Really Help Concentration?",
+      "kw": "standing desk focus",
+      "cat": "Brain Health",
       "status": "pending"
     }
   ]

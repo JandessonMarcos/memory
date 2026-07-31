@@ -662,21 +662,24 @@
       "title": "Bilingualism and the Brain: Does It Delay Cognitive Decline?",
       "kw": "bilingualism brain",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-31"
     },
     {
       "slug": "creatine-and-cognition",
       "title": "Creatine and Cognition: Beyond the Gym",
       "kw": "creatine cognition",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "pending",
+      "note": "SKIPPED 2026-07-31: near-duplicate of already-published creatine-for-brain (same 'beyond the gym' angle, same mechanism/dosage/safety sections). Needs a genuinely distinct angle before publishing, or should be dropped from the queue."
     },
     {
       "slug": "saffron-for-mood-and-memory",
       "title": "Saffron for Mood and Memory: What Studies Suggest",
       "kw": "saffron memory",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-07-31"
     },
     {
       "slug": "napping-and-memory",

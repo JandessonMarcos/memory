@@ -686,14 +686,16 @@
       "title": "Does Napping Improve Memory? What the Science Says",
       "kw": "napping memory",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-01"
     },
     {
       "slug": "postpartum-brain-fog",
       "title": "Postpartum Brain Fog: Why New Moms Forget Things",
       "kw": "postpartum brain fog",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-01"
     },
     {
       "slug": "long-covid-and-brain-fog",

@@ -702,14 +702,16 @@
       "title": "Long COVID and Brain Fog: What the Research Has Found",
       "kw": "long covid brain fog",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-02"
     },
     {
       "slug": "adhd-and-working-memory",
       "title": "ADHD and Working Memory: Why Focus and Recall Struggle Together",
       "kw": "adhd working memory",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-02"
     },
     {
       "slug": "chemo-brain-explained",

@@ -718,14 +718,16 @@
       "title": "Chemo Brain: Why Cancer Treatment Affects Memory and Focus",
       "kw": "chemo brain",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-03"
     },
     {
       "slug": "vagus-nerve-and-memory",
       "title": "The Vagus Nerve and Memory: How Gut-Brain Signaling Works",
       "kw": "vagus nerve memory",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-03"
     },
     {
       "slug": "journaling-for-memory",

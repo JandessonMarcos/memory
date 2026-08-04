@@ -734,14 +734,16 @@
       "title": "Does Journaling Improve Memory? What the Evidence Shows",
       "kw": "journaling memory",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-04"
     },
     {
       "slug": "blue-light-and-brain-fog",
       "title": "Blue Light and Brain Fog: Does Screen Time Affect Focus?",
       "kw": "blue light brain fog",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-04"
     },
     {
       "slug": "protein-intake-and-brain-aging",

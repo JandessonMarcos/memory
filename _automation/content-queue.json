@@ -750,14 +750,16 @@
       "title": "Protein Intake and Brain Aging: How Much Do You Need?",
       "kw": "protein intake brain aging",
       "cat": "Aging Well",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-05"
     },
     {
       "slug": "cholesterol-and-brain-health",
       "title": "Cholesterol and Brain Health: What the Research Really Says",
       "kw": "cholesterol brain health",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-05"
     },
     {
       "slug": "cognitive-reserve-explained",

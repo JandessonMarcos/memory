@@ -766,14 +766,16 @@
       "title": "What Is Cognitive Reserve, and How Do You Build It?",
       "kw": "cognitive reserve",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-06"
     },
     {
       "slug": "does-retirement-affect-memory",
       "title": "Does Retirement Speed Up Cognitive Decline?",
       "kw": "retirement cognitive decline",
       "cat": "Aging Well",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-06"
     },
     {
       "slug": "jet-lag-and-memory",

@@ -782,14 +782,16 @@
       "title": "Jet Lag and Memory: How Travel Disrupts Recall",
       "kw": "jet lag memory",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-07"
     },
     {
       "slug": "noise-pollution-and-focus",
       "title": "Noise Pollution and Focus: How Sound Affects Concentration",
       "kw": "noise pollution focus",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-07"
     },
     {
       "slug": "sauna-use-and-brain-health",

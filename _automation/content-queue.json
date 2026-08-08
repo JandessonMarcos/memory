@@ -798,14 +798,16 @@
       "title": "Sauna Use and Brain Health: What the Research Shows",
       "kw": "sauna brain health",
       "cat": "Aging Well",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-08"
     },
     {
       "slug": "omega-6-omega-3-ratio-brain",
       "title": "Omega-6 to Omega-3 Ratio: Why It Matters for Brain Health",
       "kw": "omega 6 omega 3 ratio brain",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-08"
     },
     {
       "slug": "hormonal-birth-control-and-memory",
@@ -839,6 +841,146 @@
       "slug": "standing-desks-and-focus",
       "title": "Standing Desks and Focus: Do They Really Help Concentration?",
       "kw": "standing desk focus",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "iron-deficiency-and-brain-fog",
+      "title": "Iron Deficiency and Brain Fog: The Overlooked Link",
+      "kw": "iron deficiency brain fog",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "zinc-and-brain-health",
+      "title": "Zinc and Brain Health: Why This Mineral Matters for Memory",
+      "kw": "zinc brain health",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "coq10-and-brain-health",
+      "title": "CoQ10 and Brain Health: What the Research Says",
+      "kw": "coq10 brain health",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "pqq-for-brain-health",
+      "title": "PQQ for Brain Health: Benefits, Dosage and Safety",
+      "kw": "pqq brain health",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "resveratrol-and-memory",
+      "title": "Resveratrol and Memory: Does It Really Help the Brain?",
+      "kw": "resveratrol memory",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "nad-supplements-and-brain-aging",
+      "title": "NAD+ Supplements and Brain Aging: What's the Evidence?",
+      "kw": "nad supplements brain aging",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "magnesium-l-threonate-for-memory",
+      "title": "Magnesium L-Threonate for Memory: Does the Hype Hold Up?",
+      "kw": "magnesium l-threonate memory",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "folate-and-brain-health",
+      "title": "Folate and Brain Health: Why B9 Matters for Memory",
+      "kw": "folate brain health",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "sleep-apnea-and-memory",
+      "title": "Sleep Apnea and Memory: How Poor Sleep Quality Hurts Recall",
+      "kw": "sleep apnea memory",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "concussion-and-memory-loss",
+      "title": "Concussion and Memory Loss: What to Expect and When to Worry",
+      "kw": "concussion memory loss",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "glymphatic-system-explained",
+      "title": "The Glymphatic System Explained: How Your Brain Cleans Itself",
+      "kw": "glymphatic system brain",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "allergy-medication-and-memory-fog",
+      "title": "Allergy Medication and Memory Fog: The Antihistamine Link",
+      "kw": "antihistamine memory fog",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "chronic-pain-and-memory",
+      "title": "Chronic Pain and Memory: Why It's Harder to Concentrate",
+      "kw": "chronic pain memory",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "handwriting-vs-typing-memory",
+      "title": "Handwriting vs Typing: Which Helps You Remember More?",
+      "kw": "handwriting vs typing memory",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "video-games-and-cognitive-function",
+      "title": "Video Games and Cognitive Function: What the Research Shows",
+      "kw": "video games cognitive function",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "box-breathing-for-focus",
+      "title": "Box Breathing for Focus: Does Slow Breathing Sharpen Attention?",
+      "kw": "box breathing focus",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "blue-zones-diet-and-brain-health",
+      "title": "The Blue Zones Diet and Brain Health: What Longevity Hotspots Eat",
+      "kw": "blue zones diet brain health",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "post-surgery-memory-fog",
+      "title": "Post-Surgery Memory Fog: Why Anesthesia Leaves You Foggy",
+      "kw": "post surgery memory fog anesthesia",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "hrt-and-memory",
+      "title": "Hormone Replacement Therapy and Memory: What Studies Show",
+      "kw": "hormone replacement therapy memory",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "tinnitus-and-concentration",
+      "title": "Tinnitus and Concentration: Why Ringing Ears Affect Focus",
+      "kw": "tinnitus concentration focus",
       "cat": "Brain Health",
       "status": "pending"
     }

@@ -814,14 +814,16 @@
       "title": "Does Hormonal Birth Control Affect Memory?",
       "kw": "birth control memory",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-09"
     },
     {
       "slug": "low-testosterone-and-memory",
       "title": "Low Testosterone and Memory in Men: What's the Link?",
       "kw": "low testosterone memory",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-09"
     },
     {
       "slug": "probiotics-for-brain-fog",

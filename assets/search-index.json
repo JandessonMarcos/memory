@@ -1,597 +1,611 @@
 [
-{
-"t": "Sauna Use and Brain Health: What the Research Shows",
-"u": "/sauna-use-and-brain-health/",
-"c": "Aging Well",
-"k": "sauna brain health dementia risk heat shock proteins finnish study",
-"d": "Frequent sauna use keeps showing up in brain-health research. What the studies actually found, how heat exposure may help, and who should be careful."
-},
-{
-"t": "Omega-6 to Omega-3 Ratio: Why It Matters for Brain Health",
-"u": "/omega-6-omega-3-ratio-brain/",
-"c": "Ingredients",
-"k": "omega 6 omega 3 ratio brain inflammation fish oil fatty acids diet",
-"d": "Most Western diets run far heavier on omega-6 than omega-3. What that ratio actually means for brain health, and simple ways to shift it."
-},
-{
-"t": "Jet Lag and Memory: How Travel Disrupts Recall",
-"u": "/jet-lag-and-memory/",
-"c": "Brain Health",
-"k": "jet lag memory travel circadian rhythm sleep time zones brain fog",
-"d": "Crossing time zones does more than make you tired. What jet lag actually does to memory and focus, and how long it takes to bounce back."
-},
-{
-"t": "Noise Pollution and Focus: How Sound Affects Concentration",
-"u": "/noise-pollution-and-focus/",
-"c": "Brain Health",
-"k": "noise pollution focus concentration working memory office noise traffic noise",
-"d": "Traffic, open offices, constant notifications. What chronic noise actually does to attention and working memory, and what quiets its effect."
-},
-{
-"t": "What Is Cognitive Reserve, and How Do You Build It?",
-"u": "/cognitive-reserve-explained/",
-"c": "Memory",
-"k": "cognitive reserve brain resilience neuroplasticity dementia symptoms education bilingualism",
-"d": "Cognitive reserve explains why some people with brain changes stay sharp while others decline. What it is, how it forms, and how to build more of it."
-},
-{
-"t": "Does Retirement Speed Up Cognitive Decline?",
-"u": "/does-retirement-affect-memory/",
-"c": "Aging Well",
-"k": "retirement memory cognitive decline retiring brain aging structure routine",
-"d": "Leaving the structure of a career changes daily life fast. What the research says about retirement and cognitive decline, and how to protect your mind."
-},
-{
-"t": "MemoHoney Review 2026: The Real Supplement Facts, Prices & Who It Suits",
-"u": "/memohoney-review/",
-"c": "Reviews",
-"k": "memohoney review memohoney reviews memohoney ingredients memohoney price memohoney scam memohoney side effects buy memohoney ginkgo citrulline",
-"d": "The actual MemoHoney label with every disclosed milligram, what the blood-flow formula is really built on, real package pricing, the refund terms in full, and how it compares to Memopezil."
-},
-{
-"t": "Memopezil Review 2026: Ingredients, Real Doses, Prices & the Scam Ads",
-"u": "/memopezil-review/",
-"c": "Reviews",
-"k": "memopezil review memopezil scam memopezil ingredients memopezil price memopezil complaints memopezil side effects buy memopezil bacopa rhodiola",
-"d": "Every Memopezil ingredient at its actual dose vs. the clinical research, real pricing for the 2, 3 and 6-bottle packages, the deepfake ads explained, and how it compares to Prevagen and Neuriva."
-},
-{
-"t": "The Vagus Nerve and Memory: How Gut-Brain Signaling Works",
-"u": "/vagus-nerve-and-memory/",
-"c": "Brain Health",
-"k": "vagus nerve memory gut brain axis vagal tone stress signaling",
-"d": "The vagus nerve links your gut, heart and brain in constant two-way conversation. What the evidence says about its role in memory, stress and focus."
-},
-{
-"t": "Chemo Brain: Why Cancer Treatment Affects Memory and Focus",
-"u": "/chemo-brain-explained/",
-"c": "Brain Health",
-"k": "chemo brain cancer treatment memory concentration cognitive impairment chemotherapy",
-"d": "Trouble concentrating or finding words during or after chemotherapy? What chemo brain actually is, why it happens, and what helps."
-},
-{
-"t": "ADHD and Working Memory: Why Focus and Recall Struggle Together",
-"u": "/adhd-and-working-memory/",
-"c": "Memory",
-"k": "adhd working memory focus attention forgetfulness executive function",
-"d": "ADHD isn't just a focus problem. Why working memory struggles so often come with it, and the strategies that actually help both."
-},
-{
-"t": "Long COVID and Brain Fog: What the Research Has Found",
-"u": "/long-covid-and-brain-fog/",
-"c": "Brain Health",
-"k": "long covid brain fog cognitive symptoms memory concentration post viral",
-"d": "Trouble concentrating, word-finding slips, a memory that feels slower than before. What studies on long COVID and brain fog actually show."
-},
-{
-"t": "Does Napping Improve Memory? What the Science Says",
-"u": "/napping-and-memory/",
-"c": "Memory",
-"k": "napping memory sleep nap length consolidation",
-"d": "A well-timed nap can help lock in what you just learned. What sleep research says about nap length, timing and memory."
-},
-{
-"t": "Postpartum Brain Fog: Why New Moms Forget Things",
-"u": "/postpartum-brain-fog/",
-"c": "Brain Health",
-"k": "postpartum brain fog new mom memory forgetful sleep deprivation hormones",
-"d": "Forgetting words mid-sentence, walking into a room and blanking. Why postpartum brain fog happens and what actually helps."
-},
-{
-"t": "Heavy TV Watching in Midlife Linked to Smaller Brain Volume, Study Finds",
-"u": "/tv-watching-and-brain-health/",
-"c": "News",
-"k": "tv watching brain volume white matter sedentary behavior dementia ARIC study",
-"d": "A 24-year study of over 1,700 adults links frequent TV watching in midlife to smaller memory-related brain regions and more white matter damage. What it found."
-},
-{
-"t": "Bilingualism and the Brain: Does It Delay Cognitive Decline?",
-"u": "/bilingualism-and-brain-reserve/",
-"c": "Brain Health",
-"k": "bilingualism brain cognitive reserve dementia second language memory",
-"d": "Speaking two languages is linked to a later average age of dementia diagnosis in several studies. What the cognitive reserve research actually shows, and where it runs thin."
-},
-{
-"t": "Saffron for Mood and Memory: What Studies Suggest",
-"u": "/saffron-for-mood-and-memory/",
-"c": "Ingredients",
-"k": "saffron memory mood depression crocin cognition supplement",
-"d": "Saffron has some of the more interesting early clinical data of any spice for mood and cognition. What the trials actually found, and what they don't show yet."
-},
-{
-"t": "Hearing Loss and Dementia Risk: What the Evidence Shows",
-"u": "/hearing-loss-and-dementia-risk/",
-"c": "Brain Health",
-"k": "hearing loss dementia risk hearing aids audiologist cognitive decline",
-"d": "Untreated hearing loss ranks among the largest modifiable dementia risk factors identified so far. Why the link exists, what the trial data shows, and what actually helps."
-},
-{
-"t": "Menopause and Memory: Why Brain Fog Happens and What Helps",
-"u": "/menopause-and-memory/",
-"c": "Aging Well",
-"k": "menopause memory brain fog hormone therapy verbal memory working memory",
-"d": "Menopause changes memory in specific, measurable ways. Which memory functions are affected, what the hormone therapy research actually shows, and what helps."
-},
-{
-"t": "Alzheimer's Sleep Loss Traced to Brain Immune Cells, Not Plaques",
-"u": "/microglia-sleep-loss-alzheimers/",
-"c": "News",
-"k": "microglia alzheimers sleep loss inflammation neuroinflammation",
-"d": "A University of Kentucky study found removing the brain's overactive immune cells restored over two hours of deep sleep in Alzheimer's mice, even though amyloid plaques stayed put."
-},
-{
-"t": "Why Multitasking Hurts Your Memory and Focus",
-"u": "/multitasking-and-the-brain/",
-"c": "Memory",
-"k": "multitasking brain task switching attention focus memory",
-"d": "Switching between tasks feels efficient, but it costs memory and accuracy. What task-switching actually does to your brain, and what works better instead."
-},
-{
-"t": "Spaced Repetition Explained: The Science of Remembering More",
-"u": "/spaced-repetition-explained/",
-"c": "Memory",
-"k": "spaced repetition spacing effect flashcards study schedule memory",
-"d": "Spaced repetition beats cramming because of how memory actually consolidates. How the spacing effect works, and how to build a simple schedule that sticks."
-},
-{
-"t": "Thyroid and Brain Fog: How Thyroid Issues Affect Memory",
-"u": "/thyroid-and-brain-fog/",
-"c": "Brain Health",
-"k": "thyroid brain fog hypothyroidism hyperthyroidism memory",
-"d": "An underactive or overactive thyroid can cause real brain fog and memory trouble. How thyroid hormones affect the brain, warning signs, and what helps."
-},
-{
-"t": "Choline and Brain Function: Why This Nutrient Matters",
-"u": "/choline-and-brain-function/",
-"c": "Ingredients",
-"k": "choline brain function acetylcholine memory eggs",
-"d": "Choline builds the memory chemical acetylcholine, yet most adults fall short of getting enough. What choline does for the brain and the best food sources."
-},
-{
-"t": "Free Memory Test: Check Your Working & Short-Term Memory",
-"u": "/memory-test/",
-"c": "Interactive",
-"k": "free memory test working short-term memory number span recall quiz",
-"d": "Take our free 3-minute memory test. Two science-based tasks measure your working memory and short-term recall, with an instant score and what it means."
-},
-{
-"t": "Anxiety and Forgetfulness: The Overlooked Link",
-"u": "/anxiety-and-forgetfulness/",
-"c": "Brain Health",
-"k": "anxiety forgetfulness overlooked link",
-"d": "Anxiety doesn't just make you feel scattered. It impairs the hippocampus and crowds out working memory. Here's how the c"
-},
-{
-"t": "Bacopa Monnieri: Benefits, Dosage & Side Effects for Memory",
-"u": "/bacopa-monnieri-benefits/",
-"c": "Ingredients",
-"k": "bacopa monnieri benefits dosage side effects memory",
-"d": "Bacopa monnieri is an Ayurvedic herb studied for memory and learning. Its benefits, evidence-based dosage, side effects,"
-},
-{
-"t": "The 5 Best Memory Support Formulas of 2026 (Ranked & Reviewed)",
-"u": "/best-memory-supplements-2026/",
-"c": "Independent Review",
-"k": "best memory supplements 2026 support formulas ranked reviewed",
-"d": "We compared the leading memory formulas of 2026 on transparency, dosing, real reviews and guarantee. See the #1 editor's"
-},
-{
-"t": "The Best Vitamins & Nutrients for Brain Fog and Focus (2026)",
-"u": "/best-vitamins-for-brain-fog/",
-"c": "Ingredients",
-"k": "best vitamins brain fog nutrients focus 2026",
-"d": "The vitamins and nutrients with the best evidence for brain fog and focus — B12, vitamin D, omega-3, magnesium, citicoli"
-},
-{
-"t": "The Early Alzheimer's Blood Test Bill Gates Helped Fund",
-"u": "/bill-gates-alzheimers-blood-test/",
-"c": "Brain Health · Updated",
-"k": "bill gates alzheimers blood test early helped fund",
-"d": "Bill Gates co-funded the Diagnostics Accelerator to speed up blood-based Alzheimer's testing. Here's the real science be"
-},
-{
-"t": "What Bill Gates Predicts About Beating Alzheimer's",
-"u": "/bill-gates-alzheimers-prediction/",
-"c": "Brain Health",
-"k": "bill gates alzheimers prediction predicts about beating",
-"d": "What Bill Gates has publicly predicted about Alzheimer's timelines: why he focuses on early detection over a cure, what "
-},
-{
-"t": "Why Bill Gates Is Investing Millions in Alzheimer's Research",
-"u": "/bill-gates-alzheimers-research/",
-"c": "Brain Health",
-"k": "bill gates alzheimers research investing millions",
-"d": "Why Bill Gates put ~$100M of his own money into Alzheimer's research — the Dementia Discovery Fund, early blood tests, h"
-},
-{
-"t": "3 Brain-Health Lessons From Bill Gates's Push Against Alzheimer's",
-"u": "/bill-gates-brain-health-lessons/",
-"c": "Brain Health",
-"k": "bill gates brain health lessons from gatess push",
-"d": "What Bill Gates's Alzheimer's research investments reveal about protecting your own brain: the 3 most practical lessons "
-},
-{
-"t": "Bill Gates's Bet on Beating Dementia — and What It Means for You",
-"u": "/bill-gates-dementia-fight/",
-"c": "Brain Health",
-"k": "bill gates dementia fight gatess bet beating means",
-"d": "Bill Gates has committed over $100 million of his personal fortune to dementia research. Here's what he's funding, why h"
-},
-{
-"t": "Inside the Diagnostics Accelerator Bill Gates Co-Founded",
-"u": "/bill-gates-diagnostics-accelerator/",
-"c": "Brain Health",
-"k": "bill gates diagnostics accelerator inside founded",
-"d": "What is the Alzheimer's Diagnostics Accelerator that Bill Gates helped fund? How it works, what tests it's developing, a"
-},
-{
-"t": "Bill Gates on His Father's Alzheimer's — and What It Taught Him",
-"u": "/bill-gates-father-alzheimers/",
-"c": "Brain Health · Updated",
-"k": "bill gates father alzheimers his fathers taught him",
-"d": "Bill Gates Sr. had Alzheimer's disease. His son has written and spoken publicly about the experience. Here's what he sha"
-},
-{
-"t": "What Bill Gates Says About Preventing Dementia",
-"u": "/bill-gates-on-preventing-dementia/",
-"c": "Brain Health",
-"k": "bill gates preventing dementia says about",
-"d": "Gates committed over $50M to Alzheimer's research and consistently focuses on early detection as the key prevention leve"
-},
-{
-"t": "Bill Gates and the Billionaires Funding Alzheimer's Research",
-"u": "/billionaires-funding-alzheimers-research/",
-"c": "Brain Health",
-"k": "billionaires funding alzheimers research bill gates",
-"d": "Bill Gates, the Chan Zuckerberg Initiative, and the late Paul Allen have each made significant bets on beating Alzheimer"
-},
-{
-"t": "Brain Fog: 7 Common Causes and How to Clear It (2026)",
-"u": "/brain-fog-causes-and-fixes/",
-"c": "Brain Health",
-"k": "brain fog causes fixes common clear 2026",
-"d": "Brain fog isn't a diagnosis — it's a symptom. Here are the 7 most common causes of brain fog and the science-backed step"
-},
-{
-"t": "Citicoline for Memory: Benefits, Dosage & What the Research Says",
-"u": "/citicoline-for-memory/",
-"c": "Ingredients",
-"k": "citicoline memory benefits dosage research says",
-"d": "Citicoline (CDP-choline) is one of the most studied nutrients for memory and focus. Its benefits, typical dosage, safety"
-},
-{
-"t": "Scientists Found a New Alzheimer's Trigger, and a Drug That Slows It in Mice",
-"u": "/compound-10-alzheimers-drug-2026/",
-"c": "News",
-"k": "compound alzheimers drug 2026 scientists found new trigger",
-"d": "ETH Zurich researchers identified a rogue enzyme called GRK2 as a new Alzheimer's driver, and developed Compound 10 to b"
-},
-{
-"t": "Do Memory Supplements Actually Work? An Honest 2026 Buyer's Guide",
-"u": "/do-memory-supplements-work/",
-"c": "Reviews",
-"k": "memory supplements work actually honest 2026 buyers guide",
-"d": "Do memory supplements really work? An honest, evidence-based buyer's guide: which ingredients have proof, the 3 things t"
-},
-{
-"t": "7 Foods & Daily Habits That Keep Your Memory Sharp After 50",
-"u": "/foods-and-habits-for-memory/",
-"c": "Aging Well",
-"k": "foods habits memory daily that keep sharp",
-"d": "Simple, science-backed foods and habits to support memory, focus and recall after 50."
-},
-{
-"t": "Forgetfulness in Your 40s: Is It Normal?",
-"u": "/forgetfulness-in-your-40s/",
-"c": "Memory",
-"k": "forgetfulness 40s normal",
-"d": "Blanking on names, losing your keys, forgetting mid-sentence? Forgetfulness in your 40s is common. Here's what's normal,"
-},
-{
-"t": "How to Improve Your Memory: 11 Proven, Science-Backed Ways (2026)",
-"u": "/how-to-improve-memory/",
-"c": "Memory",
-"k": "improve memory proven science backed ways 2026",
-"d": "A complete, evidence-based guide on how to improve your memory — 11 proven habits, foods and nutrients that boost recall"
-},
-{
-"t": "How to Remember Names: 7 Tricks That Actually Stick",
-"u": "/how-to-remember-names/",
-"c": "Memory",
-"k": "remember names tricks that actually stick",
-"d": "Forgetting names the moment you hear them is one of the most universal memory complaints. These 7 science-backed techniq"
-},
-{
-"t": "Is There a 'Bill Gates Brain Pill'? The Truth Behind the Viral Ads",
-"u": "/is-there-a-bill-gates-brain-pill/",
-"c": "Reviews",
-"k": "there bill gates brain pill truth behind viral",
-"d": "No — Bill Gates does not sell or endorse any brain pill. We explain the deepfake scam ads, the red flags to spot, and wh"
-},
-{
-"t": "Magnesium for Memory & Brain Fog: Benefits, Forms & Dosage",
-"u": "/magnesium-for-memory/",
-"c": "Ingredients",
-"k": "magnesium memory brain fog benefits forms dosage",
-"d": "How magnesium supports memory, sleep and brain fog — the best forms (incl. L-threonate), food sources, dosage and who be"
-},
-{
-"t": "Memory Exercises: 9 Brain Workouts to Sharpen Your Recall",
-"u": "/memory-exercises/",
-"c": "Memory",
-"k": "memory exercises brain workouts sharpen recall",
-"d": "Simple, science-backed memory exercises and brain workouts you can do daily to sharpen recall, focus and mental clarity."
-},
-{
-"t": "Memory Loss vs. Normal Aging: How to Tell the Difference (2026)",
-"u": "/memory-loss-vs-normal-aging/",
-"c": "Brain Health",
-"k": "memory loss normal aging tell difference 2026",
-"d": "Normal forgetfulness or a warning sign? The key differences between normal aging and concerning memory loss, the red fla"
-},
-{
-"t": "Menopause Brain Fog: Why It Happens and What Helps",
-"u": "/menopause-brain-fog/",
-"c": "Brain Health",
-"k": "menopause brain fog happens helps",
-"d": "Menopause brain fog is real and has a biological basis. Here's why estrogen affects memory and focus during the transiti"
-},
-{
-"t": "Scientists Reprogram Brain Immune Cells to Fight Alzheimer's — What It Means for You",
-"u": "/microglia-alzheimers-treatment-2026/",
-"c": "News",
-"k": "microglia alzheimers treatment 2026 scientists reprogram brain immune",
-"d": "A new June 2026 study in Cell Death and Disease found that a molecule called OLE can reprogram microglia — the brain's i"
-},
-{
-"t": "Neuriva Review 2026: Does It Work, and Better Alternatives",
-"u": "/neuriva-review-alternatives/",
-"c": "Independent Review",
-"k": "neuriva review alternatives 2026 work better",
-"d": "An independent Neuriva review — ingredients, what reviewers report, drawbacks, and the memory formulas we rate higher fo"
-},
-{
-"t": "Omega-3 and Brain Health: DHA for Memory & Focus",
-"u": "/omega-3-for-brain-health/",
-"c": "Ingredients",
-"k": "omega brain health dha memory focus",
-"d": "How omega-3 fatty acids (DHA & EPA) support memory and focus, the best food sources, typical dosage, and who benefits mo"
-},
-{
-"t": "Prevagen Alternatives: Is It Worth It, and What Works Better? (2026)",
-"u": "/prevagen-alternatives/",
-"c": "Independent Review",
-"k": "prevagen alternatives worth works better 2026",
-"d": "An independent look at Prevagen — how it works, what reviewers say, and the better-value memory formula alternatives for"
-},
-{
-"t": "Short-Term Memory Loss: Causes and What to Do",
-"u": "/short-term-memory-loss-causes/",
-"c": "Memory",
-"k": "short term memory loss causes",
-"d": "Short-term memory loss can be alarming, but most causes are treatable. A plain-English guide to what causes it and what "
-},
-{
-"t": "Sleep and Memory: Why Deep Sleep Locks In Recall",
-"u": "/sleep-and-memory/",
-"c": "Brain Health",
-"k": "sleep memory deep locks recall",
-"d": "Sleep is when your brain files away the day's memories. Here's what science says about deep sleep, memory consolidation,"
-},
-{
-"t": "How Stress Affects Memory (and How to Reverse It)",
-"u": "/stress-and-memory-loss/",
-"c": "Brain Health",
-"k": "stress memory loss affects reverse",
-"d": "Chronic stress doesn't just make you feel overwhelmed: it physically impairs the brain structures that handle memory. He"
-},
-{
-"t": "Why Can't I Concentrate? 8 Hidden Causes",
-"u": "/why-cant-i-concentrate/",
-"c": "Brain Health",
-"k": "cant concentrate hidden causes",
-"d": "Poor concentration almost always has an identifiable, fixable cause. Here are the 8 most common reasons your focus break"
-},
-{
-"t": "Why You Keep Forgetting Names, Words & Where You Put Things",
-"u": "/why-you-keep-forgetting/",
-"c": "Memory",
-"k": "keep forgetting names words where put things",
-"d": "It's usually not just aging. A look at the overlooked trigger behind everyday memory slips — and what actually helps."
-},
-{
-"t": "About Memory Lab — Our Team, Standards & Review Process",
-"u": "/about/",
-"c": "About Us",
-"k": "about memory lab our team standards review process",
-"d": "Memory Lab publishes independent, plain-English guides on memory, focus and healthy aging. Meet our editorial team and r"
-},
-{
-"t": "Memory Basics",
-"u": "/memory-basics/",
-"c": "Topic",
-"k": "memory basics",
-"d": "Everything on how memory works and how to keep it sharp, in plain English. Start here if you're forgetting names, losing"
-},
-{
-"t": "Brain Fog & Focus",
-"u": "/brain-fog/",
-"c": "Topic",
-"k": "brain fog",
-"d": "Brain fog almost always has a fixable cause. These guides cover why your focus slips, the hidden drivers behind afternoo"
-},
-{
-"t": "Brain Supplements & Ingredients",
-"u": "/brain-supplements/",
-"c": "Topic",
-"k": "brain supplements",
-"d": "Do memory supplements work, and which ingredients have real evidence behind them? Honest reviews and ingredient breakdow"
-},
-{
-"t": "Bill Gates & Alzheimer's Research",
-"u": "/bill-gates-alzheimers/",
-"c": "Topic",
-"k": "bill gates alzheimers",
-"d": "Why one of the world's richest men is pouring money into Alzheimer's, what the research is finding, and what it means fo"
-},
-{
-"t": "Lifestyle & Brain Health",
-"u": "/brain-health-lifestyle/",
-"c": "Topic",
-"k": "brain health lifestyle",
-"d": "Sleep, stress and anxiety shape your memory more than any pill. How everyday habits affect recall, and the changes that "
-},
-{
-"t": "What Is Working Memory? Your Brain's Mental Workspace",
-"u": "/what-is-working-memory/",
-"c": "Memory",
-"k": "what is working memory short-term memory capacity chunking",
-"d": "Working memory is the brain's active workspace for holding and using information right now. How it differs from short-term memory, why it overloads, and how to protect it."
-},
-{
-"t": "The Aging-Well Brain Checklist: Habits That Protect Memory",
-"u": "/ageing-well-brain-checklist/",
-"c": "Aging Well",
-"k": "brain health checklist aging well dementia prevention habits",
-"d": "A practical, research-backed checklist for aging well. The everyday habits that protect memory and lower dementia risk, and why each one earns its place."
-},
-{
-"t": "Ashwagandha for Stress and Memory: Does It Work?",
-"u": "/ashwagandha-for-stress-and-memory/",
-"c": "Ingredients",
-"k": "ashwagandha stress memory cortisol adaptogen",
-"d": "Ashwagandha is best studied for lowering stress and cortisol. What the evidence actually says about memory and focus, typical doses, and who should be careful."
-},
-{
-"t": "Green Tea and Brain Health: L-Theanine, EGCG and Focus",
-"u": "/green-tea-and-brain-health/",
-"c": "Ingredients",
-"k": "green tea l-theanine egcg brain focus caffeine",
-"d": "Green tea pairs caffeine with L-theanine and antioxidant catechins like EGCG. What that combination actually does for focus and memory, and how much to drink."
-},
-{
-"t": "The Alzheimer's Protein Tau Also Helps Build Long-Term Memories",
-"u": "/tau-protein-and-long-term-memory/",
-"c": "News",
-"k": "tau protein alzheimers memory study engram cells",
-"d": "A new mouse study finds tau, long blamed for Alzheimer's tangles, plays a normal, necessary role in forming long-term memories."
-},
-{
-"t": "Dark Chocolate and Memory: The Flavanol Connection",
-"u": "/dark-chocolate-and-memory/",
-"c": "Ingredients",
-"k": "dark chocolate cocoa flavanols memory brain blood flow",
-"d": "Dark chocolate's cocoa flavanols are linked to modest brain blood-flow and memory benefits in small trials. What the evidence really shows, and how much you'd need."
-},
-{
-"t": "Sleep and Memory: How the Brain Files What You Learn",
-"u": "/sleep-and-memory-consolidation/",
-"c": "Memory",
-"k": "sleep memory consolidation rem slow wave hippocampus",
-"d": "Memory consolidation happens mostly during sleep, as the brain replays and files new information into long-term storage. How that process works and how to protect it."
-},
-{
-"t": "A Brain Protein Called SORLA May Shield Against Tau Tangles",
-"u": "/sorla-protein-tau-tangles-alzheimers/",
-"c": "News",
-"k": "sorla protein tau tangles alzheimers amyloid",
-"d": "New mouse research finds the protein SORLA reduces tau tangle buildup and brain atrophy, alongside its known role limiting amyloid."
-},
-{
-"t": "Active Recall: The Study Method That Actually Works",
-"u": "/active-recall-study-method/",
-"c": "Memory",
-"k": "active recall retrieval practice testing effect study method",
-"d": "Rereading feels productive but ranks near the bottom of effective study strategies. Why testing yourself from memory works so much better, and how to start tonight."
-},
-{
-"t": "Walking and Brain Health: How Daily Steps Protect Memory",
-"u": "/walking-and-brain-health/",
-"c": "Aging Well",
-"k": "walking brain health exercise memory hippocampus dementia",
-"d": "No gym, no gear. What the research says about how a daily walking habit protects memory and slows age-related brain shrinkage."
-},
-{
-"t": "Hydration and Cognitive Function: How Water Affects Focus",
-"u": "/hydration-and-cognitive-function/",
-"c": "Brain Health",
-"k": "hydration cognition dehydration focus attention working memory electrolytes",
-"d": "Fluid balance shapes attention, working memory and mood, often before thirst even shows up. What the research says about water, electrolytes and clear thinking."
-},
-{
-"t": "Blood Sugar Swings and Brain Fog: The Glucose Connection",
-"u": "/blood-sugar-and-brain-fog/",
-"c": "Brain Health",
-"k": "blood sugar glucose brain fog reactive hypoglycemia insulin resistance",
-"d": "That foggy, sluggish feeling an hour or two after a big meal isn't just in your head. What happens to focus when blood sugar spikes and crashes, and the fixes that help."
-},
-{
-"t": "Blood Test Tied to Alzheimer's Protein Predicts Decline a Decade Early",
-"u": "/ptau217-blood-test-predicts-alzheimers-risk/",
-"c": "News",
-"k": "p-tau217 blood test alzheimers aaic jama early detection",
-"d": "A study presented at AAIC 2026 and published in JAMA finds the p-tau217 blood biomarker forecasts cognitive decline risk years before symptoms appear."
-},
-{
-"t": "Does Journaling Improve Memory? What the Evidence Shows",
-"u": "/journaling-for-memory/",
-"c": "Memory",
-"k": "journaling memory expressive writing note taking handwriting recall",
-"d": "Writing things down feels like it should help you remember them. What research on expressive writing, note-taking and handwriting actually says."
-},
-{
-"t": "Blue Light and Brain Fog: Does Screen Time Affect Focus?",
-"u": "/blue-light-and-brain-fog/",
-"c": "Brain Health",
-"k": "blue light brain fog screen time focus sleep melatonin",
-"d": "Screens take the blame for foggy afternoons and scattered focus. What the evidence actually says about blue light, sleep and daytime thinking."
-},
-{
-"t": "Protein Intake and Brain Aging: How Much Do You Need?",
-"u": "/protein-intake-and-brain-aging/",
-"c": "Aging Well",
-"k": "protein intake brain aging muscle sarcopenia amino acids diet",
-"d": "Protein gets talked about for muscle, not memory. How the amount you eat as you get older may matter for your brain too."
-},
-{
-"t": "Cholesterol and Brain Health: What the Research Really Says",
-"u": "/cholesterol-and-brain-health/",
-"c": "Brain Health",
-"k": "cholesterol brain health ldl hdl statins dementia risk",
-"d": "Is cholesterol bad for your brain or does it help build one? What the research on LDL, HDL and cognitive aging actually shows."
-},
-{
-"t": "Does Hormonal Birth Control Affect Memory?",
-"u": "/hormonal-birth-control-and-memory/",
-"c": "Brain Health",
-"k": "birth control memory pill hormones estrogen progestin brain fog contraception",
-"d": "Some women notice foggier recall after starting the pill. What the research actually shows about hormonal contraception and memory."
-},
-{
-"t": "Low Testosterone and Memory in Men: What's the Link?",
-"u": "/low-testosterone-and-memory/",
-"c": "Brain Health",
-"k": "low testosterone memory men focus hormones aging andropause",
-"d": "Foggy focus and slower recall can track with low testosterone in men. What the evidence actually says, and what to do about it."
-}
+  {
+    "t": "Sauna Use and Brain Health: What the Research Shows",
+    "u": "/sauna-use-and-brain-health/",
+    "c": "Aging Well",
+    "k": "sauna brain health dementia risk heat shock proteins finnish study",
+    "d": "Frequent sauna use keeps showing up in brain-health research. What the studies actually found, how heat exposure may help, and who should be careful."
+  },
+  {
+    "t": "Omega-6 to Omega-3 Ratio: Why It Matters for Brain Health",
+    "u": "/omega-6-omega-3-ratio-brain/",
+    "c": "Ingredients",
+    "k": "omega 6 omega 3 ratio brain inflammation fish oil fatty acids diet",
+    "d": "Most Western diets run far heavier on omega-6 than omega-3. What that ratio actually means for brain health, and simple ways to shift it."
+  },
+  {
+    "t": "Jet Lag and Memory: How Travel Disrupts Recall",
+    "u": "/jet-lag-and-memory/",
+    "c": "Brain Health",
+    "k": "jet lag memory travel circadian rhythm sleep time zones brain fog",
+    "d": "Crossing time zones does more than make you tired. What jet lag actually does to memory and focus, and how long it takes to bounce back."
+  },
+  {
+    "t": "Noise Pollution and Focus: How Sound Affects Concentration",
+    "u": "/noise-pollution-and-focus/",
+    "c": "Brain Health",
+    "k": "noise pollution focus concentration working memory office noise traffic noise",
+    "d": "Traffic, open offices, constant notifications. What chronic noise actually does to attention and working memory, and what quiets its effect."
+  },
+  {
+    "t": "What Is Cognitive Reserve, and How Do You Build It?",
+    "u": "/cognitive-reserve-explained/",
+    "c": "Memory",
+    "k": "cognitive reserve brain resilience neuroplasticity dementia symptoms education bilingualism",
+    "d": "Cognitive reserve explains why some people with brain changes stay sharp while others decline. What it is, how it forms, and how to build more of it."
+  },
+  {
+    "t": "Does Retirement Speed Up Cognitive Decline?",
+    "u": "/does-retirement-affect-memory/",
+    "c": "Aging Well",
+    "k": "retirement memory cognitive decline retiring brain aging structure routine",
+    "d": "Leaving the structure of a career changes daily life fast. What the research says about retirement and cognitive decline, and how to protect your mind."
+  },
+  {
+    "t": "MemoHoney Review 2026: The Real Supplement Facts, Prices & Who It Suits",
+    "u": "/memohoney-review/",
+    "c": "Reviews",
+    "k": "memohoney review memohoney reviews memohoney ingredients memohoney price memohoney scam memohoney side effects buy memohoney ginkgo citrulline",
+    "d": "The actual MemoHoney label with every disclosed milligram, what the blood-flow formula is really built on, real package pricing, the refund terms in full, and how it compares to Memopezil."
+  },
+  {
+    "t": "Memopezil Review 2026: Ingredients, Real Doses, Prices & the Scam Ads",
+    "u": "/memopezil-review/",
+    "c": "Reviews",
+    "k": "memopezil review memopezil scam memopezil ingredients memopezil price memopezil complaints memopezil side effects buy memopezil bacopa rhodiola",
+    "d": "Every Memopezil ingredient at its actual dose vs. the clinical research, real pricing for the 2, 3 and 6-bottle packages, the deepfake ads explained, and how it compares to Prevagen and Neuriva."
+  },
+  {
+    "t": "The Vagus Nerve and Memory: How Gut-Brain Signaling Works",
+    "u": "/vagus-nerve-and-memory/",
+    "c": "Brain Health",
+    "k": "vagus nerve memory gut brain axis vagal tone stress signaling",
+    "d": "The vagus nerve links your gut, heart and brain in constant two-way conversation. What the evidence says about its role in memory, stress and focus."
+  },
+  {
+    "t": "Chemo Brain: Why Cancer Treatment Affects Memory and Focus",
+    "u": "/chemo-brain-explained/",
+    "c": "Brain Health",
+    "k": "chemo brain cancer treatment memory concentration cognitive impairment chemotherapy",
+    "d": "Trouble concentrating or finding words during or after chemotherapy? What chemo brain actually is, why it happens, and what helps."
+  },
+  {
+    "t": "ADHD and Working Memory: Why Focus and Recall Struggle Together",
+    "u": "/adhd-and-working-memory/",
+    "c": "Memory",
+    "k": "adhd working memory focus attention forgetfulness executive function",
+    "d": "ADHD isn't just a focus problem. Why working memory struggles so often come with it, and the strategies that actually help both."
+  },
+  {
+    "t": "Long COVID and Brain Fog: What the Research Has Found",
+    "u": "/long-covid-and-brain-fog/",
+    "c": "Brain Health",
+    "k": "long covid brain fog cognitive symptoms memory concentration post viral",
+    "d": "Trouble concentrating, word-finding slips, a memory that feels slower than before. What studies on long COVID and brain fog actually show."
+  },
+  {
+    "t": "Does Napping Improve Memory? What the Science Says",
+    "u": "/napping-and-memory/",
+    "c": "Memory",
+    "k": "napping memory sleep nap length consolidation",
+    "d": "A well-timed nap can help lock in what you just learned. What sleep research says about nap length, timing and memory."
+  },
+  {
+    "t": "Postpartum Brain Fog: Why New Moms Forget Things",
+    "u": "/postpartum-brain-fog/",
+    "c": "Brain Health",
+    "k": "postpartum brain fog new mom memory forgetful sleep deprivation hormones",
+    "d": "Forgetting words mid-sentence, walking into a room and blanking. Why postpartum brain fog happens and what actually helps."
+  },
+  {
+    "t": "Heavy TV Watching in Midlife Linked to Smaller Brain Volume, Study Finds",
+    "u": "/tv-watching-and-brain-health/",
+    "c": "News",
+    "k": "tv watching brain volume white matter sedentary behavior dementia ARIC study",
+    "d": "A 24-year study of over 1,700 adults links frequent TV watching in midlife to smaller memory-related brain regions and more white matter damage. What it found."
+  },
+  {
+    "t": "Bilingualism and the Brain: Does It Delay Cognitive Decline?",
+    "u": "/bilingualism-and-brain-reserve/",
+    "c": "Brain Health",
+    "k": "bilingualism brain cognitive reserve dementia second language memory",
+    "d": "Speaking two languages is linked to a later average age of dementia diagnosis in several studies. What the cognitive reserve research actually shows, and where it runs thin."
+  },
+  {
+    "t": "Saffron for Mood and Memory: What Studies Suggest",
+    "u": "/saffron-for-mood-and-memory/",
+    "c": "Ingredients",
+    "k": "saffron memory mood depression crocin cognition supplement",
+    "d": "Saffron has some of the more interesting early clinical data of any spice for mood and cognition. What the trials actually found, and what they don't show yet."
+  },
+  {
+    "t": "Hearing Loss and Dementia Risk: What the Evidence Shows",
+    "u": "/hearing-loss-and-dementia-risk/",
+    "c": "Brain Health",
+    "k": "hearing loss dementia risk hearing aids audiologist cognitive decline",
+    "d": "Untreated hearing loss ranks among the largest modifiable dementia risk factors identified so far. Why the link exists, what the trial data shows, and what actually helps."
+  },
+  {
+    "t": "Menopause and Memory: Why Brain Fog Happens and What Helps",
+    "u": "/menopause-and-memory/",
+    "c": "Aging Well",
+    "k": "menopause memory brain fog hormone therapy verbal memory working memory",
+    "d": "Menopause changes memory in specific, measurable ways. Which memory functions are affected, what the hormone therapy research actually shows, and what helps."
+  },
+  {
+    "t": "Alzheimer's Sleep Loss Traced to Brain Immune Cells, Not Plaques",
+    "u": "/microglia-sleep-loss-alzheimers/",
+    "c": "News",
+    "k": "microglia alzheimers sleep loss inflammation neuroinflammation",
+    "d": "A University of Kentucky study found removing the brain's overactive immune cells restored over two hours of deep sleep in Alzheimer's mice, even though amyloid plaques stayed put."
+  },
+  {
+    "t": "Why Multitasking Hurts Your Memory and Focus",
+    "u": "/multitasking-and-the-brain/",
+    "c": "Memory",
+    "k": "multitasking brain task switching attention focus memory",
+    "d": "Switching between tasks feels efficient, but it costs memory and accuracy. What task-switching actually does to your brain, and what works better instead."
+  },
+  {
+    "t": "Spaced Repetition Explained: The Science of Remembering More",
+    "u": "/spaced-repetition-explained/",
+    "c": "Memory",
+    "k": "spaced repetition spacing effect flashcards study schedule memory",
+    "d": "Spaced repetition beats cramming because of how memory actually consolidates. How the spacing effect works, and how to build a simple schedule that sticks."
+  },
+  {
+    "t": "Thyroid and Brain Fog: How Thyroid Issues Affect Memory",
+    "u": "/thyroid-and-brain-fog/",
+    "c": "Brain Health",
+    "k": "thyroid brain fog hypothyroidism hyperthyroidism memory",
+    "d": "An underactive or overactive thyroid can cause real brain fog and memory trouble. How thyroid hormones affect the brain, warning signs, and what helps."
+  },
+  {
+    "t": "Choline and Brain Function: Why This Nutrient Matters",
+    "u": "/choline-and-brain-function/",
+    "c": "Ingredients",
+    "k": "choline brain function acetylcholine memory eggs",
+    "d": "Choline builds the memory chemical acetylcholine, yet most adults fall short of getting enough. What choline does for the brain and the best food sources."
+  },
+  {
+    "t": "Free Memory Test: Check Your Working & Short-Term Memory",
+    "u": "/memory-test/",
+    "c": "Interactive",
+    "k": "free memory test working short-term memory number span recall quiz",
+    "d": "Take our free 3-minute memory test. Two science-based tasks measure your working memory and short-term recall, with an instant score and what it means."
+  },
+  {
+    "t": "Anxiety and Forgetfulness: The Overlooked Link",
+    "u": "/anxiety-and-forgetfulness/",
+    "c": "Brain Health",
+    "k": "anxiety forgetfulness overlooked link",
+    "d": "Anxiety doesn't just make you feel scattered. It impairs the hippocampus and crowds out working memory. Here's how the c"
+  },
+  {
+    "t": "Bacopa Monnieri: Benefits, Dosage & Side Effects for Memory",
+    "u": "/bacopa-monnieri-benefits/",
+    "c": "Ingredients",
+    "k": "bacopa monnieri benefits dosage side effects memory",
+    "d": "Bacopa monnieri is an Ayurvedic herb studied for memory and learning. Its benefits, evidence-based dosage, side effects,"
+  },
+  {
+    "t": "The 5 Best Memory Support Formulas of 2026 (Ranked & Reviewed)",
+    "u": "/best-memory-supplements-2026/",
+    "c": "Independent Review",
+    "k": "best memory supplements 2026 support formulas ranked reviewed",
+    "d": "We compared the leading memory formulas of 2026 on transparency, dosing, real reviews and guarantee. See the #1 editor's"
+  },
+  {
+    "t": "The Best Vitamins & Nutrients for Brain Fog and Focus (2026)",
+    "u": "/best-vitamins-for-brain-fog/",
+    "c": "Ingredients",
+    "k": "best vitamins brain fog nutrients focus 2026",
+    "d": "The vitamins and nutrients with the best evidence for brain fog and focus — B12, vitamin D, omega-3, magnesium, citicoli"
+  },
+  {
+    "t": "The Early Alzheimer's Blood Test Bill Gates Helped Fund",
+    "u": "/bill-gates-alzheimers-blood-test/",
+    "c": "Brain Health · Updated",
+    "k": "bill gates alzheimers blood test early helped fund",
+    "d": "Bill Gates co-funded the Diagnostics Accelerator to speed up blood-based Alzheimer's testing. Here's the real science be"
+  },
+  {
+    "t": "What Bill Gates Predicts About Beating Alzheimer's",
+    "u": "/bill-gates-alzheimers-prediction/",
+    "c": "Brain Health",
+    "k": "bill gates alzheimers prediction predicts about beating",
+    "d": "What Bill Gates has publicly predicted about Alzheimer's timelines: why he focuses on early detection over a cure, what "
+  },
+  {
+    "t": "Why Bill Gates Is Investing Millions in Alzheimer's Research",
+    "u": "/bill-gates-alzheimers-research/",
+    "c": "Brain Health",
+    "k": "bill gates alzheimers research investing millions",
+    "d": "Why Bill Gates put ~$100M of his own money into Alzheimer's research — the Dementia Discovery Fund, early blood tests, h"
+  },
+  {
+    "t": "3 Brain-Health Lessons From Bill Gates's Push Against Alzheimer's",
+    "u": "/bill-gates-brain-health-lessons/",
+    "c": "Brain Health",
+    "k": "bill gates brain health lessons from gatess push",
+    "d": "What Bill Gates's Alzheimer's research investments reveal about protecting your own brain: the 3 most practical lessons "
+  },
+  {
+    "t": "Bill Gates's Bet on Beating Dementia — and What It Means for You",
+    "u": "/bill-gates-dementia-fight/",
+    "c": "Brain Health",
+    "k": "bill gates dementia fight gatess bet beating means",
+    "d": "Bill Gates has committed over $100 million of his personal fortune to dementia research. Here's what he's funding, why h"
+  },
+  {
+    "t": "Inside the Diagnostics Accelerator Bill Gates Co-Founded",
+    "u": "/bill-gates-diagnostics-accelerator/",
+    "c": "Brain Health",
+    "k": "bill gates diagnostics accelerator inside founded",
+    "d": "What is the Alzheimer's Diagnostics Accelerator that Bill Gates helped fund? How it works, what tests it's developing, a"
+  },
+  {
+    "t": "Bill Gates on His Father's Alzheimer's — and What It Taught Him",
+    "u": "/bill-gates-father-alzheimers/",
+    "c": "Brain Health · Updated",
+    "k": "bill gates father alzheimers his fathers taught him",
+    "d": "Bill Gates Sr. had Alzheimer's disease. His son has written and spoken publicly about the experience. Here's what he sha"
+  },
+  {
+    "t": "What Bill Gates Says About Preventing Dementia",
+    "u": "/bill-gates-on-preventing-dementia/",
+    "c": "Brain Health",
+    "k": "bill gates preventing dementia says about",
+    "d": "Gates committed over $50M to Alzheimer's research and consistently focuses on early detection as the key prevention leve"
+  },
+  {
+    "t": "Bill Gates and the Billionaires Funding Alzheimer's Research",
+    "u": "/billionaires-funding-alzheimers-research/",
+    "c": "Brain Health",
+    "k": "billionaires funding alzheimers research bill gates",
+    "d": "Bill Gates, the Chan Zuckerberg Initiative, and the late Paul Allen have each made significant bets on beating Alzheimer"
+  },
+  {
+    "t": "Brain Fog: 7 Common Causes and How to Clear It (2026)",
+    "u": "/brain-fog-causes-and-fixes/",
+    "c": "Brain Health",
+    "k": "brain fog causes fixes common clear 2026",
+    "d": "Brain fog isn't a diagnosis — it's a symptom. Here are the 7 most common causes of brain fog and the science-backed step"
+  },
+  {
+    "t": "Citicoline for Memory: Benefits, Dosage & What the Research Says",
+    "u": "/citicoline-for-memory/",
+    "c": "Ingredients",
+    "k": "citicoline memory benefits dosage research says",
+    "d": "Citicoline (CDP-choline) is one of the most studied nutrients for memory and focus. Its benefits, typical dosage, safety"
+  },
+  {
+    "t": "Scientists Found a New Alzheimer's Trigger, and a Drug That Slows It in Mice",
+    "u": "/compound-10-alzheimers-drug-2026/",
+    "c": "News",
+    "k": "compound alzheimers drug 2026 scientists found new trigger",
+    "d": "ETH Zurich researchers identified a rogue enzyme called GRK2 as a new Alzheimer's driver, and developed Compound 10 to b"
+  },
+  {
+    "t": "Do Memory Supplements Actually Work? An Honest 2026 Buyer's Guide",
+    "u": "/do-memory-supplements-work/",
+    "c": "Reviews",
+    "k": "memory supplements work actually honest 2026 buyers guide",
+    "d": "Do memory supplements really work? An honest, evidence-based buyer's guide: which ingredients have proof, the 3 things t"
+  },
+  {
+    "t": "7 Foods & Daily Habits That Keep Your Memory Sharp After 50",
+    "u": "/foods-and-habits-for-memory/",
+    "c": "Aging Well",
+    "k": "foods habits memory daily that keep sharp",
+    "d": "Simple, science-backed foods and habits to support memory, focus and recall after 50."
+  },
+  {
+    "t": "Forgetfulness in Your 40s: Is It Normal?",
+    "u": "/forgetfulness-in-your-40s/",
+    "c": "Memory",
+    "k": "forgetfulness 40s normal",
+    "d": "Blanking on names, losing your keys, forgetting mid-sentence? Forgetfulness in your 40s is common. Here's what's normal,"
+  },
+  {
+    "t": "How to Improve Your Memory: 11 Proven, Science-Backed Ways (2026)",
+    "u": "/how-to-improve-memory/",
+    "c": "Memory",
+    "k": "improve memory proven science backed ways 2026",
+    "d": "A complete, evidence-based guide on how to improve your memory — 11 proven habits, foods and nutrients that boost recall"
+  },
+  {
+    "t": "How to Remember Names: 7 Tricks That Actually Stick",
+    "u": "/how-to-remember-names/",
+    "c": "Memory",
+    "k": "remember names tricks that actually stick",
+    "d": "Forgetting names the moment you hear them is one of the most universal memory complaints. These 7 science-backed techniq"
+  },
+  {
+    "t": "Is There a 'Bill Gates Brain Pill'? The Truth Behind the Viral Ads",
+    "u": "/is-there-a-bill-gates-brain-pill/",
+    "c": "Reviews",
+    "k": "there bill gates brain pill truth behind viral",
+    "d": "No — Bill Gates does not sell or endorse any brain pill. We explain the deepfake scam ads, the red flags to spot, and wh"
+  },
+  {
+    "t": "Magnesium for Memory & Brain Fog: Benefits, Forms & Dosage",
+    "u": "/magnesium-for-memory/",
+    "c": "Ingredients",
+    "k": "magnesium memory brain fog benefits forms dosage",
+    "d": "How magnesium supports memory, sleep and brain fog — the best forms (incl. L-threonate), food sources, dosage and who be"
+  },
+  {
+    "t": "Memory Exercises: 9 Brain Workouts to Sharpen Your Recall",
+    "u": "/memory-exercises/",
+    "c": "Memory",
+    "k": "memory exercises brain workouts sharpen recall",
+    "d": "Simple, science-backed memory exercises and brain workouts you can do daily to sharpen recall, focus and mental clarity."
+  },
+  {
+    "t": "Memory Loss vs. Normal Aging: How to Tell the Difference (2026)",
+    "u": "/memory-loss-vs-normal-aging/",
+    "c": "Brain Health",
+    "k": "memory loss normal aging tell difference 2026",
+    "d": "Normal forgetfulness or a warning sign? The key differences between normal aging and concerning memory loss, the red fla"
+  },
+  {
+    "t": "Menopause Brain Fog: Why It Happens and What Helps",
+    "u": "/menopause-brain-fog/",
+    "c": "Brain Health",
+    "k": "menopause brain fog happens helps",
+    "d": "Menopause brain fog is real and has a biological basis. Here's why estrogen affects memory and focus during the transiti"
+  },
+  {
+    "t": "Scientists Reprogram Brain Immune Cells to Fight Alzheimer's — What It Means for You",
+    "u": "/microglia-alzheimers-treatment-2026/",
+    "c": "News",
+    "k": "microglia alzheimers treatment 2026 scientists reprogram brain immune",
+    "d": "A new June 2026 study in Cell Death and Disease found that a molecule called OLE can reprogram microglia — the brain's i"
+  },
+  {
+    "t": "Neuriva Review 2026: Does It Work, and Better Alternatives",
+    "u": "/neuriva-review-alternatives/",
+    "c": "Independent Review",
+    "k": "neuriva review alternatives 2026 work better",
+    "d": "An independent Neuriva review — ingredients, what reviewers report, drawbacks, and the memory formulas we rate higher fo"
+  },
+  {
+    "t": "Omega-3 and Brain Health: DHA for Memory & Focus",
+    "u": "/omega-3-for-brain-health/",
+    "c": "Ingredients",
+    "k": "omega brain health dha memory focus",
+    "d": "How omega-3 fatty acids (DHA & EPA) support memory and focus, the best food sources, typical dosage, and who benefits mo"
+  },
+  {
+    "t": "Prevagen Alternatives: Is It Worth It, and What Works Better? (2026)",
+    "u": "/prevagen-alternatives/",
+    "c": "Independent Review",
+    "k": "prevagen alternatives worth works better 2026",
+    "d": "An independent look at Prevagen — how it works, what reviewers say, and the better-value memory formula alternatives for"
+  },
+  {
+    "t": "Short-Term Memory Loss: Causes and What to Do",
+    "u": "/short-term-memory-loss-causes/",
+    "c": "Memory",
+    "k": "short term memory loss causes",
+    "d": "Short-term memory loss can be alarming, but most causes are treatable. A plain-English guide to what causes it and what "
+  },
+  {
+    "t": "Sleep and Memory: Why Deep Sleep Locks In Recall",
+    "u": "/sleep-and-memory/",
+    "c": "Brain Health",
+    "k": "sleep memory deep locks recall",
+    "d": "Sleep is when your brain files away the day's memories. Here's what science says about deep sleep, memory consolidation,"
+  },
+  {
+    "t": "How Stress Affects Memory (and How to Reverse It)",
+    "u": "/stress-and-memory-loss/",
+    "c": "Brain Health",
+    "k": "stress memory loss affects reverse",
+    "d": "Chronic stress doesn't just make you feel overwhelmed: it physically impairs the brain structures that handle memory. He"
+  },
+  {
+    "t": "Why Can't I Concentrate? 8 Hidden Causes",
+    "u": "/why-cant-i-concentrate/",
+    "c": "Brain Health",
+    "k": "cant concentrate hidden causes",
+    "d": "Poor concentration almost always has an identifiable, fixable cause. Here are the 8 most common reasons your focus break"
+  },
+  {
+    "t": "Why You Keep Forgetting Names, Words & Where You Put Things",
+    "u": "/why-you-keep-forgetting/",
+    "c": "Memory",
+    "k": "keep forgetting names words where put things",
+    "d": "It's usually not just aging. A look at the overlooked trigger behind everyday memory slips — and what actually helps."
+  },
+  {
+    "t": "About Memory Lab — Our Team, Standards & Review Process",
+    "u": "/about/",
+    "c": "About Us",
+    "k": "about memory lab our team standards review process",
+    "d": "Memory Lab publishes independent, plain-English guides on memory, focus and healthy aging. Meet our editorial team and r"
+  },
+  {
+    "t": "Memory Basics",
+    "u": "/memory-basics/",
+    "c": "Topic",
+    "k": "memory basics",
+    "d": "Everything on how memory works and how to keep it sharp, in plain English. Start here if you're forgetting names, losing"
+  },
+  {
+    "t": "Brain Fog & Focus",
+    "u": "/brain-fog/",
+    "c": "Topic",
+    "k": "brain fog",
+    "d": "Brain fog almost always has a fixable cause. These guides cover why your focus slips, the hidden drivers behind afternoo"
+  },
+  {
+    "t": "Brain Supplements & Ingredients",
+    "u": "/brain-supplements/",
+    "c": "Topic",
+    "k": "brain supplements",
+    "d": "Do memory supplements work, and which ingredients have real evidence behind them? Honest reviews and ingredient breakdow"
+  },
+  {
+    "t": "Bill Gates & Alzheimer's Research",
+    "u": "/bill-gates-alzheimers/",
+    "c": "Topic",
+    "k": "bill gates alzheimers",
+    "d": "Why one of the world's richest men is pouring money into Alzheimer's, what the research is finding, and what it means fo"
+  },
+  {
+    "t": "Lifestyle & Brain Health",
+    "u": "/brain-health-lifestyle/",
+    "c": "Topic",
+    "k": "brain health lifestyle",
+    "d": "Sleep, stress and anxiety shape your memory more than any pill. How everyday habits affect recall, and the changes that "
+  },
+  {
+    "t": "What Is Working Memory? Your Brain's Mental Workspace",
+    "u": "/what-is-working-memory/",
+    "c": "Memory",
+    "k": "what is working memory short-term memory capacity chunking",
+    "d": "Working memory is the brain's active workspace for holding and using information right now. How it differs from short-term memory, why it overloads, and how to protect it."
+  },
+  {
+    "t": "The Aging-Well Brain Checklist: Habits That Protect Memory",
+    "u": "/ageing-well-brain-checklist/",
+    "c": "Aging Well",
+    "k": "brain health checklist aging well dementia prevention habits",
+    "d": "A practical, research-backed checklist for aging well. The everyday habits that protect memory and lower dementia risk, and why each one earns its place."
+  },
+  {
+    "t": "Ashwagandha for Stress and Memory: Does It Work?",
+    "u": "/ashwagandha-for-stress-and-memory/",
+    "c": "Ingredients",
+    "k": "ashwagandha stress memory cortisol adaptogen",
+    "d": "Ashwagandha is best studied for lowering stress and cortisol. What the evidence actually says about memory and focus, typical doses, and who should be careful."
+  },
+  {
+    "t": "Green Tea and Brain Health: L-Theanine, EGCG and Focus",
+    "u": "/green-tea-and-brain-health/",
+    "c": "Ingredients",
+    "k": "green tea l-theanine egcg brain focus caffeine",
+    "d": "Green tea pairs caffeine with L-theanine and antioxidant catechins like EGCG. What that combination actually does for focus and memory, and how much to drink."
+  },
+  {
+    "t": "The Alzheimer's Protein Tau Also Helps Build Long-Term Memories",
+    "u": "/tau-protein-and-long-term-memory/",
+    "c": "News",
+    "k": "tau protein alzheimers memory study engram cells",
+    "d": "A new mouse study finds tau, long blamed for Alzheimer's tangles, plays a normal, necessary role in forming long-term memories."
+  },
+  {
+    "t": "Dark Chocolate and Memory: The Flavanol Connection",
+    "u": "/dark-chocolate-and-memory/",
+    "c": "Ingredients",
+    "k": "dark chocolate cocoa flavanols memory brain blood flow",
+    "d": "Dark chocolate's cocoa flavanols are linked to modest brain blood-flow and memory benefits in small trials. What the evidence really shows, and how much you'd need."
+  },
+  {
+    "t": "Sleep and Memory: How the Brain Files What You Learn",
+    "u": "/sleep-and-memory-consolidation/",
+    "c": "Memory",
+    "k": "sleep memory consolidation rem slow wave hippocampus",
+    "d": "Memory consolidation happens mostly during sleep, as the brain replays and files new information into long-term storage. How that process works and how to protect it."
+  },
+  {
+    "t": "A Brain Protein Called SORLA May Shield Against Tau Tangles",
+    "u": "/sorla-protein-tau-tangles-alzheimers/",
+    "c": "News",
+    "k": "sorla protein tau tangles alzheimers amyloid",
+    "d": "New mouse research finds the protein SORLA reduces tau tangle buildup and brain atrophy, alongside its known role limiting amyloid."
+  },
+  {
+    "t": "Active Recall: The Study Method That Actually Works",
+    "u": "/active-recall-study-method/",
+    "c": "Memory",
+    "k": "active recall retrieval practice testing effect study method",
+    "d": "Rereading feels productive but ranks near the bottom of effective study strategies. Why testing yourself from memory works so much better, and how to start tonight."
+  },
+  {
+    "t": "Walking and Brain Health: How Daily Steps Protect Memory",
+    "u": "/walking-and-brain-health/",
+    "c": "Aging Well",
+    "k": "walking brain health exercise memory hippocampus dementia",
+    "d": "No gym, no gear. What the research says about how a daily walking habit protects memory and slows age-related brain shrinkage."
+  },
+  {
+    "t": "Hydration and Cognitive Function: How Water Affects Focus",
+    "u": "/hydration-and-cognitive-function/",
+    "c": "Brain Health",
+    "k": "hydration cognition dehydration focus attention working memory electrolytes",
+    "d": "Fluid balance shapes attention, working memory and mood, often before thirst even shows up. What the research says about water, electrolytes and clear thinking."
+  },
+  {
+    "t": "Blood Sugar Swings and Brain Fog: The Glucose Connection",
+    "u": "/blood-sugar-and-brain-fog/",
+    "c": "Brain Health",
+    "k": "blood sugar glucose brain fog reactive hypoglycemia insulin resistance",
+    "d": "That foggy, sluggish feeling an hour or two after a big meal isn't just in your head. What happens to focus when blood sugar spikes and crashes, and the fixes that help."
+  },
+  {
+    "t": "Blood Test Tied to Alzheimer's Protein Predicts Decline a Decade Early",
+    "u": "/ptau217-blood-test-predicts-alzheimers-risk/",
+    "c": "News",
+    "k": "p-tau217 blood test alzheimers aaic jama early detection",
+    "d": "A study presented at AAIC 2026 and published in JAMA finds the p-tau217 blood biomarker forecasts cognitive decline risk years before symptoms appear."
+  },
+  {
+    "t": "Does Journaling Improve Memory? What the Evidence Shows",
+    "u": "/journaling-for-memory/",
+    "c": "Memory",
+    "k": "journaling memory expressive writing note taking handwriting recall",
+    "d": "Writing things down feels like it should help you remember them. What research on expressive writing, note-taking and handwriting actually says."
+  },
+  {
+    "t": "Blue Light and Brain Fog: Does Screen Time Affect Focus?",
+    "u": "/blue-light-and-brain-fog/",
+    "c": "Brain Health",
+    "k": "blue light brain fog screen time focus sleep melatonin",
+    "d": "Screens take the blame for foggy afternoons and scattered focus. What the evidence actually says about blue light, sleep and daytime thinking."
+  },
+  {
+    "t": "Protein Intake and Brain Aging: How Much Do You Need?",
+    "u": "/protein-intake-and-brain-aging/",
+    "c": "Aging Well",
+    "k": "protein intake brain aging muscle sarcopenia amino acids diet",
+    "d": "Protein gets talked about for muscle, not memory. How the amount you eat as you get older may matter for your brain too."
+  },
+  {
+    "t": "Cholesterol and Brain Health: What the Research Really Says",
+    "u": "/cholesterol-and-brain-health/",
+    "c": "Brain Health",
+    "k": "cholesterol brain health ldl hdl statins dementia risk",
+    "d": "Is cholesterol bad for your brain or does it help build one? What the research on LDL, HDL and cognitive aging actually shows."
+  },
+  {
+    "t": "Does Hormonal Birth Control Affect Memory?",
+    "u": "/hormonal-birth-control-and-memory/",
+    "c": "Brain Health",
+    "k": "birth control memory pill hormones estrogen progestin brain fog contraception",
+    "d": "Some women notice foggier recall after starting the pill. What the research actually shows about hormonal contraception and memory."
+  },
+  {
+    "t": "Low Testosterone and Memory in Men: What's the Link?",
+    "u": "/low-testosterone-and-memory/",
+    "c": "Brain Health",
+    "k": "low testosterone memory men focus hormones aging andropause",
+    "d": "Foggy focus and slower recall can track with low testosterone in men. What the evidence actually says, and what to do about it."
+  },
+  {
+    "t": "Probiotics for Brain Fog: Do They Really Help Focus?",
+    "u": "/probiotics-for-brain-fog/",
+    "c": "Ingredients",
+    "k": "probiotics brain fog gut brain axis psychobiotics lactobacillus bifidobacterium",
+    "d": "Your gut and brain are in constant contact. What the research on probiotics and psychobiotics actually shows about clearing brain fog and focus."
+  },
+  {
+    "t": "Fish Oil vs Algae Omega-3: Which Is Better for the Brain?",
+    "u": "/fish-oil-vs-algae-omega3/",
+    "c": "Ingredients",
+    "k": "fish oil vs algae omega 3 dha epa brain supplement comparison",
+    "d": "Both deliver the DHA your brain runs on. How fish oil and algae-based omega-3 actually compare on absorption, purity and dose."
+  }
 ]

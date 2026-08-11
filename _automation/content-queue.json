@@ -846,14 +846,16 @@
       "title": "Standing Desks and Focus: Do They Really Help Concentration?",
       "kw": "standing desk focus",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-11"
     },
     {
       "slug": "iron-deficiency-and-brain-fog",
       "title": "Iron Deficiency and Brain Fog: The Overlooked Link",
       "kw": "iron deficiency brain fog",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-11"
     },
     {
       "slug": "zinc-and-brain-health",

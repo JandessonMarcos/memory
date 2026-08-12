@@ -862,14 +862,16 @@
       "title": "Zinc and Brain Health: Why This Mineral Matters for Memory",
       "kw": "zinc brain health",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-12"
     },
     {
       "slug": "coq10-and-brain-health",
       "title": "CoQ10 and Brain Health: What the Research Says",
       "kw": "coq10 brain health",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-12"
     },
     {
       "slug": "pqq-for-brain-health",

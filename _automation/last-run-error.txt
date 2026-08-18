@@ -1,0 +1,166 @@
+Memory Lab daily content routine — blocked run
+UTC date: 2026-08-18 11:24:09
+
+HOUSEKEEPING DONE BEFORE THE BLOCKER (not part of the blocker, noted for
+the record): this container's local `main` branch ref was stale, pointing
+at a2eaead while two already-finished commits (165b676, f90e755 — the
+Aug 17 "content: nad-supplements-and-brain-aging, magnesium-l-threonate-
+for-memory" publish) existed in HEAD but weren't reachable from any local
+branch. `git push -u origin main` reported "Everything up-to-date", i.e.
+origin already had f90e755; only the local branch pointer was behind. I
+fast-forwarded local main to f90e755 and confirmed the remote already
+matched. No new commit was needed for this. Pillow was missing in this
+container and was installed successfully with `pip install --quiet
+Pillow` (12.3.0) before anything else ran.
+
+BLOCKER: image sourcing effectively exhausted for this run's 2 topics.
+source-image.py reported "OK" (pool fallback) for both slugs, but manual
+visual inspection (required by RUNBOOK.md step 3: "still OPEN the file
+with the Read tool and LOOK") showed the installed images were not usable:
+not real, on-topic photos of the article subject.
+
+Two topics attempted (top of queue):
+  - creatine-and-cognition
+  - folate-and-brain-health
+
+Both /<slug>/index.html drafts were written (full SEO+GEO markup, JSON-LD
+@graph incl. FAQPage, ~1490-1520 words each, 0 em dashes, no "Memopezil",
+single H1, pillar + money-page links) and pass every text-based quality
+gate. They remain as untracked local files in this container and are NOT
+committed, since they had no valid hero image.
+
+Verbatim stdout of the two source-image.py runs that triggered this:
+
+$ python3 _automation/source-image.py creatine-and-cognition 'person mixing protein shake in kitchen' 'gym water bottle and shaker' 'scoop of powder supplement' 'young athlete drinking water'
+/home/user/memory/_automation/source-image.py:68: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  px = list(g.getdata()); a = sum(px)/len(px)
+  query err (person mixing protein shake in kitchen/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (gym water bottle and shaker/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (scoop of powder supplement/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (young athlete drinking water/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (person mixing protein shake in kitchen/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (gym water bottle and shaker/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (scoop of powder supplement/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (young athlete drinking water/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+MISS creatine-and-cognition  (openverse: no real photo passed)
+  Openverse unavailable/miss -> falling back to offline pool
+OK  creatine-and-cognition  (pool/supplement-pills)  lic=CC BY-SA 4.0  attr="Didier Descouens / Wikimedia Commons"  <- supplement-pills-06.jpg
+[manual inspection: this file is a macro photograph of a jewel beetle
+(Acmaeoderella flavofasciata) on white flowers, completely unrelated to
+creatine/supplements. This is the SAME mismatched file flagged in the
+2026-08-14 blocked-run diagnostic. Rejected. used_by reverted to null in
+img-pool.json (git checkout -- _automation/img-pool.json) so it stays
+available for a future, better-suited article, and the installed jpg was
+deleted.]
+
+$ python3 _automation/source-image.py folate-and-brain-health 'bowl of fresh spinach leaves' 'leafy green vegetables market' 'lentils and legumes bowl' 'asparagus on cutting board'
+/home/user/memory/_automation/source-image.py:68: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  px = list(g.getdata()); a = sum(px)/len(px)
+  query err (bowl of fresh spinach leaves/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (leafy green vegetables market/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (lentils and legumes bowl/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (asparagus on cutting board/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (bowl of fresh spinach leaves/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (leafy green vegetables market/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (lentils and legumes bowl/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (asparagus on cutting board/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+MISS folate-and-brain-health  (openverse: no real photo passed)
+  Openverse unavailable/miss -> falling back to offline pool
+OK  folate-and-brain-health  (pool/thinking-memory)  lic=CC BY-SA 3.0  attr="M. PINARCI / Wikimedia Commons"  <- thinking-memory-04.jpg
+[manual inspection: this file (Wikimedia title "Thinking_Of_You_-
+_panoramio.jpg") is a photo of a park/fairground scene (a carnival ride
+and benches) shot past a foreground notebook page, with no discernible
+connection to "thinking", memory, or food/folate. Rejected. used_by
+reverted to null in img-pool.json, installed jpg deleted.]
+
+WHY THIS ISN'T A NORMAL "MISS"/"POOL-MISS", AND WHY I DIDN'T JUST ACCEPT
+THE POOL'S MATCH PER RUNBOOK'S "accept the pool's best match on a blocked
+cloud run" GUIDANCE: that guidance is for genuinely off-topic but still
+plausible stock photos (the 2026-08-17 run under this same guidance used
+a yoga/meditation photo for a NAD+ supplement article and a bedroom photo
+for a magnesium/sleep-adjacent article — loose fits, but coherent,
+non-embarrassing ones). A macro photo of a beetle on flowers captioned as
+a creatine supplement, or an unrelated park photo captioned as leafy
+greens/folate, are not "loose fits" — they are the exact kind of
+nonsensical image the RUNBOOK's own image-disaster history warns against,
+just introduced via bad pool metadata instead of PIL generation. I did
+not hand-fix pixels or generate anything; I only rejected mismatched pool
+entries per the RUNBOOK's own inspection requirement.
+
+I then checked every OTHER unused pool image reachable via the
+theme-matching logic for a more sensible substitute (all 14 files that
+were unused at the start of this run, across every theme that still had
+unused entries — senior-aging, doctor-medical, social-connection,
+thinking-memory, sleep-rest). None were usable for either topic:
+  - senior-aging-01.jpg: an 18th-century oil painting (two women in
+    period dress), not a photograph.
+  - senior-aging-05.jpg: a 17th-century engraving ("Meüntzig Jahr"),
+    not a photograph.
+  - senior-aging-06.jpg: a young couple in swimwear on a beach —
+    real photo, but unrelated and tonally wrong for either topic.
+  - doctor-medical-01.jpg / doctor-medical-02.jpg: 18th/19th-century
+    satirical engravings, not photographs.
+  - doctor-medical-03.jpg: a carved wood misericord relief, not a
+    photograph.
+  - doctor-medical-06.jpg: a real photo, but a diplomatic handshake/
+    reception event in suits, not remotely medical-looking.
+  - doctor-medical-04.jpg: a genuinely good, on-theme real photo — but
+    already used_by "thyroid-and-brain-fog" from an earlier run, so not
+    available.
+  - social-connection-01.jpg: a real photo of a military police
+    handler and dog beside a police van — unrelated to either topic.
+  - social-connection-04.jpg: a real photo of two soldiers holding
+    rifles and a unit flag — unrelated and tonally wrong.
+  - social-connection-05.jpg: a real photo of children eating at a
+    school cafeteria — the closest thing to a loose food-context fit,
+    but built around children in an unrelated institutional setting;
+    using it for either a creatine or a folate article would read as a
+    non-sequitur, not a loose-but-coherent stock choice.
+  - thinking-memory-01.jpg: a "The Art of HipHop" studio-equipment
+    collage, not a coherent photo of anything relevant.
+  - thinking-memory-05.jpg: a photo of a balcony railing overlooking a
+    residential street, unrelated to either topic.
+  - thinking-memory-06.jpg: a photo of a baby's head at a swimming
+    pool, unrelated to either topic.
+  - sleep-rest-04.jpg: a photo of antique porcelain dolls on a
+    patchwork-quilt bed, unrelated and mildly unsettling for a health
+    article.
+
+food-nutrition, exercise-fitness, meditation-calm, nature-lifestyle and
+study-focus themes have zero unused images left at all — every image in
+those themes is already used_by an earlier article. These were exactly
+the themes that would have fit creatine (exercise-fitness/supplement-
+pills) and folate (food-nutrition) best.
+
+This is the same root cause the 2026-08-14 diagnostic already identified
+and flagged for a human fix: build-pool.py's automated Wikimedia keyword
+search pulled loosely text-matched but content-mismatched results into
+several theme buckets, and those bad entries are now literally the LAST
+ones left standing once every genuinely good photo in a theme gets
+consumed by daily runs. The pool is refilling itself down to its worst
+entries, not its best.
+
+The Openverse 403 Forbidden egress block is EXPECTED per RUNBOOK and is
+NOT itself the blocker; the blocker is that the offline pool's remaining
+stock, after inspection, had no usable substitute for either topic.
+
+RECOMMENDED FIX (needs a local/non-sandboxed environment per RUNBOOK):
+  python3 _automation/build-pool.py --target 8
+and, ideally, a manual curation pass to delete or re-tag the confirmed-bad
+entries so future automated runs stop drawing from them: senior-aging-01,
+senior-aging-05, senior-aging-06, doctor-medical-01, doctor-medical-02,
+doctor-medical-03, doctor-medical-06, supplement-pills-06 (the beetle),
+sleep-rest-04, social-connection-01, social-connection-04,
+thinking-memory-01, thinking-memory-04, thinking-memory-05,
+thinking-memory-06. Given the food-nutrition/exercise-fitness/
+supplement-pills/study-focus/meditation-calm/nature-lifestyle themes are
+now fully drained of unused stock, a straight `--target 8` top-up across
+all themes (not just the ones with zero left) is worth doing so the
+pool has headroom again for the topics still in the queue (folate,
+creatine, and the mostly food/exercise/lifestyle-flavored long-tail
+topics still pending).
+
+No files were published or modified in the live site this run. Nothing
+was added to sitemap.xml, search-index.json, index.html or
+content-queue.json. img-pool.json was reverted to its pre-run state.
+This diagnostic file is the only change being committed.

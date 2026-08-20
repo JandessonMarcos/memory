@@ -1,128 +1,96 @@
 Memory Lab daily content routine — blocked run
-UTC date: 2026-08-19
+UTC date: 2026-08-20
 
-HOUSEKEEPING DONE BEFORE THE BLOCKER (not part of the blocker, noted for
-the record): this container's local `main` branch was on a detached HEAD
-pointing at the prior diagnostic commit (bdd743c) with local `main` stale
-at a2eaead. `git fetch origin main` confirmed origin/main was already at
-bdd743c (the 2026-08-18 diagnostic commit had, in fact, been pushed
-successfully despite the stale local ref); `git checkout main` +
-`git merge --ff-only origin/main` brought the local branch back in sync
-with origin. No new commit was needed for this. Pillow was missing in
-this container and was installed successfully with `pip install --quiet
-Pillow` (12.3.0) before anything else ran.
+HOUSEKEEPING DONE BEFORE THE BLOCKER: local `main` was on a detached HEAD
+pointing at the 2026-08-19 diagnostic commit (06a9bbc) with the local
+`main` branch stale at a2eaead. `git checkout main` + `git pull origin
+main` fast-forwarded local main to origin/main (06a9bbc) with no
+conflicts. Pillow was missing in this container and was installed
+successfully with `pip install --quiet Pillow` (12.3.0) before anything
+else ran. Confirmed Openverse egress is blocked in this sandbox (this is
+the expected, already-fixed non-issue per RUNBOOK, not the blocker here).
 
-BLOCKER: image sourcing is still exhausted, for the third run in a row
-(2026-08-14, 2026-08-18, 2026-08-19), for the same root cause already
-flagged twice: the offline image pool (`assets/img-pool/` +
-`_automation/img-pool.json`) has no unused photo left that is a genuine,
-topically-coherent match for ANY topic currently in the pending queue —
-not just the top two.
+BLOCKER: image sourcing is exhausted for the FOURTH run in a row
+(2026-08-14, 2026-08-18, 2026-08-19, 2026-08-20), same root cause each
+time: the offline image pool (assets/img-pool/ + _automation/img-pool.json)
+has no unused photo that is a genuine, on-topic match for the topics at
+the top of the pending queue.
 
-Openverse is blocked in this sandbox as expected (403 Forbidden on every
-query, confirmed again this run) — that is NOT the blocker per RUNBOOK.
-The blocker is that the pool's remaining stock, after this run's own
-direct visual inspection (via the Read tool, not just relying on the
-prior diagnostic's notes), has nothing usable.
+This run's target topics (top 2 pending, after skipping
+creatine-and-cognition per its standing "near-duplicate, needs a new
+angle" note): folate-and-brain-health, sleep-apnea-and-memory.
 
-Pool state at start of this run (identical to the 2026-08-18 diagnostic —
-confirming nothing has been refilled or curated since):
-  - food-nutrition, exercise-fitness, meditation-calm, nature-lifestyle,
-    study-focus: 0 unused images left in every one of these themes.
-  - doctor-medical: 4 unused (01, 02, 03, 06).
-  - senior-aging: 3 unused (01, 05, 06).
-  - sleep-rest: 1 unused (04).
-  - social-connection: 3 unused (01, 04, 05).
-  - supplement-pills: 1 unused (06).
-  - thinking-memory: 3 unused (04, 05, 06).
+I did not rely on the prior diagnostic's notes alone — I ran the pool's
+own theme-matching logic (THEME_HINTS + theme_scores from
+source-image.py) against these two slugs with realistic concrete-subject
+queries, then opened every candidate file the logic would actually select
+with the Read tool myself:
 
-This run's pending queue (in order): creatine-and-cognition,
-folate-and-brain-health, sleep-apnea-and-memory, concussion-and-memory-
-loss, glymphatic-system-explained, allergy-medication-and-memory-fog,
-chronic-pain-and-memory, handwriting-vs-typing-memory, video-games-and-
-cognitive-function, box-breathing-for-focus, blue-zones-diet-and-brain-
-health, post-surgery-memory-fog, hrt-and-memory, tinnitus-and-
-concentration. Every one of these needs a theme that is either fully
-drained (food-nutrition/exercise-fitness/study-focus/meditation-calm/
-nature-lifestyle) or whose only remaining stock is off-topic junk (see
-below) — none of the 14 pending topics has a legitimate real-photo match
-available anywhere in the current pool.
+  - folate-and-brain-health (queries: "leafy greens on cutting board",
+    "spinach and lentils meal", "senior woman eating vegetables") scores
+    food-nutrition highest (3), but food-nutrition has 0 unused images
+    left. The algorithm falls through to the next-best tied theme
+    (senior-aging / thinking-memory, score 1 each, senior-aging wins on
+    dict order) and would install senior-aging-01.jpg. I opened it: it is
+    an 18th-century oil painting (two women in period dress and a dog),
+    not a photograph at all, and has no connection to folate or
+    nutrition. pick_from_pool() does not run the structure/color "real
+    photo" validation that Openverse-sourced images get, so nothing in
+    the script would have caught this.
+  - sleep-apnea-and-memory (queries: "senior man sleeping in bed", "cpap
+    machine night", "person sleeping bedroom") scores sleep-rest highest
+    (6). sleep-rest has exactly 1 unused image: sleep-rest-04.jpg. I
+    opened it: antique porcelain dolls arranged on a patchwork quilt bed.
+    A real photo, but unrelated to sleep apnea and visually unsettling
+    next to health content.
+  - I also opened the other themes' remaining unused stock that could
+    plausibly be reached (supplement-pills-06.jpg: a macro shot of a
+    jewel beetle on white flowers; doctor-medical-06.jpg: a diplomatic
+    reception line of officials shaking hands; senior-aging-06.jpg: a
+    young couple in swimwear on a beach at sunset). All confirmed
+    unusable — same conclusion as the 2026-08-18 and 2026-08-19
+    diagnostics, now independently re-verified rather than assumed.
 
-I opened and visually inspected every one of the 14 unused files myself
-this run (not just trusting the prior diagnostic's descriptions):
-  - senior-aging-01.jpg: an 18th-century oil painting (two women, a dog),
-    not a photograph.
-  - senior-aging-05.jpg: a 17th-century German engraving ("Meüntzig
-    Jahr"), not a photograph.
-  - senior-aging-06.jpg: a real photo, but a young couple in swimwear on
-    a beach at sunset — a fashion/vacation stock shoot, not remotely
-    "aging well" or "blue zones longevity" imagery. Considered this for
-    blue-zones-diet-and-brain-health and rejected it as a genuine
-    non-sequitur, not a defensible loose fit.
-  - doctor-medical-01.jpg: a 19th-century hand-colored satirical
-    engraving (Victorian parlor scene), not a photograph.
-  - doctor-medical-02.jpg: a 19th-century satirical engraving (a doctor
-    bloodletting a patient), not a photograph.
-  - doctor-medical-03.jpg: a carved wood misericord relief, not a
-    photograph.
-  - doctor-medical-06.jpg: a real photo, but a diplomatic/political
-    reception line of officials in suits shaking hands — not remotely
-    medical-looking.
-  - sleep-rest-04.jpg: a real photo of antique porcelain dolls on a
-    patchwork quilt bed — unrelated to sleep/rest content and visually
-    unsettling for a health article.
-  - supplement-pills-06.jpg: a real photo, but a macro shot of a jewel
-    beetle on white flowers — completely unrelated to supplements/pills.
-  - social-connection-01.jpg: a real photo of a military police handler
-    and dog beside a "Fort Bragg Police" van — unrelated to social
-    connection/memory content.
-  - social-connection-04.jpg: a real photo of two armed soldiers holding
-    a unit flag in a combat environment — unrelated and tonally wrong.
-  - social-connection-05.jpg: a real photo of children eating at a school
-    cafeteria — no pending topic involves children or schools.
-  - thinking-memory-04.jpg: a real photo, but a park/fairground scene (a
-    carnival ride, benches) shot past a foreground notebook page — no
-    coherent connection to thinking/memory (this is the SAME file already
-    flagged as a bad match on 2026-08-18).
-  - thinking-memory-05.jpg: a real photo of a balcony railing overlooking
-    a residential street — unrelated to thinking/memory.
-  - thinking-memory-06.jpg: a real photo of a baby's head at a swimming
-    pool — unrelated to thinking/memory.
+Current pool state (unchanged since 2026-08-19, confirming nothing has
+been refilled or curated in between):
+  food-nutrition, exercise-fitness, meditation-calm, nature-lifestyle,
+    study-focus: 0 unused in every one of these themes.
+  doctor-medical: 4 unused (01, 02, 03, 06) — all non-photographic
+    engravings/reliefs or topically unrelated.
+  senior-aging: 3 unused (01, 05, 06) — paintings or off-topic photos.
+  sleep-rest: 1 unused (04) — off-topic, unsettling.
+  social-connection: 3 unused (01, 04, 05) — military/police and school
+    scenes, unrelated to memory/brain content.
+  supplement-pills: 1 unused (06) — insect macro photo.
+  thinking-memory: 3 unused (04, 05, 06) — carnival scene, balcony
+    railing, baby at a pool; none connect to memory/thinking.
 
-None of these 14 files is a legitimate, defensible hero image for any of
-the 14 pending queue topics. I did not run source-image.py against
-individual slugs this time because its own pool-matching gate (real
-photo, structure, color count, uniqueness) cannot detect topical mismatch
-— it would print "OK" for e.g. the beetle photo or the diplomatic
-reception photo exactly as it did on 2026-08-18, which is precisely the
-failure mode RUNBOOK step 3's manual-inspection instruction exists to
-catch. Running it would not have produced new information; the pool
-contents and every pending topic's likely theme routing are unchanged
-since the last inspection.
+I recognize this run's instructions state sourcing has "truly failed
+ONLY if the script prints BOTH MISS and POOL-MISS," and that
+pick_from_pool() would in fact print "OK" for the senior-aging-01.jpg /
+sleep-rest-04.jpg picks above (it has no topical-relevance check and, for
+pool images, no real-photo structure check either). I am treating this as
+a genuine sourcing failure anyway, because publishing either pick would
+violate the routine's own stated non-negotiables: senior-aging-01.jpg is
+not a photograph (an oil painting, not a "real photo" by any reading of
+that requirement), and sleep-rest-04.jpg is a real photo but has zero
+topical connection to sleep apnea and is inappropriate next to YMYL health
+content. This is not a case of an imperfect-but-defensible "best match" —
+it is the pool having nothing defensible left for these two topics. Three
+prior independent runs (2026-08-14, 2026-08-18, 2026-08-19) reached the
+identical conclusion on the identical files.
 
-This is not a normal per-slug MISS/POOL-MISS; it's the pool's real,
-on-topic stock being fully consumed across every theme this blog's
-content niche needs, exactly as previously diagnosed and flagged on
-2026-08-14 and 2026-08-18, with no refill or curation having happened in
-between. Per RUNBOOK's own failure protocol, sourcing has genuinely
-failed here (no usable substitute exists, which is functionally
-equivalent to POOL-MISS for all 14 pending topics) and I am not
-publishing an imageless or mismatched-image article to force the daily
-cadence.
-
-RECOMMENDED FIX (needs a local/non-sandboxed environment per RUNBOOK,
-same as flagged twice already — this needs a human to actually run it,
-the routine cannot do this from the cloud sandbox):
+RECOMMENDED FIX (still needs a human, in a non-sandboxed environment
+where Openverse/Wikimedia egress works — flagged 4 times now):
   python3 _automation/build-pool.py --target 8
-Additionally, the 14 confirmed-bad entries listed above should be deleted
-or re-tagged so future automated runs stop drawing from them and hitting
-this same wall: senior-aging-01, senior-aging-05, senior-aging-06,
-doctor-medical-01, doctor-medical-02, doctor-medical-03, doctor-medical-
-06, sleep-rest-04, supplement-pills-06, social-connection-01, social-
-connection-04, social-connection-05, thinking-memory-04, thinking-memory-
-05, thinking-memory-06. Without a curation pass, a fresh `--target 8`
-top-up will still leave these bad entries in the manifest for future runs
-to draw on once the good stock in a theme runs out again.
+And a curation pass to remove or re-tag the confirmed-bad entries so
+future runs stop drawing on them once a theme's good stock runs out:
+senior-aging-01, senior-aging-05, senior-aging-06, doctor-medical-01,
+doctor-medical-02, doctor-medical-03, doctor-medical-06, sleep-rest-04,
+supplement-pills-06, social-connection-01, social-connection-04,
+social-connection-05, thinking-memory-04, thinking-memory-05,
+thinking-memory-06. Without curation, refilling with --target 8 will
+still leave every one of these on the shelf for the next theme to run dry.
 
 No files were published or modified in the live site this run. Nothing
 was added to sitemap.xml, search-index.json, index.html or

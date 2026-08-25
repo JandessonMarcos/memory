@@ -1,0 +1,82 @@
+{
+  "date": "2026-08-25",
+  "cat": "Brain Health",
+  "crumb": "Post-Surgery Memory Fog",
+  "title_tag": "Post-Surgery Memory Fog: Why Anesthesia Leaves You Foggy (2026)",
+  "og_title": "Post-Surgery Memory Fog: Why Anesthesia Leaves You Foggy",
+  "desc": "Foggy thinking after an operation is common and usually temporary. Here's what causes it, how long it lasts, who's at higher risk, and what helps recovery.",
+  "h1_a": "Post-Surgery Memory Fog: ",
+  "h1_b": "Why Anesthesia Leaves You Foggy",
+  "subhead": "Most people blame the anesthetic. It contributes, but surgery itself, the inflammation that follows, disrupted sleep and pain medication all have a share.",
+  "alt": "doctor checking on a recovering patient",
+  "takeaways": [
+    "<strong>Short-term confusion after surgery is common</strong> and usually clears within days to weeks.",
+    "<strong>The anesthetic is only part of it.</strong> Inflammation from surgery, pain, medication and broken sleep all contribute.",
+    "<strong>Age is the strongest risk factor</strong>, along with pre-existing cognitive difficulty and major or lengthy operations.",
+    "<strong>Delirium is different from slow recovery</strong>, and it needs prompt medical attention.",
+    "<strong>Most people return to baseline</strong>, though a minority experience longer-lasting difficulty."
+  ],
+  "body": [
+    ["p", "You come round from an operation, and for days or weeks afterwards nothing quite works. Names go missing. You lose track mid-conversation. Reading takes effort it never used to. Almost everyone attributes this to the anesthetic, and almost everyone is only partly right."],
+    ["p", "Here's what's actually happening, what the normal timeline looks like, and which signs mean you should call someone."],
+
+    ["h2", "The causes, in rough order of contribution"],
+    ["p", "Anesthetic drugs do affect the brain, and residual effects can persist as the body clears them. In older adults, clearance is slower, so this phase lasts longer. But research comparing general anesthesia with regional anesthesia has often found smaller differences in cognitive outcomes than expected, which points to other factors carrying much of the weight."],
+    ["p", "Surgery triggers an inflammatory response. That's a normal part of tissue healing, and inflammatory signalling molecules can cross into the brain and affect neuronal function. Larger and longer operations produce a bigger inflammatory load, which fits the observation that major surgery carries more cognitive risk than minor procedures."],
+    ["p", "Sleep in hospital is genuinely terrible. Observations through the night, unfamiliar noise, lighting, pain and anxiety all fragment it. Given how much memory consolidation depends on uninterrupted deep sleep, several nights of that alone would produce fog in a healthy person. Our piece on <a href=\"../sleep-and-memory-consolidation/\">sleep and memory consolidation</a> covers what gets lost."],
+    ["p", "Pain medication adds its own layer. Opioids commonly impair attention and memory, particularly in the first days and at higher doses. Some anti-nausea drugs given around surgery have anticholinergic effects that also affect cognition."],
+    ["p", "Then the ordinary physiological stresses: dehydration, electrolyte imbalances, blood loss, low blood pressure during the procedure, and simply not eating properly for a few days."],
+
+    ["h2", "Delirium versus slower recovery"],
+    ["p", "These get conflated and shouldn't be. Postoperative delirium is an acute state of confusion, usually appearing within the first few days, involving disorientation, fluctuating attention, disturbed sleep-wake cycles and sometimes hallucinations or agitation. It fluctuates, often worsening in the evening."],
+    ["p", "Delirium is a medical situation requiring assessment, because it frequently has a treatable cause: infection, pain that's being undertreated, urinary retention, constipation, dehydration, or a medication effect. It's also associated with worse outcomes when it goes unaddressed."],
+    ["p", "If a person becomes confused, agitated or unusually withdrawn after surgery, particularly an older person, tell the medical team promptly. Family often notice this before staff do, because they know the person's baseline."],
+    ["p", "Slower cognitive recovery is different: no acute confusion, just a persistent sense of being mentally slower and more forgetful than usual, stable rather than fluctuating."],
+
+    ["h2", "Who's at higher risk"],
+    ["p", "Age is the clearest factor, with risk rising notably after 65 and further beyond 75. Pre-existing cognitive impairment increases risk substantially, as does a history of delirium."],
+    ["p", "Procedure type matters. Cardiac surgery, major orthopaedic operations such as hip fracture repair, and any lengthy procedure carry more risk than short day-case surgery. Emergency operations carry more risk than planned ones, partly because there's no opportunity to optimise the patient beforehand."],
+    ["p", "Other contributors include frailty, poor baseline nutrition, hearing or vision impairment (which makes disorientation more likely), heavy alcohol use, multiple medications, and depression."],
+
+    ["recbox"],
+
+    ["h2", "How long it lasts"],
+    ["p", "Most people notice substantial improvement within days to a few weeks. Delirium typically resolves within days once the underlying cause is treated, though it sometimes takes longer in frail patients."],
+    ["p", "Longer-lasting cognitive changes after surgery have been studied extensively, and this is where the research gets genuinely complicated. Studies have reported measurable deficits in some patients at three months and beyond. Interpreting that is difficult, because many people having major surgery are older and unwell, and comparison groups who don't have surgery also decline over time. Separating the effect of the operation from the effect of the illness that made it necessary is a real methodological challenge, and researchers disagree about the size of any true surgical effect."],
+    ["p", "The practical message for most people: expect improvement over weeks, be patient with yourself, and raise it with your doctor if you're not seeing progress after a couple of months."],
+
+    ["h2", "What helps recovery"],
+    ["p", "Sleep is the first priority once home, because hospital destroyed it. Consistent timing, dark room, and treating pain adequately so it doesn't wake you."],
+    ["p", "Move as soon as and as much as your surgeon permits. Early mobilisation is associated with better outcomes across the board, and it supports cognition through improved circulation and better sleep."],
+    ["p", "Eat and drink properly. Appetite is often poor after surgery, and adequate protein supports healing while dehydration worsens fog directly."],
+    ["p", "Review medication with your doctor or pharmacist as you recover, particularly opioids. Stepping down as pain allows removes a genuine cognitive burden. Never adjust doses yourself."],
+    ["p", "Wear glasses and hearing aids. This sounds trivial and isn't. Sensory impairment substantially increases disorientation and is one of the more modifiable risk factors."],
+    ["p", "Use external memory supports without embarrassment during this period. Lists, reminders, a notebook. And re-engage mentally at a gentle pace, because complete rest doesn't speed cognitive recovery any more than it does after concussion."],
+
+    ["h2", "Before surgery, if you have the chance"],
+    ["p", "For planned operations there's room to prepare. Ask your team about anesthetic options and whether regional anesthesia is suitable. Optimise nutrition and activity beforehand. Reduce alcohol. Review your medication list with a pharmacist to identify anything with cognitive effects that might be adjusted."],
+    ["p", "Ask directly about delirium prevention protocols if you or a relative is older. Many hospitals have them, involving orientation aids, sleep protection and early mobilisation, and asking tends to make them more likely to be applied."],
+    ["p", "If memory concerns persist well after recovery, our guide to <a href=\"../memory-loss-vs-normal-aging/\">memory loss versus normal aging</a> helps sort what warrants investigation, and the habits in our guide to <a href=\"../how-to-improve-memory/\">improving your memory</a> support recovery once you're through the acute phase."]
+  ],
+  "pull": "Blaming the anesthetic is convenient and incomplete. Inflammation, broken sleep and pain medication are all working on you at the same time.",
+  "faq": [
+    ["Does anesthesia cause memory loss?", "Anesthetic drugs affect the brain and residual effects can persist while the body clears them, particularly in older adults. Research comparing general and regional anesthesia has often found smaller differences than expected, suggesting that surgical inflammation, disrupted sleep, pain medication and other factors contribute substantially."],
+    ["How long does brain fog last after surgery?", "Most people improve substantially within days to a few weeks. Delirium usually resolves within days once any underlying cause is treated. A minority experience longer-lasting difficulty, and research on cognitive changes at three months and beyond is complicated by the age and health of surgical patients."],
+    ["What is postoperative delirium?", "An acute confusional state usually appearing within the first days after surgery, involving disorientation, fluctuating attention, disturbed sleep-wake cycles and sometimes agitation or hallucinations. It often has a treatable cause such as infection, untreated pain or medication effects, and needs prompt medical assessment."],
+    ["Who is at higher risk of memory problems after surgery?", "Older adults, particularly over 75, and people with pre-existing cognitive impairment or a history of delirium. Cardiac surgery, major orthopaedic procedures and lengthy or emergency operations carry more risk. Frailty, poor nutrition, sensory impairment, heavy alcohol use and multiple medications all add to it."],
+    ["How can I recover faster from post-surgery fog?", "Prioritise sleep once home, move as much as your surgeon permits, eat and hydrate properly, and review pain medication with your doctor as pain allows. Wear glasses and hearing aids, use written reminders, and re-engage mentally at a gentle pace rather than resting completely."]
+  ],
+  "final_h": "Recovering and supporting your brain?",
+  "final_p": "Sleep, movement and nutrition lead recovery. For ongoing nutritional support afterwards, see our top-rated memory formulas for 2026.",
+  "sources": [
+    ["NIA: Cognitive Health and Older Adults", "https://www.nia.nih.gov/health/cognitive-health-and-older-adults"],
+    ["Harvard Health: Memory", "https://www.health.harvard.edu/topics/memory"],
+    ["NINDS: Brain Basics", "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain"]
+  ],
+  "related": [
+    ["Sleep and memory consolidation", "sleep-and-memory-consolidation"],
+    ["Chronic pain and memory", "chronic-pain-and-memory"],
+    ["Memory loss vs normal aging", "memory-loss-vs-normal-aging"],
+    ["Best memory formulas of 2026", "best-memory-supplements-2026"]
+  ]
+}

@@ -36,7 +36,8 @@ COLOR_MIN  = 1200
 HAM_MIN    = 10
 
 THEMES = {
-    "brain-science":     ["human brain anatomy", "neuron nerve cell", "brain mri scan", "brain diagram model"],
+    # "brain-science" is intentionally retired: Commons returns clinical/cadaver
+    # specimens for these queries. Brain/memory articles route to "thinking-memory".
     "senior-aging":      ["elderly woman portrait", "senior man outdoors", "old couple walking", "grandmother gardening", "senior citizen smiling"],
     "food-nutrition":    ["fresh vegetables", "healthy salad", "blueberries fruit", "salmon dish", "nuts walnuts"],
     "exercise-fitness":  ["person jogging", "woman yoga", "senior exercise", "people walking outdoors", "nordic walking", "woman running outdoor", "cycling outdoors", "gym dumbbell workout", "elderly couple walking"],
@@ -124,8 +125,12 @@ def build(target):
     have = man["images"]
     seen = {e.get("src") for e in have}
     hashes = all_hashes()
+    # Count only AVAILABLE images (used_by is null). Counting every entry ever
+    # added made every theme look full once it had been drawn from a few times,
+    # so --target could never top the pool back up and the cloud routine starved.
     per_theme = {}
     for e in have:
+        if e.get("used_by"): continue
         for t in e.get("themes", []):
             per_theme[t] = per_theme.get(t, 0) + 1
 
@@ -152,7 +157,11 @@ def build(target):
                 if not valid(im): continue
                 hsh = ahash(im)
                 if any(ham(hsh, e) <= HAM_MIN for e in hashes): continue
-                idx = len([e for e in have if theme in e.get("themes", [])]) + 1
+                # Pick the first free filename on disk. Deriving the index from a
+                # manifest count silently overwrote a pool file whenever an entry
+                # had a malformed/empty `themes` list.
+                idx = 1
+                while os.path.exists(os.path.join(POOL_DIR, f"{theme}-{idx:02d}.jpg")): idx += 1
                 fn = f"{theme}-{idx:02d}.jpg"
                 nh = int(im.size[1] * 900 / im.size[0])
                 im.resize((900, nh), Image.LANCZOS).save(os.path.join(POOL_DIR, fn), "JPEG", quality=86)

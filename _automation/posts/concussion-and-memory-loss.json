@@ -1,0 +1,78 @@
+{
+  "date": "2026-08-25",
+  "cat": "Brain Health",
+  "crumb": "Concussion and Memory Loss",
+  "title_tag": "Concussion and Memory Loss: What to Expect, When to Worry (2026)",
+  "og_title": "Concussion and Memory Loss: What to Expect and When to Worry",
+  "desc": "Memory gaps after a concussion are normal and usually temporary. Here's what recovery typically looks like, which symptoms are red flags, and what helps.",
+  "h1_a": "Concussion and Memory Loss: ",
+  "h1_b": "What to Expect and When to Worry",
+  "subhead": "Losing the minutes around a head injury is expected. Knowing which symptoms mean 'rest and recover' and which mean 'go to hospital now' is the part that matters.",
+  "alt": "doctor examining a patient after a head injury",
+  "takeaways": [
+    "<strong>Gaps around the injury are typical.</strong> Losing the moments before and after a concussion is the norm, not a bad sign by itself.",
+    "<strong>Most people recover in two to four weeks</strong>, and children and teenagers often take longer than adults.",
+    "<strong>Some symptoms are emergencies:</strong> worsening headache, repeated vomiting, seizures, confusion that deepens, or unequal pupils.",
+    "<strong>Complete rest is out of date.</strong> Current guidance favours a short rest period then gradual, symptom-guided return to activity.",
+    "<strong>Repeat injury before recovery is the real danger</strong>, which is why return-to-play rules exist."
+  ],
+  "body": [
+    ["p", "A concussion is a mild traumatic brain injury, and the word mild does a lot of misleading work. It describes the structural picture, not the experience. Memory problems are one of the most common complaints afterwards, and they're also the ones that frighten people most."],
+    ["p", "This piece covers what normally happens to memory after a concussion, how recovery usually goes, and the specific signs that mean you should stop reading and seek care. It is general information, not a substitute for assessment. Any head injury with worrying features needs a doctor."],
+
+    ["h2", "Why memory goes missing"],
+    ["p", "A concussion happens when the brain moves rapidly inside the skull, stretching nerve fibres and triggering a cascade of chemical changes. Cells release neurotransmitters in an uncontrolled burst, ion balances shift, and the brain's energy demand spikes at exactly the moment blood flow tends to drop. That mismatch is thought to underlie much of the temporary dysfunction."],
+    ["p", "Memory formation is demanding and depends on the hippocampus and its connections, which makes it one of the first things to falter. Two specific gaps are common. Retrograde amnesia covers the period before the impact, usually seconds to minutes. Anterograde amnesia is the inability to form new memories afterwards, which is why someone may ask the same question repeatedly in the first hour."],
+    ["p", "Both are expected. The length of the anterograde gap correlates loosely with injury severity, which is why medical staff ask about it."],
+
+    ["h2", "What recovery usually looks like"],
+    ["p", "Most adults recover within two to four weeks. Children and adolescents typically take longer, and current guidance treats a month or more as within normal range for that age group. A minority of people in any age group experience symptoms that persist beyond the expected window."],
+    ["p", "The early days are usually the worst: headache, sensitivity to light and noise, difficulty concentrating, feeling slowed down, sleep disruption and irritability. Memory complaints in this phase are less about losing old memories and more about not encoding new ones properly. Attention has to work before memory can, and attention is impaired."],
+    ["p", "Improvement is rarely linear. Good days followed by setbacks are normal, particularly if you push too hard too soon."],
+
+    ["h2", "Red flags that need urgent care"],
+    ["p", "Go to an emergency department, or call emergency services, if any of these appear after a head injury:"],
+    ["p", "A headache that keeps worsening rather than easing. Repeated vomiting. A seizure. Confusion or drowsiness that deepens, or difficulty waking the person. Weakness, numbness or loss of coordination. Slurred speech. Pupils of unequal size. Clear fluid draining from the nose or ears. Any loss of consciousness lasting more than a brief moment."],
+    ["p", "Anyone taking blood thinners, or who has a bleeding disorder, should be assessed after a head injury even if they feel fine. The same applies to older adults, who can bleed slowly inside the skull with symptoms that only appear days later."],
+
+    ["recbox"],
+
+    ["h2", "Rest, but not the way people used to"],
+    ["p", "The old advice was a dark room and no stimulation until symptoms cleared. That has changed. Extended complete rest is now understood to slow recovery and worsen mood, and consensus guidance favours a brief relative rest period of roughly one to two days, followed by gradual reintroduction of activity at a level that doesn't badly aggravate symptoms."],
+    ["p", "In practice that means light activity is encouraged early. Gentle walking. Short periods of reading or screen use with breaks. Returning to work or school part-time with adjustments. The guiding rule is that mild symptom increase is acceptable, while a sharp flare means you've gone too far and should step back a level."],
+    ["p", "Sleep deserves specific attention, because it drives recovery and concussion often disrupts it. Keep a consistent schedule, and see our guide to <a href=\"../sleep-and-memory/\">sleep and memory</a> for why that consolidation window matters so much here."],
+
+    ["h2", "The risk that makes return-to-play rules non-negotiable"],
+    ["p", "The brain is metabolically vulnerable while recovering, and a second impact during that window can cause disproportionate harm. This is the reasoning behind graduated return-to-sport protocols, which require symptom resolution and stepwise progression through increasing exertion before full contact."],
+    ["p", "Do not shortcut this, and do not let a young athlete talk you into it. The stakes are asymmetric: waiting an extra week costs very little, and returning early can cost a great deal."],
+
+    ["h2", "Does concussion cause permanent memory problems?"],
+    ["p", "For a single concussion with proper recovery, lasting memory impairment is uncommon. The picture is different for repeated head injuries, particularly in contact sports, where research has linked cumulative exposure to longer-term cognitive and mood problems. That is an active and evolving area of research, and honest reporting means acknowledging that questions about individual risk remain open."],
+    ["p", "If symptoms persist beyond the expected window, ask for referral to a concussion clinic or specialist. Persistent symptoms often respond to targeted rehabilitation aimed at the specific problem, whether that's vestibular dysfunction, visual issues, headache or cognitive difficulty. Waiting it out alone is not the best available option."],
+
+    ["h2", "Supporting recovery day to day"],
+    ["p", "Hydration, regular meals and consistent sleep all support the brain's energy economy while it's under strain. Alcohol is worth avoiding entirely during recovery, since it interferes with sleep architecture and cognition at exactly the wrong time. Keep a simple symptom diary, which makes it much easier to see genuine progress and to give a doctor useful information."],
+    ["p", "No supplement is established as a treatment for concussion, and anyone selling one as such is ahead of the evidence. General brain-supportive nutrition is reasonable, and the habits in our guide to <a href=\"../how-to-improve-memory/\">improving your memory</a> apply once you're through recovery. For ongoing nutritional support afterwards, our <a href=\"../best-memory-supplements-2026/\">review of memory formulas</a> covers what a properly dosed label looks like."]
+  ],
+  "pull": "Mild describes the scan, not the week you're about to have. Recovery is usually complete, and rushing it is the main thing that makes it otherwise.",
+  "faq": [
+    ["Is memory loss after a concussion normal?", "Yes. Losing the moments immediately before the impact and struggling to form new memories for a period afterwards are both typical features of concussion. These gaps usually resolve as the brain recovers. The length of the gap after the injury loosely tracks with severity, which is why medical staff ask about it."],
+    ["How long does concussion memory loss last?", "Most adults recover within two to four weeks, with children and adolescents often taking longer. Difficulty forming new memories usually improves within the first days as attention returns. A minority of people experience symptoms persisting beyond the expected window and should be referred to a specialist."],
+    ["When should I go to hospital after a head injury?", "Seek urgent care for a worsening headache, repeated vomiting, seizure, deepening confusion or drowsiness, weakness or numbness, slurred speech, unequal pupils, or fluid draining from the nose or ears. Anyone on blood thinners or with a bleeding disorder should be assessed regardless of how they feel."],
+    ["Should you rest completely after a concussion?", "Current guidance recommends brief relative rest of about one to two days, then gradual return to activity guided by symptoms rather than extended complete rest. Prolonged inactivity is now thought to slow recovery. Mild symptom increase during activity is acceptable, while a sharp flare means stepping back."],
+    ["Can repeated concussions cause lasting memory problems?", "A single concussion with proper recovery rarely causes lasting impairment. Repeated head injuries, particularly in contact sports, have been linked in research to longer-term cognitive and mood problems. This is why graduated return-to-play protocols exist and should not be shortened."]
+  ],
+  "final_h": "Supporting your brain after recovery?",
+  "final_p": "No supplement treats concussion. Once you are through recovery, see the memory formulas our editors rate highest for ongoing support.",
+  "sources": [
+    ["CDC: Traumatic Brain Injury and Concussion", "https://www.cdc.gov/traumatic-brain-injury/"],
+    ["NINDS: Brain Basics", "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain"],
+    ["Harvard Health: Memory", "https://www.health.harvard.edu/topics/memory"]
+  ],
+  "related": [
+    ["Sleep and memory", "sleep-and-memory"],
+    ["Short-term memory loss: causes", "short-term-memory-loss-causes"],
+    ["Memory loss vs normal aging", "memory-loss-vs-normal-aging"],
+    ["Best memory formulas of 2026", "best-memory-supplements-2026"]
+  ]
+}

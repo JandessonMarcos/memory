@@ -1,0 +1,79 @@
+{
+  "date": "2026-08-25",
+  "cat": "Memory",
+  "crumb": "Video Games and Cognition",
+  "title_tag": "Video Games and Cognitive Function: What the Research Shows (2026)",
+  "og_title": "Video Games and Cognitive Function: What the Research Shows",
+  "desc": "Action games improve some visual and attention skills, but transfer to everyday memory is limited. Here's what the evidence supports and what it doesn't.",
+  "h1_a": "Video Games and Cognitive Function: ",
+  "h1_b": "What the Research Shows",
+  "subhead": "Gaming does train certain skills measurably. Whether those skills carry over to anything outside the game is where the argument has lived for twenty years.",
+  "alt": "person using a laptop at a desk",
+  "takeaways": [
+    "<strong>Action games improve visual attention</strong>, tracking multiple objects and filtering distraction.",
+    "<strong>Transfer beyond the trained skill is limited</strong>, and this is the central weakness of brain training claims generally.",
+    "<strong>Study quality varies widely</strong>, with much of the field relying on comparing existing gamers to non-gamers.",
+    "<strong>Different genres train different things.</strong> Strategy, puzzle and action games aren't interchangeable.",
+    "<strong>Displacement is the real risk.</strong> Hours gaming are hours not sleeping, moving or seeing people."
+  ],
+  "body": [
+    ["p", "Two claims compete here, and both are overstated. One says video games rot your brain. The other says they're cognitive training in disguise. The research supports a narrower and less satisfying middle position, which is roughly: games improve what they train, and mostly stop there."],
+
+    ["h2", "What action games genuinely improve"],
+    ["p", "The most consistent findings involve fast-paced action games, the kind requiring rapid target detection and response under time pressure. Studies comparing regular players to non-players have found advantages in several visual attention measures."],
+    ["p", "Specifically: tracking multiple moving objects at once, detecting targets in cluttered visual fields, switching attention between tasks quickly, and filtering out irrelevant distraction. Some studies have also found improvements in the speed of visual processing and in contrast sensitivity."],
+    ["p", "These are real effects that show up repeatedly. They're also fairly specific to visual attention rather than to thinking in general."],
+
+    ["h2", "The transfer problem"],
+    ["p", "Here's the issue that limits every claim in this area. Getting better at a task usually makes you better at that task and things closely resembling it. Extending the improvement to genuinely different activities, called far transfer, is much harder to demonstrate and often fails."],
+    ["p", "It's the same problem that undermined commercial brain training programmes. People who practise a working memory game get impressively better at that game. Their performance on unrelated cognitive tasks, or on everyday functioning, typically changes little."],
+    ["p", "So improved visual attention from action games appears reliable. Improved everyday memory, better academic performance, or slower cognitive ageing as a result of gaming are much weaker claims, and the evidence supporting them is thin."],
+
+    ["h2", "A methodological caveat worth knowing"],
+    ["p", "Much of this research compares people who already play games regularly with people who don't. That design can't separate cause from selection. Maybe gaming improved their visual attention. Maybe people with good visual attention find action games more rewarding and keep playing them."],
+    ["p", "Training studies, where non-gamers are randomly assigned to play or not, address this properly. They exist, and they've generally found smaller effects than the comparison studies. Some have failed to replicate the findings altogether. The field has also faced criticism over publication bias and over expectation effects, since participants usually know which group they're in."],
+    ["p", "None of this means the effects are fictional. It means the confident numbers you'll see quoted deserve more scepticism than they usually get."],
+
+    ["recbox"],
+
+    ["h2", "Genre matters"],
+    ["p", "Lumping all games together makes little sense. A first-person shooter, a city-building simulation and a match-three puzzle game demand entirely different things."],
+    ["p", "Action games train visual attention and reaction speed. Strategy games involve planning, resource management and holding goals across long periods, and some research has looked at them in relation to problem-solving. Puzzle games train pattern recognition within their own rules. Games with substantial spatial navigation may engage the hippocampus in ways relevant to spatial memory, which has attracted research interest."],
+    ["p", "If you're choosing games with cognition in mind, novelty and difficulty are the qualities that matter most. A game you've mastered stops challenging you, which is the same principle behind why <a href=\"../brain-games-for-adults/\">brain games for adults</a> work better when you keep changing them."],
+
+    ["h2", "Games and older adults"],
+    ["p", "This is a more encouraging area. Several studies have examined gaming interventions in older adults, and some have reported improvements in processing speed, attention and aspects of executive function."],
+    ["p", "The likely reason is baseline. Younger adults are already near ceiling on many of these measures, leaving little room to improve. Older adults often have more room, so an engaging, novel, moderately demanding activity has more to work with."],
+    ["p", "Note what that implies. The benefit may come from novelty and engagement rather than from anything unique to games. Learning an instrument or a language might do similar work, which is consistent with the broader research on <a href=\"../cognitive-reserve-explained/\">cognitive reserve</a>."],
+
+    ["h2", "The costs worth counting"],
+    ["p", "Displacement is the honest concern, more than any direct harm. Gaming hours are hours not spent sleeping, exercising or with other people, and all three of those have better evidence for supporting cognition than gaming does."],
+    ["p", "Late-night play is the specific problem. It delays sleep onset through both screen light and mental arousal, and sleep does more for memory than any game will. Our piece on <a href=\"../blue-light-and-brain-fog/\">blue light and brain fog</a> covers the evening screen issue."],
+    ["p", "For a minority, gaming becomes genuinely problematic, interfering with work, relationships and health. That pattern warrants real attention rather than reassurance about cognitive benefits."],
+
+    ["h2", "A reasonable conclusion"],
+    ["p", "Play games because you enjoy them. That's a sufficient reason, and enjoyment plus social connection has its own value for wellbeing. Just don't count moderate gaming as your cognitive maintenance plan."],
+    ["p", "If protecting memory is the goal, the interventions with the strongest evidence remain unglamorous: regular aerobic exercise, adequate sleep, a decent diet, social contact and continued learning of genuinely new things. Our guide to <a href=\"../how-to-improve-memory/\">improving your memory</a> ranks them, and for nutritional support alongside, our <a href=\"../best-memory-supplements-2026/\">2026 formula review</a> covers what's worth considering."]
+  ],
+  "pull": "Games reliably make you better at games. Everything beyond that is where the evidence gets thin and the marketing gets loud.",
+  "faq": [
+    ["Do video games improve cognitive function?", "Action games have been associated with improvements in visual attention, tracking multiple objects, and filtering distraction. Transfer of those gains to unrelated cognitive tasks or everyday functioning is much weaker and harder to demonstrate, which limits broader claims about brain benefits."],
+    ["Do video games improve memory?", "Evidence for improved everyday memory from gaming is limited. Some games involving spatial navigation may engage systems relevant to spatial memory, and research in older adults has found improvements in processing speed and attention. Effects on general memory in healthy younger adults are not well established."],
+    ["Are video games better than brain training apps?", "Both face the same transfer problem: people improve at the trained task without much carryover elsewhere. Commercial brain training has been criticised heavily on this point. Games at least tend to be more engaging, which supports sustained participation, but neither is a proven cognitive maintenance strategy."],
+    ["Which games are best for the brain?", "Genre determines what gets trained. Action games target visual attention and reaction speed, strategy games involve planning and holding goals over time, and games with spatial navigation may engage spatial memory. Novelty and difficulty matter most, since a mastered game stops challenging you."],
+    ["Can video games help older adults cognitively?", "Some studies have reported improvements in processing speed, attention and executive function in older adults, likely because there is more room to improve than in younger participants. The benefit may come from novelty and engagement generally rather than anything specific to games."]
+  ],
+  "final_h": "Building a real cognitive maintenance plan?",
+  "final_p": "Sleep, exercise and learning do most of the work. For nutritional support alongside them, see our top-rated memory formulas for 2026.",
+  "sources": [
+    ["Harvard Health: Memory", "https://www.health.harvard.edu/topics/memory"],
+    ["NINDS: Brain Basics", "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain"],
+    ["NIA: Cognitive Health and Older Adults", "https://www.nia.nih.gov/health/cognitive-health-and-older-adults"]
+  ],
+  "related": [
+    ["Brain games for adults", "brain-games-for-adults"],
+    ["Cognitive reserve explained", "cognitive-reserve-explained"],
+    ["Blue light and brain fog", "blue-light-and-brain-fog"],
+    ["Best memory formulas of 2026", "best-memory-supplements-2026"]
+  ]
+}

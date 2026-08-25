@@ -670,8 +670,9 @@
       "title": "Creatine and Cognition: Beyond the Gym",
       "kw": "creatine cognition",
       "cat": "Ingredients",
-      "status": "pending",
-      "note": "SKIPPED 2026-07-31: near-duplicate of already-published creatine-for-brain (same 'beyond the gym' angle, same mechanism/dosage/safety sections). Needs a genuinely distinct angle before publishing, or should be dropped from the queue."
+      "status": "done",
+      "note": "SKIPPED 2026-07-31: near-duplicate of already-published creatine-for-brain (same 'beyond the gym' angle, same mechanism/dosage/safety sections). Needs a genuinely distinct angle before publishing, or should be dropped from the queue.",
+      "published": "2026-08-25"
     },
     {
       "slug": "saffron-for-mood-and-memory",
@@ -910,91 +911,104 @@
       "title": "Folate and Brain Health: Why B9 Matters for Memory",
       "kw": "folate brain health",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-25"
     },
     {
       "slug": "sleep-apnea-and-memory",
       "title": "Sleep Apnea and Memory: How Poor Sleep Quality Hurts Recall",
       "kw": "sleep apnea memory",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-25"
     },
     {
       "slug": "concussion-and-memory-loss",
       "title": "Concussion and Memory Loss: What to Expect and When to Worry",
       "kw": "concussion memory loss",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-25"
     },
     {
       "slug": "glymphatic-system-explained",
       "title": "The Glymphatic System Explained: How Your Brain Cleans Itself",
       "kw": "glymphatic system brain",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-25"
     },
     {
       "slug": "allergy-medication-and-memory-fog",
       "title": "Allergy Medication and Memory Fog: The Antihistamine Link",
       "kw": "antihistamine memory fog",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-25"
     },
     {
       "slug": "chronic-pain-and-memory",
       "title": "Chronic Pain and Memory: Why It's Harder to Concentrate",
       "kw": "chronic pain memory",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-25"
     },
     {
       "slug": "handwriting-vs-typing-memory",
       "title": "Handwriting vs Typing: Which Helps You Remember More?",
       "kw": "handwriting vs typing memory",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-25"
     },
     {
       "slug": "video-games-and-cognitive-function",
       "title": "Video Games and Cognitive Function: What the Research Shows",
       "kw": "video games cognitive function",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-25"
     },
     {
       "slug": "box-breathing-for-focus",
       "title": "Box Breathing for Focus: Does Slow Breathing Sharpen Attention?",
       "kw": "box breathing focus",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-25"
     },
     {
       "slug": "blue-zones-diet-and-brain-health",
       "title": "The Blue Zones Diet and Brain Health: What Longevity Hotspots Eat",
       "kw": "blue zones diet brain health",
       "cat": "Aging Well",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-25"
     },
     {
       "slug": "post-surgery-memory-fog",
       "title": "Post-Surgery Memory Fog: Why Anesthesia Leaves You Foggy",
       "kw": "post surgery memory fog anesthesia",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-25"
     },
     {
       "slug": "hrt-and-memory",
       "title": "Hormone Replacement Therapy and Memory: What Studies Show",
       "kw": "hormone replacement therapy memory",
       "cat": "Aging Well",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-25"
     },
     {
       "slug": "tinnitus-and-concentration",
       "title": "Tinnitus and Concentration: Why Ringing Ears Affect Focus",
       "kw": "tinnitus concentration focus",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-25"
     }
   ]
 }

@@ -27,7 +27,7 @@
      Pass **concrete subjects** (people, objects, real scenes — e.g. "senior couple walking", "salmon fillet plate", "microscope lab bench"), NOT abstract concepts. Give 3-4 different subject phrases so it has fallbacks.
    - **Automatic offline fallback (added 2026-07-23).** If Openverse is unreachable (the cloud sandbox blocks egress to `api.openverse.org` with a 403 — this is the real cause of the "fires but publishes nothing" failure, NOT Pillow) or returns nothing, the script automatically installs the best-matching unused photo from the committed **image pool** (`assets/img-pool/` + `_automation/img-pool.json`), keyword-matched by theme. This needs zero network, so publishing no longer depends on cloud egress. A pool install prints `OK <slug> (pool/<theme>) ...`; an Openverse install prints `OK <slug> struct=...`.
    - If it prints **`OK`** (either path), the image is installed and passes the real-photo + uniqueness gates. If it prints **`MISS`** *and* **`POOL-MISS`**, both sources failed — re-run with *different, more concrete* subject phrases, or the pool is exhausted (refill it: see below). Never fall back to generating or reusing an image.
-   - **Refilling the pool (do this LOCALLY, where Openverse/Wikimedia work):** `python3 _automation/build-pool.py --target 8` tops up each theme from Wikimedia Commons, applying the same real-photo + uniqueness gates and recording license/attribution in the manifest. Each pool image is consumed once (`used_by` in the manifest), so at 2 posts/day a 66-image pool lasts ~a month of pure-fallback runs. Keep it topped up. **Do not add graphic/clinical images** (e.g. cadaver brain specimens) — the `brain-science` theme was removed for this reason; brain/memory articles route to the people-based `thinking-memory` theme instead.
+   - **Refilling the pool (do this LOCALLY, where Openverse/Wikimedia work):** `python3 _automation/build-pool.py --target 8` tops up each theme from Wikimedia Commons, applying the same real-photo + uniqueness gates and recording license/attribution in the manifest. **Every refill needs a human to LOOK at each new file before it is committed** (2026-08-25: of 36 images a refill pulled, only 12 were usable; the rest were engravings, cartoons, off-topic subjects, or photos that should never be auto-selected). Mark rejects `"used_by": "__disqualified__"` so the picker skips them permanently, and do not commit their files. The automated gates measure "real, unique photo" and cannot judge subject or appropriateness. Each pool image is consumed once (`used_by` in the manifest), so at 2 posts/day a 66-image pool lasts ~a month of pure-fallback runs. Keep it topped up. **Do not add graphic/clinical images** (e.g. cadaver brain specimens) — the `brain-science` theme was removed for this reason; brain/memory articles route to the people-based `thinking-memory` theme instead.
    - **After it installs, still OPEN the file with the Read tool and LOOK** (when running interactively). The gate guarantees "a real, unique photo," not "the right subject." If it's off-topic, re-run with sharper subject phrases (Openverse path) or accept the pool's best match on a blocked cloud run.
    - **NEVER reuse an existing image as a fallback**, and never let one source photo serve two slugs — the script's uniqueness guard (against both `assets/img/` heroes and pool `used_by`) enforces this, do not work around it.
 4. **Home placement — newest first:** insert the new post's card at the **TOP** of the **`Latest`** section in `index.html` (as the first child of that section's `.card-grid`, right after `<p class="section-label">Latest</p>`). Keep **Latest capped at 4 cards**: if it now exceeds 4, move the **oldest** (last) card out of Latest and append it to its proper **thematic** section (`Memory & brain health`, `Ingredients & evidence`, `Reviews & comparisons`, or `Bill Gates & brain research`) based on its category/topic. Then add the URL to `sitemap.xml`. *(Copy an existing `.post-card` block verbatim for the markup; NEVER let the same slug appear in two sections.)*
@@ -70,6 +70,28 @@ Besides the evergreen queue, scan reputable sources for NEW brain/memory/Alzheim
   3. **Accuracy is paramount (YMYL):** only real, sourced facts; NO fabricated studies, quotes or stats; hedge; doctor caveat.
   4. Append the source URL to `_automation/news-covered.json` (dedup).
 - **Cap:** at most 1–2 news posts/day, and never exceed the **total daily cap of 3** while the domain is new.
+
+## Known failure: the pool starved for 8 straight days (2026-08-14 to 2026-08-25)
+
+Publishing stopped for a week and the cloud routine logged a blocked run every
+day. Three separate faults stacked up, all now fixed. Watch for them recurring:
+
+1. **`build-pool.py --target N` could never top the pool up.** It counted *every*
+   manifest entry per theme, including images already consumed, so once a theme
+   had been drawn from a few times it looked permanently full and got skipped.
+   Fixed: it now counts only entries with `used_by: null`.
+2. **The pool filename counter overwrote existing files.** The index came from a
+   manifest count filtered by theme, so one entry with an empty `themes` list was
+   enough to reuse a filename already on disk. Fixed: it now takes the first free
+   filename on disk.
+3. **The 16 remaining pool images were all unusable**, so `source-image.py`'s
+   offline fallback had nothing legitimate to install and the routine correctly
+   refused to publish. Cleared by a manual visual audit.
+
+The cloud sandbox still cannot reach `api.openverse.org` or Wikimedia, so pool
+refills remain a LOCAL job. Keep at least ~2 weeks of usable images in the pool,
+and check `_automation/img-pool.json` for the available count (entries with
+`used_by: null`) rather than the total.
 
 ## Requirements to run unattended
 - **Files**: this routine needs access to the blog folder. (Local cron = uses these files directly. Cloud routine = needs the project in a Git repo it can clone.)

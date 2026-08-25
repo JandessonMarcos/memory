@@ -1009,6 +1009,150 @@
       "cat": "Brain Health",
       "status": "done",
       "published": "2026-08-25"
+    },
+    {
+      "slug": "copper-deficiency-and-brain-fog",
+      "title": "Copper Deficiency and Brain Fog: An Overlooked Mineral Link",
+      "kw": "copper deficiency brain fog",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "selenium-and-cognitive-function",
+      "title": "Selenium and Cognitive Function: What the Research Shows",
+      "kw": "selenium cognitive function",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "statins-and-memory-loss",
+      "title": "Do Statins Cause Memory Loss? What the Evidence Actually Shows",
+      "kw": "statins memory loss",
+      "cat": "Brain Health",
+      "status": "pending",
+      "angle": "YMYL: summarize FDA label history and current evidence fairly; hedge heavily, never tell readers to stop a prescribed medication, doctor caveat up front."
+    },
+    {
+      "slug": "antidepressants-and-memory",
+      "title": "Antidepressants and Memory: What to Know About Cognitive Side Effects",
+      "kw": "antidepressants memory",
+      "cat": "Brain Health",
+      "status": "pending",
+      "angle": "YMYL: factual, class-general (SSRIs etc.), hedge, doctor caveat, never suggest stopping medication."
+    },
+    {
+      "slug": "shift-work-and-memory",
+      "title": "Shift Work and Memory: How Irregular Schedules Affect Recall",
+      "kw": "shift work memory",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "cortisol-and-memory",
+      "title": "Cortisol and Memory: How Chronic Stress Hormones Affect the Brain",
+      "kw": "cortisol memory",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "sugar-and-brain-fog",
+      "title": "Sugar and Brain Fog: How Added Sugar Affects Focus and Memory",
+      "kw": "sugar brain fog",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "dopamine-and-focus",
+      "title": "Dopamine and Focus: How This Brain Chemical Shapes Attention",
+      "kw": "dopamine focus",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "histamine-intolerance-and-brain-fog",
+      "title": "Histamine Intolerance and Brain Fog: Is There a Link?",
+      "kw": "histamine intolerance brain fog",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "mold-exposure-and-cognitive-function",
+      "title": "Mold Exposure and Cognitive Function: What the Evidence Shows",
+      "kw": "mold exposure cognitive function",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "seed-oils-and-brain-health",
+      "title": "Seed Oils and Brain Health: Separating Fact From Fear",
+      "kw": "seed oils brain health",
+      "cat": "Ingredients",
+      "status": "pending",
+      "angle": "Balanced, non-alarmist: summarize the actual evidence and the popular controversy without taking a fringe stance either way."
+    },
+    {
+      "slug": "adderall-and-long-term-memory",
+      "title": "Adderall and Long-Term Memory: What Stimulant Use Does to Recall",
+      "kw": "adderall long term memory",
+      "cat": "Brain Health",
+      "status": "pending",
+      "angle": "YMYL: factual only, prescription-stimulant context, hedge heavily, strong doctor caveat, no dosing advice."
+    },
+    {
+      "slug": "melatonin-and-memory",
+      "title": "Melatonin and Memory: Does the Sleep Aid Affect Recall?",
+      "kw": "melatonin memory",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "tetris-effect-and-memory",
+      "title": "The Tetris Effect: What It Reveals About How Memory Works",
+      "kw": "tetris effect memory",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "dual-n-back-training",
+      "title": "Dual N-Back Training: Does It Really Improve Working Memory?",
+      "kw": "dual n-back training",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "chess-and-cognitive-decline",
+      "title": "Chess and Cognitive Decline: Does the Game Protect Your Brain?",
+      "kw": "chess cognitive decline",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "crossword-puzzles-and-dementia",
+      "title": "Crossword Puzzles and Dementia Risk: What the Research Says",
+      "kw": "crossword puzzles dementia",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "loneliness-and-cognitive-decline",
+      "title": "Loneliness and Cognitive Decline: The Hidden Brain Health Risk",
+      "kw": "loneliness cognitive decline",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "berberine-and-brain-health",
+      "title": "Berberine and Brain Health: Does It Support Cognitive Function?",
+      "kw": "berberine brain health",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "taurine-and-brain-aging",
+      "title": "Taurine and Brain Aging: What New Research Suggests",
+      "kw": "taurine brain aging",
+      "cat": "Ingredients",
+      "status": "pending"
     }
   ]
 }

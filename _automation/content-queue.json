@@ -1049,14 +1049,16 @@
       "title": "Shift Work and Memory: How Irregular Schedules Affect Recall",
       "kw": "shift work memory",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-28"
     },
     {
       "slug": "cortisol-and-memory",
       "title": "Cortisol and Memory: How Chronic Stress Hormones Affect the Brain",
       "kw": "cortisol memory",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-28"
     },
     {
       "slug": "sugar-and-brain-fog",

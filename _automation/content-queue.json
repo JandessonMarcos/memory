@@ -1065,14 +1065,16 @@
       "title": "Sugar and Brain Fog: How Added Sugar Affects Focus and Memory",
       "kw": "sugar brain fog",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-08-29"
     },
     {
       "slug": "dopamine-and-focus",
       "title": "Dopamine and Focus: How This Brain Chemical Shapes Attention",
       "kw": "dopamine focus",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "pending",
+      "note": "SKIPPED 2026-08-29: article was written but the offline image pool hit 0 available entries after sourcing sugar-and-brain-fog (the pool's last usable image), and Openverse egress is blocked in this sandbox (403 on api.openverse.org), so source-image.py printed MISS + POOL-MISS. Not published (never ships imageless). Needs a local build-pool.py refill before this can source an image; retry next run."
     },
     {
       "slug": "histamine-intolerance-and-brain-fog",

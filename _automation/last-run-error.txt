@@ -1,0 +1,47 @@
+Routine blocked: 2026-08-30 11:10:59 UTC
+
+BLOCKER: Image sourcing failed for the next queued topic (both Openverse AND
+the offline pool failed) — this is the FAILURE PROTOCOL condition per the
+RUNBOOK. Pillow imported fine (STEP 0 passed, no install needed this run:
+already present at 12.3.0). Did not publish any article without a hero image.
+
+Pool state (checked before sourcing):
+  _automation/img-pool.json: 79 total entries, 0 with used_by: null (fully
+  exhausted — same state as the last several consecutive blocked runs
+  2026-08-21 through 2026-08-29).
+
+Command run:
+  python3 _automation/source-image.py dopamine-and-focus 'person focused at desk working' 'runner smiling outdoors' 'chocolate bar closeup' 'brain illustration diagram'
+
+Complete verbatim stdout/stderr:
+  /home/user/memory/_automation/source-image.py:68: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+    px = list(g.getdata()); a = sum(px)/len(px)
+    query err (person focused at desk working/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+    query err (runner smiling outdoors/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+    query err (chocolate bar closeup/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+    query err (brain illustration diagram/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+    query err (person focused at desk working/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+    query err (runner smiling outdoors/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+    query err (chocolate bar closeup/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+    query err (brain illustration diagram/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+  MISS dopamine-and-focus  (openverse: no real photo passed)
+    Openverse unavailable/miss -> falling back to offline pool
+  POOL-MISS dopamine-and-focus  (pool exhausted; refill locally with build-pool.py)
+
+Direct egress confirmation (both blocked, matching the pattern seen since
+2026-08-21 — this cloud sandbox has never been able to reach either host):
+  Wikimedia (commons.wikimedia.org): urlopen error Tunnel connection failed: 403 Forbidden
+  Openverse  (api.openverse.org):    urlopen error Tunnel connection failed: 403 Forbidden
+
+Per the RUNBOOK's FAILURE PROTOCOL: this triggers ONLY when Pillow cannot
+import (not the case here) OR source-image.py prints BOTH MISS and
+POOL-MISS. That happened here, so no article was written or published this
+run. No content, sitemap, search-index, or index.html changes were made.
+
+Needed to unblock: a LOCAL run of `python3 _automation/build-pool.py
+--target 8` (from a machine with real Openverse/Wikimedia access), followed
+by a human visual audit of the new files before committing them, per the
+RUNBOOK's pool-refill instructions. The pool has been at 0 available
+entries for multiple consecutive days now; this is the same starvation
+pattern documented in the RUNBOOK's "Known failure" section and needs a
+fresh local refill, not another automated retry.

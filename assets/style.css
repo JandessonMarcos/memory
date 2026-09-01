@@ -309,3 +309,5 @@ h1.headline,.ph-lead h2,.home-feature h2{letter-spacing:-.6px}
 .pack-opt .po-price small{font-size:11px;font-weight:700;color:#777}
 .pack-opt .po-cta{margin-top:5px;background:linear-gradient(180deg,#d9531e,#bf3f0c);color:#fff;font-weight:900;font-size:13px;padding:9px 12px;border-radius:8px;width:100%;letter-spacing:.3px;text-transform:uppercase}
 .pack-opt .po-ship{font-size:11px;font-weight:700;color:var(--green)}
+.img-credit{margin:6px 0 0;font-size:11.5px;color:#8a8f98;line-height:1.4}
+.img-credit a{color:#8a8f98;text-decoration:underline}

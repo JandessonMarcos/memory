@@ -110,14 +110,38 @@ def main(slugs):
     qf = "_automation/content-queue.json"
     q = json.load(open(qf))
     done = 0
+    kws = {}
     for item in q["queue"]:
-        if item["slug"] in specs and item.get("status") != "done":
-            item["status"] = "done"
-            item["published"] = specs[item["slug"]]["date"]
-            done += 1
+        if item["slug"] in specs:
+            kws[item["slug"]] = item.get("kw", "")
+            if item.get("status") != "done":
+                item["status"] = "done"
+                item["published"] = specs[item["slug"]]["date"]
+                done += 1
     json.dump(q, open(qf, "w"), indent=2, ensure_ascii=False)
 
-    print(f"home: {len(slugs)} card(s) placed | sitemap: +{added} | queue: {done} marked done")
+    # Site search index. The routine added assets/search-index.json in an earlier
+    # run but never wired it into this script, so posts published here were
+    # silently missing from on-site search. Keep it in step automatically.
+    sif = "assets/search-index.json"
+    try:
+        idx = json.load(open(sif))
+    except Exception:
+        idx = []
+    have = {e.get("u") for e in idx}
+    sadded = 0
+    for slug in slugs:
+        u = f"/{slug}/"
+        if u in have:
+            continue
+        spec = specs[slug]
+        idx.append({"t": spec["og_title"], "u": u, "c": spec["cat"],
+                    "k": kws.get(slug, ""), "d": spec["desc"]})
+        sadded += 1
+    json.dump(idx, open(sif, "w"), indent=2, ensure_ascii=False)
+
+    print(f"home: {len(slugs)} card(s) placed | sitemap: +{added} | "
+          f"queue: {done} marked done | search-index: +{sadded}")
 
 
 if __name__ == "__main__":

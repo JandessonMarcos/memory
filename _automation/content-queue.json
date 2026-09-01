@@ -1,5 +1,5 @@
 {
-  "_comment": "Fila de conteúdo do Memory Lab. status: pending | done. A rotina diária consome os 'pending' mais ao topo, gera o artigo, e marca 'done' com a data. NÃO repetir slugs já publicados (14 iniciais).",
+  "_comment": "Fila de conteúdo do Memory Lab. status: pending | done. A rotina diária consome os 'pending' mais ao topo, gera o artigo, e marca 'done' com a data. NÃO repetir slugs já publicados (14 iniciais). Campos opcionais por item: 'words' = alvo de palavras do corpo (substitui o ~1000-1500 padrao); 'intent' = commercial | commercial-high, controla a densidade comercial (ver RUNBOOK, secao 'Commercial depth'). Itens sem esses campos seguem o padrao antigo.",
   "niche": "memory / brain health",
   "ramp": {
     "week1": 2,
@@ -1160,6 +1160,1009 @@
       "title": "Taurine and Brain Aging: What New Research Suggests",
       "kw": "taurine brain aging",
       "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "memopezil-ingredients-explained",
+      "title": "Memopezil Ingredients: What Each of the 5 Actually Does",
+      "kw": "memopezil ingredients",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Walk the 5-ingredient panel one by one, what the evidence says for each, and where the label is silent (no per-ingredient mg disclosed).",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "done",
+      "published": "2026-08-31"
+    },
+    {
+      "slug": "memopezil-side-effects",
+      "title": "Memopezil Side Effects: What to Watch For and Who Should Skip It",
+      "kw": "memopezil side effects",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Known tolerability of each of the 5 ingredients, interactions (stimulants, blood thinners, SSRIs, diabetes meds), pregnancy/BP cautions. Tell readers to check with a doctor.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "done",
+      "published": "2026-08-31"
+    },
+    {
+      "slug": "memopezil-dosage-and-how-to-take",
+      "title": "How to Take Memopezil: Dosage, Timing and With or Without Food",
+      "kw": "memopezil dosage",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. 2 caps/day math from 60 caps = 30 servings. Timing logic per ingredient (L-theanine/rhodiola morning, food effects on bacopa).",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "done",
+      "published": "2026-08-31"
+    },
+    {
+      "slug": "memopezil-price-per-bottle",
+      "title": "Memopezil Price: What the 1, 3 and 6-Bottle Packs Really Cost Per Day",
+      "kw": "memopezil price",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Cost-per-day framing. Do NOT state exact dollar figures that may change; teach the reader to do the math and check current pricing.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "memopezil-refund-policy",
+      "title": "Memopezil's 60-Day Money-Back Guarantee, Read Properly",
+      "kw": "memopezil refund policy",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. What a 60-day guarantee does and does not cover; how to actually file; keep receipts. Mirror the tone of memohoney-review's refund section.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "does-memopezil-work",
+      "title": "Does Memopezil Work? An Honest Look at the Evidence Behind the Formula",
+      "kw": "does memopezil work",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Evidence exists for the INGREDIENTS, not for this finished product. Say that plainly. No cure claims.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "memopezil-vs-prevagen",
+      "title": "Memopezil vs Prevagen: Formula, Evidence and Cost Compared",
+      "kw": "memopezil vs prevagen",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Prevagen = apoaequorin; note its FTC litigation history factually. Comparison table.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "memopezil-vs-neuriva",
+      "title": "Memopezil vs Neuriva: Which Formula Has More Behind It?",
+      "kw": "memopezil vs neuriva",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Neuriva = coffee fruit extract + PS. Compare mechanisms and evidence depth.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "memopezil-vs-focus-factor",
+      "title": "Memopezil vs Focus Factor: A Side-by-Side for Buyers Over 50",
+      "kw": "memopezil vs focus factor",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Focus Factor = large multivitamin-style blend. Contrast focused formula vs kitchen-sink.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "memopezil-vs-alpha-brain",
+      "title": "Memopezil vs Alpha Brain: Different Formulas, Different Buyers",
+      "kw": "memopezil vs alpha brain",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Alpha Brain uses proprietary blends. Contrast disclosure practices.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "memopezil-vs-memohoney",
+      "title": "Memopezil vs MemoHoney: Capsule Formula or Honey Blend?",
+      "kw": "memopezil vs memohoney",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Both are covered on this site; be even-handed, name the trade-offs of each delivery form honestly.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "where-to-buy-memopezil",
+      "title": "Where to Buy Memopezil Safely (and How to Spot a Fake Listing)",
+      "kw": "where to buy memopezil",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Official-channel guidance, counterfeit red flags on marketplaces. No fabricated marketplace claims.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "is-memopezil-legit",
+      "title": "Is Memopezil Legit? How to Judge a Memory Supplement You Have Not Tried",
+      "kw": "is memopezil legit scam",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Give the reader a checklist (label disclosure, guarantee, contactable company, realistic claims) rather than a verdict on trustworthiness you cannot verify.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "memopezil-how-long-to-see-results",
+      "title": "How Long Does Memopezil Take to Work? A Realistic Timeline",
+      "kw": "memopezil results how long",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Bacopa needs 8-12 weeks in trials; L-theanine is acute. Set expectations honestly, no overnight claims.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "memohoney-ingredients-explained",
+      "title": "MemoHoney Ingredients: What Is Actually in the Jar",
+      "kw": "memohoney ingredients",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Build on the existing memohoney-review; honey base plus ginkgo, bacopa, blueberry, rhodiola. Do not invent amounts.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "memohoney-side-effects",
+      "title": "MemoHoney Side Effects and Who Should Be Careful",
+      "kw": "memohoney side effects",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Sugar load for diabetics, ginkgo and bleeding risk, infant botulism warning for raw honey, pollen allergies.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "memohoney-dosage-and-timing",
+      "title": "How to Take MemoHoney: Spoon Size, Timing and Blood Sugar",
+      "kw": "memohoney dosage",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Practical dosing plus the blood-sugar caveat a honey base creates.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "does-memohoney-work",
+      "title": "Does MemoHoney Work? What the Ingredients Can and Cannot Do",
+      "kw": "does memohoney work",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Ingredient-level evidence only. No product trial exists; say so.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "memohoney-price-per-serving",
+      "title": "MemoHoney Price Per Serving: Is a Honey Blend Worth It?",
+      "kw": "memohoney price",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Cost-per-serving reasoning vs capsules. Avoid quoting prices that go stale.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "memohoney-vs-prevagen",
+      "title": "MemoHoney vs Prevagen: Honey Blend Against a Single-Ingredient Pill",
+      "kw": "memohoney vs prevagen",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Even-handed comparison table.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "where-to-buy-memohoney",
+      "title": "Where to Buy MemoHoney Without Getting a Counterfeit",
+      "kw": "where to buy memohoney",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Official channels, storage, expiry, counterfeit red flags.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "is-memohoney-worth-it",
+      "title": "Is MemoHoney Worth It? Who It Suits and Who Should Pass",
+      "kw": "is memohoney worth it",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Clear who-should-skip section: diabetics, infants, ginkgo interactions.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "bacopa-dosage-for-memory",
+      "title": "Bacopa Monnieri Dosage for Memory: What Trials Actually Used",
+      "kw": "bacopa dosage",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. 300-450mg standardized to ~50% bacosides in most trials. Standardization matters.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "bacopa-side-effects",
+      "title": "Bacopa Side Effects: The GI Issue Nobody Warns You About",
+      "kw": "bacopa side effects",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. GI upset on empty stomach, sedation, thyroid caution.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "how-long-does-bacopa-take-to-work",
+      "title": "How Long Does Bacopa Take to Work? Why 12 Weeks Is the Honest Answer",
+      "kw": "how long bacopa take to work",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Bacopa is chronic, not acute. Counters overnight-result marketing.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "bacopa-vs-ginkgo",
+      "title": "Bacopa vs Ginkgo Biloba: Which One Fits Your Goal?",
+      "kw": "bacopa vs ginkgo",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Memory acquisition vs circulation. Comparison table.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "best-bacopa-supplement-guide",
+      "title": "How to Pick a Bacopa Supplement That Is Not Underdosed",
+      "kw": "best bacopa supplement",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Teach label-reading: bacoside %, extract vs powder, Synapsa/Bacognize.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "bacopa-with-or-without-food",
+      "title": "Should You Take Bacopa With Food? A Practical Answer",
+      "kw": "bacopa with food",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Fat-soluble bacosides + GI tolerance.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "rhodiola-rosea-dosage",
+      "title": "Rhodiola Rosea Dosage: The 3% Rosavins Rule",
+      "kw": "rhodiola dosage",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. 200-600mg standardized 3% rosavins / 1% salidroside.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "rhodiola-side-effects",
+      "title": "Rhodiola Side Effects and Who Should Avoid It",
+      "kw": "rhodiola side effects",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Overstimulation, bipolar caution, timing to protect sleep.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "rhodiola-vs-ashwagandha",
+      "title": "Rhodiola vs Ashwagandha: Stimulating or Calming Adaptogen?",
+      "kw": "rhodiola vs ashwagandha",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Fatigue vs stress-and-sleep. Table.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "best-rhodiola-supplement-guide",
+      "title": "How to Choose a Rhodiola Supplement Worth Buying",
+      "kw": "best rhodiola supplement",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Adulteration is common in rhodiola; teach standardization checks.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "rhodiola-and-caffeine",
+      "title": "Rhodiola and Caffeine Together: Helpful or Too Much?",
+      "kw": "rhodiola and caffeine",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Additive stimulation, jitter risk, timing.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "rhodiola-best-time-to-take",
+      "title": "The Best Time to Take Rhodiola (and Why Evening Backfires)",
+      "kw": "when to take rhodiola",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Morning dosing, half-life reasoning, sleep protection.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "l-theanine-dosage",
+      "title": "L-Theanine Dosage: How Much for Calm Focus?",
+      "kw": "l-theanine dosage",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. 100-200mg typical; acute effects within an hour.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "l-theanine-and-caffeine-ratio",
+      "title": "The L-Theanine and Caffeine Ratio That Actually Has Research Behind It",
+      "kw": "l-theanine caffeine ratio",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. The classic 2:1 pairing; what the attention studies did and did not show.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "l-theanine-side-effects",
+      "title": "L-Theanine Side Effects: Why It Is One of the Gentler Options",
+      "kw": "l-theanine side effects",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Generally well tolerated; blood pressure and sedation caveats.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "l-theanine-vs-ashwagandha",
+      "title": "L-Theanine vs Ashwagandha for Stress and Focus",
+      "kw": "l-theanine vs ashwagandha",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Acute calm vs chronic stress-axis. Table.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "l-theanine-for-sleep-and-memory",
+      "title": "L-Theanine for Sleep: Does Calmer Rest Mean Better Memory?",
+      "kw": "l-theanine sleep memory",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Link to sleep-and-memory-consolidation; hedge the causal chain.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "panax-ginseng-for-memory",
+      "title": "Panax Ginseng for Memory: What the Ginsenoside Research Shows",
+      "kw": "panax ginseng memory",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Core MemoPezil ingredient with no dedicated post yet.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "panax-ginseng-dosage",
+      "title": "Panax Ginseng Dosage and Standardization Explained",
+      "kw": "panax ginseng dosage",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. 200-400mg standardized ginsenosides; cycling conventions.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "panax-ginseng-side-effects",
+      "title": "Panax Ginseng Side Effects: Sleep, Blood Pressure and Blood Sugar",
+      "kw": "panax ginseng side effects",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Insomnia, BP, diabetes-med interaction, blood thinners.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "korean-red-ginseng-vs-panax",
+      "title": "Korean Red Ginseng vs Panax Ginseng: Same Plant, Different Product",
+      "kw": "korean red ginseng vs panax",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Processing changes the ginsenoside profile. Clears real buyer confusion.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "ginseng-vs-rhodiola",
+      "title": "Ginseng vs Rhodiola for Mental Fatigue",
+      "kw": "ginseng vs rhodiola",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Both in the adaptogen bucket, different profiles. Table.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "american-vs-asian-ginseng",
+      "title": "American Ginseng vs Asian Ginseng for Cognition",
+      "kw": "american vs asian ginseng",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Different species, different traditional use and evidence.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "bcaas-and-brain-function",
+      "title": "BCAAs and Brain Function: The Ingredient Nobody Expects in a Memory Formula",
+      "kw": "bcaas brain function",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Explains an unusual MemoPezil inclusion: BCAAs compete with tryptophan at the blood-brain barrier. Hedge hard, the cognitive evidence is thin.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "do-bcaas-help-mental-fatigue",
+      "title": "Do BCAAs Help Mental Fatigue? What the Central Fatigue Theory Says",
+      "kw": "bcaas mental fatigue",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Central fatigue hypothesis; be candid that human cognitive data is limited.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "amino-acids-for-focus",
+      "title": "Amino Acids for Focus: Tyrosine, Theanine and BCAAs Compared",
+      "kw": "amino acids for focus",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Ties two MemoPezil ingredients into one comparison.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "bacopa-and-rhodiola-together",
+      "title": "Can You Take Bacopa and Rhodiola Together?",
+      "kw": "bacopa and rhodiola together",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Complementary chronic + acute mechanisms. Mirrors the MemoPezil pairing without naming it as proof.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "l-theanine-and-bacopa-stack",
+      "title": "Stacking L-Theanine With Bacopa: Calm Now, Recall Later",
+      "kw": "l-theanine bacopa stack",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Acute and chronic layered.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "ginseng-and-ginkgo-together",
+      "title": "Ginseng and Ginkgo Together: A Combination With Actual Trial History",
+      "kw": "ginseng and ginkgo together",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. One of the few combos with real combination trials.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "best-nootropic-stack-for-memory",
+      "title": "Building a Memory Stack: What Belongs Together and What Is Redundant",
+      "kw": "best nootropic stack memory",
+      "cat": "Memory",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Buyer-guide framing; warns against duplicate ingredients across products.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "memory-stack-for-over-50",
+      "title": "A Memory Supplement Plan for Adults Over 50",
+      "kw": "memory supplements over 50",
+      "cat": "Aging Well",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Core MemoPezil demographic. Lifestyle first, supplements second.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "can-you-take-two-memory-supplements",
+      "title": "Can You Take Two Memory Supplements at Once? The Overlap Problem",
+      "kw": "take two memory supplements",
+      "cat": "Memory",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Double-dosing risk when formulas share ingredients.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "should-you-cycle-nootropics",
+      "title": "Should You Cycle Nootropics? Which Ingredients Need a Break",
+      "kw": "cycling nootropics",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Ginseng and stimulant-adjacent compounds vs bacopa.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "morning-or-night-brain-supplements",
+      "title": "Morning or Night: When to Take Each Brain Supplement",
+      "kw": "when to take brain supplements",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Timing table across the common ingredients.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "nootropics-and-prescription-drugs",
+      "title": "Nootropics and Prescription Medication: Interactions Worth Asking About",
+      "kw": "nootropic drug interactions",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Blood thinners, SSRIs, diabetes meds, BP meds. Strong 'ask your doctor' framing.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "supplement-tolerance-explained",
+      "title": "Why Your Brain Supplement Seems to Stop Working",
+      "kw": "supplement stopped working tolerance",
+      "cat": "Memory",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Tolerance, expectation effects, regression to the mean.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "how-to-choose-a-memory-supplement",
+      "title": "How to Choose a Memory Supplement: A Buyer's Checklist",
+      "kw": "how to choose memory supplement",
+      "cat": "Memory",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. The flagship buyer guide. Heavy internal linking to the money page.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "proprietary-blends-explained",
+      "title": "Proprietary Blends: The Label Trick That Hides Your Dose",
+      "kw": "proprietary blend supplements",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Explains why undisclosed per-ingredient amounts matter.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "clinically-studied-doses-explained",
+      "title": "What a Clinically Studied Dose Means on a Supplement Label",
+      "kw": "clinically studied dose",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Table of trial doses for the common memory ingredients.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "third-party-tested-supplements",
+      "title": "Third-Party Tested Supplements: What USP and NSF Actually Certify",
+      "kw": "third party tested supplements",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. What certification does and does not prove.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "gmp-certified-supplements",
+      "title": "GMP Certified Supplements: What the Seal Is Worth",
+      "kw": "gmp certified supplements",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Manufacturing standard, not efficacy.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "supplement-label-red-flags",
+      "title": "7 Red Flags on a Brain Supplement Label",
+      "kw": "supplement label red flags",
+      "cat": "Memory",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Cure claims, proprietary blends, fake urgency, no company address.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "capsules-vs-gummies-vs-liquid",
+      "title": "Capsules, Gummies or Liquid: Does the Format Change Anything?",
+      "kw": "supplement capsules vs gummies",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Dose density, sugar load, stability. Relevant to the MemoHoney/MemoPezil contrast.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "cost-per-day-memory-supplements",
+      "title": "Cost Per Day: The Only Supplement Price Math That Matters",
+      "kw": "supplement cost per day",
+      "cat": "Memory",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Teaches the servings-per-container calculation.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "supplement-subscription-traps",
+      "title": "Autoship and Subscription Traps in the Supplement Business",
+      "kw": "supplement subscription trap",
+      "cat": "Memory",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Consumer-protection angle; how to cancel, what to read before checkout.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "money-back-guarantees-supplements",
+      "title": "Do Supplement Money-Back Guarantees Actually Pay Out?",
+      "kw": "supplement money back guarantee",
+      "cat": "Memory",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. What to document, typical conditions, realistic expectations.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "standardized-extracts-explained",
+      "title": "Standardized Extract vs Whole Herb Powder: Why the Difference Is Huge",
+      "kw": "standardized extract vs powder",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Central to bacopa, rhodiola and ginseng quality.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "branded-ingredients-explained",
+      "title": "Branded Ingredients: KSM-66, Synapsa, Cognizin and Why They Cost More",
+      "kw": "branded supplement ingredients",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. What a branded extract buys you in trial backing.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "when-are-brain-supplements-worth-it",
+      "title": "When Is a Brain Supplement Actually Worth Buying?",
+      "kw": "are brain supplements worth it",
+      "cat": "Memory",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Honest gatekeeping: fix sleep, B12 and thyroid first. Builds trust before the recommendation.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "supplement-expiry-and-storage",
+      "title": "Supplement Expiry and Storage: When Potency Quietly Drops",
+      "kw": "supplement expiration potency",
+      "cat": "Ingredients",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Heat, light, humidity; especially relevant to honey-based products.",
+      "words": 1800,
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "slug": "qualia-mind-review",
+      "title": "Qualia Mind Review: A 28-Ingredient Formula Examined",
+      "kw": "qualia mind review",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Public label facts only. Contrast ingredient sprawl with focused formulas.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "mind-lab-pro-review",
+      "title": "Mind Lab Pro Review: Full Disclosure, Premium Price",
+      "kw": "mind lab pro review",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Notable for fully disclosing doses. Be fair.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "neuroq-review",
+      "title": "NeuroQ Review: What Is Behind the Formula",
+      "kw": "neuroq review",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Public label facts only.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "procera-avh-review",
+      "title": "Procera AVH Review and Its Regulatory History",
+      "kw": "procera avh review",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. The FTC action against Procera is public record; state it accurately and without embellishment.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "ginkgold-review",
+      "title": "Ginkgold Review: A Standardized Ginkgo Worth Knowing",
+      "kw": "ginkgold review",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Single-ingredient benchmark for comparison.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "brain-armor-review",
+      "title": "Brain Armor Review: An Algae Omega-3 for Cognition",
+      "kw": "brain armor review",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Algal DHA angle.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "nature-made-brain-health-review",
+      "title": "Nature Made Brain Health Review: Drugstore Value Checked",
+      "kw": "nature made brain health review",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Mass-market benchmark.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "vitafusion-brain-gummies-review",
+      "title": "Vitafusion Brain Gummies Review: Sugar, Dose and Reality",
+      "kw": "brain gummies review",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Gummy dose-density problem.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "prevagen-vs-focus-factor",
+      "title": "Prevagen vs Focus Factor: Two Very Different Bets",
+      "kw": "prevagen vs focus factor",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Fills a comparison gap between two brands already covered here.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "alpha-brain-vs-mind-lab-pro",
+      "title": "Alpha Brain vs Mind Lab Pro: Proprietary Blend or Full Disclosure",
+      "kw": "alpha brain vs mind lab pro",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Disclosure as the deciding axis.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "drugstore-vs-online-brain-supplements",
+      "title": "Drugstore Brands vs Online-Only Brain Supplements",
+      "kw": "drugstore vs online supplements",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Distribution model, dosing, price. Explains why some good formulas are not on shelves.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "memory-supplement-brands-compared-2026",
+      "title": "Memory Supplement Brands Compared: A 2026 Buyer's Table",
+      "kw": "memory supplement brands compared",
+      "cat": "Reviews",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Secondary money page. Editorial #1 stays consistent with best-memory-supplements-2026.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "best-supplement-for-brain-fog",
+      "title": "The Best Supplement for Brain Fog Depends on Its Cause",
+      "kw": "best supplement for brain fog",
+      "cat": "Brain Health",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Route by cause (sleep, B12, thyroid, dehydration) before recommending anything.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "best-supplement-for-focus-at-work",
+      "title": "What to Take for Focus at Work Without the Caffeine Crash",
+      "kw": "best supplement for focus at work",
+      "cat": "Brain Health",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. L-theanine + caffeine pairing leads.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "best-supplement-for-memory-over-60",
+      "title": "Memory Supplements After 60: What Is Reasonable to Expect",
+      "kw": "memory supplements over 60",
+      "cat": "Aging Well",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Core demographic. Normal aging vs warning signs; when to see a doctor.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "best-supplement-for-menopause-brain-fog",
+      "title": "What Helps Menopause Brain Fog: Supplements in Context",
+      "kw": "menopause brain fog supplement",
+      "cat": "Brain Health",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Links to menopause-brain-fog and hrt-and-memory. HRT is a medical decision, not a supplement substitute.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "best-supplement-for-mental-fatigue",
+      "title": "Mental Fatigue That Sleep Does Not Fix: What to Try Next",
+      "kw": "supplement for mental fatigue",
+      "cat": "Brain Health",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Rhodiola-led; rule out anemia, thyroid, depression first.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "supplements-for-forgetting-names",
+      "title": "Forgetting Names and Words: What Actually Helps",
+      "kw": "supplement forgetting names",
+      "cat": "Memory",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Links tip-of-the-tongue and how-to-remember-names. Technique first, then supplements.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "supplements-for-word-finding-difficulty",
+      "title": "Word-Finding Trouble: Normal Aging or Something to Check?",
+      "kw": "word finding difficulty memory",
+      "cat": "Aging Well",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Reassurance plus clear red-flag list for seeing a doctor.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "supplements-for-studying-adults",
+      "title": "Going Back to School at 40: What Helps You Study Again",
+      "kw": "supplements for adult students",
+      "cat": "Memory",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Adult-learner angle, distinct from the existing student post.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "supplements-for-shift-workers",
+      "title": "Brain Support for Shift Workers and Night Shifts",
+      "kw": "supplements shift work brain",
+      "cat": "Brain Health",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Circadian disruption; links jet-lag-and-memory.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "supplements-for-caregivers",
+      "title": "Caregiver Burnout and Memory: Looking After Your Own Brain",
+      "kw": "caregiver memory fatigue",
+      "cat": "Aging Well",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Emotionally aware. Very high-intent audience for memory products.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "supplements-for-early-retirement-brain",
+      "title": "Keeping Your Mind Sharp After Retiring",
+      "kw": "staying sharp after retirement",
+      "cat": "Aging Well",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Links does-retirement-affect-memory and cognitive-reserve-explained.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "what-to-take-for-afternoon-slump",
+      "title": "The 3 PM Crash: What to Take Instead of More Coffee",
+      "kw": "afternoon slump focus",
+      "cat": "Brain Health",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. L-theanine, hydration, protein, light.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "supplements-for-stress-related-memory-loss",
+      "title": "When Stress Is Eating Your Memory: What Helps",
+      "kw": "stress memory loss supplement",
+      "cat": "Brain Health",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Adaptogen-led; links stress-and-memory-loss.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "brain-supplements-for-diabetics",
+      "title": "Brain Supplements When You Have Diabetes: What to Check First",
+      "kw": "brain supplements diabetes",
+      "cat": "Brain Health",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Sugar content (honey products), ginseng and blood-sugar interaction. Doctor-first framing.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "brain-supplements-on-blood-thinners",
+      "title": "Brain Supplements and Blood Thinners: The Combinations to Avoid",
+      "kw": "brain supplements blood thinners",
+      "cat": "Brain Health",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Ginkgo, high-dose omega-3, ginseng. Strong medical-consult framing.",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending"
+    },
+    {
+      "slug": "brain-supplements-for-vegetarians",
+      "title": "Brain Nutrients Vegetarians and Vegans Run Short On",
+      "kw": "vegetarian brain supplements",
+      "cat": "Brain Health",
+      "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. B12, DHA, creatine, iron, choline. Algal omega-3 as the workaround.",
+      "words": 2200,
+      "intent": "commercial-high",
       "status": "pending"
     }
   ]

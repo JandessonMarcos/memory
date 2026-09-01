@@ -107,6 +107,7 @@ src="https://www.facebook.com/tr?id=831503250016369&ev=PageView&noscript=1"/></n
     </div>
 
     <img width="900" height="600" class="article-hero" src="../assets/img/@@slug@@.jpg" alt="@@alt@@" loading="lazy">
+@@img_credit@@
 
     <div class="method">
       <h3>Key takeaways</h3>
@@ -187,6 +188,49 @@ RECBOX_BRAND = '''    <!-- inline recommendation (branded page) -->
       </div>
     </div>
 '''
+
+CREDITS_FILE = "_automation/img-credits.json"
+POOL_MANIFEST = "_automation/img-pool.json"
+
+
+def hero_credit(slug):
+    """Credit line for the hero. CC BY and CC BY-SA require it.
+
+    Looks in img-credits.json (Openverse path) then the pool manifest, which has
+    carried license + attribution all along. Returns "" when the image is CC0 or
+    public domain, where no credit is owed.
+    """
+    try:
+        c = json.load(open(CREDITS_FILE)).get(slug)
+    except Exception:
+        c = None
+    if c:
+        lic = c.get("license", "")
+        if lic in ("CC0", "Public domain"):
+            return ""
+        who = c.get("creator") or "Unknown"
+        src = c.get("source") or ""
+        lurl = c.get("license_url") or ""
+        who_h = f'<a href="{src}" rel="noopener nofollow" target="_blank">{who}</a>' if src else who
+        lic_h = f'<a href="{lurl}" rel="license noopener nofollow" target="_blank">{lic}</a>' if lurl else lic
+        return f'    <p class="img-credit">Photo: {who_h} / {lic_h}</p>'
+
+    try:
+        d = json.load(open(POOL_MANIFEST))
+        items = d if isinstance(d, list) else (d.get("images") or d.get("items") or [])
+        e = next((i for i in items if i.get("used_by") == slug), None)
+    except Exception:
+        e = None
+    if not e:
+        return ""
+    lic = e.get("license", "")
+    if lic in ("CC0", "Public domain"):
+        return ""
+    who = e.get("attribution") or "Unknown"
+    src = e.get("descurl") or ""
+    who_h = f'<a href="{src}" rel="noopener nofollow" target="_blank">{who}</a>' if src else who
+    return f'    <p class="img-credit">Photo: {who_h} / {lic}</p>'
+
 
 def build_ldjson(s, slug, cat_label, cat_href):
     url = f"{SITE}/{slug}/"
@@ -278,6 +322,7 @@ def render(slug):
         "cat": s["cat"], "cat_href": cat_href, "cat_label": cat_label, "crumb": s["crumb"],
         "h1_a": s["h1_a"], "h1_b": s["h1_b"], "subhead": s["subhead"],
         "pubdate_h": pubdate_h, "alt": s["alt"], "takeaways": takeaways, "body": body,
+        "img_credit": hero_credit(slug),
         "pull": s["pull"], "faq_html": faq_html, "final_h": s["final_h"],
         "final_p": s["final_p"], "sources": sources, "related": related,
     }

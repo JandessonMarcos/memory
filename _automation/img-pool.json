@@ -1,970 +1,2032 @@
 {
- "_comment": "Offline hero-image pool. Built by build-pool.py, consumed by source-image.py when Openverse egress is blocked. used_by=null means available.",
- "images": [
-  {
-   "file": "senior-aging-01.jpg",
-   "themes": [
-    "senior-aging"
-   ],
-   "kw": "elderly woman portrait",
-   "license": "Public domain",
-   "attribution": "Anne Vallayer-Coster / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Anne_Vallayer-Coster_%281744-1818%29_-_Portrait_of_an_Elderly_Woman_with_Her_Daughter_-_B.M.329_-_Bowes_Museum.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Anne_Vallayer-Coster_(1744-1818)_-_Portrait_of_an_Elderly_Woman_with_Her_Daughter_-_B.M.329_-_Bowes_Museum.jpg",
-   "used_by": "__disqualified__",
-   "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
-  },
-  {
-   "file": "senior-aging-02.jpg",
-   "themes": [
-    "senior-aging"
-   ],
-   "kw": "old couple walking",
-   "license": "Public domain",
-   "attribution": "Müfide Kadri / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/A_couple_on_the_promenade_by_M%C3%BCfide_Kadri.jpg/1280px-A_couple_on_the_promenade_by_M%C3%BCfide_Kadri.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:A_couple_on_the_promenade_by_M%C3%BCfide_Kadri.jpg",
-   "used_by": "zinc-and-brain-health"
-  },
-  {
-   "file": "senior-aging-03.jpg",
-   "themes": [
-    "senior-aging"
-   ],
-   "kw": "old couple walking",
-   "license": "CC0",
-   "attribution": "Alice Donovan Rouse (@alicekat) / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Adult_couple_holding_hands.jpg/1280px-Adult_couple_holding_hands.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Adult_couple_holding_hands.jpg",
-   "used_by": "hearing-loss-and-dementia-risk"
-  },
-  {
-   "file": "senior-aging-04.jpg",
-   "themes": [
-    "senior-aging"
-   ],
-   "kw": "old couple walking",
-   "license": "Public domain",
-   "attribution": "User: (WT-shared) Jolove55 at  wts wikivoyage / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/An_elderly_couple_walking_in_the_Memorial_to_the_Murdered_Jews_of_Europe%2C_Berlin.jpg/1280px-An_elderly_couple_walking_in_the_Memorial_to_the_Murdered_Jews_of_Europe%2C_Berlin.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:An_elderly_couple_walking_in_the_Memorial_to_the_Murdered_Jews_of_Europe,_Berlin.jpg",
-   "used_by": "menopause-and-memory"
-  },
-  {
-   "file": "senior-aging-05.jpg",
-   "themes": [
-    "senior-aging"
-   ],
-   "kw": "old couple walking",
-   "license": "CC BY 4.0",
-   "attribution": "Unknown / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/An_old_couple_are_assisted_in_walking%3B_representing_the_nine_Wellcome_V0007602.jpg/1280px-An_old_couple_are_assisted_in_walking%3B_representing_the_nine_Wellcome_V0007602.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:An_old_couple_are_assisted_in_walking;_representing_the_nine_Wellcome_V0007602.jpg",
-   "used_by": "__disqualified__",
-   "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
-  },
-  {
-   "file": "senior-aging-06.jpg",
-   "themes": [
-    "senior-aging"
-   ],
-   "kw": "old couple walking",
-   "license": "CC0",
-   "attribution": "Christopher Campbell chrisjoelcampbell / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Couple_in_Paradise._%28Unsplash%29.jpg/1280px-Couple_in_Paradise._%28Unsplash%29.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Couple_in_Paradise._(Unsplash).jpg",
-   "used_by": "__disqualified__",
-   "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
-  },
-  {
-   "file": "food-nutrition-01.jpg",
-   "themes": [
-    "food-nutrition"
-   ],
-   "kw": "fresh vegetables",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Gaurav Dhwaj Khadka / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Fresh_Vegetables_2.jpg/1280px-Fresh_Vegetables_2.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Fresh_Vegetables_2.jpg",
-   "used_by": "choline-and-brain-function"
-  },
-  {
-   "file": "food-nutrition-02.jpg",
-   "themes": [
-    "food-nutrition"
-   ],
-   "kw": "fresh vegetables",
-   "license": "CC0",
-   "attribution": "Bajinra / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Fresh_Vegetables_in_Indonesia_Restaurant.jpg/1280px-Fresh_Vegetables_in_Indonesia_Restaurant.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Fresh_Vegetables_in_Indonesia_Restaurant.jpg",
-   "used_by": "green-tea-and-brain-health"
-  },
-  {
-   "file": "food-nutrition-03.jpg",
-   "themes": [
-    "food-nutrition"
-   ],
-   "kw": "fresh vegetables",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Frankie Fouganthin / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Fresh_fruits_and_vegetables_in_2020_01.jpg/1280px-Fresh_fruits_and_vegetables_in_2020_01.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Fresh_fruits_and_vegetables_in_2020_01.jpg",
-   "used_by": "dark-chocolate-and-memory"
-  },
-  {
-   "file": "food-nutrition-04.jpg",
-   "themes": [
-    "food-nutrition"
-   ],
-   "kw": "fresh vegetables",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Frankie Fouganthin / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Fresh_fruits_and_vegetables_in_2020_02.jpg/1280px-Fresh_fruits_and_vegetables_in_2020_02.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Fresh_fruits_and_vegetables_in_2020_02.jpg",
-   "used_by": "blood-sugar-and-brain-fog"
-  },
-  {
-   "file": "food-nutrition-05.jpg",
-   "themes": [
-    "food-nutrition"
-   ],
-   "kw": "fresh vegetables",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Frankie Fouganthin / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Fresh_fruits_and_vegetables_in_2020_03.jpg/1280px-Fresh_fruits_and_vegetables_in_2020_03.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Fresh_fruits_and_vegetables_in_2020_03.jpg",
-   "used_by": "protein-intake-and-brain-aging"
-  },
-  {
-   "file": "food-nutrition-06.jpg",
-   "themes": [
-    "food-nutrition"
-   ],
-   "kw": "fresh vegetables",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Frankie Fouganthin / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Fresh_fruits_and_vegetables_in_2020_04.jpg/1280px-Fresh_fruits_and_vegetables_in_2020_04.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Fresh_fruits_and_vegetables_in_2020_04.jpg",
-   "used_by": "saffron-for-mood-and-memory"
-  },
-  {
-   "file": "exercise-fitness-01.jpg",
-   "themes": [
-    "exercise-fitness"
-   ],
-   "kw": "senior exercise",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Martin Rulsch, Wikimedia Commons / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/2022-04-09_25th_Rheintalcup_2022_P6_Senior_competition_Floor_exercise_%28Martin_Rulsch%29_228.jpg/1280px-2022-04-09_25th_Rheintalcup_2022_P6_Senior_competition_Floor_exercise_%28Martin_Rulsch%29_228.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:2022-04-09_25th_Rheintalcup_2022_P6_Senior_competition_Floor_exercise_(Martin_Rulsch)_228.jpg",
-   "used_by": "standing-desks-and-focus"
-  },
-  {
-   "file": "sleep-rest-01.jpg",
-   "themes": [
-    "sleep-rest"
-   ],
-   "kw": "person sleeping",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Giles Laurent / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/014_Baby_cape_fur_seal_sleeping_at_Cape_cross_Photo_by_Giles_Laurent.jpg/1280px-014_Baby_cape_fur_seal_sleeping_at_Cape_cross_Photo_by_Giles_Laurent.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:014_Baby_cape_fur_seal_sleeping_at_Cape_cross_Photo_by_Giles_Laurent.jpg",
-   "used_by": "sleep-and-memory-consolidation"
-  },
-  {
-   "file": "sleep-rest-02.jpg",
-   "themes": [
-    "sleep-rest"
-   ],
-   "kw": "person sleeping",
-   "license": "CC BY-SA 2.0",
-   "attribution": "Mike Burns / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/A_person_adjusting_a_sleeping_bag_inside_a_tent.jpg/1280px-A_person_adjusting_a_sleeping_bag_inside_a_tent.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:A_person_adjusting_a_sleeping_bag_inside_a_tent.jpg",
-   "used_by": "microglia-sleep-loss-alzheimers"
-  },
-  {
-   "file": "doctor-medical-01.jpg",
-   "themes": [
-    "doctor-medical"
-   ],
-   "kw": "doctor patient",
-   "license": "CC BY 2.0",
-   "attribution": "Unknown / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/A_doctor_unexpectedly_paying_a_visit_to_a_patient._Coloured_Wellcome_V0010945.jpg/1280px-A_doctor_unexpectedly_paying_a_visit_to_a_patient._Coloured_Wellcome_V0010945.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:A_doctor_unexpectedly_paying_a_visit_to_a_patient._Coloured_Wellcome_V0010945.jpg",
-   "used_by": "__disqualified__",
-   "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
-  },
-  {
-   "file": "doctor-medical-02.jpg",
-   "themes": [
-    "doctor-medical"
-   ],
-   "kw": "doctor patient",
-   "license": "Public domain",
-   "attribution": "Uncredited / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Doctor_%28the_Enthusiastic%29_Jonathan_%28the_Patient%29.jpg/1280px-Doctor_%28the_Enthusiastic%29_Jonathan_%28the_Patient%29.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Doctor_(the_Enthusiastic)_Jonathan_(the_Patient).jpg",
-   "used_by": "__disqualified__",
-   "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
-  },
-  {
-   "file": "doctor-medical-03.jpg",
-   "themes": [
-    "doctor-medical"
-   ],
-   "kw": "doctor patient",
-   "license": "CC BY-SA 2.0",
-   "attribution": "Bob Embleton / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Doctor_%5E_patient_misericord%2C_Great_Malvern_Priory_-_geograph.org.uk_-_2530338.jpg/1280px-Doctor_%5E_patient_misericord%2C_Great_Malvern_Priory_-_geograph.org.uk_-_2530338.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Doctor_%5E_patient_misericord,_Great_Malvern_Priory_-_geograph.org.uk_-_2530338.jpg",
-   "used_by": "__disqualified__",
-   "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
-  },
-  {
-   "file": "doctor-medical-04.jpg",
-   "themes": [
-    "doctor-medical"
-   ],
-   "kw": "medical checkup",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Brahmcharini shivaniji / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Free_medical_checkup_camp.JPG/1280px-Free_medical_checkup_camp.JPG",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Free_medical_checkup_camp.JPG",
-   "used_by": "thyroid-and-brain-fog"
-  },
-  {
-   "file": "doctor-medical-05.jpg",
-   "themes": [
-    "doctor-medical"
-   ],
-   "kw": "medical checkup",
-   "license": "GODL-India",
-   "attribution": "Ministry of Information and Broadcasting / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Free_medicine_being_distributed_at_the_medical_checkup_camp%2C_under_National_Rural_Health_Mission%2C_a_part_of_Public_Information_Campaign%2C_organized_by_Press_Information_Bureau%2C_Mumbai%2C_at_Khanvel%2C_Silvassa_%28DNH%29.jpg/1280px-thumbnail.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Free_medicine_being_distributed_at_the_medical_checkup_camp,_under_National_Rural_Health_Mission,_a_part_of_Public_Information_Campaign,_organized_by_Press_Information_Bureau,_Mumbai,_at_Khanvel,_Silvassa_(DNH).jpg",
-   "used_by": "ptau217-blood-test-predicts-alzheimers-risk"
-  },
-  {
-   "file": "doctor-medical-06.jpg",
-   "themes": [
-    "doctor-medical"
-   ],
-   "kw": "medical checkup",
-   "license": "Public domain",
-   "attribution": "Press Information Department / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Md_Abdul_Hamid_Departing_Dhaka_Airport_for_Medical_Checkup%2C_2016-08-28.jpg/1280px-Md_Abdul_Hamid_Departing_Dhaka_Airport_for_Medical_Checkup%2C_2016-08-28.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Md_Abdul_Hamid_Departing_Dhaka_Airport_for_Medical_Checkup,_2016-08-28.jpg",
-   "used_by": "__disqualified__",
-   "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
-  },
-  {
-   "file": "nature-lifestyle-01.jpg",
-   "themes": [
-    "nature-lifestyle"
-   ],
-   "kw": "forest path walking",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Famartin / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/2021-04-17_11_42_04_View_along_a_forested_walking_path_during_spring_in_the_Franklin_Glen_section_of_Chantilly%2C_Fairfax_County%2C_Virginia.jpg/1280px-2021-04-17_11_42_04_View_along_a_forested_walking_path_during_spring_in_the_Franklin_Glen_section_of_Chantilly%2C_Fairfax_County%2C_Virginia.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:2021-04-17_11_42_04_View_along_a_forested_walking_path_during_spring_in_the_Franklin_Glen_section_of_Chantilly,_Fairfax_County,_Virginia.jpg",
-   "used_by": "hydration-and-cognitive-function"
-  },
-  {
-   "file": "nature-lifestyle-02.jpg",
-   "themes": [
-    "nature-lifestyle"
-   ],
-   "kw": "forest path walking",
-   "license": "CC BY-SA 3.0",
-   "attribution": "User:Orderinchaos / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/ADH_Mount_Lofty_forest_walking_path_leaving_summit.jpg/1280px-ADH_Mount_Lofty_forest_walking_path_leaving_summit.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:ADH_Mount_Lofty_forest_walking_path_leaving_summit.jpg",
-   "used_by": "vagus-nerve-and-memory"
-  },
-  {
-   "file": "nature-lifestyle-03.jpg",
-   "themes": [
-    "nature-lifestyle"
-   ],
-   "kw": "forest path walking",
-   "license": "CC BY-SA 2.0",
-   "attribution": "Kenneth  Allen / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/9/98/Bluebells_along_a_forest_path_-_geograph.org.uk_-_6128663.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Bluebells_along_a_forest_path_-_geograph.org.uk_-_6128663.jpg",
-   "used_by": "jet-lag-and-memory"
-  },
-  {
-   "file": "nature-lifestyle-04.jpg",
-   "themes": [
-    "nature-lifestyle"
-   ],
-   "kw": "forest path walking",
-   "license": "CC BY-SA 2.0",
-   "attribution": "Jim Barton / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Descent_path_in_Thornielee_Forest_-_geograph.org.uk_-_6039433.jpg/1280px-Descent_path_in_Thornielee_Forest_-_geograph.org.uk_-_6039433.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Descent_path_in_Thornielee_Forest_-_geograph.org.uk_-_6039433.jpg",
-   "used_by": "sauna-use-and-brain-health"
-  },
-  {
-   "file": "nature-lifestyle-05.jpg",
-   "themes": [
-    "nature-lifestyle"
-   ],
-   "kw": "forest path walking",
-   "license": "CC BY-SA 2.0",
-   "attribution": "liz dawson / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/Forest_Path%2C_Fridd_yr_Allt-rugog_-_geograph.org.uk_-_750327.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Forest_Path,_Fridd_yr_Allt-rugog_-_geograph.org.uk_-_750327.jpg",
-   "used_by": "tv-watching-and-brain-health"
-  },
-  {
-   "file": "nature-lifestyle-06.jpg",
-   "themes": [
-    "nature-lifestyle"
-   ],
-   "kw": "forest path walking",
-   "license": "CC BY-SA 2.0",
-   "attribution": "Jim Barton / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Forest_path%2C_Benderloch_-_geograph.org.uk_-_4911820.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Forest_path,_Benderloch_-_geograph.org.uk_-_4911820.jpg",
-   "used_by": "low-testosterone-and-memory"
-  },
-  {
-   "file": "meditation-calm-01.jpg",
-   "themes": [
-    "meditation-calm"
-   ],
-   "kw": "woman meditation",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Truenudists / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Nudist_woman_sitting_on_a_rock_meditating.jpg/1280px-Nudist_woman_sitting_on_a_rock_meditating.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Nudist_woman_sitting_on_a_rock_meditating.jpg",
-   "used_by": "_DISABLED_NSFW_2026-07-31",
-   "note": "Removed 2026-07-31: source Wikimedia file was nudist-themed (attribution Truenudists), not brand-appropriate. File deleted from assets/img-pool/. Do not re-add."
-  },
-  {
-   "file": "meditation-calm-02.jpg",
-   "themes": [
-    "meditation-calm"
-   ],
-   "kw": "woman meditation",
-   "license": "CC BY 2.0",
-   "attribution": "LiCheng Shih / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Taiwanese_young_woman_doing_meditation_in_Gaomei_Wetlands.jpg/1280px-Taiwanese_young_woman_doing_meditation_in_Gaomei_Wetlands.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Taiwanese_young_woman_doing_meditation_in_Gaomei_Wetlands.jpg",
-   "used_by": "long-covid-and-brain-fog"
-  },
-  {
-   "file": "meditation-calm-03.jpg",
-   "themes": [
-    "meditation-calm"
-   ],
-   "kw": "yoga meditation",
-   "license": "CC BY 2.0",
-   "attribution": "Konstantin Stepanov from Moscow, Россия / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/A_group_meditation_session_in_a_park_in_a_yoga_asana.jpg/1280px-A_group_meditation_session_in_a_park_in_a_yoga_asana.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:A_group_meditation_session_in_a_park_in_a_yoga_asana.jpg",
-   "used_by": "chemo-brain-explained"
-  },
-  {
-   "file": "meditation-calm-04.jpg",
-   "themes": [
-    "meditation-calm"
-   ],
-   "kw": "yoga meditation",
-   "license": "CC BY-SA 2.0",
-   "attribution": "Grand Velas Riviera Maya / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/A_meditation_yoga_on_a_beach.jpg/1280px-A_meditation_yoga_on_a_beach.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:A_meditation_yoga_on_a_beach.jpg",
-   "used_by": "blue-light-and-brain-fog"
-  },
-  {
-   "file": "meditation-calm-05.jpg",
-   "themes": [
-    "meditation-calm"
-   ],
-   "kw": "yoga meditation",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Arham Yoga / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Arham_Yoga_%26_Meditation_Shivir%2C_Model_Town.jpg/1280px-Arham_Yoga_%26_Meditation_Shivir%2C_Model_Town.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Arham_Yoga_%26_Meditation_Shivir,_Model_Town.jpg",
-   "used_by": "iron-deficiency-and-brain-fog"
-  },
-  {
-   "file": "meditation-calm-06.jpg",
-   "themes": [
-    "meditation-calm"
-   ],
-   "kw": "yoga meditation",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Arham Yoga / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Arham_Yoga_%26_Meditation_Shivir%2C_Vaishali.jpg/1280px-Arham_Yoga_%26_Meditation_Shivir%2C_Vaishali.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Arham_Yoga_%26_Meditation_Shivir,_Vaishali.jpg",
-   "used_by": "nad-supplements-and-brain-aging"
-  },
-  {
-   "file": "social-connection-01.jpg",
-   "themes": [
-    "social-connection"
-   ],
-   "kw": "friends together",
-   "license": "Public domain",
-   "attribution": "Sgt. Kissta DiGregorio / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/%22Banner_Day%22_event_brings_Paratroopers%2C_families%2C_and_friends_together_DVIDS190444.jpg/1280px-%22Banner_Day%22_event_brings_Paratroopers%2C_families%2C_and_friends_together_DVIDS190444.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:%22Banner_Day%22_event_brings_Paratroopers,_families,_and_friends_together_DVIDS190444.jpg",
-   "used_by": "__disqualified__",
-   "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
-  },
-  {
-   "file": "social-connection-02.jpg",
-   "themes": [
-    "social-connection"
-   ],
-   "kw": "friends together",
-   "license": "CC BY-SA 2.0",
-   "attribution": "John Lucas / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/All_friends_together%5E_-_geograph.org.uk_-_263962.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:All_friends_together%5E_-_geograph.org.uk_-_263962.jpg",
-   "used_by": "resveratrol-and-memory"
-  },
-  {
-   "file": "social-connection-03.jpg",
-   "themes": [
-    "social-connection"
-   ],
-   "kw": "friends together",
-   "license": "CC BY 2.0",
-   "attribution": "Department of Foreign Affairs and Trade / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Best_friends_sit_together_at_the_Honiara_Central_Market._%2810677030504%29.jpg/1280px-Best_friends_sit_together_at_the_Honiara_Central_Market._%2810677030504%29.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Best_friends_sit_together_at_the_Honiara_Central_Market._(10677030504).jpg",
-   "used_by": "bilingualism-and-brain-reserve"
-  },
-  {
-   "file": "social-connection-04.jpg",
-   "themes": [
-    "social-connection"
-   ],
-   "kw": "friends together",
-   "license": "Public domain",
-   "attribution": "Expeditionary / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Friends%2C_soldiers_brought_together_during_tour_DVIDS360085.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Friends,_soldiers_brought_together_during_tour_DVIDS360085.jpg",
-   "used_by": "__disqualified__",
-   "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
-  },
-  {
-   "file": "social-connection-05.jpg",
-   "themes": [
-    "social-connection"
-   ],
-   "kw": "friends together",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Lonaoui-a / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Friends_Share_Their_Injera.JPG/1280px-Friends_Share_Their_Injera.JPG",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Friends_Share_Their_Injera.JPG",
-   "used_by": "__disqualified__",
-   "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
-  },
-  {
-   "file": "social-connection-06.jpg",
-   "themes": [
-    "social-connection"
-   ],
-   "kw": "friends together",
-   "license": "CC BY 2.0",
-   "attribution": "CGP Grey / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Friends_Walking_Together_5277548768.jpg/1280px-Friends_Walking_Together_5277548768.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Friends_Walking_Together_5277548768.jpg",
-   "used_by": "cognitive-reserve-explained"
-  },
-  {
-   "file": "thinking-memory-01.jpg",
-   "themes": [],
-   "kw": "person thinking",
-   "license": "CC0",
-   "attribution": "Wendelin Jacober from Luzern, Schweiz / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/HipHop_instrumental-_Sill_thinking_of_you_%2814253482185%29.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:HipHop_instrumental-_Sill_thinking_of_you_(14253482185).jpg",
-   "used_by": "__disqualified__",
-   "note": "MISLABELED: source file is a HipHop equipment photo, not person-thinking. Quarantined from theme matching.",
-   "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
-  },
-  {
-   "file": "thinking-memory-02.jpg",
-   "themes": [
-    "thinking-memory"
-   ],
-   "kw": "person thinking",
-   "license": "CC0",
-   "attribution": "Dareed / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Students_Engaged_in_Critical_Thinking_Activities.jpg/1280px-Students_Engaged_in_Critical_Thinking_Activities.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Students_Engaged_in_Critical_Thinking_Activities.jpg",
-   "used_by": "sorla-protein-tau-tangles-alzheimers"
-  },
-  {
-   "file": "thinking-memory-03.jpg",
-   "themes": [
-    "thinking-memory"
-   ],
-   "kw": "person thinking",
-   "license": "CC0",
-   "attribution": "A1 / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/The_book_of_%C2%ABWatching_the_Sky_and_Thinking_a_Thougt%C2%BB_by_Mykhaylo_Petrenko_03.jpg/1280px-The_book_of_%C2%ABWatching_the_Sky_and_Thinking_a_Thougt%C2%BB_by_Mykhaylo_Petrenko_03.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:The_book_of_%C2%ABWatching_the_Sky_and_Thinking_a_Thougt%C2%BB_by_Mykhaylo_Petrenko_03.jpg",
-   "used_by": "journaling-for-memory"
-  },
-  {
-   "file": "thinking-memory-04.jpg",
-   "themes": [
-    "thinking-memory"
-   ],
-   "kw": "person thinking",
-   "license": "CC BY-SA 3.0",
-   "attribution": "M. PINARCI / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Thinking_Of_You_-_panoramio.jpg/1280px-Thinking_Of_You_-_panoramio.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Thinking_Of_You_-_panoramio.jpg",
-   "used_by": "__disqualified__",
-   "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
-  },
-  {
-   "file": "thinking-memory-05.jpg",
-   "themes": [
-    "thinking-memory"
-   ],
-   "kw": "person thinking",
-   "license": "CC BY-SA 3.0",
-   "attribution": "M. PINARCI / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Thinking_Of_You_-_panoramio_%281%29.jpg/1280px-Thinking_Of_You_-_panoramio_%281%29.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Thinking_Of_You_-_panoramio_(1).jpg",
-   "used_by": "__disqualified__",
-   "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
-  },
-  {
-   "file": "thinking-memory-06.jpg",
-   "themes": [
-    "thinking-memory"
-   ],
-   "kw": "person thinking",
-   "license": "CC BY 3.0",
-   "attribution": "Sérgio Valle Duarte  .mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-output .messagebox.mbox-small{font-size:88%;line-height:1.25em}.mw-parser-output .mbox-warning,.mw-parser-output .mbox-speedy{border:2px solid var(--border-color-error,#b22222);background:var(--background-color-error-subtle,#ffdbdb);border-inline-start-width:8px}.mw-parser-output .mbox-serious,.mw-parser-output .mbox-delete,.mw-parser-output .mbox-stop{border:2px solid var(--border-color-error,#b22222);border-inline-start-width:8px}.mw-parser-output .mbox-issue,.mw-parser-output .mbox-content{border:2px solid #f28500;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-query,.mw-parser-output .mbox-style{border:2px solid #f4c430;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-shit{border:2px solid #960;border-inline-start-width:8px}.mw-parser-output .mbox-license{border:2px solid #88a;border-inline-start-width:initial}.mw-parser-output .mbox-legal{border:2px solid var(--border-color-notice,#666);background:var(--background-color-base,#fff);border-inline-start-width:8px}.mw-parser-output .mbox-honor{border:2px solid #ca3;background:var(--background-color-warning-subtle,#fcf4db);border-inline-start-width:8px}.mw-parser-output .mbox-growth{border:2px solid #8d4;background:var(--background-color-success-subtle,#d5fdf4);border-inline-start-width:8px}.mw-parser-output .mbox-move{border:2px solid #93c;border-inline-start-width:8px}.mw-parser-output .mbox-protection,.mw-parser-output .mbox-message{border:2px solid var(--border-color-base,#aaa);border-inline-start-width:8px}.mw-parser-output .messagebox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .messagebox .mbox-image{border:none;padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .messagebox .mbox-imageright{border:none;padding:2px 0.9em 2px 0;text-align:center}.mw-parser-output .messagebox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .messagebox .mbox-invalid-type{text-align:center}@media(min-width:720px){.mw-parser-output .messagebox{margin:4px 10%}.mw-parser-output .messagebox.mbox-small{clear:right;float:right;margin:4px 0 4px 1em;width:238px}}body.skin--responsive .mw-parser-output table.messagebox img{max-width:none!important}Wikidata has entry Sergio Valle Duarte (Q16269994) with data related to this item.  \n\n\nPersonality rights\n\nPersonality rightsPersonality rights warningAlthough this work is freely licensed or in the public domain, the person(s) shown may have rights that legally restrict certain re-uses unless those depicted consent to such uses. In these cases, a model release or other evidence of consent could protect you from infringement claims. Though not obliged to do so, the uploader may be able to help you to obtain such evidence. See our general disclaimer for more information. / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Thinking_of_Dad_1997.jpg/1280px-Thinking_of_Dad_1997.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Thinking_of_Dad_1997.jpg",
-   "used_by": "__disqualified__",
-   "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
-  },
-  {
-   "file": "exercise-fitness-02.jpg",
-   "themes": [
-    "exercise-fitness"
-   ],
-   "kw": "person jogging",
-   "license": "CC BY-SA 2.0",
-   "attribution": "Philip Mallis / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Person_jogging_and_person_cycling_on_the_Koonung_Creek_Trail_looking_east_in_Koonung_Creek_Reserve_in_North_Balwyn%2C_Melbourne.jpg/1280px-Person_jogging_and_person_cycling_on_the_Koonung_Creek_Trail_looking_east_in_Koonung_Creek_Reserve_in_North_Balwyn%2C_Melbourne.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Person_jogging_and_person_cycling_on_the_Koonung_Creek_Trail_looking_east_in_Koonung_Creek_Reserve_in_North_Balwyn,_Melbourne.jpg",
-   "used_by": "walking-and-brain-health"
-  },
-  {
-   "file": "exercise-fitness-03.jpg",
-   "themes": [
-    "exercise-fitness"
-   ],
-   "kw": "woman yoga",
-   "license": "CC BY 2.0",
-   "attribution": "Shixart1985 / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Beautiful_senior_woman_with_curly_hair_doing_yoga_at_home.jpg/1280px-Beautiful_senior_woman_with_curly_hair_doing_yoga_at_home.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Beautiful_senior_woman_with_curly_hair_doing_yoga_at_home.jpg",
-   "used_by": "does-retirement-affect-memory"
-  },
-  {
-   "file": "exercise-fitness-04.jpg",
-   "themes": [
-    "exercise-fitness"
-   ],
-   "kw": "woman yoga",
-   "license": "CC BY 2.0",
-   "attribution": "Shixart1985 / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Close-up_of_a_woman_sitting_on_a_yoga_mat_and_checking_her_phone.jpg/1280px-Close-up_of_a_woman_sitting_on_a_yoga_mat_and_checking_her_phone.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_woman_sitting_on_a_yoga_mat_and_checking_her_phone.jpg",
-   "used_by": "pqq-for-brain-health"
-  },
-  {
-   "file": "exercise-fitness-05.jpg",
-   "themes": [
-    "exercise-fitness"
-   ],
-   "kw": "woman yoga",
-   "license": "CC BY 2.0",
-   "attribution": "Nenad Stojkovic / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Closeup_of_the_woman_on_a_yoga_mat_stretching_her_hips._%2850398220748%29.jpg/1280px-Closeup_of_the_woman_on_a_yoga_mat_stretching_her_hips._%2850398220748%29.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Closeup_of_the_woman_on_a_yoga_mat_stretching_her_hips._(50398220748).jpg",
-   "used_by": "hormonal-birth-control-and-memory"
-  },
-  {
-   "file": "exercise-fitness-06.jpg",
-   "themes": [
-    "exercise-fitness"
-   ],
-   "kw": "woman yoga",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Tz drunk poet / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Mazoezi_ya_yoga.jpg/1280px-Mazoezi_ya_yoga.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Mazoezi_ya_yoga.jpg",
-   "used_by": "coq10-and-brain-health"
-  },
-  {
-   "file": "sleep-rest-03.jpg",
-   "themes": [
-    "sleep-rest"
-   ],
-   "kw": "bedroom bed",
-   "license": "CC BY 4.0",
-   "attribution": "Bjankuloski06 / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Bed%2C_Settler%27s_bedroom%2C_McNicol_Homestead.jpg/1280px-Bed%2C_Settler%27s_bedroom%2C_McNicol_Homestead.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Bed,_Settler%27s_bedroom,_McNicol_Homestead.jpg",
-   "used_by": "magnesium-l-threonate-for-memory"
-  },
-  {
-   "file": "sleep-rest-04.jpg",
-   "themes": [
-    "sleep-rest"
-   ],
-   "kw": "bedroom bed",
-   "license": "CC BY 4.0",
-   "attribution": "Bjankuloski06 / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Bed_with_dolls%2C_Girls%27_Bedroom%2C_Highwic.jpg/1280px-Bed_with_dolls%2C_Girls%27_Bedroom%2C_Highwic.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Bed_with_dolls,_Girls%27_Bedroom,_Highwic.jpg",
-   "used_by": "__disqualified__",
-   "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
-  },
-  {
-   "file": "sleep-rest-05.jpg",
-   "themes": [
-    "sleep-rest"
-   ],
-   "kw": "bedroom bed",
-   "license": "CC BY-SA 3.0",
-   "attribution": "IFERREIRO / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Bedroom_twin_beds.jpg/1280px-Bedroom_twin_beds.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Bedroom_twin_beds.jpg",
-   "used_by": "napping-and-memory"
-  },
-  {
-   "file": "sleep-rest-06.jpg",
-   "themes": [
-    "sleep-rest"
-   ],
-   "kw": "bedroom bed",
-   "license": "CC BY-SA 3.0",
-   "attribution": "aismallard / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Bedroom_with_marine_puzzles_on_wall.jpg/1280px-Bedroom_with_marine_puzzles_on_wall.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Bedroom_with_marine_puzzles_on_wall.jpg",
-   "used_by": "postpartum-brain-fog"
-  },
-  {
-   "file": "study-focus-01.jpg",
-   "themes": [
-    "study-focus"
-   ],
-   "kw": "student studying",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Tinsae Belay / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/5/5c/African_student_studying_at_dormitory_from_tablet_computer%2C.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:African_student_studying_at_dormitory_from_tablet_computer,.jpg",
-   "used_by": "tau-protein-and-long-term-memory"
-  },
-  {
-   "file": "study-focus-02.jpg",
-   "themes": [
-    "study-focus"
-   ],
-   "kw": "student studying",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Rwebogora / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Disabled_student_studying.jpg/1280px-Disabled_student_studying.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Disabled_student_studying.jpg",
-   "used_by": "multitasking-and-the-brain"
-  },
-  {
-   "file": "study-focus-03.jpg",
-   "themes": [
-    "study-focus"
-   ],
-   "kw": "student studying",
-   "license": "CC BY 2.0",
-   "attribution": "English106 / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Female_student_writing_and_studying_at_dorm_room_desk.jpg/1280px-Female_student_writing_and_studying_at_dorm_room_desk.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Female_student_writing_and_studying_at_dorm_room_desk.jpg",
-   "used_by": "spaced-repetition-explained"
-  },
-  {
-   "file": "study-focus-04.jpg",
-   "themes": [
-    "study-focus"
-   ],
-   "kw": "student studying",
-   "license": "CC BY 2.0",
-   "attribution": "Tulane Public Relations / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Four_Tulane_University_Students_Studying_January_2008.jpg/1280px-Four_Tulane_University_Students_Studying_January_2008.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Four_Tulane_University_Students_Studying_January_2008.jpg",
-   "used_by": "active-recall-study-method"
-  },
-  {
-   "file": "study-focus-05.jpg",
-   "themes": [
-    "study-focus"
-   ],
-   "kw": "student studying",
-   "license": "CC BY-SA 3.0",
-   "attribution": "Ashstar01 / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/India_student_studying.jpg/1280px-India_student_studying.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:India_student_studying.jpg",
-   "used_by": "adhd-and-working-memory"
-  },
-  {
-   "file": "study-focus-06.jpg",
-   "themes": [
-    "study-focus"
-   ],
-   "kw": "student studying",
-   "license": "CC0",
-   "attribution": "Millethills / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Kobe_City_University_of_Foreign_Studies_student_center.jpg/1280px-Kobe_City_University_of_Foreign_Studies_student_center.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Kobe_City_University_of_Foreign_Studies_student_center.jpg",
-   "used_by": "noise-pollution-and-focus"
-  },
-  {
-   "file": "supplement-pills-01.jpg",
-   "themes": [
-    "supplement-pills"
-   ],
-   "kw": "dietary supplement capsules",
-   "license": "CC0",
-   "attribution": "Mx. Granger / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/DHA_pills.jpg/1280px-DHA_pills.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:DHA_pills.jpg",
-   "used_by": "ashwagandha-for-stress-and-memory"
-  },
-  {
-   "file": "supplement-pills-02.jpg",
-   "themes": [
-    "supplement-pills"
-   ],
-   "kw": "dietary supplement capsules",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Flwany / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Monolaurin.jpg/1280px-Monolaurin.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Monolaurin.jpg",
-   "used_by": "omega-6-omega-3-ratio-brain"
-  },
-  {
-   "file": "supplement-pills-03.jpg",
-   "themes": [
-    "supplement-pills"
-   ],
-   "kw": "dietary supplement capsules",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Tomino de WS / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/No-prostal_cps.jpg/1280px-No-prostal_cps.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:No-prostal_cps.jpg",
-   "used_by": "probiotics-for-brain-fog"
-  },
-  {
-   "file": "supplement-pills-04.jpg",
-   "themes": [
-    "supplement-pills"
-   ],
-   "kw": "dietary supplement capsules",
-   "license": "CC0",
-   "attribution": "Mx. Granger / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Vegan_calcium_supplements.jpg/1280px-Vegan_calcium_supplements.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Vegan_calcium_supplements.jpg",
-   "used_by": "cholesterol-and-brain-health"
-  },
-  {
-   "file": "supplement-pills-05.jpg",
-   "themes": [
-    "supplement-pills"
-   ],
-   "kw": "pills close up",
-   "license": "CC BY 4.0",
-   "attribution": "Carlquist, Sherwin John, 1930-2021 / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/%28Dithyrea_close-up_in_California%2C_United_States%29_-_DPLA_-_f70dd6ded4cf4030583fd350afbbbbbe.jpg/1280px-%28Dithyrea_close-up_in_California%2C_United_States%29_-_DPLA_-_f70dd6ded4cf4030583fd350afbbbbbe.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:(Dithyrea_close-up_in_California,_United_States)_-_DPLA_-_f70dd6ded4cf4030583fd350afbbbbbe.jpg",
-   "used_by": "fish-oil-vs-algae-omega3"
-  },
-  {
-   "file": "supplement-pills-06.jpg",
-   "themes": [
-    "supplement-pills"
-   ],
-   "kw": "pills close up",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Didier Descouens / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/%28MHNT%29_Acmaeoderella_flavofasciata_on_Ammis_majus_%28close_up%29.jpg/1280px-%28MHNT%29_Acmaeoderella_flavofasciata_on_Ammis_majus_%28close_up%29.jpg",
-   "descurl": "https://commons.wikimedia.org/wiki/File:(MHNT)_Acmaeoderella_flavofasciata_on_Ammis_majus_(close_up).jpg",
-   "used_by": "__disqualified__",
-   "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
-  },
-  {
-   "file": "senior-aging-07.jpg",
-   "themes": [
-    "senior-aging"
-   ],
-   "kw": "old couple walking",
-   "license": "CC BY 2.0",
-   "attribution": "Charlie Phillips from London, UK / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Couple_walking_along_Palanga_beach%2C_Lithuania_%283948063942%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Couple_walking_along_Palanga_beach,_Lithuania_(3948063942).jpg",
-   "used_by": "copper-deficiency-and-brain-fog"
-  },
-  {
-   "file": "senior-aging-08.jpg",
-   "themes": [
-    "senior-aging"
-   ],
-   "kw": "old couple walking",
-   "license": "Public domain",
-   "attribution": "Rhoda Baer (Photographer) / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Couple_walking_outdoors.jpg/1280px-Couple_walking_outdoors.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Couple_walking_outdoors.jpg",
-   "used_by": "hrt-and-memory"
-  },
-  {
-   "file": "food-nutrition-07.jpg",
-   "themes": [
-    "food-nutrition"
-   ],
-   "kw": "blueberries fruit",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Famartin / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/2021-07-20_19_25_58_A_close-up_of_Hammonton_NJ_Jersey_Fruit_Blueberries_in_Rochelle_Park_Township%2C_Bergen_County%2C_New_Jersey.jpg/1280px-2021-07-20_19_25_58_A_close-up_of_Hammonton_NJ_Jersey_Fruit_Blueberries_in_Rochelle_Park_Township%2C_Bergen_County%2C_New_Jersey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "descurl": "https://commons.wikimedia.org/wiki/File:2021-07-20_19_25_58_A_close-up_of_Hammonton_NJ_Jersey_Fruit_Blueberries_in_Rochelle_Park_Township,_Bergen_County,_New_Jersey.jpg",
-   "used_by": "selenium-and-cognitive-function"
-  },
-  {
-   "file": "food-nutrition-08.jpg",
-   "themes": [
-    "food-nutrition"
-   ],
-   "kw": "blueberries fruit",
-   "license": "CC BY-SA 4.0",
-   "attribution": "Famartin / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/2021-07-20_19_27_11_A_close-up_of_Hammonton_NJ_Jersey_Fruit_Blueberries_in_Rochelle_Park_Township%2C_Bergen_County%2C_New_Jersey.jpg/1280px-2021-07-20_19_27_11_A_close-up_of_Hammonton_NJ_Jersey_Fruit_Blueberries_in_Rochelle_Park_Township%2C_Bergen_County%2C_New_Jersey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "descurl": "https://commons.wikimedia.org/wiki/File:2021-07-20_19_27_11_A_close-up_of_Hammonton_NJ_Jersey_Fruit_Blueberries_in_Rochelle_Park_Township,_Bergen_County,_New_Jersey.jpg",
-   "used_by": "cortisol-and-memory"
-  },
-  {
-   "file": "food-nutrition-09.jpg",
-   "themes": [
-    "food-nutrition"
-   ],
-   "kw": "blueberries fruit",
-   "license": "CC BY-SA 3.0",
-   "attribution": "Rasbak at Dutch Wikipedia / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/7/71/Blauwe_bes_struik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Blauwe_bes_struik.jpg",
-   "used_by": "sugar-and-brain-fog"
-  },
-  {
-   "file": "study-focus-07.jpg",
-   "themes": [
-    "study-focus"
-   ],
-   "kw": "woman reading book",
-   "license": "CC BY 2.0",
-   "attribution": "Shixart1985 / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Business_senior_woman_reading_an_old_book_at_home_closeup.jpg/1280px-Business_senior_woman_reading_an_old_book_at_home_closeup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Business_senior_woman_reading_an_old_book_at_home_closeup.jpg",
-   "used_by": "statins-and-memory-loss"
-  },
-  {
-   "file": "study-focus-08.jpg",
-   "themes": [
-    "study-focus"
-   ],
-   "kw": "woman reading book",
-   "license": "CC BY 2.0",
-   "attribution": "Shixart1985 / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Close-up_of_a_woman_reading_a_book.jpg/1280px-Close-up_of_a_woman_reading_a_book.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_woman_reading_a_book.jpg",
-   "used_by": "antidepressants-and-memory"
-  },
-  {
-   "file": "study-focus-09.jpg",
-   "themes": [
-    "study-focus"
-   ],
-   "kw": "woman reading book",
-   "license": "CC BY 2.0",
-   "attribution": "Shixart1985 / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Close-up_of_a_woman_reading_an_old_worn_out_book.jpg/1280px-Close-up_of_a_woman_reading_an_old_worn_out_book.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_woman_reading_an_old_worn_out_book.jpg",
-   "used_by": "multilingualism-and-brain-age"
-  },
-  {
-   "file": "study-focus-10.jpg",
-   "themes": [
-    "study-focus"
-   ],
-   "kw": "library books",
-   "license": "CC BY 3.0",
-   "attribution": "Ralf Roletschek / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/13-11-02-olb-by-RalfR-03.jpg/1280px-13-11-02-olb-by-RalfR-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "descurl": "https://commons.wikimedia.org/wiki/File:13-11-02-olb-by-RalfR-03.jpg",
-   "used_by": "shift-work-and-memory"
-  },
-  {
-   "file": "supplement-pills-10.jpg",
-   "themes": [
-    "supplement-pills"
-   ],
-   "kw": "medication bottle",
-   "license": "CC BY 2.0",
-   "attribution": "NIAID / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Antiretroviral_HIV_Medication_%2832596142246%29.jpg/1280px-Antiretroviral_HIV_Medication_%2832596142246%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Antiretroviral_HIV_Medication_(32596142246).jpg",
-   "used_by": "allergy-medication-and-memory-fog"
-  },
-  {
-   "file": "thinking-memory-06.jpg",
-   "themes": [
-    "thinking-memory"
-   ],
-   "kw": "person thinking",
-   "license": "CC0",
-   "attribution": "Ahunt / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/The_Image_Relies_on_Positive_Thinking_by_Geoff_McFetridge_2491.jpg/1280px-The_Image_Relies_on_Positive_Thinking_by_Geoff_McFetridge_2491.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "descurl": "https://commons.wikimedia.org/wiki/File:The_Image_Relies_on_Positive_Thinking_by_Geoff_McFetridge_2491.jpg",
-   "used_by": "__disqualified__",
-   "disqualified": "manual visual audit 2026-08-24: abstract subway mural, not a photo of a real scene"
-  },
-  {
-   "file": "thinking-memory-09.jpg",
-   "themes": [
-    "thinking-memory"
-   ],
-   "kw": "person thinking",
-   "license": "CC BY-SA 2.0",
-   "attribution": "Johnny Silvercloud / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Thinking_of_You_Maybe_%2815489890048%29.jpg/1280px-Thinking_of_You_Maybe_%2815489890048%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Thinking_of_You_Maybe_(15489890048).jpg",
-   "used_by": "chronic-pain-and-memory"
-  },
-  {
-   "file": "thinking-memory-11.jpg",
-   "themes": [
-    "thinking-memory"
-   ],
-   "kw": "person thinking",
-   "license": "CC BY-SA 2.0",
-   "attribution": "Xuan Zheng / Wikimedia Commons",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Thinking_woman.jpg/1280px-Thinking_woman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "descurl": "https://commons.wikimedia.org/wiki/File:Thinking_woman.jpg",
-   "used_by": "tinnitus-and-concentration"
-  }
- ]
+  "_comment": "Offline hero-image pool. Built by build-pool.py, consumed by source-image.py when Openverse egress is blocked. used_by=null means available.",
+  "images": [
+    {
+      "file": "senior-aging-01.jpg",
+      "themes": [
+        "senior-aging"
+      ],
+      "kw": "elderly woman portrait",
+      "license": "Public domain",
+      "attribution": "Anne Vallayer-Coster / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Anne_Vallayer-Coster_%281744-1818%29_-_Portrait_of_an_Elderly_Woman_with_Her_Daughter_-_B.M.329_-_Bowes_Museum.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Anne_Vallayer-Coster_(1744-1818)_-_Portrait_of_an_Elderly_Woman_with_Her_Daughter_-_B.M.329_-_Bowes_Museum.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
+    },
+    {
+      "file": "senior-aging-02.jpg",
+      "themes": [
+        "senior-aging"
+      ],
+      "kw": "old couple walking",
+      "license": "Public domain",
+      "attribution": "Müfide Kadri / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/A_couple_on_the_promenade_by_M%C3%BCfide_Kadri.jpg/1280px-A_couple_on_the_promenade_by_M%C3%BCfide_Kadri.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:A_couple_on_the_promenade_by_M%C3%BCfide_Kadri.jpg",
+      "used_by": "zinc-and-brain-health"
+    },
+    {
+      "file": "senior-aging-03.jpg",
+      "themes": [
+        "senior-aging"
+      ],
+      "kw": "old couple walking",
+      "license": "CC0",
+      "attribution": "Alice Donovan Rouse (@alicekat) / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Adult_couple_holding_hands.jpg/1280px-Adult_couple_holding_hands.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Adult_couple_holding_hands.jpg",
+      "used_by": "hearing-loss-and-dementia-risk"
+    },
+    {
+      "file": "senior-aging-04.jpg",
+      "themes": [
+        "senior-aging"
+      ],
+      "kw": "old couple walking",
+      "license": "Public domain",
+      "attribution": "User: (WT-shared) Jolove55 at  wts wikivoyage / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/An_elderly_couple_walking_in_the_Memorial_to_the_Murdered_Jews_of_Europe%2C_Berlin.jpg/1280px-An_elderly_couple_walking_in_the_Memorial_to_the_Murdered_Jews_of_Europe%2C_Berlin.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:An_elderly_couple_walking_in_the_Memorial_to_the_Murdered_Jews_of_Europe,_Berlin.jpg",
+      "used_by": "menopause-and-memory"
+    },
+    {
+      "file": "senior-aging-05.jpg",
+      "themes": [
+        "senior-aging"
+      ],
+      "kw": "old couple walking",
+      "license": "CC BY 4.0",
+      "attribution": "Unknown / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/An_old_couple_are_assisted_in_walking%3B_representing_the_nine_Wellcome_V0007602.jpg/1280px-An_old_couple_are_assisted_in_walking%3B_representing_the_nine_Wellcome_V0007602.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:An_old_couple_are_assisted_in_walking;_representing_the_nine_Wellcome_V0007602.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
+    },
+    {
+      "file": "senior-aging-06.jpg",
+      "themes": [
+        "senior-aging"
+      ],
+      "kw": "old couple walking",
+      "license": "CC0",
+      "attribution": "Christopher Campbell chrisjoelcampbell / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Couple_in_Paradise._%28Unsplash%29.jpg/1280px-Couple_in_Paradise._%28Unsplash%29.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Couple_in_Paradise._(Unsplash).jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
+    },
+    {
+      "file": "food-nutrition-01.jpg",
+      "themes": [
+        "food-nutrition"
+      ],
+      "kw": "fresh vegetables",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Gaurav Dhwaj Khadka / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Fresh_Vegetables_2.jpg/1280px-Fresh_Vegetables_2.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Fresh_Vegetables_2.jpg",
+      "used_by": "choline-and-brain-function"
+    },
+    {
+      "file": "food-nutrition-02.jpg",
+      "themes": [
+        "food-nutrition"
+      ],
+      "kw": "fresh vegetables",
+      "license": "CC0",
+      "attribution": "Bajinra / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Fresh_Vegetables_in_Indonesia_Restaurant.jpg/1280px-Fresh_Vegetables_in_Indonesia_Restaurant.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Fresh_Vegetables_in_Indonesia_Restaurant.jpg",
+      "used_by": "green-tea-and-brain-health"
+    },
+    {
+      "file": "food-nutrition-03.jpg",
+      "themes": [
+        "food-nutrition"
+      ],
+      "kw": "fresh vegetables",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Frankie Fouganthin / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Fresh_fruits_and_vegetables_in_2020_01.jpg/1280px-Fresh_fruits_and_vegetables_in_2020_01.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Fresh_fruits_and_vegetables_in_2020_01.jpg",
+      "used_by": "dark-chocolate-and-memory"
+    },
+    {
+      "file": "food-nutrition-04.jpg",
+      "themes": [
+        "food-nutrition"
+      ],
+      "kw": "fresh vegetables",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Frankie Fouganthin / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Fresh_fruits_and_vegetables_in_2020_02.jpg/1280px-Fresh_fruits_and_vegetables_in_2020_02.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Fresh_fruits_and_vegetables_in_2020_02.jpg",
+      "used_by": "blood-sugar-and-brain-fog"
+    },
+    {
+      "file": "food-nutrition-05.jpg",
+      "themes": [
+        "food-nutrition"
+      ],
+      "kw": "fresh vegetables",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Frankie Fouganthin / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Fresh_fruits_and_vegetables_in_2020_03.jpg/1280px-Fresh_fruits_and_vegetables_in_2020_03.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Fresh_fruits_and_vegetables_in_2020_03.jpg",
+      "used_by": "protein-intake-and-brain-aging"
+    },
+    {
+      "file": "food-nutrition-06.jpg",
+      "themes": [
+        "food-nutrition"
+      ],
+      "kw": "fresh vegetables",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Frankie Fouganthin / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Fresh_fruits_and_vegetables_in_2020_04.jpg/1280px-Fresh_fruits_and_vegetables_in_2020_04.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Fresh_fruits_and_vegetables_in_2020_04.jpg",
+      "used_by": "saffron-for-mood-and-memory"
+    },
+    {
+      "file": "exercise-fitness-01.jpg",
+      "themes": [
+        "exercise-fitness"
+      ],
+      "kw": "senior exercise",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Martin Rulsch, Wikimedia Commons / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/2022-04-09_25th_Rheintalcup_2022_P6_Senior_competition_Floor_exercise_%28Martin_Rulsch%29_228.jpg/1280px-2022-04-09_25th_Rheintalcup_2022_P6_Senior_competition_Floor_exercise_%28Martin_Rulsch%29_228.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:2022-04-09_25th_Rheintalcup_2022_P6_Senior_competition_Floor_exercise_(Martin_Rulsch)_228.jpg",
+      "used_by": "standing-desks-and-focus"
+    },
+    {
+      "file": "sleep-rest-01.jpg",
+      "themes": [
+        "sleep-rest"
+      ],
+      "kw": "person sleeping",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Giles Laurent / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/014_Baby_cape_fur_seal_sleeping_at_Cape_cross_Photo_by_Giles_Laurent.jpg/1280px-014_Baby_cape_fur_seal_sleeping_at_Cape_cross_Photo_by_Giles_Laurent.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:014_Baby_cape_fur_seal_sleeping_at_Cape_cross_Photo_by_Giles_Laurent.jpg",
+      "used_by": "sleep-and-memory-consolidation"
+    },
+    {
+      "file": "sleep-rest-02.jpg",
+      "themes": [
+        "sleep-rest"
+      ],
+      "kw": "person sleeping",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Mike Burns / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/A_person_adjusting_a_sleeping_bag_inside_a_tent.jpg/1280px-A_person_adjusting_a_sleeping_bag_inside_a_tent.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:A_person_adjusting_a_sleeping_bag_inside_a_tent.jpg",
+      "used_by": "microglia-sleep-loss-alzheimers"
+    },
+    {
+      "file": "doctor-medical-01.jpg",
+      "themes": [
+        "doctor-medical"
+      ],
+      "kw": "doctor patient",
+      "license": "CC BY 2.0",
+      "attribution": "Unknown / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/A_doctor_unexpectedly_paying_a_visit_to_a_patient._Coloured_Wellcome_V0010945.jpg/1280px-A_doctor_unexpectedly_paying_a_visit_to_a_patient._Coloured_Wellcome_V0010945.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:A_doctor_unexpectedly_paying_a_visit_to_a_patient._Coloured_Wellcome_V0010945.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
+    },
+    {
+      "file": "doctor-medical-02.jpg",
+      "themes": [
+        "doctor-medical"
+      ],
+      "kw": "doctor patient",
+      "license": "Public domain",
+      "attribution": "Uncredited / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Doctor_%28the_Enthusiastic%29_Jonathan_%28the_Patient%29.jpg/1280px-Doctor_%28the_Enthusiastic%29_Jonathan_%28the_Patient%29.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Doctor_(the_Enthusiastic)_Jonathan_(the_Patient).jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
+    },
+    {
+      "file": "doctor-medical-03.jpg",
+      "themes": [
+        "doctor-medical"
+      ],
+      "kw": "doctor patient",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Bob Embleton / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Doctor_%5E_patient_misericord%2C_Great_Malvern_Priory_-_geograph.org.uk_-_2530338.jpg/1280px-Doctor_%5E_patient_misericord%2C_Great_Malvern_Priory_-_geograph.org.uk_-_2530338.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Doctor_%5E_patient_misericord,_Great_Malvern_Priory_-_geograph.org.uk_-_2530338.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
+    },
+    {
+      "file": "doctor-medical-04.jpg",
+      "themes": [
+        "doctor-medical"
+      ],
+      "kw": "medical checkup",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Brahmcharini shivaniji / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Free_medical_checkup_camp.JPG/1280px-Free_medical_checkup_camp.JPG",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Free_medical_checkup_camp.JPG",
+      "used_by": "thyroid-and-brain-fog"
+    },
+    {
+      "file": "doctor-medical-05.jpg",
+      "themes": [
+        "doctor-medical"
+      ],
+      "kw": "medical checkup",
+      "license": "GODL-India",
+      "attribution": "Ministry of Information and Broadcasting / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Free_medicine_being_distributed_at_the_medical_checkup_camp%2C_under_National_Rural_Health_Mission%2C_a_part_of_Public_Information_Campaign%2C_organized_by_Press_Information_Bureau%2C_Mumbai%2C_at_Khanvel%2C_Silvassa_%28DNH%29.jpg/1280px-thumbnail.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Free_medicine_being_distributed_at_the_medical_checkup_camp,_under_National_Rural_Health_Mission,_a_part_of_Public_Information_Campaign,_organized_by_Press_Information_Bureau,_Mumbai,_at_Khanvel,_Silvassa_(DNH).jpg",
+      "used_by": "ptau217-blood-test-predicts-alzheimers-risk"
+    },
+    {
+      "file": "doctor-medical-06.jpg",
+      "themes": [
+        "doctor-medical"
+      ],
+      "kw": "medical checkup",
+      "license": "Public domain",
+      "attribution": "Press Information Department / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Md_Abdul_Hamid_Departing_Dhaka_Airport_for_Medical_Checkup%2C_2016-08-28.jpg/1280px-Md_Abdul_Hamid_Departing_Dhaka_Airport_for_Medical_Checkup%2C_2016-08-28.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Md_Abdul_Hamid_Departing_Dhaka_Airport_for_Medical_Checkup,_2016-08-28.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
+    },
+    {
+      "file": "nature-lifestyle-01.jpg",
+      "themes": [
+        "nature-lifestyle"
+      ],
+      "kw": "forest path walking",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Famartin / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/2021-04-17_11_42_04_View_along_a_forested_walking_path_during_spring_in_the_Franklin_Glen_section_of_Chantilly%2C_Fairfax_County%2C_Virginia.jpg/1280px-2021-04-17_11_42_04_View_along_a_forested_walking_path_during_spring_in_the_Franklin_Glen_section_of_Chantilly%2C_Fairfax_County%2C_Virginia.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:2021-04-17_11_42_04_View_along_a_forested_walking_path_during_spring_in_the_Franklin_Glen_section_of_Chantilly,_Fairfax_County,_Virginia.jpg",
+      "used_by": "hydration-and-cognitive-function"
+    },
+    {
+      "file": "nature-lifestyle-02.jpg",
+      "themes": [
+        "nature-lifestyle"
+      ],
+      "kw": "forest path walking",
+      "license": "CC BY-SA 3.0",
+      "attribution": "User:Orderinchaos / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/ADH_Mount_Lofty_forest_walking_path_leaving_summit.jpg/1280px-ADH_Mount_Lofty_forest_walking_path_leaving_summit.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:ADH_Mount_Lofty_forest_walking_path_leaving_summit.jpg",
+      "used_by": "vagus-nerve-and-memory"
+    },
+    {
+      "file": "nature-lifestyle-03.jpg",
+      "themes": [
+        "nature-lifestyle"
+      ],
+      "kw": "forest path walking",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Kenneth  Allen / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/98/Bluebells_along_a_forest_path_-_geograph.org.uk_-_6128663.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Bluebells_along_a_forest_path_-_geograph.org.uk_-_6128663.jpg",
+      "used_by": "jet-lag-and-memory"
+    },
+    {
+      "file": "nature-lifestyle-04.jpg",
+      "themes": [
+        "nature-lifestyle"
+      ],
+      "kw": "forest path walking",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Jim Barton / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Descent_path_in_Thornielee_Forest_-_geograph.org.uk_-_6039433.jpg/1280px-Descent_path_in_Thornielee_Forest_-_geograph.org.uk_-_6039433.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Descent_path_in_Thornielee_Forest_-_geograph.org.uk_-_6039433.jpg",
+      "used_by": "sauna-use-and-brain-health"
+    },
+    {
+      "file": "nature-lifestyle-05.jpg",
+      "themes": [
+        "nature-lifestyle"
+      ],
+      "kw": "forest path walking",
+      "license": "CC BY-SA 2.0",
+      "attribution": "liz dawson / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/Forest_Path%2C_Fridd_yr_Allt-rugog_-_geograph.org.uk_-_750327.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Forest_Path,_Fridd_yr_Allt-rugog_-_geograph.org.uk_-_750327.jpg",
+      "used_by": "tv-watching-and-brain-health"
+    },
+    {
+      "file": "nature-lifestyle-06.jpg",
+      "themes": [
+        "nature-lifestyle"
+      ],
+      "kw": "forest path walking",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Jim Barton / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Forest_path%2C_Benderloch_-_geograph.org.uk_-_4911820.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Forest_path,_Benderloch_-_geograph.org.uk_-_4911820.jpg",
+      "used_by": "low-testosterone-and-memory"
+    },
+    {
+      "file": "meditation-calm-01.jpg",
+      "themes": [
+        "meditation-calm"
+      ],
+      "kw": "woman meditation",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Truenudists / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Nudist_woman_sitting_on_a_rock_meditating.jpg/1280px-Nudist_woman_sitting_on_a_rock_meditating.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Nudist_woman_sitting_on_a_rock_meditating.jpg",
+      "used_by": "_DISABLED_NSFW_2026-07-31",
+      "note": "Removed 2026-07-31: source Wikimedia file was nudist-themed (attribution Truenudists), not brand-appropriate. File deleted from assets/img-pool/. Do not re-add."
+    },
+    {
+      "file": "meditation-calm-02.jpg",
+      "themes": [
+        "meditation-calm"
+      ],
+      "kw": "woman meditation",
+      "license": "CC BY 2.0",
+      "attribution": "LiCheng Shih / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Taiwanese_young_woman_doing_meditation_in_Gaomei_Wetlands.jpg/1280px-Taiwanese_young_woman_doing_meditation_in_Gaomei_Wetlands.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Taiwanese_young_woman_doing_meditation_in_Gaomei_Wetlands.jpg",
+      "used_by": "long-covid-and-brain-fog"
+    },
+    {
+      "file": "meditation-calm-03.jpg",
+      "themes": [
+        "meditation-calm"
+      ],
+      "kw": "yoga meditation",
+      "license": "CC BY 2.0",
+      "attribution": "Konstantin Stepanov from Moscow, Россия / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/A_group_meditation_session_in_a_park_in_a_yoga_asana.jpg/1280px-A_group_meditation_session_in_a_park_in_a_yoga_asana.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:A_group_meditation_session_in_a_park_in_a_yoga_asana.jpg",
+      "used_by": "chemo-brain-explained"
+    },
+    {
+      "file": "meditation-calm-04.jpg",
+      "themes": [
+        "meditation-calm"
+      ],
+      "kw": "yoga meditation",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Grand Velas Riviera Maya / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/A_meditation_yoga_on_a_beach.jpg/1280px-A_meditation_yoga_on_a_beach.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:A_meditation_yoga_on_a_beach.jpg",
+      "used_by": "blue-light-and-brain-fog"
+    },
+    {
+      "file": "meditation-calm-05.jpg",
+      "themes": [
+        "meditation-calm"
+      ],
+      "kw": "yoga meditation",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Arham Yoga / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Arham_Yoga_%26_Meditation_Shivir%2C_Model_Town.jpg/1280px-Arham_Yoga_%26_Meditation_Shivir%2C_Model_Town.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Arham_Yoga_%26_Meditation_Shivir,_Model_Town.jpg",
+      "used_by": "iron-deficiency-and-brain-fog"
+    },
+    {
+      "file": "meditation-calm-06.jpg",
+      "themes": [
+        "meditation-calm"
+      ],
+      "kw": "yoga meditation",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Arham Yoga / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Arham_Yoga_%26_Meditation_Shivir%2C_Vaishali.jpg/1280px-Arham_Yoga_%26_Meditation_Shivir%2C_Vaishali.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Arham_Yoga_%26_Meditation_Shivir,_Vaishali.jpg",
+      "used_by": "nad-supplements-and-brain-aging"
+    },
+    {
+      "file": "social-connection-01.jpg",
+      "themes": [
+        "social-connection"
+      ],
+      "kw": "friends together",
+      "license": "Public domain",
+      "attribution": "Sgt. Kissta DiGregorio / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/%22Banner_Day%22_event_brings_Paratroopers%2C_families%2C_and_friends_together_DVIDS190444.jpg/1280px-%22Banner_Day%22_event_brings_Paratroopers%2C_families%2C_and_friends_together_DVIDS190444.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:%22Banner_Day%22_event_brings_Paratroopers,_families,_and_friends_together_DVIDS190444.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
+    },
+    {
+      "file": "social-connection-02.jpg",
+      "themes": [
+        "social-connection"
+      ],
+      "kw": "friends together",
+      "license": "CC BY-SA 2.0",
+      "attribution": "John Lucas / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/All_friends_together%5E_-_geograph.org.uk_-_263962.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:All_friends_together%5E_-_geograph.org.uk_-_263962.jpg",
+      "used_by": "resveratrol-and-memory"
+    },
+    {
+      "file": "social-connection-03.jpg",
+      "themes": [
+        "social-connection"
+      ],
+      "kw": "friends together",
+      "license": "CC BY 2.0",
+      "attribution": "Department of Foreign Affairs and Trade / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Best_friends_sit_together_at_the_Honiara_Central_Market._%2810677030504%29.jpg/1280px-Best_friends_sit_together_at_the_Honiara_Central_Market._%2810677030504%29.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Best_friends_sit_together_at_the_Honiara_Central_Market._(10677030504).jpg",
+      "used_by": "bilingualism-and-brain-reserve"
+    },
+    {
+      "file": "social-connection-04.jpg",
+      "themes": [
+        "social-connection"
+      ],
+      "kw": "friends together",
+      "license": "Public domain",
+      "attribution": "Expeditionary / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Friends%2C_soldiers_brought_together_during_tour_DVIDS360085.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Friends,_soldiers_brought_together_during_tour_DVIDS360085.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
+    },
+    {
+      "file": "social-connection-05.jpg",
+      "themes": [
+        "social-connection"
+      ],
+      "kw": "friends together",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Lonaoui-a / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Friends_Share_Their_Injera.JPG/1280px-Friends_Share_Their_Injera.JPG",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Friends_Share_Their_Injera.JPG",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
+    },
+    {
+      "file": "social-connection-06.jpg",
+      "themes": [
+        "social-connection"
+      ],
+      "kw": "friends together",
+      "license": "CC BY 2.0",
+      "attribution": "CGP Grey / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Friends_Walking_Together_5277548768.jpg/1280px-Friends_Walking_Together_5277548768.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Friends_Walking_Together_5277548768.jpg",
+      "used_by": "cognitive-reserve-explained"
+    },
+    {
+      "file": "thinking-memory-01.jpg",
+      "themes": [],
+      "kw": "person thinking",
+      "license": "CC0",
+      "attribution": "Wendelin Jacober from Luzern, Schweiz / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/HipHop_instrumental-_Sill_thinking_of_you_%2814253482185%29.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:HipHop_instrumental-_Sill_thinking_of_you_(14253482185).jpg",
+      "used_by": "__disqualified__",
+      "note": "MISLABELED: source file is a HipHop equipment photo, not person-thinking. Quarantined from theme matching.",
+      "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
+    },
+    {
+      "file": "thinking-memory-02.jpg",
+      "themes": [
+        "thinking-memory"
+      ],
+      "kw": "person thinking",
+      "license": "CC0",
+      "attribution": "Dareed / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Students_Engaged_in_Critical_Thinking_Activities.jpg/1280px-Students_Engaged_in_Critical_Thinking_Activities.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Students_Engaged_in_Critical_Thinking_Activities.jpg",
+      "used_by": "sorla-protein-tau-tangles-alzheimers"
+    },
+    {
+      "file": "thinking-memory-03.jpg",
+      "themes": [
+        "thinking-memory"
+      ],
+      "kw": "person thinking",
+      "license": "CC0",
+      "attribution": "A1 / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/The_book_of_%C2%ABWatching_the_Sky_and_Thinking_a_Thougt%C2%BB_by_Mykhaylo_Petrenko_03.jpg/1280px-The_book_of_%C2%ABWatching_the_Sky_and_Thinking_a_Thougt%C2%BB_by_Mykhaylo_Petrenko_03.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:The_book_of_%C2%ABWatching_the_Sky_and_Thinking_a_Thougt%C2%BB_by_Mykhaylo_Petrenko_03.jpg",
+      "used_by": "journaling-for-memory"
+    },
+    {
+      "file": "thinking-memory-04.jpg",
+      "themes": [
+        "thinking-memory"
+      ],
+      "kw": "person thinking",
+      "license": "CC BY-SA 3.0",
+      "attribution": "M. PINARCI / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Thinking_Of_You_-_panoramio.jpg/1280px-Thinking_Of_You_-_panoramio.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Thinking_Of_You_-_panoramio.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
+    },
+    {
+      "file": "thinking-memory-05.jpg",
+      "themes": [
+        "thinking-memory"
+      ],
+      "kw": "person thinking",
+      "license": "CC BY-SA 3.0",
+      "attribution": "M. PINARCI / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Thinking_Of_You_-_panoramio_%281%29.jpg/1280px-Thinking_Of_You_-_panoramio_%281%29.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Thinking_Of_You_-_panoramio_(1).jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
+    },
+    {
+      "file": "thinking-memory-06.jpg",
+      "themes": [
+        "thinking-memory"
+      ],
+      "kw": "person thinking",
+      "license": "CC BY 3.0",
+      "attribution": "Sérgio Valle Duarte  .mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-output .messagebox.mbox-small{font-size:88%;line-height:1.25em}.mw-parser-output .mbox-warning,.mw-parser-output .mbox-speedy{border:2px solid var(--border-color-error,#b22222);background:var(--background-color-error-subtle,#ffdbdb);border-inline-start-width:8px}.mw-parser-output .mbox-serious,.mw-parser-output .mbox-delete,.mw-parser-output .mbox-stop{border:2px solid var(--border-color-error,#b22222);border-inline-start-width:8px}.mw-parser-output .mbox-issue,.mw-parser-output .mbox-content{border:2px solid #f28500;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-query,.mw-parser-output .mbox-style{border:2px solid #f4c430;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-shit{border:2px solid #960;border-inline-start-width:8px}.mw-parser-output .mbox-license{border:2px solid #88a;border-inline-start-width:initial}.mw-parser-output .mbox-legal{border:2px solid var(--border-color-notice,#666);background:var(--background-color-base,#fff);border-inline-start-width:8px}.mw-parser-output .mbox-honor{border:2px solid #ca3;background:var(--background-color-warning-subtle,#fcf4db);border-inline-start-width:8px}.mw-parser-output .mbox-growth{border:2px solid #8d4;background:var(--background-color-success-subtle,#d5fdf4);border-inline-start-width:8px}.mw-parser-output .mbox-move{border:2px solid #93c;border-inline-start-width:8px}.mw-parser-output .mbox-protection,.mw-parser-output .mbox-message{border:2px solid var(--border-color-base,#aaa);border-inline-start-width:8px}.mw-parser-output .messagebox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .messagebox .mbox-image{border:none;padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .messagebox .mbox-imageright{border:none;padding:2px 0.9em 2px 0;text-align:center}.mw-parser-output .messagebox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .messagebox .mbox-invalid-type{text-align:center}@media(min-width:720px){.mw-parser-output .messagebox{margin:4px 10%}.mw-parser-output .messagebox.mbox-small{clear:right;float:right;margin:4px 0 4px 1em;width:238px}}body.skin--responsive .mw-parser-output table.messagebox img{max-width:none!important}Wikidata has entry Sergio Valle Duarte (Q16269994) with data related to this item.  \n\n\nPersonality rights\n\nPersonality rightsPersonality rights warningAlthough this work is freely licensed or in the public domain, the person(s) shown may have rights that legally restrict certain re-uses unless those depicted consent to such uses. In these cases, a model release or other evidence of consent could protect you from infringement claims. Though not obliged to do so, the uploader may be able to help you to obtain such evidence. See our general disclaimer for more information. / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Thinking_of_Dad_1997.jpg/1280px-Thinking_of_Dad_1997.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Thinking_of_Dad_1997.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
+    },
+    {
+      "file": "exercise-fitness-02.jpg",
+      "themes": [
+        "exercise-fitness"
+      ],
+      "kw": "person jogging",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Philip Mallis / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Person_jogging_and_person_cycling_on_the_Koonung_Creek_Trail_looking_east_in_Koonung_Creek_Reserve_in_North_Balwyn%2C_Melbourne.jpg/1280px-Person_jogging_and_person_cycling_on_the_Koonung_Creek_Trail_looking_east_in_Koonung_Creek_Reserve_in_North_Balwyn%2C_Melbourne.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Person_jogging_and_person_cycling_on_the_Koonung_Creek_Trail_looking_east_in_Koonung_Creek_Reserve_in_North_Balwyn,_Melbourne.jpg",
+      "used_by": "walking-and-brain-health"
+    },
+    {
+      "file": "exercise-fitness-03.jpg",
+      "themes": [
+        "exercise-fitness"
+      ],
+      "kw": "woman yoga",
+      "license": "CC BY 2.0",
+      "attribution": "Shixart1985 / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Beautiful_senior_woman_with_curly_hair_doing_yoga_at_home.jpg/1280px-Beautiful_senior_woman_with_curly_hair_doing_yoga_at_home.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Beautiful_senior_woman_with_curly_hair_doing_yoga_at_home.jpg",
+      "used_by": "does-retirement-affect-memory"
+    },
+    {
+      "file": "exercise-fitness-04.jpg",
+      "themes": [
+        "exercise-fitness"
+      ],
+      "kw": "woman yoga",
+      "license": "CC BY 2.0",
+      "attribution": "Shixart1985 / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Close-up_of_a_woman_sitting_on_a_yoga_mat_and_checking_her_phone.jpg/1280px-Close-up_of_a_woman_sitting_on_a_yoga_mat_and_checking_her_phone.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_woman_sitting_on_a_yoga_mat_and_checking_her_phone.jpg",
+      "used_by": "pqq-for-brain-health"
+    },
+    {
+      "file": "exercise-fitness-05.jpg",
+      "themes": [
+        "exercise-fitness"
+      ],
+      "kw": "woman yoga",
+      "license": "CC BY 2.0",
+      "attribution": "Nenad Stojkovic / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Closeup_of_the_woman_on_a_yoga_mat_stretching_her_hips._%2850398220748%29.jpg/1280px-Closeup_of_the_woman_on_a_yoga_mat_stretching_her_hips._%2850398220748%29.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Closeup_of_the_woman_on_a_yoga_mat_stretching_her_hips._(50398220748).jpg",
+      "used_by": "hormonal-birth-control-and-memory"
+    },
+    {
+      "file": "exercise-fitness-06.jpg",
+      "themes": [
+        "exercise-fitness"
+      ],
+      "kw": "woman yoga",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Tz drunk poet / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Mazoezi_ya_yoga.jpg/1280px-Mazoezi_ya_yoga.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Mazoezi_ya_yoga.jpg",
+      "used_by": "coq10-and-brain-health"
+    },
+    {
+      "file": "sleep-rest-03.jpg",
+      "themes": [
+        "sleep-rest"
+      ],
+      "kw": "bedroom bed",
+      "license": "CC BY 4.0",
+      "attribution": "Bjankuloski06 / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Bed%2C_Settler%27s_bedroom%2C_McNicol_Homestead.jpg/1280px-Bed%2C_Settler%27s_bedroom%2C_McNicol_Homestead.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Bed,_Settler%27s_bedroom,_McNicol_Homestead.jpg",
+      "used_by": "magnesium-l-threonate-for-memory"
+    },
+    {
+      "file": "sleep-rest-04.jpg",
+      "themes": [
+        "sleep-rest"
+      ],
+      "kw": "bedroom bed",
+      "license": "CC BY 4.0",
+      "attribution": "Bjankuloski06 / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Bed_with_dolls%2C_Girls%27_Bedroom%2C_Highwic.jpg/1280px-Bed_with_dolls%2C_Girls%27_Bedroom%2C_Highwic.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Bed_with_dolls,_Girls%27_Bedroom,_Highwic.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
+    },
+    {
+      "file": "sleep-rest-05.jpg",
+      "themes": [
+        "sleep-rest"
+      ],
+      "kw": "bedroom bed",
+      "license": "CC BY-SA 3.0",
+      "attribution": "IFERREIRO / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Bedroom_twin_beds.jpg/1280px-Bedroom_twin_beds.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Bedroom_twin_beds.jpg",
+      "used_by": "napping-and-memory"
+    },
+    {
+      "file": "sleep-rest-06.jpg",
+      "themes": [
+        "sleep-rest"
+      ],
+      "kw": "bedroom bed",
+      "license": "CC BY-SA 3.0",
+      "attribution": "aismallard / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Bedroom_with_marine_puzzles_on_wall.jpg/1280px-Bedroom_with_marine_puzzles_on_wall.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Bedroom_with_marine_puzzles_on_wall.jpg",
+      "used_by": "postpartum-brain-fog"
+    },
+    {
+      "file": "study-focus-01.jpg",
+      "themes": [
+        "study-focus"
+      ],
+      "kw": "student studying",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Tinsae Belay / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/5c/African_student_studying_at_dormitory_from_tablet_computer%2C.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:African_student_studying_at_dormitory_from_tablet_computer,.jpg",
+      "used_by": "tau-protein-and-long-term-memory"
+    },
+    {
+      "file": "study-focus-02.jpg",
+      "themes": [
+        "study-focus"
+      ],
+      "kw": "student studying",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Rwebogora / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Disabled_student_studying.jpg/1280px-Disabled_student_studying.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Disabled_student_studying.jpg",
+      "used_by": "multitasking-and-the-brain"
+    },
+    {
+      "file": "study-focus-03.jpg",
+      "themes": [
+        "study-focus"
+      ],
+      "kw": "student studying",
+      "license": "CC BY 2.0",
+      "attribution": "English106 / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Female_student_writing_and_studying_at_dorm_room_desk.jpg/1280px-Female_student_writing_and_studying_at_dorm_room_desk.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Female_student_writing_and_studying_at_dorm_room_desk.jpg",
+      "used_by": "spaced-repetition-explained"
+    },
+    {
+      "file": "study-focus-04.jpg",
+      "themes": [
+        "study-focus"
+      ],
+      "kw": "student studying",
+      "license": "CC BY 2.0",
+      "attribution": "Tulane Public Relations / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Four_Tulane_University_Students_Studying_January_2008.jpg/1280px-Four_Tulane_University_Students_Studying_January_2008.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Four_Tulane_University_Students_Studying_January_2008.jpg",
+      "used_by": "active-recall-study-method"
+    },
+    {
+      "file": "study-focus-05.jpg",
+      "themes": [
+        "study-focus"
+      ],
+      "kw": "student studying",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Ashstar01 / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/India_student_studying.jpg/1280px-India_student_studying.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:India_student_studying.jpg",
+      "used_by": "adhd-and-working-memory"
+    },
+    {
+      "file": "study-focus-06.jpg",
+      "themes": [
+        "study-focus"
+      ],
+      "kw": "student studying",
+      "license": "CC0",
+      "attribution": "Millethills / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Kobe_City_University_of_Foreign_Studies_student_center.jpg/1280px-Kobe_City_University_of_Foreign_Studies_student_center.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Kobe_City_University_of_Foreign_Studies_student_center.jpg",
+      "used_by": "noise-pollution-and-focus"
+    },
+    {
+      "file": "supplement-pills-01.jpg",
+      "themes": [
+        "supplement-pills"
+      ],
+      "kw": "dietary supplement capsules",
+      "license": "CC0",
+      "attribution": "Mx. Granger / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/DHA_pills.jpg/1280px-DHA_pills.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:DHA_pills.jpg",
+      "used_by": "ashwagandha-for-stress-and-memory"
+    },
+    {
+      "file": "supplement-pills-02.jpg",
+      "themes": [
+        "supplement-pills"
+      ],
+      "kw": "dietary supplement capsules",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Flwany / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Monolaurin.jpg/1280px-Monolaurin.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Monolaurin.jpg",
+      "used_by": "omega-6-omega-3-ratio-brain"
+    },
+    {
+      "file": "supplement-pills-03.jpg",
+      "themes": [
+        "supplement-pills"
+      ],
+      "kw": "dietary supplement capsules",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Tomino de WS / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/No-prostal_cps.jpg/1280px-No-prostal_cps.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:No-prostal_cps.jpg",
+      "used_by": "probiotics-for-brain-fog"
+    },
+    {
+      "file": "supplement-pills-04.jpg",
+      "themes": [
+        "supplement-pills"
+      ],
+      "kw": "dietary supplement capsules",
+      "license": "CC0",
+      "attribution": "Mx. Granger / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Vegan_calcium_supplements.jpg/1280px-Vegan_calcium_supplements.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Vegan_calcium_supplements.jpg",
+      "used_by": "cholesterol-and-brain-health"
+    },
+    {
+      "file": "supplement-pills-05.jpg",
+      "themes": [
+        "supplement-pills"
+      ],
+      "kw": "pills close up",
+      "license": "CC BY 4.0",
+      "attribution": "Carlquist, Sherwin John, 1930-2021 / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/%28Dithyrea_close-up_in_California%2C_United_States%29_-_DPLA_-_f70dd6ded4cf4030583fd350afbbbbbe.jpg/1280px-%28Dithyrea_close-up_in_California%2C_United_States%29_-_DPLA_-_f70dd6ded4cf4030583fd350afbbbbbe.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:(Dithyrea_close-up_in_California,_United_States)_-_DPLA_-_f70dd6ded4cf4030583fd350afbbbbbe.jpg",
+      "used_by": "fish-oil-vs-algae-omega3"
+    },
+    {
+      "file": "supplement-pills-06.jpg",
+      "themes": [
+        "supplement-pills"
+      ],
+      "kw": "pills close up",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Didier Descouens / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/%28MHNT%29_Acmaeoderella_flavofasciata_on_Ammis_majus_%28close_up%29.jpg/1280px-%28MHNT%29_Acmaeoderella_flavofasciata_on_Ammis_majus_%28close_up%29.jpg",
+      "descurl": "https://commons.wikimedia.org/wiki/File:(MHNT)_Acmaeoderella_flavofasciata_on_Ammis_majus_(close_up).jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-08-24: not a usable stock photo for a health blog (engraving/painting/carving, off-topic subject, or depicts minors)"
+    },
+    {
+      "file": "senior-aging-07.jpg",
+      "themes": [
+        "senior-aging"
+      ],
+      "kw": "old couple walking",
+      "license": "CC BY 2.0",
+      "attribution": "Charlie Phillips from London, UK / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Couple_walking_along_Palanga_beach%2C_Lithuania_%283948063942%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Couple_walking_along_Palanga_beach,_Lithuania_(3948063942).jpg",
+      "used_by": "copper-deficiency-and-brain-fog"
+    },
+    {
+      "file": "senior-aging-08.jpg",
+      "themes": [
+        "senior-aging"
+      ],
+      "kw": "old couple walking",
+      "license": "Public domain",
+      "attribution": "Rhoda Baer (Photographer) / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Couple_walking_outdoors.jpg/1280px-Couple_walking_outdoors.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Couple_walking_outdoors.jpg",
+      "used_by": "hrt-and-memory"
+    },
+    {
+      "file": "food-nutrition-07.jpg",
+      "themes": [
+        "food-nutrition"
+      ],
+      "kw": "blueberries fruit",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Famartin / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/2021-07-20_19_25_58_A_close-up_of_Hammonton_NJ_Jersey_Fruit_Blueberries_in_Rochelle_Park_Township%2C_Bergen_County%2C_New_Jersey.jpg/1280px-2021-07-20_19_25_58_A_close-up_of_Hammonton_NJ_Jersey_Fruit_Blueberries_in_Rochelle_Park_Township%2C_Bergen_County%2C_New_Jersey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:2021-07-20_19_25_58_A_close-up_of_Hammonton_NJ_Jersey_Fruit_Blueberries_in_Rochelle_Park_Township,_Bergen_County,_New_Jersey.jpg",
+      "used_by": "selenium-and-cognitive-function"
+    },
+    {
+      "file": "food-nutrition-08.jpg",
+      "themes": [
+        "food-nutrition"
+      ],
+      "kw": "blueberries fruit",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Famartin / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/2021-07-20_19_27_11_A_close-up_of_Hammonton_NJ_Jersey_Fruit_Blueberries_in_Rochelle_Park_Township%2C_Bergen_County%2C_New_Jersey.jpg/1280px-2021-07-20_19_27_11_A_close-up_of_Hammonton_NJ_Jersey_Fruit_Blueberries_in_Rochelle_Park_Township%2C_Bergen_County%2C_New_Jersey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:2021-07-20_19_27_11_A_close-up_of_Hammonton_NJ_Jersey_Fruit_Blueberries_in_Rochelle_Park_Township,_Bergen_County,_New_Jersey.jpg",
+      "used_by": "cortisol-and-memory"
+    },
+    {
+      "file": "food-nutrition-09.jpg",
+      "themes": [
+        "food-nutrition"
+      ],
+      "kw": "blueberries fruit",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Rasbak at Dutch Wikipedia / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/71/Blauwe_bes_struik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Blauwe_bes_struik.jpg",
+      "used_by": "sugar-and-brain-fog"
+    },
+    {
+      "file": "study-focus-07.jpg",
+      "themes": [
+        "study-focus"
+      ],
+      "kw": "woman reading book",
+      "license": "CC BY 2.0",
+      "attribution": "Shixart1985 / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Business_senior_woman_reading_an_old_book_at_home_closeup.jpg/1280px-Business_senior_woman_reading_an_old_book_at_home_closeup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Business_senior_woman_reading_an_old_book_at_home_closeup.jpg",
+      "used_by": "statins-and-memory-loss"
+    },
+    {
+      "file": "study-focus-08.jpg",
+      "themes": [
+        "study-focus"
+      ],
+      "kw": "woman reading book",
+      "license": "CC BY 2.0",
+      "attribution": "Shixart1985 / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Close-up_of_a_woman_reading_a_book.jpg/1280px-Close-up_of_a_woman_reading_a_book.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_woman_reading_a_book.jpg",
+      "used_by": "antidepressants-and-memory"
+    },
+    {
+      "file": "study-focus-09.jpg",
+      "themes": [
+        "study-focus"
+      ],
+      "kw": "woman reading book",
+      "license": "CC BY 2.0",
+      "attribution": "Shixart1985 / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Close-up_of_a_woman_reading_an_old_worn_out_book.jpg/1280px-Close-up_of_a_woman_reading_an_old_worn_out_book.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_woman_reading_an_old_worn_out_book.jpg",
+      "used_by": "multilingualism-and-brain-age"
+    },
+    {
+      "file": "study-focus-10.jpg",
+      "themes": [
+        "study-focus"
+      ],
+      "kw": "library books",
+      "license": "CC BY 3.0",
+      "attribution": "Ralf Roletschek / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/13-11-02-olb-by-RalfR-03.jpg/1280px-13-11-02-olb-by-RalfR-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:13-11-02-olb-by-RalfR-03.jpg",
+      "used_by": "shift-work-and-memory"
+    },
+    {
+      "file": "supplement-pills-10.jpg",
+      "themes": [
+        "supplement-pills"
+      ],
+      "kw": "medication bottle",
+      "license": "CC BY 2.0",
+      "attribution": "NIAID / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Antiretroviral_HIV_Medication_%2832596142246%29.jpg/1280px-Antiretroviral_HIV_Medication_%2832596142246%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Antiretroviral_HIV_Medication_(32596142246).jpg",
+      "used_by": "allergy-medication-and-memory-fog"
+    },
+    {
+      "file": "thinking-memory-06.jpg",
+      "themes": [
+        "thinking-memory"
+      ],
+      "kw": "person thinking",
+      "license": "CC0",
+      "attribution": "Ahunt / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/The_Image_Relies_on_Positive_Thinking_by_Geoff_McFetridge_2491.jpg/1280px-The_Image_Relies_on_Positive_Thinking_by_Geoff_McFetridge_2491.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:The_Image_Relies_on_Positive_Thinking_by_Geoff_McFetridge_2491.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-08-24: abstract subway mural, not a photo of a real scene"
+    },
+    {
+      "file": "thinking-memory-09.jpg",
+      "themes": [
+        "thinking-memory"
+      ],
+      "kw": "person thinking",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Johnny Silvercloud / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Thinking_of_You_Maybe_%2815489890048%29.jpg/1280px-Thinking_of_You_Maybe_%2815489890048%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Thinking_of_You_Maybe_(15489890048).jpg",
+      "used_by": "chronic-pain-and-memory"
+    },
+    {
+      "file": "thinking-memory-11.jpg",
+      "themes": [
+        "thinking-memory"
+      ],
+      "kw": "person thinking",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Xuan Zheng / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Thinking_woman.jpg/1280px-Thinking_woman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Thinking_woman.jpg",
+      "used_by": "tinnitus-and-concentration"
+    },
+    {
+      "file": "senior-aging-17.jpg",
+      "themes": [
+        "senior-aging"
+      ],
+      "kw": "senior citizen smiling",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Carl Albert Research and Studies Center, Congressional Collection / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/CAC_CC_001_18_33_0000_3281.jpg/1280px-CAC_CC_001_18_33_0000_3281.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:CAC_CC_001_18_33_0000_3281.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: archival B&W, off-topic"
+    },
+    {
+      "file": "senior-aging-18.jpg",
+      "themes": [
+        "senior-aging"
+      ],
+      "kw": "senior citizen smiling",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Carl Albert Research and Studies Center, Congressional Collection / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/CAC_CC_001_18_33_0000_3282.jpg/1280px-CAC_CC_001_18_33_0000_3282.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:CAC_CC_001_18_33_0000_3282.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: archival B&W, off-topic"
+    },
+    {
+      "file": "senior-aging-19.jpg",
+      "themes": [
+        "senior-aging"
+      ],
+      "kw": "senior citizen smiling",
+      "license": "Public domain",
+      "attribution": "U.S. Air Force 100ARWPA by Senior Airman Lexie West / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Citizen_Airman_brings_experience%2C_perspective_to_further_100_ARW_success_%284726717%29.jpg/1280px-Citizen_Airman_brings_experience%2C_perspective_to_further_100_ARW_success_%284726717%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Citizen_Airman_brings_experience,_perspective_to_further_100_ARW_success_(4726717).jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: identifiable serviceman in uniform"
+    },
+    {
+      "file": "senior-aging-20.jpg",
+      "themes": [
+        "senior-aging"
+      ],
+      "kw": "senior citizen smiling",
+      "license": "Public domain",
+      "attribution": "U.S. Air Force 131BW by Senior Airman Kelly Ferguson / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Missouri_National_Guard_members_provide_medical_care_to_Panamanian_citizens_%289318041%29.jpg/1280px-Missouri_National_Guard_members_provide_medical_care_to_Panamanian_citizens_%289318041%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Missouri_National_Guard_members_provide_medical_care_to_Panamanian_citizens_(9318041).jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: identifiable candid group"
+    },
+    {
+      "file": "senior-aging-21.jpg",
+      "themes": [
+        "senior-aging"
+      ],
+      "kw": "senior citizen smiling",
+      "license": "Public domain",
+      "attribution": "U.S. Air Force 131BW by Senior Airman Kelly Ferguson / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Missouri_National_Guard_members_provide_medical_care_to_Panamanian_citizens_%289318043%29.jpg/1280px-Missouri_National_Guard_members_provide_medical_care_to_Panamanian_citizens_%289318043%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Missouri_National_Guard_members_provide_medical_care_to_Panamanian_citizens_(9318043).jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: identifiable candid group"
+    },
+    {
+      "file": "food-nutrition-18.jpg",
+      "themes": [
+        "food-nutrition"
+      ],
+      "kw": "fresh vegetables",
+      "license": "CC BY-SA 4.0",
+      "attribution": "مصطفى ملو / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Fresh_vegetables_from_Morocco.jpg/1280px-Fresh_vegetables_from_Morocco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Fresh_vegetables_from_Morocco.jpg",
+      "used_by": null
+    },
+    {
+      "file": "food-nutrition-19.jpg",
+      "themes": [
+        "food-nutrition"
+      ],
+      "kw": "fresh vegetables",
+      "license": "CC0",
+      "attribution": "Narayana37 / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Fresh_vegetables_shop_in_rajahmundry_city.jpg/1280px-Fresh_vegetables_shop_in_rajahmundry_city.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Fresh_vegetables_shop_in_rajahmundry_city.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: off-topic street scene"
+    },
+    {
+      "file": "food-nutrition-20.jpg",
+      "themes": [
+        "food-nutrition"
+      ],
+      "kw": "fresh vegetables",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Pauloleong2002 / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Fresh_vegetables_with_noodles.jpg/1280px-Fresh_vegetables_with_noodles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Fresh_vegetables_with_noodles.jpg",
+      "used_by": null
+    },
+    {
+      "file": "food-nutrition-21.jpg",
+      "themes": [
+        "food-nutrition"
+      ],
+      "kw": "fresh vegetables",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Basile Morin / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Illuminated_facade_of_a_restaurant_serving_traditional_food_with_fresh_vegetables_in_Chiyoda%2C_Tokyo.jpg/1280px-Illuminated_facade_of_a_restaurant_serving_traditional_food_with_fresh_vegetables_in_Chiyoda%2C_Tokyo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Illuminated_facade_of_a_restaurant_serving_traditional_food_with_fresh_vegetables_in_Chiyoda,_Tokyo.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: off-topic storefront"
+    },
+    {
+      "file": "food-nutrition-22.jpg",
+      "themes": [
+        "food-nutrition"
+      ],
+      "kw": "healthy salad",
+      "license": "CC BY-SA 2.0",
+      "attribution": "FitTasteTic / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/10_minute_Recipe_for_a_Healthy_Garden_Salad.jpg/1280px-10_minute_Recipe_for_a_Healthy_Garden_Salad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:10_minute_Recipe_for_a_Healthy_Garden_Salad.jpg",
+      "used_by": null
+    },
+    {
+      "file": "food-nutrition-23.jpg",
+      "themes": [
+        "food-nutrition"
+      ],
+      "kw": "healthy salad",
+      "license": "CC BY-SA 2.0",
+      "attribution": "FitTasteTic / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/10_minute_Recipe_for_a_Healthy_Garden_Salad_-_49859039238.jpg/1280px-10_minute_Recipe_for_a_Healthy_Garden_Salad_-_49859039238.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:10_minute_Recipe_for_a_Healthy_Garden_Salad_-_49859039238.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: near-duplicate of food-nutrition-22"
+    },
+    {
+      "file": "food-nutrition-24.jpg",
+      "themes": [
+        "food-nutrition"
+      ],
+      "kw": "healthy salad",
+      "license": "CC BY-SA 2.0",
+      "attribution": "FitTasteTic / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/10_minute_Recipe_for_a_Healthy_Garden_Salad_-_49859886512.jpg/1280px-10_minute_Recipe_for_a_Healthy_Garden_Salad_-_49859886512.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:10_minute_Recipe_for_a_Healthy_Garden_Salad_-_49859886512.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: near-duplicate of food-nutrition-22"
+    },
+    {
+      "file": "food-nutrition-25.jpg",
+      "themes": [
+        "food-nutrition"
+      ],
+      "kw": "healthy salad",
+      "license": "CC BY 2.0",
+      "attribution": "milo-photo from Dublin, Ireland / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/A_Nice_Healthy_Salad_%2816778139831%29.jpg/1280px-A_Nice_Healthy_Salad_%2816778139831%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:A_Nice_Healthy_Salad_(16778139831).jpg",
+      "used_by": null
+    },
+    {
+      "file": "exercise-fitness-07.jpg",
+      "themes": [
+        "exercise-fitness"
+      ],
+      "kw": "woman yoga",
+      "license": "CC BY 2.0",
+      "attribution": "Shixart1985 / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Top_view_of_a_woman_stretching_on_a_yoga_mat.jpg/1280px-Top_view_of_a_woman_stretching_on_a_yoga_mat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Top_view_of_a_woman_stretching_on_a_yoga_mat.jpg",
+      "used_by": null
+    },
+    {
+      "file": "exercise-fitness-08.jpg",
+      "themes": [
+        "exercise-fitness"
+      ],
+      "kw": "woman yoga",
+      "license": "CC BY 2.0",
+      "attribution": "Andrey from Russia / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Woman_doing_Yoga_in_Russia.jpg/1280px-Woman_doing_Yoga_in_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Woman_doing_Yoga_in_Russia.jpg",
+      "used_by": null
+    },
+    {
+      "file": "exercise-fitness-09.jpg",
+      "themes": [
+        "exercise-fitness"
+      ],
+      "kw": "woman yoga",
+      "license": "CC BY 2.0",
+      "attribution": "Shixart1985 / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Woman_doing_a_bow_yoga_pose_in_her_house.jpg/1280px-Woman_doing_a_bow_yoga_pose_in_her_house.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Woman_doing_a_bow_yoga_pose_in_her_house.jpg",
+      "used_by": null
+    },
+    {
+      "file": "exercise-fitness-10.jpg",
+      "themes": [
+        "exercise-fitness"
+      ],
+      "kw": "woman yoga",
+      "license": "CC BY 2.0",
+      "attribution": "Shixart1985 / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Woman_doing_hip_exercises_on_a_yoga_mat_on_the_floor.jpg/1280px-Woman_doing_hip_exercises_on_a_yoga_mat_on_the_floor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Woman_doing_hip_exercises_on_a_yoga_mat_on_the_floor.jpg",
+      "used_by": null
+    },
+    {
+      "file": "exercise-fitness-11.jpg",
+      "themes": [
+        "exercise-fitness"
+      ],
+      "kw": "woman yoga",
+      "license": "CC BY 2.0",
+      "attribution": "Shixart1985 / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Woman_in_the_park_doing_yoga_on_the_mat.jpg/1280px-Woman_in_the_park_doing_yoga_on_the_mat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Woman_in_the_park_doing_yoga_on_the_mat.jpg",
+      "used_by": null
+    },
+    {
+      "file": "exercise-fitness-12.jpg",
+      "themes": [
+        "exercise-fitness"
+      ],
+      "kw": "woman yoga",
+      "license": "CC BY 2.0",
+      "attribution": "Nagesh Jayaraman from Chennai, India / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/25/Woman_meditating_in_a_yoga_pose.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Woman_meditating_in_a_yoga_pose.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: off-topic, distant figure"
+    },
+    {
+      "file": "exercise-fitness-13.jpg",
+      "themes": [
+        "exercise-fitness"
+      ],
+      "kw": "woman yoga",
+      "license": "CC BY 2.0",
+      "attribution": "Nenad Stojkovic / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Woman_on_a_yoga_mat_next_to_a_window_doing_lower_back_exercises_-_50401795697.jpg/1280px-Woman_on_a_yoga_mat_next_to_a_window_doing_lower_back_exercises_-_50401795697.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Woman_on_a_yoga_mat_next_to_a_window_doing_lower_back_exercises_-_50401795697.jpg",
+      "used_by": null
+    },
+    {
+      "file": "exercise-fitness-14.jpg",
+      "themes": [
+        "exercise-fitness"
+      ],
+      "kw": "woman yoga",
+      "license": "CC BY 2.0",
+      "attribution": "Shixart1985 / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Woman_sitting_on_a_yoga_mat_in_the_park_and_listening_to_music_on_her_phone.jpg/1280px-Woman_sitting_on_a_yoga_mat_in_the_park_and_listening_to_music_on_her_phone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Woman_sitting_on_a_yoga_mat_in_the_park_and_listening_to_music_on_her_phone.jpg",
+      "used_by": null
+    },
+    {
+      "file": "sleep-rest-07.jpg",
+      "themes": [
+        "sleep-rest"
+      ],
+      "kw": "bedroom bed",
+      "license": "CC BY 3.0",
+      "attribution": "linhvan / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Bedroom_with_wooden_bed_%281133%29.jpg/1280px-Bedroom_with_wooden_bed_%281133%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Bedroom_with_wooden_bed_(1133).jpg",
+      "used_by": null
+    },
+    {
+      "file": "sleep-rest-08.jpg",
+      "themes": [
+        "sleep-rest"
+      ],
+      "kw": "bedroom bed",
+      "license": "CC BY 2.0",
+      "attribution": "Virginia State Parks / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/CPSP_Cabin_2_Brown_House_view_from_bed_in_master_bedroom_cabin_2_whichis_a_3_bedroom_cabin_at_Chippokes_Plantation_State_Park_%2818675911678%29.jpg/1280px-CPSP_Cabin_2_Brown_House_view_from_bed_in_master_bedroom_cabin_2_whichis_a_3_bedroom_cabin_at_Chippokes_Plantation_State_Park_%2818675911678%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:CPSP_Cabin_2_Brown_House_view_from_bed_in_master_bedroom_cabin_2_whichis_a_3_bedroom_cabin_at_Chippokes_Plantation_State_Park_(18675911678).jpg",
+      "used_by": null
+    },
+    {
+      "file": "sleep-rest-09.jpg",
+      "themes": [
+        "sleep-rest"
+      ],
+      "kw": "bedroom bed",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Basile Morin / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Canopy_bed_of_Amantaka_Suite_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg/1280px-Canopy_bed_of_Amantaka_Suite_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Canopy_bed_of_Amantaka_Suite_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg",
+      "used_by": null
+    },
+    {
+      "file": "sleep-rest-10.jpg",
+      "themes": [
+        "sleep-rest"
+      ],
+      "kw": "bedroom bed",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Edsel Little / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Casa_del_Monte_-_Second_Bedroom_-_Bed_and_Gown.jpg/1280px-Casa_del_Monte_-_Second_Bedroom_-_Bed_and_Gown.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Casa_del_Monte_-_Second_Bedroom_-_Bed_and_Gown.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: ambiguous fabric closeup"
+    },
+    {
+      "file": "sleep-rest-11.jpg",
+      "themes": [
+        "sleep-rest"
+      ],
+      "kw": "bedroom bed",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Ann Larie Valentine / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Comfy_Bed_New_Orelans.jpg/1280px-Comfy_Bed_New_Orelans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Comfy_Bed_New_Orelans.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: depicts a minor"
+    },
+    {
+      "file": "sleep-rest-12.jpg",
+      "themes": [
+        "sleep-rest"
+      ],
+      "kw": "bedroom bed",
+      "license": "CC BY 2.0",
+      "attribution": "jjmusgrove / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Lake_Bedroom_Guatemala_2018.jpg/1280px-Lake_Bedroom_Guatemala_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Bedroom_Guatemala_2018.jpg",
+      "used_by": null
+    },
+    {
+      "file": "sleep-rest-13.jpg",
+      "themes": [
+        "sleep-rest"
+      ],
+      "kw": "bedroom bed",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Mossleegrange / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Moss_Lee_Grange_Bed_%26_Breakfast_-_Deluxe_Double_En-Suite_Bedroom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Moss_Lee_Grange_Bed_%26_Breakfast_-_Deluxe_Double_En-Suite_Bedroom.jpg",
+      "used_by": null
+    },
+    {
+      "file": "sleep-rest-14.jpg",
+      "themes": [
+        "sleep-rest"
+      ],
+      "kw": "bedroom bed",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Mossleegrange / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Moss_Lee_Grange_Bed_%26_Breakfast_-_Deluxe_Double_En-Suite_Bedroom_1.jpg/1280px-Moss_Lee_Grange_Bed_%26_Breakfast_-_Deluxe_Double_En-Suite_Bedroom_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Moss_Lee_Grange_Bed_%26_Breakfast_-_Deluxe_Double_En-Suite_Bedroom_1.jpg",
+      "used_by": null
+    },
+    {
+      "file": "study-focus-11.jpg",
+      "themes": [
+        "study-focus"
+      ],
+      "kw": "student studying",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Mrcell2014 / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/FMS_Student_Photo_Shoot.JPG/1280px-FMS_Student_Photo_Shoot.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:FMS_Student_Photo_Shoot.JPG",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: depicts minors, school group"
+    },
+    {
+      "file": "study-focus-12.jpg",
+      "themes": [
+        "study-focus"
+      ],
+      "kw": "student studying",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Picsgenius / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Patandi_Maalum_students_studying.jpg/1280px-Patandi_Maalum_students_studying.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Patandi_Maalum_students_studying.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: likely minors"
+    },
+    {
+      "file": "study-focus-13.jpg",
+      "themes": [
+        "study-focus"
+      ],
+      "kw": "student studying",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Basile Morin / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Photographer_taking_a_group_photograph_of_smiling_students_in_front_of_the_Tokyo_station%2C_Marunouchi%2C_Japan.jpg/1280px-Photographer_taking_a_group_photograph_of_smiling_students_in_front_of_the_Tokyo_station%2C_Marunouchi%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Photographer_taking_a_group_photograph_of_smiling_students_in_front_of_the_Tokyo_station,_Marunouchi,_Japan.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: depicts minors, school group"
+    },
+    {
+      "file": "study-focus-14.jpg",
+      "themes": [
+        "study-focus"
+      ],
+      "kw": "student studying",
+      "license": "CC0",
+      "attribution": "Gary Todd / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Sias_Library_-_Students_Studying_2017.jpg/1280px-Sias_Library_-_Students_Studying_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Sias_Library_-_Students_Studying_2017.jpg",
+      "used_by": null
+    },
+    {
+      "file": "study-focus-15.jpg",
+      "themes": [
+        "study-focus"
+      ],
+      "kw": "student studying",
+      "license": "CC BY 4.0",
+      "attribution": "Heidy Garcia / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Student_Listening_During_Study_Session.jpg/1280px-Student_Listening_During_Study_Session.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Student_Listening_During_Study_Session.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: identifiable, weak subject"
+    },
+    {
+      "file": "study-focus-16.jpg",
+      "themes": [
+        "study-focus"
+      ],
+      "kw": "student studying",
+      "license": "CC BY 2.0",
+      "attribution": "University of Illinois Library / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Student_Studying_in_ACES_Library_%2811056292346%29.jpg/1280px-Student_Studying_in_ACES_Library_%2811056292346%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Student_Studying_in_ACES_Library_(11056292346).jpg",
+      "used_by": null
+    },
+    {
+      "file": "study-focus-17.jpg",
+      "themes": [
+        "study-focus"
+      ],
+      "kw": "student studying",
+      "license": "CC BY 2.0",
+      "attribution": "University of Illinois Library / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Student_Studying_in_the_Communications_Library_%2811056539964%29.jpg/1280px-Student_Studying_in_the_Communications_Library_%2811056539964%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Student_Studying_in_the_Communications_Library_(11056539964).jpg",
+      "used_by": null
+    },
+    {
+      "file": "study-focus-18.jpg",
+      "themes": [
+        "study-focus"
+      ],
+      "kw": "student studying",
+      "license": "CC BY 2.0",
+      "attribution": "University of Illinois Library / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Student_Studying_in_the_Communications_Library_%2811056585003%29.jpg/1280px-Student_Studying_in_the_Communications_Library_%2811056585003%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Student_Studying_in_the_Communications_Library_(11056585003).jpg",
+      "used_by": null
+    },
+    {
+      "file": "supplement-pills-07.jpg",
+      "themes": [
+        "supplement-pills"
+      ],
+      "kw": "dietary supplement capsules",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Schekinov Alexey Victorovich / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/75/%D0%A0%D1%8B%D0%B1%D0%B8%D0%B9_%D0%B6%D0%B8%D1%80_%D0%B2_%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D0%B0%D1%85.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "descurl": "https://commons.wikimedia.org/wiki/File:%D0%A0%D1%8B%D0%B1%D0%B8%D0%B9_%D0%B6%D0%B8%D1%80_%D0%B2_%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D0%B0%D1%85.jpg",
+      "used_by": null
+    },
+    {
+      "file": "supplement-pills-08.jpg",
+      "themes": [
+        "supplement-pills"
+      ],
+      "kw": "vitamin pills",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Ragesoss / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/500_mg_calcium_supplements_with_vitamin_D.jpg/1280px-500_mg_calcium_supplements_with_vitamin_D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:500_mg_calcium_supplements_with_vitamin_D.jpg",
+      "used_by": null
+    },
+    {
+      "file": "supplement-pills-09.jpg",
+      "themes": [
+        "supplement-pills"
+      ],
+      "kw": "vitamin pills",
+      "license": "CC BY-SA 2.0",
+      "attribution": "LadyofProcrastination / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Assorted_pharmaceuticals_by_LadyofProcrastination.jpg/1280px-Assorted_pharmaceuticals_by_LadyofProcrastination.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Assorted_pharmaceuticals_by_LadyofProcrastination.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: prescription bottles with readable labels"
+    },
+    {
+      "file": "supplement-pills-11.jpg",
+      "themes": [
+        "supplement-pills"
+      ],
+      "kw": "vitamin pills",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Ragesoss / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/B_vitamin_supplement_tablets.jpg/1280px-B_vitamin_supplement_tablets.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:B_vitamin_supplement_tablets.jpg",
+      "used_by": null
+    },
+    {
+      "file": "supplement-pills-12.jpg",
+      "themes": [
+        "supplement-pills"
+      ],
+      "kw": "vitamin pills",
+      "license": "CC BY-SA 3.0",
+      "attribution": "David Richfield / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/FlattenedRoundPills.jpg/1280px-FlattenedRoundPills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:FlattenedRoundPills.jpg",
+      "used_by": null
+    },
+    {
+      "file": "supplement-pills-13.jpg",
+      "themes": [
+        "supplement-pills"
+      ],
+      "kw": "vitamin pills",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Ragesoss / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Money_and_pills_in_three_colors.jpg/1280px-Money_and_pills_in_three_colors.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Money_and_pills_in_three_colors.jpg",
+      "used_by": null
+    },
+    {
+      "file": "supplement-pills-14.jpg",
+      "themes": [
+        "supplement-pills"
+      ],
+      "kw": "vitamin pills",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Carol VanHook / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Open_Wide_%28Explored%29_-_Flickr_-_Carol_%28vanhookc%29.jpg/1280px-Open_Wide_%28Explored%29_-_Flickr_-_Carol_%28vanhookc%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Open_Wide_(Explored)_-_Flickr_-_Carol_(vanhookc).jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: loose pills in a baggie, reads as illicit"
+    },
+    {
+      "file": "supplement-pills-15.jpg",
+      "themes": [
+        "supplement-pills"
+      ],
+      "kw": "vitamin pills",
+      "license": "CC0",
+      "attribution": "Stevepb / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Pill_Organizer_With_Vitamins_And_Medicines.jpg/1280px-Pill_Organizer_With_Vitamins_And_Medicines.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Pill_Organizer_With_Vitamins_And_Medicines.jpg",
+      "used_by": null
+    },
+    {
+      "file": "doctor-medical-07.jpg",
+      "themes": [
+        "doctor-medical"
+      ],
+      "kw": "doctor patient",
+      "license": "CC BY 4.0",
+      "attribution": "M Joko Apriyo Putro / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Doctor_and_patient_looking_at_CT_Scan_of_Lungs.jpg/1280px-Doctor_and_patient_looking_at_CT_Scan_of_Lungs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Doctor_and_patient_looking_at_CT_Scan_of_Lungs.jpg",
+      "used_by": null
+    },
+    {
+      "file": "doctor-medical-08.jpg",
+      "themes": [
+        "doctor-medical"
+      ],
+      "kw": "doctor patient",
+      "license": "Public domain",
+      "attribution": "Unknown photographer / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Doctor_examines_patient.jpg/1280px-Doctor_examines_patient.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Doctor_examines_patient.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: identifiable patient in a gown"
+    },
+    {
+      "file": "doctor-medical-09.jpg",
+      "themes": [
+        "doctor-medical"
+      ],
+      "kw": "doctor patient",
+      "license": "Public domain",
+      "attribution": "Rhoda Baer (photographer) / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Doctor_explains_x-ray_to_patient.jpg/1280px-Doctor_explains_x-ray_to_patient.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Doctor_explains_x-ray_to_patient.jpg",
+      "used_by": null
+    },
+    {
+      "file": "doctor-medical-10.jpg",
+      "themes": [
+        "doctor-medical"
+      ],
+      "kw": "doctor patient",
+      "license": "Public domain",
+      "attribution": "Bill Branson (Photographer) / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Doctor_takes_blood_pressure.jpg/1280px-Doctor_takes_blood_pressure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Doctor_takes_blood_pressure.jpg",
+      "used_by": null
+    },
+    {
+      "file": "doctor-medical-11.jpg",
+      "themes": [
+        "doctor-medical"
+      ],
+      "kw": "doctor patient",
+      "license": "Public domain",
+      "attribution": "National Cancer Institute / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Doctor_talking_with_a_patient.jpg/1280px-Doctor_talking_with_a_patient.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Doctor_talking_with_a_patient.jpg",
+      "used_by": null
+    },
+    {
+      "file": "doctor-medical-12.jpg",
+      "themes": [
+        "doctor-medical"
+      ],
+      "kw": "doctor patient",
+      "license": "CC BY 2.0",
+      "attribution": "Shixart1985 / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Female_doctor_listens_to_the_patient_using_a_stethoscope_closeup.jpg/1280px-Female_doctor_listens_to_the_patient_using_a_stethoscope_closeup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Female_doctor_listens_to_the_patient_using_a_stethoscope_closeup.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: depicts a minor"
+    },
+    {
+      "file": "doctor-medical-13.jpg",
+      "themes": [
+        "doctor-medical"
+      ],
+      "kw": "doctor patient",
+      "license": "CC BY 4.0",
+      "attribution": "Unknown / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Nigerian_doctor_examining_a_patient_Wellcome_L0044653.jpg/1280px-Nigerian_doctor_examining_a_patient_Wellcome_L0044653.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Nigerian_doctor_examining_a_patient_Wellcome_L0044653.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: identifiable semi-undressed patient"
+    },
+    {
+      "file": "doctor-medical-14.jpg",
+      "themes": [
+        "doctor-medical"
+      ],
+      "kw": "doctor patient",
+      "license": "CC0",
+      "attribution": "After Thomas Rowlandson / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/The_Dying_Patient%2C_or_Doctor%27s_Last_Fee_Met_DP884373.jpg/1280px-The_Dying_Patient%2C_or_Doctor%27s_Last_Fee_Met_DP884373.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:The_Dying_Patient,_or_Doctor%27s_Last_Fee_Met_DP884373.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: antique engraving, not a photo"
+    },
+    {
+      "file": "nature-lifestyle-07.jpg",
+      "themes": [
+        "nature-lifestyle"
+      ],
+      "kw": "forest path walking",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Jim Barton / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Forest_path%2C_Cullernie_Wood_-_geograph.org.uk_-_5943372.jpg/1280px-Forest_path%2C_Cullernie_Wood_-_geograph.org.uk_-_5943372.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Forest_path,_Cullernie_Wood_-_geograph.org.uk_-_5943372.jpg",
+      "used_by": null
+    },
+    {
+      "file": "nature-lifestyle-08.jpg",
+      "themes": [
+        "nature-lifestyle"
+      ],
+      "kw": "forest path walking",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Kenneth  Allen / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/Forest_path%2C_Glenarm_Forest_-_geograph.org.uk_-_4417882.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Forest_path,_Glenarm_Forest_-_geograph.org.uk_-_4417882.jpg",
+      "used_by": null
+    },
+    {
+      "file": "nature-lifestyle-09.jpg",
+      "themes": [
+        "nature-lifestyle"
+      ],
+      "kw": "forest path walking",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Jim Barton / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/Forest_path_to_Craigower_-_geograph.org.uk_-_5187463.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Forest_path_to_Craigower_-_geograph.org.uk_-_5187463.jpg",
+      "used_by": null
+    },
+    {
+      "file": "nature-lifestyle-10.jpg",
+      "themes": [
+        "nature-lifestyle"
+      ],
+      "kw": "forest path walking",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Les Hull / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Glentress_Forest_path_towards_Falla_Brae_-_geograph.org.uk_-_5911493.jpg/1280px-Glentress_Forest_path_towards_Falla_Brae_-_geograph.org.uk_-_5911493.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Glentress_Forest_path_towards_Falla_Brae_-_geograph.org.uk_-_5911493.jpg",
+      "used_by": null
+    },
+    {
+      "file": "nature-lifestyle-11.jpg",
+      "themes": [
+        "nature-lifestyle"
+      ],
+      "kw": "forest path walking",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Kenneth  Allen / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Path%2C_Tollymore_Forest_Park_-_geograph.org.uk_-_3457889.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Path,_Tollymore_Forest_Park_-_geograph.org.uk_-_3457889.jpg",
+      "used_by": null
+    },
+    {
+      "file": "nature-lifestyle-12.jpg",
+      "themes": [
+        "nature-lifestyle"
+      ],
+      "kw": "forest path walking",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Christine Matthews / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Path_at_Heartwood_Forest%2C_Sandridge%2C_Hertfordshire_-_geograph.org.uk_-_4428355.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Path_at_Heartwood_Forest,_Sandridge,_Hertfordshire_-_geograph.org.uk_-_4428355.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: empty field, nondescript"
+    },
+    {
+      "file": "nature-lifestyle-13.jpg",
+      "themes": [
+        "nature-lifestyle"
+      ],
+      "kw": "forest path walking",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Gordon Brown / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/27/Path_through_the_Rannoch_Forest_-_geograph.org.uk_-_5496063.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Path_through_the_Rannoch_Forest_-_geograph.org.uk_-_5496063.jpg",
+      "used_by": null
+    },
+    {
+      "file": "nature-lifestyle-14.jpg",
+      "themes": [
+        "nature-lifestyle"
+      ],
+      "kw": "forest path walking",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Jim Barton / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Paths_in_Cardrona_Forest_-_geograph.org.uk_-_4817356.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Paths_in_Cardrona_Forest_-_geograph.org.uk_-_4817356.jpg",
+      "used_by": null
+    },
+    {
+      "file": "meditation-calm-01.jpg",
+      "themes": [
+        "meditation-calm"
+      ],
+      "kw": "woman meditation",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Truenudists / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Nudist_woman_sitting_on_a_rock_meditating.jpg/1280px-Nudist_woman_sitting_on_a_rock_meditating.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Nudist_woman_sitting_on_a_rock_meditating.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: NUDITY - full rear nudity"
+    },
+    {
+      "file": "meditation-calm-07.jpg",
+      "themes": [
+        "meditation-calm"
+      ],
+      "kw": "yoga meditation",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Joellepearson / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Integral_Yoga_Meditation.jpg/1280px-Integral_Yoga_Meditation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Integral_Yoga_Meditation.jpg",
+      "used_by": null
+    },
+    {
+      "file": "meditation-calm-08.jpg",
+      "themes": [
+        "meditation-calm"
+      ],
+      "kw": "yoga meditation",
+      "license": "CC BY 2.0",
+      "attribution": "Amila Tennakoon / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Meditation_in_a_yoga_asana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Meditation_in_a_yoga_asana.jpg",
+      "used_by": null
+    },
+    {
+      "file": "meditation-calm-09.jpg",
+      "themes": [
+        "meditation-calm"
+      ],
+      "kw": "yoga meditation",
+      "license": "CC BY-SA 2.0",
+      "attribution": "bandita / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Meditation_yoga_posture_for_reflection_on_Om.jpg/1280px-Meditation_yoga_posture_for_reflection_on_Om.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Meditation_yoga_posture_for_reflection_on_Om.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: ambiguous crop"
+    },
+    {
+      "file": "meditation-calm-10.jpg",
+      "themes": [
+        "meditation-calm"
+      ],
+      "kw": "yoga meditation",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Emmanuel Obiajulu / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Metaphysical_Yoga_Meditation_at_Orji_FlyOver%2C_Owerri_Imo_State.jpg/1280px-Metaphysical_Yoga_Meditation_at_Orji_FlyOver%2C_Owerri_Imo_State.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Metaphysical_Yoga_Meditation_at_Orji_FlyOver,_Owerri_Imo_State.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: low quality, distant"
+    },
+    {
+      "file": "meditation-calm-11.jpg",
+      "themes": [
+        "meditation-calm"
+      ],
+      "kw": "yoga meditation",
+      "license": "CC BY 4.0",
+      "attribution": "Pinkpanther0 / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Yoga_Teacher_-_Swami_CHaittanya_Hari.jpg/1280px-Yoga_Teacher_-_Swami_CHaittanya_Hari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Yoga_Teacher_-_Swami_CHaittanya_Hari.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: religious ritual, off-brand"
+    },
+    {
+      "file": "meditation-calm-12.jpg",
+      "themes": [
+        "meditation-calm"
+      ],
+      "kw": "yoga meditation",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Gerald England / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/Yoga_and_Meditation_-_geograph.org.uk_-_6145334.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Yoga_and_Meditation_-_geograph.org.uk_-_6145334.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: off-topic outdoor event"
+    },
+    {
+      "file": "meditation-calm-13.jpg",
+      "themes": [
+        "meditation-calm"
+      ],
+      "kw": "yoga meditation",
+      "license": "CC BY 2.0",
+      "attribution": "Sonia Belviso from Bratislava, Slovakia / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Yoga_and_meditation.jpg/1280px-Yoga_and_meditation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Yoga_and_meditation.jpg",
+      "used_by": null
+    },
+    {
+      "file": "social-connection-07.jpg",
+      "themes": [
+        "social-connection"
+      ],
+      "kw": "friends together",
+      "license": "Public domain",
+      "attribution": "USFWSmidwest / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Friends_stay_together_%2832648636695%29.jpg/1280px-Friends_stay_together_%2832648636695%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Friends_stay_together_(32648636695).jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: butterfly colony, off-topic"
+    },
+    {
+      "file": "social-connection-08.jpg",
+      "themes": [
+        "social-connection"
+      ],
+      "kw": "friends together",
+      "license": "Public domain",
+      "attribution": "U.S. Air Force photo by Tech. Sgt. Emerson Nunez / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/RAF%2C_USAF_celebrate_Families_and_Friends_day_together_%285615830%29.jpg/1280px-RAF%2C_USAF_celebrate_Families_and_Friends_day_together_%285615830%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:RAF,_USAF_celebrate_Families_and_Friends_day_together_(5615830).jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: military aircraft, off-topic"
+    },
+    {
+      "file": "social-connection-09.jpg",
+      "themes": [
+        "social-connection"
+      ],
+      "kw": "friends together",
+      "license": "Public domain",
+      "attribution": "U.S. Air Force photo by Tech. Sgt. Emerson Nunez / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/RAF%2C_USAF_celebrate_Families_and_Friends_day_together_%285615834%29.jpg/1280px-RAF%2C_USAF_celebrate_Families_and_Friends_day_together_%285615834%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:RAF,_USAF_celebrate_Families_and_Friends_day_together_(5615834).jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: air show, off-topic"
+    },
+    {
+      "file": "social-connection-10.jpg",
+      "themes": [
+        "social-connection"
+      ],
+      "kw": "friends together",
+      "license": "Public domain",
+      "attribution": "U.S. Air Force photo by Tech. Sgt. Emerson Nunez / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/RAF%2C_USAF_celebrate_Families_and_Friends_day_together_%285615835%29.jpg/1280px-RAF%2C_USAF_celebrate_Families_and_Friends_day_together_%285615835%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:RAF,_USAF_celebrate_Families_and_Friends_day_together_(5615835).jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: air show, off-topic"
+    },
+    {
+      "file": "social-connection-11.jpg",
+      "themes": [
+        "social-connection"
+      ],
+      "kw": "friends together",
+      "license": "Public domain",
+      "attribution": "U.S. Air Force photo by Tech. Sgt. Emerson Nunez / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/RAF%2C_USAF_celebrate_Families_and_Friends_day_together_%285615838%29.jpg/1280px-RAF%2C_USAF_celebrate_Families_and_Friends_day_together_%285615838%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:RAF,_USAF_celebrate_Families_and_Friends_day_together_(5615838).jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: air show, off-topic"
+    },
+    {
+      "file": "social-connection-12.jpg",
+      "themes": [
+        "social-connection"
+      ],
+      "kw": "friends together",
+      "license": "CC BY 2.0",
+      "attribution": "woodleywonderworks / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/School_friends_%281384954600%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "descurl": "https://commons.wikimedia.org/wiki/File:School_friends_(1384954600).jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: depicts minors, classroom"
+    },
+    {
+      "file": "social-connection-13.jpg",
+      "themes": [
+        "social-connection"
+      ],
+      "kw": "friends together",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Ahmed Mo Abd Elaaty / Wikimedia Commons",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Two_friends_sitting_together%2C_chatting_and_laughing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Two_friends_sitting_together,_chatting_and_laughing.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: person in distress, dignity"
+    },
+    {
+      "file": "social-connection-14.jpg",
+      "themes": [
+        "social-connection"
+      ],
+      "kw": "friends together",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Saddam19 / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Two_friends_together_at_Bandstand_Promenade_in_2014..jpg/1280px-Two_friends_together_at_Bandstand_Promenade_in_2014..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Two_friends_together_at_Bandstand_Promenade_in_2014..jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: off-topic, distant"
+    },
+    {
+      "file": "thinking-memory-07.jpg",
+      "themes": [
+        "thinking-memory"
+      ],
+      "kw": "person thinking",
+      "license": "CC0",
+      "attribution": "Ahunt / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/The_Image_Relies_on_Positive_Thinking_by_Geoff_McFetridge_2494.jpg/1280px-The_Image_Relies_on_Positive_Thinking_by_Geoff_McFetridge_2494.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:The_Image_Relies_on_Positive_Thinking_by_Geoff_McFetridge_2494.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: cartoon mural, not a photo"
+    },
+    {
+      "file": "thinking-memory-08.jpg",
+      "themes": [
+        "thinking-memory"
+      ],
+      "kw": "person thinking",
+      "license": "CC BY 3.0",
+      "attribution": "Sérgio Valle Duarte  .mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-output .messagebox.mbox-small{font-size:88%;line-height:1.25em}.mw-parser-output .mbox-warning,.mw-parser-output .mbox-speedy{border:2px solid var(--border-color-error,#b22222);background:var(--background-color-error-subtle,#ffdbdb);border-inline-start-width:8px}.mw-parser-output .mbox-serious,.mw-parser-output .mbox-delete,.mw-parser-output .mbox-stop{border:2px solid var(--border-color-error,#b22222);border-inline-start-width:8px}.mw-parser-output .mbox-issue,.mw-parser-output .mbox-content{border:2px solid #f28500;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-query,.mw-parser-output .mbox-style{border:2px solid #f4c430;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-shit{border:2px solid #960;border-inline-start-width:8px}.mw-parser-output .mbox-license{border:2px solid #88a;border-inline-start-width:initial}.mw-parser-output .mbox-legal{border:2px solid var(--border-color-notice,#666);background:var(--background-color-base,#fff);border-inline-start-width:8px}.mw-parser-output .mbox-honor{border:2px solid #ca3;background:var(--background-color-warning-subtle,#fcf4db);border-inline-start-width:8px}.mw-parser-output .mbox-growth{border:2px solid #8d4;background:var(--background-color-success-subtle,#d5fdf4);border-inline-start-width:8px}.mw-parser-output .mbox-move{border:2px solid #93c;border-inline-start-width:8px}.mw-parser-output .mbox-protection,.mw-parser-output .mbox-message{border:2px solid var(--border-color-base,#aaa);border-inline-start-width:8px}.mw-parser-output .messagebox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .messagebox .mbox-image{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0.9em;padding-inline-end:0;text-align:center}.mw-parser-output .messagebox .mbox-imageright{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0;padding-inline-end:0.9em;text-align:center}.mw-parser-output .messagebox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .messagebox .mbox-invalid-type{text-align:center}@media(min-width:720px){.mw-parser-output .messagebox{margin:4px 10%}.mw-parser-output .messagebox.mbox-small{clear:right;float:right;margin:4px 0 4px 1em;width:238px}}body.skin--responsive .mw-parser-output table.messagebox img{max-width:none!important}Wikidata has entry Sergio Valle Duarte (Q16269994) with data related to this item.  \n\n\nPersonality rights\n\nPersonality rightsPersonality rights warningAlthough this work is freely licensed or in the public domain, the person(s) shown may have rights that legally restrict certain re-uses unless those depicted consent to such uses. In these cases, a model release or other evidence of consent could protect you from infringement claims. Though not obliged to do so, the uploader may be able to help you to obtain such evidence. See our general disclaimer for more information. / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Thinking_of_Dad_1997.jpg/1280px-Thinking_of_Dad_1997.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Thinking_of_Dad_1997.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: depicts a minor"
+    },
+    {
+      "file": "thinking-memory-10.jpg",
+      "themes": [
+        "thinking-memory"
+      ],
+      "kw": "person thinking",
+      "license": "Public domain",
+      "attribution": "NASA / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Thinking_of_You%2C_Earth.jpg/1280px-Thinking_of_You%2C_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Thinking_of_You,_Earth.jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: Earth from orbit, off-topic"
+    },
+    {
+      "file": "thinking-memory-12.jpg",
+      "themes": [
+        "thinking-memory"
+      ],
+      "kw": "person thinking",
+      "license": "Public domain",
+      "attribution": "U.S. Embassy Kyiv Ukraine / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/%E2%80%9CUkraine_Thinking_Together%E2%80%9D_Conference_Reception%2C_May_17%2C_2014_%2814041604827%29.jpg/1280px-%E2%80%9CUkraine_Thinking_Together%E2%80%9D_Conference_Reception%2C_May_17%2C_2014_%2814041604827%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:%E2%80%9CUkraine_Thinking_Together%E2%80%9D_Conference_Reception,_May_17,_2014_(14041604827).jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: diplomatic reception, off-topic"
+    },
+    {
+      "file": "thinking-memory-13.jpg",
+      "themes": [
+        "thinking-memory"
+      ],
+      "kw": "person thinking",
+      "license": "Public domain",
+      "attribution": "U.S. Embassy Kyiv Ukraine / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/%E2%80%9CUkraine_Thinking_Together%E2%80%9D_Conference_Reception%2C_May_17%2C_2014_%2814220837271%29.jpg/1280px-%E2%80%9CUkraine_Thinking_Together%E2%80%9D_Conference_Reception%2C_May_17%2C_2014_%2814220837271%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:%E2%80%9CUkraine_Thinking_Together%E2%80%9D_Conference_Reception,_May_17,_2014_(14220837271).jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: identifiable public figures, off-topic"
+    },
+    {
+      "file": "thinking-memory-14.jpg",
+      "themes": [
+        "thinking-memory"
+      ],
+      "kw": "person thinking",
+      "license": "Public domain",
+      "attribution": "U.S. Embassy Kyiv Ukraine / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/%E2%80%9CUkraine_Thinking_Together%E2%80%9D_Conference_Reception%2C_May_17%2C_2014_%2814224143305%29.jpg/1280px-%E2%80%9CUkraine_Thinking_Together%E2%80%9D_Conference_Reception%2C_May_17%2C_2014_%2814224143305%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:%E2%80%9CUkraine_Thinking_Together%E2%80%9D_Conference_Reception,_May_17,_2014_(14224143305).jpg",
+      "used_by": "__disqualified__",
+      "disqualified": "manual visual audit 2026-09-01: identifiable public figures, off-topic"
+    },
+    {
+      "file": "thinking-memory-15.jpg",
+      "themes": [
+        "thinking-memory"
+      ],
+      "kw": "jigsaw puzzle pieces",
+      "license": "CC0",
+      "attribution": "Tim2007viatge / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Jigsaw_Puzzle_interchangeable_pieces.jpg/1280px-Jigsaw_Puzzle_interchangeable_pieces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Jigsaw_Puzzle_interchangeable_pieces.jpg",
+      "used_by": null
+    },
+    {
+      "file": "thinking-memory-16.jpg",
+      "themes": [
+        "thinking-memory"
+      ],
+      "kw": "jigsaw puzzle pieces",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Octahedron80 / Wikimedia Commons",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Jigsaw_pieces_with_border.jpg/1280px-Jigsaw_pieces_with_border.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "descurl": "https://commons.wikimedia.org/wiki/File:Jigsaw_pieces_with_border.jpg",
+      "used_by": null
+    }
+  ]
 }

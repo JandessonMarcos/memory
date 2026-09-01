@@ -84,6 +84,37 @@ def valid(im):
             and im.mode not in ("RGBA", "LA", "P")
             and structure(im) >= STRUCT_MIN and color_count(im) >= COLOR_MIN)
 
+
+CREDITS = "_automation/img-credits.json"
+
+def record_credit(slug, r, query):
+    """Persist attribution for an installed hero.
+
+    CC BY and CC BY-SA legally require credit, and until 2026-08-31 the
+    Openverse path threw this data away: it printed the license to stdout and
+    kept nothing. Nothing downstream could render a credit line because nothing
+    downstream had the creator's name.
+    """
+    try:
+        db = json.load(open(CREDITS))
+    except Exception:
+        db = {}
+    lic = (r.get("license") or "").lower()
+    ver = r.get("license_version") or ""
+    db[slug] = {
+        "title": r.get("title") or "",
+        "creator": r.get("creator") or "",
+        "license": ("CC " + lic.upper() + " " + ver).strip() if lic not in ("cc0", "pdm") else
+                   ("CC0" if lic == "cc0" else "Public domain"),
+        "license_url": r.get("license_url") or "",
+        "source": r.get("foreign_landing_url") or r.get("url") or "",
+        "provider": r.get("provider") or "",
+        "attribution_required": lic in ("by", "by-sa"),
+        "query": query,
+    }
+    json.dump(db, open(CREDITS, "w"), indent=2, ensure_ascii=False, sort_keys=True)
+
+
 def source(slug, queries):
     existing = load_existing(slug)
     for lic in ["cc0,pdm", "by,by-sa"]:
@@ -109,6 +140,7 @@ def source(slug, queries):
                 nh = int(im.size[1] * 900 / im.size[0])
                 out = os.path.join(IMG_DIR, slug + ".jpg")
                 im.resize((900, nh), Image.LANCZOS).save(out, "JPEG", quality=86)
+                record_credit(slug, r, q)
                 print(f'OK  {slug}  struct={structure(im):.1f} colors={color_count(im)} '
                       f'lic={r.get("license")}  <- "{q}"  {iu[:60]}')
                 return True

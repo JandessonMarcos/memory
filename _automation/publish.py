@@ -19,6 +19,7 @@ SECTION = {
     "Brain Health": "Memory &amp; brain health",
     "Aging Well": "Memory &amp; brain health",
     "Ingredients": "Ingredients &amp; evidence",
+    "Reviews": "Reviews &amp; comparisons",
 }
 
 

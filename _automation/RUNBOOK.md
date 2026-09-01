@@ -16,7 +16,9 @@
    - One `.recbox` mid + one `.final` banner, both `<a class="buy-btn ... buy-link" data-rank="1" href="#">`.
    - Internal links: MUST link the pillar `../how-to-improve-memory/`, the money page `../best-memory-supplements-2026/`, and 1–2 topically-related spokes.
    - canonical/og/url = `https://www.memorylabdaily.com/<slug>/`. og:image = `/assets/img/<slug>.jpg`.
-   - ~1000–1500 words. Accurate, hedged, NO fabricated studies/stats. English/US. Brand "Memory Lab". NEVER write "Memopezil"; editorial #1 = "Advanced Memory Complex".
+   - **Length: use the item's `words` field** as the body-word target (±10%). Items without `words` keep the old ~1000–1500. Do NOT pad to hit the number: a longer target buys more *sections* (fuller ingredient/dosage tables, a real pros-and-cons, an objections FAQ), never more adjectives.
+   - Accurate, hedged, NO fabricated studies/stats/testimonials. English/US. Brand "Memory Lab".
+   - **Brand naming (updated 2026-08-31):** items with `cat: "Reviews"` whose `kw` targets a brand MAY name that brand (MemoPezil, MemoHoney, Prevagen, Neuriva …) — that is the whole point of a review/comparison page, and `memopezil-review/` has done it since 2026-08-03. Everywhere else, editorial #1 stays "Advanced Memory Complex". Never make a disease claim about any brand.
    - **Write like a human (see `## Writing style` below).** Mirror the template's *structure and markup*, NOT its punctuation habits: the old posts overuse the em dash, so do not copy that density.
 3. **Image — sourcing is DETERMINISTIC, do NOT freelance it:**
    - **⛔ NEVER generate, draw, or synthesize a hero image.** Do not use PIL/ImageDraw/numpy/any tool to make gradients, grain/noise textures, abstract bubble/circle renders, solid colors, or "natural texture" fills. Every past image disaster (green/gold/blue rectangles, grain fills, bubble art) came from the routine *inventing* an image when sourcing felt hard. Sourcing is never optional; a synthetic fill is always worse than trying another query.
@@ -32,13 +34,36 @@
    - **NEVER reuse an existing image as a fallback**, and never let one source photo serve two slugs — the script's uniqueness guard (against both `assets/img/` heroes and pool `used_by`) enforces this, do not work around it.
 4. **Home placement — newest first:** insert the new post's card at the **TOP** of the **`Latest`** section in `index.html` (as the first child of that section's `.card-grid`, right after `<p class="section-label">Latest</p>`). Keep **Latest capped at 4 cards**: if it now exceeds 4, move the **oldest** (last) card out of Latest and append it to its proper **thematic** section (`Memory & brain health`, `Ingredients & evidence`, `Reviews & comparisons`, or `Bill Gates & brain research`) based on its category/topic. Then add the URL to `sitemap.xml`. *(Copy an existing `.post-card` block verbatim for the markup; NEVER let the same slug appear in two sections.)*
 4b. **Rotate the home lead story every 2 days (freshness):** The Portal Hero lead in `index.html` (`<a class="ph-lead" …>`) must not go stale. On each run, check which slug it points to. If the **same** lead has been featured for **≥ 2 days**, swap the entire `.ph-lead` block (href + `.ph-img` `<img>` with correct `width`/`height` + `.ph-cat` + `<h2>` + `<p>`) to a different high-interest post — a recent news item or a strong evergreen with a good real photo. Move the outgoing lead into the `Top stories` sidebar if it isn't already prominent elsewhere. Never feature a post whose image is a flat gradient (see the image gate below).
-5. **Quality gate** (skip & log if fails): word count ≥ 900, has Article+FAQPage schema, single H1, links to pillar + money page, no "Memopezil", slug not duplicated, **≤ 1 em dash (—) in the whole article**. **Image gate — run BOTH audits at the end of the run; both MUST print `OK` before you commit:**
+5. **Quality gate** (skip & log if fails): word count ≥ **85% of the item's `words` target** (≥ 900 when the item has no `words`), has Article+FAQPage schema, single H1, links to pillar + money page, slug not duplicated, **brand-name rule per step 2** (a non-`Reviews` item still must not say "Memopezil"), **≤ 1 em dash (—) in the whole article**. **Image gate — run BOTH audits at the end of the run; both MUST print `OK` before you commit:**
    - `python3 _automation/check-image-real.py --audit` → rejects synthetic junk (gradients, grain/noise textures, abstract renders, clip-art, monochrome fills). This gate measures *structure on a downscaled copy* + distinct-color count. **Do NOT use the old full-res edge-energy one-liner** — grain and checkerboards pass it (noise = high local diff), which is exactly how the "natural grain texture" heroes shipped. If this prints `FAIL`, re-source that slug with `source-image.py` (never hand-fix the pixels).
    - `python3 _automation/check-image-unique.py --audit` → must print `OK` (zero colliding groups).
    - `python3 _automation/verify-images.py` → **the reference gate. This is the one that catches "post published without image."** It walks every `<slug>/index.html`, reads the hero image it *references*, and FAILS if that file is missing (or is synthetic). The two audits above only inspect files that already exist, so they are blind to a post that points at an image nobody sourced. If this prints `FAIL`, source each listed slug with `source-image.py` and re-run. **Never commit while this prints FAIL.**
 6. Mark each done in the queue: `"status":"done","published":"<date>"`.
 7. **Final check before commit:** run `python3 _automation/verify-images.py` one more time. It MUST print `OK`. A `FAIL` means at least one post you are about to publish has no hero image. Source it first; do NOT push. Then **commit and push to `main`** with a clear message (e.g., `content: <slugs> + news`). Publishing is automatic: this project is a **Cloudflare Worker with Static Assets** (`wrangler.jsonc` → name `memory`, `main: src/index.js`, `assets.directory: "."`, D1 binding `DB`), connected to this repo via Git integration, which deploys every push to `main`. The Worker serves every static file and adds the `POST /api/lead` route (`src/index.js`). *(If ever deploying manually instead, run from the blog dir: `CLOUDFLARE_ACCOUNT_ID=b3b59e6ff582d44cfddea9c40ffafde1 npx -y wrangler@latest deploy`. Do NOT use `wrangler pages deploy` — this is a Worker, not a Pages project.)* Note: `functions/api/lead.js` is a legacy Pages-Function mirror of the same lead handler and is **not** used by the Worker; leave it or remove it, but the live `/api/lead` route lives in `src/index.js`.
 8. Log what was published (and what was skipped) at the end of the run.
+
+## Commercial depth: the `intent` field
+Added 2026-08-31, together with a 100-item bottom-of-funnel queue built on the two real formulas
+(**MemoPezil**: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng — 60 caps = 30 servings, 60-day money-back, 1/3/6-bottle packs. **MemoHoney**: honey base + ginkgo, bacopa, blueberry, rhodiola).
+These pages exist to convert, so they get more structure than an evergreen explainer. They do NOT get more hype.
+
+- **`intent: "commercial"`** (ingredient dosage, side effects, stacking, buyer mechanics)
+  - 1 `.recbox` mid-article + 1 `.final` banner, as usual.
+  - Add a **dose/comparison table** and a **"who should skip this"** block.
+  - Close with an objections-style FAQ (4–6 `<details>`), not a generic one.
+
+- **`intent: "commercial-high"`** (branded reviews, head-to-head comparisons, "best X for Y")
+  - **2** `.recbox` blocks (one after the direct-answer intro, one before the FAQ) + the `.final` banner. All still `<a class="buy-btn ... buy-link" data-rank="1" href="#">`.
+  - Required sections: **what it is → the formula, ingredient by ingredient → what the evidence supports → price per day → refund policy → side effects and who should skip → pros and cons → verdict**. That is the shape of the existing `memohoney-review/`; mirror it.
+  - **Comparison pages need a real `<table>`**, not prose. Formula, disclosed doses, evidence depth, cost per day, guarantee.
+  - **Earn the recommendation first.** Say what the product does not do, name who should not buy it, and state plainly that ingredient evidence is not the same as product evidence. Trust converts better than pressure on YMYL search traffic, and it is what keeps this site out of Google's scaled-content and product-review filters.
+
+**Hard limits for both, non-negotiable:**
+- No fabricated customer reviews, star ratings, testimonials, sales counts, or "as seen on" claims.
+- No invented per-ingredient milligram amounts. If the label does not disclose the split, **say the label does not disclose it** — that is itself a useful, rankable fact.
+- No disease claims (nothing that treats, prevents or cures Alzheimer's or dementia). FDA disclaimer + FTC disclosure stay on every page.
+- No fake scarcity, countdowns or "only X left".
+- Prices go stale. Teach the cost-per-day math and point to the official page for the current number instead of hardcoding dollars.
 
 ## Writing style: sound human (anti-AI-tell)
 Affiliate + YMYL content has to read like a person wrote it. That is an E-E-A-T, anti-spam-review, and conversion requirement, not a nicety. Bake these into every generation:
@@ -53,7 +78,11 @@ Affiliate + YMYL content has to read like a person wrote it. That is an E-E-A-T,
 Self-check before saving each article: count the em dashes (must be ≤ 1), scan the first word of every paragraph (are they varied?), and confirm two or three sentences run under 8 words.
 
 ## When the queue runs low
-When < 6 `pending` remain, generate ~20 new long-tail, low-KD memory/brain topics (distinct from everything published) and append them as `pending`.
+When < 6 `pending` remain, generate ~20 new long-tail, low-KD memory/brain topics (distinct from everything published) and append them as `pending`, **each with its own `words` and `intent`**.
+
+**If a run empties the queue, it must refill before it commits.** The 2026-08-25 run did exactly this correctly: it refilled with 20 topics and skipped publishing because the day's cap was already used, and the routine then published normally on 26, 27, 28 and 29 August. Keep that behaviour.
+
+*(Correction, 2026-09-01: an earlier revision of this section claimed the 25/08 run left the queue empty and killed the blog for six days. That was wrong. It came from reading a stale local `main` without fetching first. The 30-31 August stoppage was the image pool at 0 available entries, not the queue. **Always `git fetch` before diagnosing a gap in publishing** — the local clone goes stale because the routine commits from the cloud.)*
 
 ## News / freshness track (newsjacking) — "publish on each new study"
 Besides the evergreen queue, scan reputable sources for NEW brain/memory/Alzheimer's research and publish a timely post per genuinely new item (Google rewards freshness; AI Overviews favor recent, sourced content).

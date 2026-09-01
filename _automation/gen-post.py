@@ -22,6 +22,7 @@ CATS = {
     "Aging Well":   ("Aging Well",   "/brain-health-lifestyle/"),
     "Ingredients":  ("Ingredients",  "../citicoline-for-memory/"),
     "News":         ("News",         "/brain-health-lifestyle/"),
+    "Reviews":      ("Reviews",      "../best-memory-supplements-2026/"),
 }
 
 HEAD = '''<!doctype html>
@@ -169,6 +170,24 @@ RECBOX = '''    <!-- inline recommendation -->
 '''
 
 
+# Variant for branded review/comparison pages. The generic RECBOX above names a
+# different ingredient list ("citicoline, bacopa, phosphatidylserine and
+# B-vitamins"), which contradicts the article on any page that prints the real
+# 5-ingredient panel. Branded pages use this one instead.
+RECBOX_BRAND = '''    <!-- inline recommendation (branded page) -->
+    <div class="recbox">
+      <div><div class="bottle xs"><div class="cap"></div><div class="body"><div class="label"><b>MEMORY<br>COMPLEX</b><div class="ln"></div><div class="ln"></div></div></div></div></div>
+      <div>
+        <span class="rb-badge">&#9733; Editors' #1 pick</span>
+        <h4>The memory formula we rate highest in 2026</h4>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span style="color:#666;font-weight:700;font-size:12px">9.6/10</span></div>
+        <p>Five studied botanicals and amino acids in one label, bacopa and rhodiola among them, backed by a 60-day money-back guarantee.</p>
+        <a class="buy-btn sm buy-link" data-rank="1" href="#">See Today's Price &rarr;</a>
+        <div style="margin-top:8px;font-size:13px"><a href="../best-memory-supplements-2026/">Read our full Top 5 review &rarr;</a></div>
+      </div>
+    </div>
+'''
+
 def build_ldjson(s, slug, cat_label, cat_href):
     url = f"{SITE}/{slug}/"
     crumb_item = cat_href if cat_href.startswith("/") else "/" + cat_href.strip("./")
@@ -212,7 +231,27 @@ def render(slug):
         elif node[0] == "p":
             parts.append(f'    <p>{node[1]}</p>')
         elif node[0] == "recbox":
-            parts.append(RECBOX.rstrip("\n"))
+            variant = node[1] if len(node) > 1 else None
+            box = RECBOX_BRAND if variant == "brand" else RECBOX
+            parts.append(box.rstrip("\n"))
+        elif node[0] == "h3":
+            parts.append(f'    <h3>{node[1]}</h3>')
+        elif node[0] == "ul":
+            lis = "\n".join(f"      <li>{x}</li>" for x in node[1])
+            parts.append(f'    <ul>\n{lis}\n    </ul>')
+        elif node[0] == "table":
+            # ["table", [headers...], [[cells...], ...]]
+            head = "".join(f"<th>{h}</th>" for h in node[1])
+            rows = "\n".join(
+                "        <tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>"
+                for r in node[2])
+            parts.append(
+                '    <div class="cmp-wrap">\n'
+                '      <table class="cmp">\n'
+                f'        <thead><tr>{head}</tr></thead>\n'
+                f'        <tbody>\n{rows}\n        </tbody>\n'
+                '      </table>\n'
+                '    </div>')
         else:
             raise SystemExit(f"{slug}: unknown body node {node[0]}")
     body = "\n\n".join(parts)
@@ -253,7 +292,15 @@ def render(slug):
     with open(f"{slug}/index.html", "w") as f:
         f.write(out)
 
-    words = len(" ".join(n[1] for n in s["body"] if n[0] in ("h2", "p")).split())
+    def _text(n):
+        if n[0] in ("h2", "h3", "p"):
+            return n[1]
+        if n[0] == "ul":
+            return " ".join(n[1])
+        if n[0] == "table":
+            return " ".join(n[1]) + " " + " ".join(c for r in n[2] for c in r)
+        return ""
+    words = len(re.sub(r"<[^>]+>", " ", " ".join(_text(n) for n in s["body"])).split())
     em = out.count("—")
     print(f"OK {slug}  words~{words}  em-dashes={em}  faq={len(s['faq'])}")
     if em > 1:

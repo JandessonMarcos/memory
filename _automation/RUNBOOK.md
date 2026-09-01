@@ -11,7 +11,7 @@
 1. Read `_automation/content-queue.json`. Pick the top **N** items with `status: "pending"` (N per ramp). Skip any slug already in `published_base` or `status: "done"`.
 2. For EACH picked topic, generate `/<slug>/index.html` by mirroring the template **`how-to-improve-memory/index.html`** exactly:
    - `<meta charset>` + favicon line, FTC bar, header, topnav, footer, disclaimer, byline SVG.
-   - Full JSON-LD @graph: Organization, WebSite, BreadcrumbList, Article (author #sarah-coleman, reviewedBy #marcus-reed, publisher #org, dates = today, en-US), 2 Person nodes, FAQPage matching the visible FAQ EXACTLY.
+   - Full JSON-LD @graph: Organization, WebSite, BreadcrumbList, Article (**author and publisher both `#org`**, dates = today, en-US), FAQPage matching the visible FAQ EXACTLY. **No Person nodes and no `reviewedBy`.** See `## Authorship` below before changing any of this.
    - GEO: `.method` Key takeaways, direct-answer intro, question-style `h2.sec`, `.pull` quote, `.faq` `<details>`.
    - One `.recbox` mid + one `.final` banner, both `<a class="buy-btn ... buy-link" data-rank="1" href="#">`.
    - Internal links: MUST link the pillar `../how-to-improve-memory/`, the money page `../best-memory-supplements-2026/`, and 1–2 topically-related spokes.
@@ -65,6 +65,29 @@ These pages exist to convert, so they get more structure than an evergreen expla
 - No fake scarcity, countdowns or "only X left".
 - Prices go stale. Teach the cost-per-day math and point to the official page for the current number instead of hardcoding dollars.
 
+## Authorship: no invented people (added 2026-09-01)
+
+Until 2026-09-01 every article carried `By Sarah Coleman, Health Editor · Reviewed by Dr. Marcus Reed, MD`,
+and the JSON-LD declared both as Person nodes with `reviewedBy` pointing at a "board-certified physician".
+Neither person exists. That was removed from all 157 articles, from `about/`, and from this generator.
+
+**Why this matters more than it looks.** This is a YMYL health site recommending supplements. Google's
+quality raters are trained to verify authorship on exactly this kind of content, and an unverifiable
+"board-certified physician" reviewer is the single highest-risk E-E-A-T signal a site like this can carry.
+At the time of removal the site had 1,390 impressions and 4 clicks over three months at an average position
+of **84.2** — indexed, understood, and ranked near the bottom for its own target queries. Fabricated medical
+authority is a plausible cause and is cheap to remove. It also contradicted the project's own hard rule that
+this operation stays white.
+
+**The rules now:**
+- Byline is `By the Memory Lab editorial team`, linking to `/editorial-policy/`.
+- `author` and `publisher` are both the Organization node. No Person nodes, ever, unless a real named human
+  with a verifiable public footprint actually writes the piece and agrees to be named.
+- **Never claim medical review that did not happen.** Not in the byline, not in schema, not in `about/`,
+  not in a trust badge.
+- If a real reviewer is ever engaged, name them with their credential, licence jurisdiction and a link to a
+  verifiable profile, and only on the articles they actually reviewed.
+
 ## Writing style: sound human (anti-AI-tell)
 Affiliate + YMYL content has to read like a person wrote it. That is an E-E-A-T, anti-spam-review, and conversion requirement, not a nicety. Bake these into every generation:
 
@@ -73,7 +96,7 @@ Affiliate + YMYL content has to read like a person wrote it. That is an E-E-A-T,
 - **Cut the tell-tale constructions:** "it's not just X, it's Y", "here's the thing", "the truth is", "let's be honest", a rule-of-three in every list, and wrap-ups like "in conclusion / ultimately / at the end of the day".
 - **Cut the tell-tale words:** delve, robust, boost, leverage, navigate, testament, crucial, vital, unlock, elevate, realm, foster, myriad, seamless, game-changer. Use plain ones instead.
 - **Do not open consecutive sentences or paragraphs the same way.** Vary how each one starts.
-- **Use contractions, an occasional fragment, and concrete nouns.** Write the way the byline persona (a health editor) actually speaks.
+- **Use contractions, an occasional fragment, and concrete nouns.** Write the way a careful health editor speaks, not the way a press release does.
 
 Self-check before saving each article: count the em dashes (must be ≤ 1), scan the first word of every paragraph (are they varied?), and confirm two or three sentences run under 8 words.
 

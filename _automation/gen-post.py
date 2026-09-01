@@ -103,7 +103,7 @@ src="https://www.facebook.com/tr?id=831503250016369&ev=PageView&noscript=1"/></n
       <span class="av" aria-hidden="true">
         <svg viewBox="0 0 100 100"><rect width="100" height="100" fill="#e7f3f1"/><path d="M18 100 V83 C18 71 29 65 39 62 L50 71 L61 62 C71 65 82 71 82 83 V100 Z" fill="#fff"/><path d="M44 63 L50 79 L56 63 L52 59 H48 Z" fill="#1f9e8a"/><path d="M44 63 C40 82 58 84 60 71" fill="none" stroke="#5a6678" stroke-width="2.4"/><circle cx="60" cy="71" r="3.2" fill="#5a6678"/><rect x="44" y="52" width="12" height="13" rx="3" fill="#eab38f"/><circle cx="50" cy="41" r="16" fill="#f1c5a6"/><path d="M33 41 C31 31 38 24 50 24 C62 24 69 31 67 41 L62 39 C62 32 57 29 50 29 C43 29 38 32 38 39 Z" fill="#3a342f"/></svg>
       </span>
-      <div>By <b>Sarah Coleman</b>, Health Editor &nbsp;&middot;&nbsp; Reviewed by <b>Dr. Marcus Reed, MD</b> &nbsp;&middot;&nbsp; <span id="pubdate">Published @@pubdate_h@@</span></div>
+      <div>By the <b>Memory Lab editorial team</b> &nbsp;&middot;&nbsp; <a href="../editorial-policy/">How we research and write</a> &nbsp;&middot;&nbsp; <span id="pubdate">Published @@pubdate_h@@</span></div>
     </div>
 
     <img width="900" height="600" class="article-hero" src="../assets/img/@@slug@@.jpg" alt="@@alt@@" loading="lazy">
@@ -248,13 +248,9 @@ def build_ldjson(s, slug, cat_label, cat_href):
          "description": s["desc"], "datePublished": s["date"], "dateModified": s["date"],
          "inLanguage": "en-US", "mainEntityOfPage": url,
          "image": f"{SITE}/assets/img/{slug}.jpg",
-         "author": {"@id": f"{SITE}/about/#sarah-coleman"},
-         "reviewedBy": {"@id": f"{SITE}/about/#marcus-reed"},
+         "author": {"@id": f"{SITE}/#org"},
          "publisher": {"@id": f"{SITE}/#org"}},
-        {"@type": "Person", "@id": f"{SITE}/about/#sarah-coleman", "name": "Sarah Coleman",
-         "jobTitle": "Health Editor", "url": f"{SITE}/about/"},
-        {"@type": "Person", "@id": f"{SITE}/about/#marcus-reed", "name": "Dr. Marcus Reed, MD",
-         "jobTitle": "Medical Reviewer", "url": f"{SITE}/about/"},
+
         {"@type": "FAQPage", "@id": f"{url}#faq", "mainEntity": [
             {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
             for q, a in s["faq"]]},

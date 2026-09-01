@@ -1203,7 +1203,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Cost-per-day framing. Do NOT state exact dollar figures that may change; teach the reader to do the math and check current pricing.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "memopezil-refund-policy",
@@ -1213,7 +1214,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. What a 60-day guarantee does and does not cover; how to actually file; keep receipts. Mirror the tone of memohoney-review's refund section.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "does-memopezil-work",
@@ -1223,7 +1225,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Evidence exists for the INGREDIENTS, not for this finished product. Say that plainly. No cure claims.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "memopezil-vs-prevagen",
@@ -1233,7 +1236,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Prevagen = apoaequorin; note its FTC litigation history factually. Comparison table.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "memopezil-vs-neuriva",
@@ -1243,7 +1247,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Neuriva = coffee fruit extract + PS. Compare mechanisms and evidence depth.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "memopezil-vs-focus-factor",
@@ -1253,7 +1258,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Focus Factor = large multivitamin-style blend. Contrast focused formula vs kitchen-sink.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "memopezil-vs-alpha-brain",
@@ -1263,7 +1269,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Alpha Brain uses proprietary blends. Contrast disclosure practices.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "memopezil-vs-memohoney",
@@ -1273,7 +1280,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Both are covered on this site; be even-handed, name the trade-offs of each delivery form honestly.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "where-to-buy-memopezil",
@@ -1283,7 +1291,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Official-channel guidance, counterfeit red flags on marketplaces. No fabricated marketplace claims.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "is-memopezil-legit",
@@ -1293,7 +1302,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Give the reader a checklist (label disclosure, guarantee, contactable company, realistic claims) rather than a verdict on trustworthiness you cannot verify.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "memopezil-how-long-to-see-results",
@@ -1303,7 +1313,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Bacopa needs 8-12 weeks in trials; L-theanine is acute. Set expectations honestly, no overnight claims.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "memohoney-ingredients-explained",
@@ -1313,7 +1324,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Build on the existing memohoney-review; honey base plus ginkgo, bacopa, blueberry, rhodiola. Do not invent amounts.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "memohoney-side-effects",
@@ -1323,7 +1335,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Sugar load for diabetics, ginkgo and bleeding risk, infant botulism warning for raw honey, pollen allergies.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "memohoney-dosage-and-timing",
@@ -1333,7 +1346,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Practical dosing plus the blood-sugar caveat a honey base creates.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "does-memohoney-work",
@@ -1343,7 +1357,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Ingredient-level evidence only. No product trial exists; say so.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "memohoney-price-per-serving",
@@ -1353,7 +1368,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Cost-per-serving reasoning vs capsules. Avoid quoting prices that go stale.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "memohoney-vs-prevagen",
@@ -1363,7 +1379,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Even-handed comparison table.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "where-to-buy-memohoney",
@@ -1373,7 +1390,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Official channels, storage, expiry, counterfeit red flags.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "is-memohoney-worth-it",
@@ -1383,7 +1401,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Clear who-should-skip section: diabetics, infants, ginkgo interactions.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "bacopa-dosage-for-memory",
@@ -1393,7 +1412,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. 300-450mg standardized to ~50% bacosides in most trials. Standardization matters.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "bacopa-side-effects",
@@ -1403,7 +1423,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. GI upset on empty stomach, sedation, thyroid caution.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "how-long-does-bacopa-take-to-work",
@@ -1413,7 +1434,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Bacopa is chronic, not acute. Counters overnight-result marketing.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "bacopa-vs-ginkgo",
@@ -1423,7 +1445,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Memory acquisition vs circulation. Comparison table.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "best-bacopa-supplement-guide",
@@ -1433,7 +1456,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Teach label-reading: bacoside %, extract vs powder, Synapsa/Bacognize.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "bacopa-with-or-without-food",
@@ -1443,7 +1467,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Fat-soluble bacosides + GI tolerance.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "rhodiola-rosea-dosage",
@@ -1453,7 +1478,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. 200-600mg standardized 3% rosavins / 1% salidroside.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "rhodiola-side-effects",
@@ -1463,7 +1489,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Overstimulation, bipolar caution, timing to protect sleep.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "rhodiola-vs-ashwagandha",
@@ -1473,7 +1500,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Fatigue vs stress-and-sleep. Table.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "best-rhodiola-supplement-guide",
@@ -1483,7 +1511,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Adulteration is common in rhodiola; teach standardization checks.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "rhodiola-and-caffeine",
@@ -1493,7 +1522,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Additive stimulation, jitter risk, timing.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "rhodiola-best-time-to-take",
@@ -1503,7 +1533,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Morning dosing, half-life reasoning, sleep protection.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "l-theanine-dosage",
@@ -1513,7 +1544,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. 100-200mg typical; acute effects within an hour.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "l-theanine-and-caffeine-ratio",
@@ -1523,7 +1555,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. The classic 2:1 pairing; what the attention studies did and did not show.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "l-theanine-side-effects",
@@ -1533,7 +1566,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Generally well tolerated; blood pressure and sedation caveats.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "l-theanine-vs-ashwagandha",
@@ -1543,7 +1577,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Acute calm vs chronic stress-axis. Table.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "l-theanine-for-sleep-and-memory",
@@ -1553,7 +1588,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Link to sleep-and-memory-consolidation; hedge the causal chain.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "panax-ginseng-for-memory",
@@ -1563,7 +1599,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Core MemoPezil ingredient with no dedicated post yet.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "panax-ginseng-dosage",
@@ -1573,7 +1610,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. 200-400mg standardized ginsenosides; cycling conventions.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "panax-ginseng-side-effects",
@@ -1583,7 +1621,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Insomnia, BP, diabetes-med interaction, blood thinners.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "korean-red-ginseng-vs-panax",
@@ -1593,7 +1632,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Processing changes the ginsenoside profile. Clears real buyer confusion.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "ginseng-vs-rhodiola",
@@ -1603,7 +1643,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Both in the adaptogen bucket, different profiles. Table.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "american-vs-asian-ginseng",
@@ -1613,7 +1654,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Different species, different traditional use and evidence.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "bcaas-and-brain-function",
@@ -1623,7 +1665,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Explains an unusual MemoPezil inclusion: BCAAs compete with tryptophan at the blood-brain barrier. Hedge hard, the cognitive evidence is thin.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "do-bcaas-help-mental-fatigue",
@@ -1633,7 +1676,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Central fatigue hypothesis; be candid that human cognitive data is limited.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "amino-acids-for-focus",
@@ -1643,7 +1687,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Ties two MemoPezil ingredients into one comparison.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "bacopa-and-rhodiola-together",
@@ -1653,7 +1698,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Complementary chronic + acute mechanisms. Mirrors the MemoPezil pairing without naming it as proof.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "l-theanine-and-bacopa-stack",
@@ -1663,7 +1709,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Acute and chronic layered.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "ginseng-and-ginkgo-together",
@@ -1673,7 +1720,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. One of the few combos with real combination trials.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "best-nootropic-stack-for-memory",
@@ -1683,7 +1731,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Buyer-guide framing; warns against duplicate ingredients across products.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "memory-stack-for-over-50",
@@ -1693,7 +1742,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Core MemoPezil demographic. Lifestyle first, supplements second.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "can-you-take-two-memory-supplements",
@@ -1703,7 +1753,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Double-dosing risk when formulas share ingredients.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "should-you-cycle-nootropics",
@@ -1713,7 +1764,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Ginseng and stimulant-adjacent compounds vs bacopa.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "morning-or-night-brain-supplements",
@@ -1723,7 +1775,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Timing table across the common ingredients.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "nootropics-and-prescription-drugs",
@@ -1733,7 +1786,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Blood thinners, SSRIs, diabetes meds, BP meds. Strong 'ask your doctor' framing.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "supplement-tolerance-explained",
@@ -1743,7 +1797,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Tolerance, expectation effects, regression to the mean.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "how-to-choose-a-memory-supplement",
@@ -1753,7 +1808,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. The flagship buyer guide. Heavy internal linking to the money page.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "proprietary-blends-explained",
@@ -1763,7 +1819,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Explains why undisclosed per-ingredient amounts matter.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "clinically-studied-doses-explained",
@@ -1773,7 +1830,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Table of trial doses for the common memory ingredients.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "third-party-tested-supplements",
@@ -1783,7 +1841,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. What certification does and does not prove.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "gmp-certified-supplements",
@@ -1793,7 +1852,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Manufacturing standard, not efficacy.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "supplement-label-red-flags",
@@ -1803,7 +1863,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Cure claims, proprietary blends, fake urgency, no company address.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "capsules-vs-gummies-vs-liquid",
@@ -1813,7 +1874,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Dose density, sugar load, stability. Relevant to the MemoHoney/MemoPezil contrast.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "cost-per-day-memory-supplements",
@@ -1823,7 +1885,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Teaches the servings-per-container calculation.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "supplement-subscription-traps",
@@ -1833,7 +1896,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Consumer-protection angle; how to cancel, what to read before checkout.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "money-back-guarantees-supplements",
@@ -1843,7 +1907,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. What to document, typical conditions, realistic expectations.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "standardized-extracts-explained",
@@ -1853,7 +1918,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Central to bacopa, rhodiola and ginseng quality.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "branded-ingredients-explained",
@@ -1863,7 +1929,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. What a branded extract buys you in trial backing.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "when-are-brain-supplements-worth-it",
@@ -1873,7 +1940,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Honest gatekeeping: fix sleep, B12 and thyroid first. Builds trust before the recommendation.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "supplement-expiry-and-storage",
@@ -1883,7 +1951,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Heat, light, humidity; especially relevant to honey-based products.",
       "words": 1800,
       "intent": "commercial",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "qualia-mind-review",
@@ -1893,7 +1962,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Public label facts only. Contrast ingredient sprawl with focused formulas.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "mind-lab-pro-review",
@@ -1903,7 +1973,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Notable for fully disclosing doses. Be fair.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "neuroq-review",
@@ -1913,7 +1984,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Public label facts only.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "procera-avh-review",
@@ -1923,7 +1995,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. The FTC action against Procera is public record; state it accurately and without embellishment.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "ginkgold-review",
@@ -1933,7 +2006,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Single-ingredient benchmark for comparison.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "brain-armor-review",
@@ -1943,7 +2017,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Algal DHA angle.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "nature-made-brain-health-review",
@@ -1953,7 +2028,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Mass-market benchmark.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "vitafusion-brain-gummies-review",
@@ -1963,7 +2039,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Gummy dose-density problem.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "prevagen-vs-focus-factor",
@@ -1973,7 +2050,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Fills a comparison gap between two brands already covered here.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "alpha-brain-vs-mind-lab-pro",
@@ -1983,7 +2061,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Disclosure as the deciding axis.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "drugstore-vs-online-brain-supplements",
@@ -1993,7 +2072,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Distribution model, dosing, price. Explains why some good formulas are not on shelves.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "memory-supplement-brands-compared-2026",
@@ -2003,7 +2083,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Secondary money page. Editorial #1 stays consistent with best-memory-supplements-2026.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "best-supplement-for-brain-fog",
@@ -2013,7 +2094,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Route by cause (sleep, B12, thyroid, dehydration) before recommending anything.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "best-supplement-for-focus-at-work",
@@ -2023,7 +2105,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. L-theanine + caffeine pairing leads.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "best-supplement-for-memory-over-60",
@@ -2033,7 +2116,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Core demographic. Normal aging vs warning signs; when to see a doctor.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "best-supplement-for-menopause-brain-fog",
@@ -2043,7 +2127,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Links to menopause-brain-fog and hrt-and-memory. HRT is a medical decision, not a supplement substitute.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "best-supplement-for-mental-fatigue",
@@ -2053,7 +2138,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Rhodiola-led; rule out anemia, thyroid, depression first.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "supplements-for-forgetting-names",
@@ -2063,7 +2149,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Links tip-of-the-tongue and how-to-remember-names. Technique first, then supplements.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "supplements-for-word-finding-difficulty",
@@ -2073,7 +2160,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Reassurance plus clear red-flag list for seeing a doctor.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "supplements-for-studying-adults",
@@ -2083,7 +2171,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Adult-learner angle, distinct from the existing student post.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "supplements-for-shift-workers",
@@ -2093,7 +2182,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Circadian disruption; links jet-lag-and-memory.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "supplements-for-caregivers",
@@ -2103,7 +2193,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Emotionally aware. Very high-intent audience for memory products.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "supplements-for-early-retirement-brain",
@@ -2113,7 +2204,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Links does-retirement-affect-memory and cognitive-reserve-explained.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "what-to-take-for-afternoon-slump",
@@ -2123,7 +2215,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. L-theanine, hydration, protein, light.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "supplements-for-stress-related-memory-loss",
@@ -2133,7 +2226,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Adaptogen-led; links stress-and-memory-loss.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "brain-supplements-for-diabetics",
@@ -2143,7 +2237,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Sugar content (honey products), ginseng and blood-sugar interaction. Doctor-first framing.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "brain-supplements-on-blood-thinners",
@@ -2153,7 +2248,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Ginkgo, high-dose omega-3, ginseng. Strong medical-consult framing.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     },
     {
       "slug": "brain-supplements-for-vegetarians",
@@ -2163,7 +2259,8 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. B12, DHA, creatine, iron, choline. Algal omega-3 as the workaround.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending"
+      "status": "hold",
+      "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
     }
   ]
 }

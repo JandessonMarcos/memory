@@ -1073,15 +1073,17 @@
       "title": "Dopamine and Focus: How This Brain Chemical Shapes Attention",
       "kw": "dopamine focus",
       "cat": "Brain Health",
-      "status": "pending",
-      "note": "SKIPPED 2026-08-29: article was written but the offline image pool hit 0 available entries after sourcing sugar-and-brain-fog (the pool's last usable image), and Openverse egress is blocked in this sandbox (403 on api.openverse.org), so source-image.py printed MISS + POOL-MISS. Not published (never ships imageless). Needs a local build-pool.py refill before this can source an image; retry next run."
+      "status": "done",
+      "published": "2026-09-01",
+      "note": "SKIPPED 2026-08-29 (pool exhausted then); published 2026-09-01 after a local pool refill landed."
     },
     {
       "slug": "histamine-intolerance-and-brain-fog",
       "title": "Histamine Intolerance and Brain Fog: Is There a Link?",
       "kw": "histamine intolerance brain fog",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-01"
     },
     {
       "slug": "mold-exposure-and-cognitive-function",

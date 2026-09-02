@@ -1090,15 +1090,17 @@
       "title": "Mold Exposure and Cognitive Function: What the Evidence Shows",
       "kw": "mold exposure cognitive function",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-02"
     },
     {
       "slug": "seed-oils-and-brain-health",
       "title": "Seed Oils and Brain Health: Separating Fact From Fear",
       "kw": "seed oils brain health",
       "cat": "Ingredients",
-      "status": "pending",
-      "angle": "Balanced, non-alarmist: summarize the actual evidence and the popular controversy without taking a fringe stance either way."
+      "status": "done",
+      "angle": "Balanced, non-alarmist: summarize the actual evidence and the popular controversy without taking a fringe stance either way.",
+      "published": "2026-09-02"
     },
     {
       "slug": "adderall-and-long-term-memory",

@@ -1107,15 +1107,17 @@
       "title": "Adderall and Long-Term Memory: What Stimulant Use Does to Recall",
       "kw": "adderall long term memory",
       "cat": "Brain Health",
-      "status": "pending",
-      "angle": "YMYL: factual only, prescription-stimulant context, hedge heavily, strong doctor caveat, no dosing advice."
+      "status": "done",
+      "angle": "YMYL: factual only, prescription-stimulant context, hedge heavily, strong doctor caveat, no dosing advice.",
+      "published": "2026-09-03"
     },
     {
       "slug": "melatonin-and-memory",
       "title": "Melatonin and Memory: Does the Sleep Aid Affect Recall?",
       "kw": "melatonin memory",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-03"
     },
     {
       "slug": "tetris-effect-and-memory",

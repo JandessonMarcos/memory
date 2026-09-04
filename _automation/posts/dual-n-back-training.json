@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-04",
+  "cat": "Memory",
+  "crumb": "Dual N-Back Training",
+  "title_tag": "Dual N-Back Training: Does It Really Improve Working Memory? (2026)",
+  "og_title": "Dual N-Back Training: Does It Really Improve Working Memory?",
+  "desc": "Dual n-back promised to raise fluid intelligence with a few minutes of daily practice. Here's what the research actually found once other labs tried to repeat it.",
+  "h1_a": "Dual N-Back Training: ",
+  "h1_b": "Does It Really Improve Working Memory?",
+  "subhead": "A 2008 study made dual n-back the poster child for brain training. Later attempts to repeat the result tell a more complicated, still useful story.",
+  "alt": "person studying at a desk in a quiet library reading room",
+  "takeaways": [
+    "<strong>Dual n-back is a demanding memory task</strong> that asks you to track two separate streams of information, usually a sound and a position, and flag when either one repeats from a set number of steps back.",
+    "<strong>A widely cited 2008 study reported that dual n-back training improved fluid intelligence scores</strong>, which helped spark the modern brain-training industry.",
+    "<strong>Later, larger studies had a harder time repeating that result</strong>, and most researchers now think the strongest, most reliable effect is getting better at the n-back task itself, not at intelligence broadly.",
+    "<strong>In 2016, the FTC fined the brain-training company Lumosity $2 million</strong> for deceptive advertising after it claimed its games could stave off memory loss and dementia.",
+    "<strong>Dual n-back isn't worthless</strong>; it's a legitimate, challenging attention and working-memory task. It's just not the shortcut to a higher IQ it was once marketed as."
+  ],
+  "body": [
+    ["p", "Dual n-back has one of the more interesting arcs in memory research. It went from a niche laboratory task to a minor cultural phenomenon after a single 2008 study suggested it could raise fluid intelligence, then spent the next decade getting picked apart by researchers trying to replicate that claim. The honest, current answer is more modest than the original hype and still worth understanding."],
+
+    ["h2", "What is dual n-back, exactly?"],
+    ["p", "The n-back task itself dates back to the late 1950s as a simple working-memory test: you watch a stream of items, usually letters or shapes appearing one at a time, and press a button whenever the current item matches the one from \"n\" steps earlier. At 2-back, for instance, you're comparing the current item to the one shown two steps before it. Dual n-back raises the difficulty by running two separate streams at once, typically a spoken letter and a square's position on a grid, and asking you to track both n-back matches simultaneously. It demands sustained attention, quick updating of what you're holding in mind, and the ability to keep two threads going without mixing them up."],
+
+    ["h2", "Where the big claim came from"],
+    ["p", "In 2008, cognitive scientist Susanne Jaeggi and colleagues published a study in the Proceedings of the National Academy of Sciences reporting that participants who trained on dual n-back for several weeks improved on separate tests of fluid intelligence, the kind of on-the-spot reasoning ability that IQ tests try to measure, and that more training days were associated with larger gains. That combination, a simple daily task linked to a broad, valuable cognitive ability, was exactly the kind of result that travels fast. It helped fuel a wave of consumer brain-training apps promising sharper thinking from a few minutes of daily play."],
+
+    ["recbox"],
+
+    ["h2", "What happened when other labs tried to repeat it"],
+    ["p", "Replication is where things got complicated. Several follow-up studies, including a frequently cited 2013 paper by Thomas Redick and colleagues, used larger samples and stricter controls and found no significant improvement in fluid intelligence after working-memory training, even when the training itself was demanding and well designed. A comprehensive 2016 review of the wider brain-training research, published in Psychological Science in the Public Interest, concluded that training reliably improves performance on the trained task and on very similar tasks, but evidence for broader, real-world transfer, to intelligence, academic performance, or everyday memory, was weak or inconsistent across the field as a whole."],
+    ["p", "None of this means the original 2008 study was fabricated or fraudulent. Science regularly produces an early, exciting result that doesn't hold up as cleanly once more labs, larger samples, and more rigorous designs get involved. That's a normal, healthy part of how the field corrects itself. It does mean the strong version of the claim, that n-back training makes you meaningfully smarter, isn't where the current evidence sits."],
+
+    ["h2", "The regulatory fallout"],
+    ["p", "The gap between marketing and evidence eventually drew regulatory attention. In 2016, the U.S. Federal Trade Commission reached a settlement with Lumosity, one of the largest brain-training companies, over ads that claimed its games could help users perform better at work and in school, delay age-related cognitive decline, and protect against conditions including Alzheimer's disease. The FTC found those specific claims weren't adequately backed by science and required Lumosity to pay $2 million and stop making them. That case is a useful reference point for how far some brain-training marketing outran what researchers had actually shown."],
+
+    ["h2", "So does dual n-back do anything at all?"],
+    ["p", "It does, within limits. The near-transfer effect, meaning improvement on the n-back task itself and closely related tasks, shows up fairly consistently across studies. Regular practice can also sharpen sustained attention and the feeling of holding more in mind at once while you're actively training. What the evidence doesn't reliably support is far transfer: the idea that this narrow skill generalizes into a broadly higher IQ, better grades, or a sharper everyday memory once you stop training. Think of it less like a universal brain upgrade and more like getting better at a specific, demanding drill."],
+
+    ["h2", "Is it worth trying anyway?"],
+    ["p", "If you find dual n-back genuinely engaging and want a challenging mental workout, there's little downside to trying it, and a handful of free and open-source versions exist online. Just set expectations honestly: it's unlikely to move the needle on broad intelligence or long-term memory the way its early reputation suggested. For general cognitive health, activities with sturdier, more consistent evidence behind them, learning a genuinely new skill, regular aerobic exercise, and good sleep, tend to outperform narrow drill-style training. Our guide to <a href=\"../brain-games-for-adults/\">brain games for adults</a> looks at which types of games have the most support, and our piece on <a href=\"../what-is-working-memory/\">what working memory is and why it matters after 40</a> covers the underlying capacity dual n-back is trying to train."],
+
+    ["h2", "How to try it without overpaying"],
+    ["p", "Most of the research behind dual n-back used a fairly plain version of the task: a letter read aloud plus a square lighting up somewhere on a 3-by-3 grid, with the difficulty level, the \"n\" in n-back, adjusting as you improve. You don't need a paid subscription to try that. Free and open-source implementations exist, and the core mechanic is simple enough that a basic version costs nothing to test. Start at 1-back or 2-back rather than jumping in at a harder level; the task gets uncomfortable quickly, and struggling through a level that's too difficult tends to be discouraging rather than useful."],
+    ["p", "A reasonable way to think about it: fifteen or twenty minutes a few times a week, treated as a genuinely difficult puzzle rather than a guaranteed brain upgrade. If you stop noticing any challenge after a few sessions, the level was probably too easy to begin with. And if it stops being enjoyable, there's no strong evidence pushing you to keep going out of obligation. Consistency in the habits with better-established payoffs, sleep, movement, and varied mental engagement, matters more than sticking with any single drill."],
+
+    ["p", "If your actual goal is remembering more from what you read or study day to day, techniques built specifically for retention, rather than a general-purpose drill, tend to deliver more for the time invested. Our guide to <a href=\"../how-to-improve-memory/\">improving your memory</a> covers the habits with the strongest evidence, sleep, spacing, and active recall among them."]
+  ],
+  "pull": "Think of dual n-back less like a universal brain upgrade and more like getting better at one specific, demanding drill.",
+  "faq": [
+    ["Does dual n-back training raise your IQ?", "The evidence for that specific claim is weak. An influential 2008 study reported gains in fluid intelligence, but larger, more rigorous follow-up studies generally have not replicated a broad IQ boost from n-back training alone."],
+    ["What does dual n-back actually improve?", "It reliably improves performance on the n-back task itself and closely related tasks, which researchers call near transfer. Evidence for it improving unrelated cognitive skills or everyday memory, known as far transfer, is much thinner."],
+    ["Why did the FTC fine a brain-training company?", "In 2016 the FTC fined Lumosity $2 million for advertising that its brain-training games could delay cognitive decline and protect against conditions like Alzheimer's disease, claims regulators found weren't adequately supported by the evidence at the time."],
+    ["Is dual n-back a waste of time?", "Not necessarily. It's a legitimate, challenging attention and working-memory task, and some people enjoy it as mental exercise. It's just not a reliable shortcut to broader intelligence or memory gains."],
+    ["What has stronger evidence for brain health than n-back training?", "Regular aerobic exercise, consistent sleep, learning a genuinely new skill, and retention-focused study techniques like spaced repetition and active recall all have more consistent supporting evidence than narrow working-memory drills."]
+  ],
+  "final_h": "Looking for support with a stronger evidence base?",
+  "final_p": "Sleep, exercise, and retention-focused study habits carry the most consistent evidence for cognitive health. For nutritional support alongside those basics, see the memory formulas our editors rate highest for 2026.",
+  "sources": [
+    ["Jaeggi et al., \"Improving Fluid Intelligence with Training on Working Memory,\" PNAS (2008)", "https://www.pnas.org/doi/10.1073/pnas.0801268105"],
+    ["Redick et al., \"No Evidence of Intelligence Improvement After Working Memory Training,\" Journal of Experimental Psychology: General (2013)", "https://pubmed.ncbi.nlm.nih.gov/23855128/"],
+    ["FTC: Lumosity to Pay $2 Million to Settle FTC Deceptive Advertising Charges (2016)", "https://www.ftc.gov/news-events/news/press-releases/2016/01/lumosity-pay-2-million-settle-ftc-deceptive-advertising-charges"]
+  ],
+  "related": [
+    ["Brain games for adults: which ones actually help", "brain-games-for-adults"],
+    ["What is working memory and why it matters after 40", "what-is-working-memory"],
+    ["How to improve your memory", "how-to-improve-memory"],
+    ["Best memory formulas of 2026", "best-memory-supplements-2026"]
+  ]
+}

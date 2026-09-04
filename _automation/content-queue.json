@@ -1124,14 +1124,16 @@
       "title": "The Tetris Effect: What It Reveals About How Memory Works",
       "kw": "tetris effect memory",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-04"
     },
     {
       "slug": "dual-n-back-training",
       "title": "Dual N-Back Training: Does It Really Improve Working Memory?",
       "kw": "dual n-back training",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-04"
     },
     {
       "slug": "chess-and-cognitive-decline",
@@ -2267,6 +2269,146 @@
       "intent": "commercial-high",
       "status": "hold",
       "hold_reason": "2026-09-01: parked pending E-E-A-T work. GSC shows avg position 84.2 with 1390 impressions and 4 clicks over 3 months. More pages at position 84 do not help; authority and trust come first."
+    },
+    {
+      "slug": "seasonal-affective-disorder-and-memory",
+      "title": "Seasonal Affective Disorder and Memory: The Winter Brain Fog Link",
+      "kw": "seasonal affective disorder memory",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "binaural-beats-and-focus",
+      "title": "Binaural Beats and Focus: Does the Science Hold Up?",
+      "kw": "binaural beats focus",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "houseplants-and-focus",
+      "title": "Houseplants and Focus: Can Greenery at Your Desk Improve Concentration?",
+      "kw": "houseplants focus",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "doodling-and-memory-retention",
+      "title": "Doodling and Memory: Does Idle Drawing Help You Remember More?",
+      "kw": "doodling memory",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "protege-effect-teaching-and-memory",
+      "title": "The Protégé Effect: Why Teaching Others Helps You Remember More",
+      "kw": "protege effect memory",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "chunking-memory-technique",
+      "title": "Chunking: The Memory Trick Behind Phone Numbers and Passwords",
+      "kw": "chunking memory technique",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "mnemonic-devices-explained",
+      "title": "Mnemonic Devices Explained: Do They Actually Work?",
+      "kw": "mnemonic devices",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "forgetting-curve-explained",
+      "title": "The Forgetting Curve Explained: Why We Lose Information So Fast",
+      "kw": "forgetting curve",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "state-dependent-memory",
+      "title": "State-Dependent Memory: Why Where You Learn Something Affects Recall",
+      "kw": "state dependent memory",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "serial-position-effect-explained",
+      "title": "The Serial Position Effect: Why You Remember the Start and End of a List",
+      "kw": "serial position effect",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "sundowning-and-dementia",
+      "title": "Sundowning: Why Confusion Gets Worse in the Evening",
+      "kw": "sundowning dementia",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "caregiver-burnout-and-memory",
+      "title": "Caregiver Burnout and Memory: Why Caring for Others Wears Down Your Own Recall",
+      "kw": "caregiver burnout memory",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "heat-and-cognitive-performance",
+      "title": "Heat and Cognitive Performance: Does Hot Weather Slow Your Brain Down?",
+      "kw": "heat cognitive performance",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "altitude-and-cognitive-function",
+      "title": "High Altitude and Cognitive Function: Why Thin Air Affects Thinking",
+      "kw": "altitude cognitive function",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "flashbulb-memories-explained",
+      "title": "Flashbulb Memories: Why Some Moments Feel Burned Into Memory",
+      "kw": "flashbulb memory",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "false-memories-explained",
+      "title": "False Memories: Why the Brain Sometimes Remembers Things That Never Happened",
+      "kw": "false memories",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "inattentional-blindness-and-memory",
+      "title": "Inattentional Blindness: Why You Miss What You're Not Looking For",
+      "kw": "inattentional blindness",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "deja-vu-explained",
+      "title": "Déjà Vu Explained: What Causes That Eerie Sense of Familiarity",
+      "kw": "deja vu causes",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "fermented-foods-and-brain-health",
+      "title": "Fermented Foods and Brain Health: What the Gut-Brain Evidence Shows",
+      "kw": "fermented foods brain health",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "potassium-and-brain-function",
+      "title": "Potassium and Brain Function: An Overlooked Electrolyte for Cognition",
+      "kw": "potassium brain function",
+      "cat": "Ingredients",
+      "status": "pending"
     }
   ]
 }

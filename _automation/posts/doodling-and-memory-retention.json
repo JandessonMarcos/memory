@@ -1,0 +1,69 @@
+{
+  "date": "2026-09-09",
+  "cat": "Memory",
+  "crumb": "Doodling and Memory",
+  "title_tag": "Doodling and Memory: Does Idle Drawing Help You Remember More? (2026)",
+  "og_title": "Doodling and Memory: Does Idle Drawing Help You Remember More?",
+  "desc": "A well-known study found doodlers recalled more from a dull recording than people who just sat and listened. Here's what the research actually supports, and where it breaks down.",
+  "h1_a": "Doodling and Memory: ",
+  "h1_b": "Does Idle Drawing Help You Remember More?",
+  "subhead": "It sounds like the kind of thing a bored student invents to justify a habit. The research is more specific than that, and more limited than the headlines about it.",
+  "alt": "hand sketching idle shapes in the margin of a notebook",
+  "takeaways": [
+    "<strong>A frequently cited study found doodlers recalled more</strong> from a deliberately boring recording than people who just listened.",
+    "<strong>The likely mechanism is boredom control, not extra focus.</strong> Doodling seems to use just enough attention to stop the mind from drifting into daydreams.",
+    "<strong>It only helps with passive, low-demand tasks</strong> like a dull call or lecture, not with material you're actively trying to work through.",
+    "<strong>Doodling is not the same as checking your phone.</strong> One keeps you in the room; the other pulls you out of it entirely.",
+    "<strong>Keep it simple and repetitive</strong> — detailed or absorbing drawing defeats the purpose."
+  ],
+  "body": [
+    ["p", "Doodling during a meeting usually gets read as a sign you've checked out. The odd thing is that a small body of research points the other way: for a certain kind of boring task, doodling may actually help you remember more of what's said, not less. It's a narrow finding, and it's worth being precise about what it does and doesn't cover before you take it as permission to sketch through your next lecture."],
+
+    ["h2", "What the original research found"],
+    ["p", "The study most people are thinking of asked participants to listen to a deliberately dull recording, a rambling voicemail-style message full of names and minor details, while completing a simple monitoring task. Half the group was told to doodle freely on scrap paper while they listened. The other half just listened."],
+    ["p", "Afterward, everyone was tested on what they'd heard. The doodlers remembered more of the names and incidental details than the group that sat still. Nobody was told in advance that a memory test was coming, so the effect wasn't about people trying harder because they knew they'd be quizzed."],
+    ["p", "That result has been cited a lot since, sometimes as proof that doodling sharpens attention generally. That's a bigger claim than the data supports. A single dull-listening task doesn't tell you much about whether doodling helps you learn calculus or remember a complex argument, and later attempts to extend the finding to more demanding material have been mixed."],
+
+    ["h2", "Why boredom, not focus, seems to be the key"],
+    ["p", "The leading explanation isn't that doodling boosts concentration. It's that doodling absorbs just enough spare mental capacity to keep the mind from wandering off entirely."],
+    ["p", "Listening to something dull is unusually hard precisely because it doesn't demand much. The brain has leftover capacity, and when a task doesn't fill it, that capacity tends to get spent on daydreaming, planning dinner, replaying an argument from earlier. Daydreaming is far more disruptive to memory than a repetitive hand movement, because it pulls attention completely away from what's being said. A simple doodle apparently uses up just enough of that spare capacity to keep the daydream from taking over, without using so much that it competes with actual listening."],
+    ["p", "That's a fine line, and it's probably why the effect shows up for boring, low-demand material and disappears, or reverses, for anything genuinely challenging. When a lecture is dense enough to need your full attention, doodling stops being a low-cost distraction and starts being a real one."],
+
+    ["recbox"],
+
+    ["h2", "Doodling versus checking your phone"],
+    ["p", "It's worth separating doodling from the other thing people do when bored: picking up a phone. Checking a notification is a full attention switch. You leave the conversation, process something unrelated, and then have to re-enter it, and that re-entry is where information gets lost. A doodle, done on autopilot, doesn't require you to leave the room in the same way. Your eyes and ears stay pointed at the speaker even while your hand is drawing spirals."],
+    ["p", "This is also why the specific kind of doodling matters. Drawing something that requires actual visual attention, a detailed portrait, a complicated pattern you have to plan out, starts to behave more like a phone than a scribble. The versions that helped in the research were repetitive and undemanding: shading in shapes, tracing loops, filling in letters. If your doodle needs looking at, it's competing with listening rather than filling dead space."],
+
+    ["h2", "Where it actually helps, and where it doesn't"],
+    ["p", "Based on what the evidence covers, doodling looks most useful for situations that are dull but not optional: a long conference call with one relevant update buried in twenty minutes of filler, a lecture that's mostly review, a webinar you have to sit through for compliance reasons. In those settings, a bit of idle drawing may keep you present in a way that pure passive listening doesn't."],
+    ["p", "It looks far less useful, possibly counterproductive, for anything that requires you to build understanding as you go. Working through a new concept in a class, following a complex argument in a meeting, or studying material you'll be tested on all benefit more from techniques that engage you directly with the content. If that's the situation you're in, <a href=\"../active-recall-study-method/\">active recall</a> and other retrieval-based methods have far stronger evidence behind them than idle drawing does."],
+    ["p", "There's also a note-taking angle worth mentioning. Full attention, engaged note-taking, of the kind that forces you to summarize rather than transcribe, tends to beat both doodling and passive listening for anything you actually need to retain. Our piece on <a href=\"../handwriting-vs-typing-memory/\">handwriting versus typing</a> covers why the effort of summarizing, not the tool, is what does the work."],
+
+    ["h2", "A reasonable way to use it"],
+    ["p", "If you want to try this deliberately, keep the doodle boring on purpose. Simple repeated shapes, cross-hatching, filling in the loops of letters. Don't switch to something that needs planning or real visual focus, and stop the moment content gets specific enough that you need to catch every word. For anything you'll need to remember with precision, write down actual notes instead of relying on a doodle to keep you present."],
+    ["p", "Age and context probably matter too, though there's less direct research on this than you'd expect. A child fidgeting with a pencil during a long car ride is a fairly different case from an adult doodling through a budget meeting, and the boredom-relief mechanism likely applies to both, even if nobody has tested it head to head. What seems consistent across settings is the underlying trade: a small, repetitive outlet for restlessness beats letting the mind wander somewhere unrelated entirely."],
+    ["p", "It's also fine to treat this as a minor tool rather than a rule to follow everywhere. Some people find any hand movement distracting regardless of the setting, and forcing a doodling habit onto someone who concentrates better sitting still would defeat the point. The research describes an average tendency across a group, not a guarantee for any one person, so pay attention to whether it actually helps you specifically before building a habit around it."],
+    ["p", "None of this replaces the basics. Sleep, movement and a reasonable diet still do more for memory than any note-taking trick, and our guide to <a href=\"../how-to-improve-memory/\">improving your memory</a> ranks the habits that matter most by how much evidence backs them."]
+  ],
+  "pull": "Doodling doesn't seem to add focus. It just removes some of the boredom that would otherwise steal it.",
+  "faq": [
+    ["Does doodling actually help you remember things?", "One well-known study found that people who doodled while listening to a deliberately boring recording remembered more names and details afterward than people who just listened. The effect is specific to dull, low-demand tasks rather than a general memory boost, and later attempts to extend it to harder material have produced mixed results."],
+    ["Why would doodling improve memory instead of distracting from it?", "The leading explanation is that doodling absorbs just enough spare attention to stop the mind from daydreaming, which is far more disruptive to memory than a repetitive hand movement. It doesn't add focus so much as prevent a bigger distraction from taking over."],
+    ["Is doodling the same as checking your phone while listening?", "No. Checking a phone is a full attention switch away from the conversation, which makes it harder to pick back up. A simple, repetitive doodle can be done without looking away from the speaker, so it doesn't pull attention out of the room the way a phone does."],
+    ["Does doodling help with studying or complex material?", "The evidence doesn't support that. Doodling appears to help mainly with passive, low-demand listening, not with material you're actively trying to understand or learn. For studying, techniques like active recall and spaced repetition have much stronger research behind them."],
+    ["What kind of doodling works best?", "Simple, repetitive marks, shading, spirals, tracing loops, seem to fit the research best. A detailed drawing that requires real visual planning starts competing for the same attention as listening, which defeats the purpose."]
+  ],
+  "final_h": "Want the habits with the strongest evidence?",
+  "final_p": "Doodling is a minor trick for boring moments. Sleep, movement and the right nutrients do the heavy lifting for memory. See the memory formulas our editors rate highest for 2026.",
+  "sources": [
+    ["Harvard Health: Memory", "https://www.health.harvard.edu/topics/memory"],
+    ["NINDS: Brain Basics", "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain"]
+  ],
+  "related": [
+    ["Handwriting vs typing for memory", "handwriting-vs-typing-memory"],
+    ["Active recall study method", "active-recall-study-method"],
+    ["How to focus better", "how-to-focus-better"],
+    ["Best memory formulas of 2026", "best-memory-supplements-2026"]
+  ]
+}

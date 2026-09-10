@@ -2320,14 +2320,16 @@
       "title": "Chunking: The Memory Trick Behind Phone Numbers and Passwords",
       "kw": "chunking memory technique",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-10"
     },
     {
       "slug": "mnemonic-devices-explained",
       "title": "Mnemonic Devices Explained: Do They Actually Work?",
       "kw": "mnemonic devices",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-10"
     },
     {
       "slug": "forgetting-curve-explained",

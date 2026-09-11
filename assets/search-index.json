@@ -908,5 +908,19 @@
     "c": "Memory",
     "k": "mnemonic devices",
     "d": "Acronyms, rhymes, the method of loci: mnemonic devices turn hard-to-remember information into something your brain holds onto more easily. Here's what the evidence says about when they help and when they don't."
+  },
+  {
+    "t": "The Forgetting Curve Explained: Why We Lose Information So Fast",
+    "u": "/forgetting-curve-explained/",
+    "c": "Memory",
+    "k": "forgetting curve",
+    "d": "Hermann Ebbinghaus mapped how quickly fresh information fades, and the shape of that curve still shows up every time a crammed fact disappears by the next morning. Here's what the forgetting curve actually shows, and how to flatten it."
+  },
+  {
+    "t": "State-Dependent Memory: Why Where You Learn Something Affects Recall",
+    "u": "/state-dependent-memory/",
+    "c": "Memory",
+    "k": "state dependent memory",
+    "d": "Studying at the kitchen table and testing in a silent exam hall isn't a neutral swap. State-dependent memory explains why matching your learning and recall conditions can make information easier, or harder, to retrieve."
   }
 ]

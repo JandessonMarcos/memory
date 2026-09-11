@@ -2336,14 +2336,16 @@
       "title": "The Forgetting Curve Explained: Why We Lose Information So Fast",
       "kw": "forgetting curve",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-11"
     },
     {
       "slug": "state-dependent-memory",
       "title": "State-Dependent Memory: Why Where You Learn Something Affects Recall",
       "kw": "state dependent memory",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-11"
     },
     {
       "slug": "serial-position-effect-explained",

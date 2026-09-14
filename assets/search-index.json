@@ -957,5 +957,26 @@
     "c": "Aging Well",
     "k": "caregiver burnout memory",
     "d": "Caring for a parent, spouse or child can leave you forgetting appointments, losing your train of thought and running on empty. Here's why caregiving affects memory, and what actually helps."
+  },
+  {
+    "t": "High Altitude and Cognitive Function: Why Thin Air Affects Thinking",
+    "u": "/altitude-and-cognitive-function/",
+    "c": "Brain Health",
+    "k": "altitude cognitive function",
+    "d": "Climbing, flying or traveling to high elevation can leave your thinking foggy and your reaction time slower. Here's what altitude actually does to the brain, and how to protect your thinking when you go up."
+  },
+  {
+    "t": "Flashbulb Memories: Why Some Moments Feel Burned Into Memory",
+    "u": "/flashbulb-memories-explained/",
+    "c": "Memory",
+    "k": "flashbulb memory",
+    "d": "Some memories arrive so vividly they feel almost photographic, like exactly where you were the moment you heard shocking news. Here's what flashbulb memories actually are, and why they aren't as reliable as they feel."
+  },
+  {
+    "t": "New Study Finds Alzheimer's Disrupts the Brain's 3D Genome Structure",
+    "u": "/alzheimers-3d-genome-study/",
+    "c": "News",
+    "k": "alzheimers genome study",
+    "d": "A new study combining single-cell sequencing, spatial mapping and a purpose-built AI model finds that DNA is folded differently inside certain brain cells in Alzheimer's disease. Here's what the finding means, and doesn't mean, for treatment."
   }
 ]

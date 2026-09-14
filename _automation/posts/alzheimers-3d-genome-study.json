@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-14",
+  "cat": "News",
+  "crumb": "Alzheimer's 3D Genome Study",
+  "title_tag": "New Study Finds Alzheimer's Disrupts the Brain's 3D Genome Structure (2026)",
+  "og_title": "New Study Finds Alzheimer's Disrupts the Brain's 3D Genome Structure",
+  "desc": "A new study combining single-cell sequencing, spatial mapping and a purpose-built AI model finds that DNA is folded differently inside certain brain cells in Alzheimer's disease. Here's what the finding means, and doesn't mean, for treatment.",
+  "h1_a": "New Study Finds Alzheimer's Disrupts the Brain's ",
+  "h1_b": "3D Genome Structure",
+  "subhead": "Your DNA doesn't just carry a genetic code, it's folded into a specific 3D shape inside each cell, and that shape helps control which genes turn on. A new study finds that shape looks different in Alzheimer's-affected brain cells.",
+  "alt": "middle-aged woman exercising on a mat at home, staying active",
+  "takeaways": [
+    "<strong>Researchers report that the 3D shape DNA folds into inside the nucleus, not just its sequence, looks different in several types of brain cells affected by Alzheimer's disease</strong>, altering how certain genes are switched on and off.",
+    "<strong>The study combined single-cell sequencing, spatial mapping of brain tissue, and a new AI model called Hicformer</strong> to map genome-folding patterns at a level of detail not available before.",
+    "<strong>The work involved researchers at Carnegie Mellon University, the University of Pittsburgh and the University of Washington</strong>, and was published in the journal Science.",
+    "<strong>This describes a newly mapped layer of Alzheimer's biology, not a new treatment or diagnostic test</strong>, at least not yet.",
+    "<strong>It doesn't change today's practical advice.</strong> Known modifiable factors like exercise, sleep, diet and cardiovascular health remain the best-supported ways to support brain aging while this research develops."
+  ],
+  "body": [
+    ["p", "Most Alzheimer's research that makes headlines focuses on proteins, amyloid plaques, tau tangles, the visible wreckage the disease leaves behind. A study published in the journal Science looks at something further upstream: the physical shape DNA folds into inside brain cells, and how that shape changes in Alzheimer's disease. It's early, technical work, but it maps a layer of biology researchers say hasn't been explored at this resolution before."],
+
+    ["h2", "What did the researchers actually look at?"],
+    ["p", "DNA doesn't sit inside a cell's nucleus as a loose tangle. It's folded into an intricate, organized 3D structure, and that folding pattern helps determine which genes a particular cell can actually switch on, not just which genes it carries. Two cells with identical DNA can behave completely differently depending on how that DNA is folded and which sections are tucked away or exposed."],
+    ["p", "A research team spanning Carnegie Mellon University's School of Computer Science, the University of Pittsburgh School of Medicine and the University of Washington set out to map that folding pattern in brain tissue from people with Alzheimer's disease, cell type by cell type, and compare it with tissue from people without the disease. To do it at the scale and resolution the question required, they combined single-cell sequencing with spatial mapping of brain tissue and a newly built AI model, called Hicformer, designed to predict gene activity from DNA sequence and 3D genome-folding data together."],
+
+    ["h2", "What did they find?"],
+    ["p", "According to reporting on the study, several types of brain cells in Alzheimer's-affected tissue showed genome-folding patterns that differed measurably from those in unaffected tissue, in ways that lined up with changes in which genes were switched on or off. The researchers describe this as a previously underexplored layer of Alzheimer's biology, sitting alongside, not replacing, the amyloid and tau changes that most existing research has focused on."],
+    ["p", "That distinction is worth sitting with. This isn't a claim that genome folding causes Alzheimer's, or that it matters more than amyloid or tau. It's a description of another piece of a very complicated puzzle, one that had been technically difficult to study directly until tools like this became available."],
+
+    ["recbox"],
+
+    ["h2", "Why did this take a new AI model to find?"],
+    ["p", "Mapping how DNA folds inside a single cell is a harder technical problem than sequencing that DNA. The folding pattern is three-dimensional, varies by cell type, and shifts depending on what a cell happens to be doing at the moment it's sampled. Reading it out at the resolution of individual brain cells, across enough tissue and enough cell types to draw a reliable comparison, produces an enormous amount of data that's difficult to interpret by hand."],
+    ["p", "That's the gap Hicformer was built to close. The model combines three kinds of information, the raw DNA sequence, broader patterns of how the genome is organized, and finer-grained local contact maps showing which distant stretches of DNA end up physically close together when folded, to predict how active a given gene is likely to be in a specific cell. Pairing that model with single-cell sequencing and spatial mapping, which preserves information about where each cell actually sat within the tissue, let the researchers build a far more detailed picture than earlier, lower-resolution genome studies could produce."],
+
+    ["h2", "Why would a finding like this matter?"],
+    ["p", "If certain genes get switched on or off partly because of how DNA is folded, rather than only because of mutations in the DNA sequence itself, that opens a different kind of research question: could a future treatment target the folding pattern, or the machinery that controls it, rather than only the proteins downstream of it? That's speculative at this stage. Structural genome findings like this one typically take years to translate into anything with a name a patient would recognize, if they translate into treatment at all. The immediate value is scientific: a more complete map of what's actually different in Alzheimer's-affected brain cells, at a level of detail researchers didn't have direct access to before."],
+
+    ["h2", "What this means for you right now"],
+    ["p", "Honestly, not much changes for the average reader today. This is fundamental biology research, not a new test you can ask your doctor for or a treatment you can start. What it does add to is the general picture: Alzheimer's disease involves changes at multiple biological levels at once, genetic, structural and molecular, and research keeps finding new layers rather than a single, simple cause."],
+    ["p", "While that deeper science plays out, the factors that already have solid evidence behind them haven't changed: regular exercise, good sleep, a heart-healthy diet, staying socially and mentally engaged, and managing blood pressure and blood sugar. None of those address genome folding directly, but they're the modifiable pieces available right now, while more targeted research like this continues. Our guide to <a href=\"../dementia-prevention-tips/\">evidence-based dementia prevention</a> covers those factors in more detail."],
+
+    ["h2", "Why cell type seems to matter so much"],
+    ["p", "One detail that stands out in how this study was framed: the changes weren't described as uniform across the brain. Brain tissue contains many distinct cell types, neurons that transmit signals, astrocytes that support and regulate them, microglia that act as the brain's resident immune cells, and each plays a different role in Alzheimer's disease. Research over the past decade has increasingly pointed to microglia and astrocytes as active participants in the disease process, not just neurons passively failing. Mapping genome folding cell type by cell type, rather than averaging across a whole tissue sample the way older sequencing methods often did, fits that broader shift in how researchers think about Alzheimer's: less as a single-cell-type disease and more as a breakdown in how several different cell types interact."],
+
+    ["h2", "The caveats worth keeping in mind"],
+    ["p", "This kind of study describes an association between disease status and a structural feature of brain cells, not a proven cause-and-effect chain, and structural genomics is a technically demanding field where findings sometimes need replication before the picture fully settles. It's also tissue-based research, typically drawn from donated brain samples, which is a different kind of evidence than a clinical trial in living patients. None of that makes the finding unimportant. It just means the honest next step is more research, not a change in what anyone should do today."]
+  ],
+  "pull": "Two brain cells can carry identical DNA and still behave completely differently, depending on how that DNA is folded inside the nucleus.",
+  "faq": [
+    ["What did the new Alzheimer's genome study find?", "Researchers found that the 3D folding pattern of DNA inside several types of brain cells looks different in Alzheimer's-affected tissue compared with unaffected tissue, in ways linked to changes in gene activity."],
+    ["Who conducted the research and where was it published?", "The study involved researchers at Carnegie Mellon University, the University of Pittsburgh School of Medicine and the University of Washington, and was published in the journal Science."],
+    ["Does this mean there's a new Alzheimer's treatment?", "No. This is basic biology research that maps a newly detailed layer of the disease. It could eventually inform future research directions, but it isn't a treatment or diagnostic test available today."],
+    ["What should I do with this information?", "Treat it as a research update rather than practical advice. The best-supported ways to support brain health right now, exercise, sleep, diet and managing cardiovascular risk factors, haven't changed."]
+  ],
+  "final_h": "Support the factors you can control",
+  "final_p": "Genetic research takes years to become treatment. Everyday habits and, for some people, the right nutritional support are what you can act on today. See the memory formulas our editors rate highest for 2026.",
+  "sources": [
+    ["ScienceDaily: Scientists find a new layer of Alzheimer's hidden in the genome", "https://www.sciencedaily.com/releases/2026/09/260912220051.htm"],
+    ["Carnegie Mellon University: AI, Single-Cell Technology Reveal How 3D Genome Differs in People With Alzheimer's Disease", "https://www.cmu.edu/cbd/news/2026/ma-alzheimers.html"]
+  ],
+  "related": [
+    ["Dementia prevention tips", "dementia-prevention-tips"],
+    ["Cognitive reserve explained", "cognitive-reserve-explained"],
+    ["Best memory formulas of 2026", "best-memory-supplements-2026"]
+  ]
+}

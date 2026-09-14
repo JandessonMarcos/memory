@@ -2384,14 +2384,16 @@
       "title": "High Altitude and Cognitive Function: Why Thin Air Affects Thinking",
       "kw": "altitude cognitive function",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-14"
     },
     {
       "slug": "flashbulb-memories-explained",
       "title": "Flashbulb Memories: Why Some Moments Feel Burned Into Memory",
       "kw": "flashbulb memory",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-14"
     },
     {
       "slug": "false-memories-explained",
@@ -2425,6 +2427,148 @@
       "slug": "potassium-and-brain-function",
       "title": "Potassium and Brain Function: An Overlooked Electrolyte for Cognition",
       "kw": "potassium brain function",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "procedural-memory-explained",
+      "title": "Procedural Memory Explained: Why You Never Forget How to Ride a Bike",
+      "kw": "procedural memory",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "sensory-memory-explained",
+      "title": "Sensory Memory Explained: The Split-Second Memory You Don't Notice",
+      "kw": "sensory memory",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "eyewitness-testimony-and-memory-reliability",
+      "title": "Eyewitness Testimony and Memory: Why Confident Witnesses Can Still Be Wrong",
+      "kw": "eyewitness testimony memory",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "the-zeigarnik-effect-and-memory",
+      "title": "The Zeigarnik Effect: Why Unfinished Tasks Stick in Your Memory",
+      "kw": "zeigarnik effect",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "why-we-remember-embarrassing-moments",
+      "title": "Why We Remember Embarrassing Moments So Vividly",
+      "kw": "why we remember embarrassing moments",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "the-mozart-effect-fact-or-myth",
+      "title": "The Mozart Effect: Does Classical Music Really Make You Smarter?",
+      "kw": "mozart effect",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "nicotine-and-cognitive-function",
+      "title": "Nicotine and Cognitive Function: What the Research Actually Shows",
+      "kw": "nicotine cognitive function",
+      "cat": "Brain Health",
+      "angle": "YMYL: hedge heavily, never encourage nicotine use, note addiction and cardiovascular risk, doctor caveat, distinguish nicotine from smoking-related harm.",
+      "status": "pending"
+    },
+    {
+      "slug": "glp1-drugs-and-brain-fog",
+      "title": "GLP-1 Drugs and Brain Fog: What We Know About Ozempic-Type Medications and Cognition",
+      "kw": "glp-1 drugs brain fog",
+      "cat": "Brain Health",
+      "angle": "YMYL: factual, hedge heavily, this is an active area of research, never suggest starting/stopping medication, doctor caveat up front.",
+      "status": "pending"
+    },
+    {
+      "slug": "secondhand-smoke-and-cognitive-decline",
+      "title": "Secondhand Smoke and Cognitive Decline: What the Evidence Shows",
+      "kw": "secondhand smoke cognitive decline",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "ultra-processed-food-and-brain-fog",
+      "title": "Ultra-Processed Food and Brain Fog: What the Research Says",
+      "kw": "ultra processed food brain fog",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "misophonia-and-concentration",
+      "title": "Misophonia and Concentration: When Certain Sounds Derail Your Focus",
+      "kw": "misophonia concentration",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "mind-wandering-and-memory",
+      "title": "Mind Wandering and Memory: Is Daydreaming Helping or Hurting You?",
+      "kw": "mind wandering memory",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "pet-ownership-and-cognitive-health",
+      "title": "Pet Ownership and Cognitive Health: Can a Dog Help Protect Your Memory?",
+      "kw": "pet ownership cognitive health",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "gardening-and-brain-health",
+      "title": "Gardening and Brain Health: What the Research Shows",
+      "kw": "gardening brain health",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "dancing-and-dementia-risk",
+      "title": "Dancing and Dementia Risk: Why This Hobby Stands Out in the Research",
+      "kw": "dancing dementia risk",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "swimming-and-brain-health",
+      "title": "Swimming and Brain Health: Does This Exercise Have Special Cognitive Benefits?",
+      "kw": "swimming brain health",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "vitamin-k-and-brain-health",
+      "title": "Vitamin K and Brain Health: An Emerging Nutrient Worth Watching",
+      "kw": "vitamin k brain health",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "mct-oil-and-brain-function",
+      "title": "MCT Oil and Brain Function: Does It Really Fuel Focus?",
+      "kw": "mct oil brain function",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "l-tyrosine-and-cognitive-performance",
+      "title": "L-Tyrosine and Cognitive Performance Under Stress: What Studies Show",
+      "kw": "l-tyrosine cognitive performance",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "nac-n-acetylcysteine-and-brain-health",
+      "title": "NAC (N-Acetylcysteine) and Brain Health: What the Evidence Supports",
+      "kw": "nac n-acetylcysteine brain health",
       "cat": "Ingredients",
       "status": "pending"
     }

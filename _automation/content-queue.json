@@ -2400,14 +2400,16 @@
       "title": "False Memories: Why the Brain Sometimes Remembers Things That Never Happened",
       "kw": "false memories",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-15"
     },
     {
       "slug": "inattentional-blindness-and-memory",
       "title": "Inattentional Blindness: Why You Miss What You're Not Looking For",
       "kw": "inattentional blindness",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-15"
     },
     {
       "slug": "deja-vu-explained",

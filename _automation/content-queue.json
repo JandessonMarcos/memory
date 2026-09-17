@@ -2432,14 +2432,16 @@
       "title": "Potassium and Brain Function: An Overlooked Electrolyte for Cognition",
       "kw": "potassium brain function",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-17"
     },
     {
       "slug": "procedural-memory-explained",
       "title": "Procedural Memory Explained: Why You Never Forget How to Ride a Bike",
       "kw": "procedural memory",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-17"
     },
     {
       "slug": "sensory-memory-explained",

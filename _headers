@@ -6,3 +6,12 @@
   Strict-Transport-Security: max-age=31536000; includeSubDomains
   Permissions-Policy: geolocation=(), camera=(), microphone=()
   X-XSS-Protection: 0
+
+# Offer bridge pages (/go/*). They sit between a post's CTA and the BuyGoods
+# cart and carry no editorial content, so they must never be indexed — a
+# branded, hard-sell page ranking for our own keywords would compete with the
+# posts. Crawling is deliberately NOT blocked in robots.txt: a disallowed page
+# can still be indexed from links alone, because the crawler never gets to read
+# the noindex. Let it crawl, and let it read this.
+/go/*
+  X-Robots-Tag: noindex, nofollow

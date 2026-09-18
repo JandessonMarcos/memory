@@ -2,17 +2,21 @@
    Memory Lab — shared CTA wiring + dates
    EDIT ONLY THE CONFIG BLOCK.
    ----------------------------------------------------------------------------
-   OFFERS : real BuyGoods checkout links per package (2 / 3 / 6 bottles).
-            The {clickid} token is replaced at runtime by our subid so the sale
-            ties back to the source/keyword/campaign and the CTA position.
+   Buttons no longer jump straight to BuyGoods. They send the reader to the
+   Memopezil offer page at /go/memopezil/, where the package is actually chosen;
+   that page builds the checkout link. The real checkout URLs therefore live in
+   ONE place now — assets/offer.js — instead of being duplicated here.
+
    How tracking flows:
-     - Any incoming click id from your ad (?clickid= / ?rtkcid= / ?cid= / ?sub1=)
-       is forwarded inside the subid.
-     - subid format: mem_g_p{pack}_r{rank}[_{incoming}]
-       p = package (2/3/6), r = on-page position (rank1..rank5).
+     - Any incoming click id from your ad (?clickid= / ?gclid= / ?rtkcid= / …)
+       is handed to the offer page as ?c=, and ends up inside the BuyGoods subid
+       exactly as before.
+     - The post slug goes over as ?s= and the button position as ?r=, so the
+       final subid keeps its old shape: mem_g_{slug}_p{pack}_r{rank}[_{incoming}]
+       The one difference: p{pack} is now the package the reader really picked.
    How to wire a button in the HTML:
-     - <a class="buy-link" data-pack="6"> -> goes to the 6-bottle checkout
-     - <a class="buy-link" data-rank="1"> (no data-pack) -> DEFAULT_PACK below
+     - <a class="buy-link" data-rank="1"> -> offer page, tagged as position 1
+     - data-pack is no longer read here (the offer page owns that choice)
      - href="#offer" (real in-page anchor) is left untouched.
    ============================================================================ */
 (function(){
@@ -31,13 +35,7 @@
     }catch(e){}
   })();
 
-  var OFFERS = {
-    "2": "https://buygoods.com/secure/checkout.html?account_id=12340&product_codename=PP_MMP2UNITS_AFF&aff_id=21099&subid={clickid}&redirect=aHR0cHM6Ly9pbXByb3ZpbmdvdXJoZWFsdGguY29tL21tcC1hZmYtYnV5LXVwMS8=&sub5=redirect_test",
-    "3": "https://buygoods.com/secure/checkout.html?account_id=12340&product_codename=PP_MMP3UNITS_AFF&aff_id=21099&subid={clickid}&redirect=aHR0cHM6Ly9pbXByb3ZpbmdvdXJoZWFsdGguY29tL21tcC1hZmYtYnV5LXVwMS8=&sub5=redirect_test",
-    "6": "https://buygoods.com/secure/checkout.html?account_id=12340&product_codename=PP_MMP6UNITS_AFF&aff_id=21099&subid={clickid}&redirect=aHR0cHM6Ly9pbXByb3ZpbmdvdXJoZWFsdGguY29tL21tcC1hZmYtYnV5LXVwMS8=&sub5=redirect_test"
-  };
-  var DEFAULT_PACK = "6";     // generic "See Today's Price" buttons go to best value
-  var SUBID_TAG    = "mem_g"; // base label for this site/source (memory / google)
+  var BRIDGE = "/go/memopezil/";  // offer page; checkout URLs live in assets/offer.js
 
   // ---- dates ----
   var y = new Date().getFullYear();
@@ -59,26 +57,25 @@
     seg = seg.toLowerCase().replace(/\.html?$/,'').replace(/[^a-z0-9-]/g,'').slice(0,40);
     return seg || 'home';
   }
-  function buildHref(pack, rank){
-    var url = OFFERS[pack] || OFFERS[DEFAULT_PACK];
-    var sub = SUBID_TAG + '_' + pageTag() + '_p' + pack + '_r' + rank + (incoming ? '_' + incoming : '');
-    return url.replace('{clickid}', encodeURIComponent(sub));
+  function buildHref(rank){
+    var q = 's=' + encodeURIComponent(pageTag()) + '&r=' + encodeURIComponent(rank);
+    if(incoming) q += '&c=' + encodeURIComponent(incoming);
+    return BRIDGE + '?' + q;
   }
   document.querySelectorAll('a.buy-link').forEach(function(a){
     var href = a.getAttribute('href') || '';
     if(href.length > 1 && href.charAt(0) === '#') return;   // leave real in-page anchors (#offer) alone
-    var pack = a.getAttribute('data-pack') || DEFAULT_PACK;
     var rank = a.getAttribute('data-rank') || '1';
-    a.setAttribute('href', buildHref(pack, rank));
-    a.setAttribute('target','_blank');
-    a.setAttribute('rel','nofollow sponsored noopener');
-    // Proxy conversion: the real sale happens off-site on BuyGoods, so fire an
-    // "outbound checkout click" into GA4 + Meta. This is the event Google Ads /
-    // Meta optimize toward when you buy traffic. Label carries page+pack+rank.
+    a.setAttribute('href', buildHref(rank));
+    a.removeAttribute('target');          // same tab: the offer page is a step in our own funnel
+    a.setAttribute('rel','nofollow');     // internal, and the offer page is noindex anyway
+    // Mid-funnel event. The checkout_click / InitiateCheckout pair now fires on
+    // the offer page, at the moment the reader actually leaves for BuyGoods —
+    // firing it here too would double-count and skew what Ads optimizes toward.
     a.addEventListener('click', function(){
-      var label = pageTag() + '_p' + pack + '_r' + rank;
-      try{ if(window.gtag){ gtag('event','checkout_click',{event_category:'outbound',event_label:label,page_slug:pageTag(),pack:pack,rank:rank}); } }catch(e){}
-      try{ if(window.fbq){ fbq('track','InitiateCheckout',{content_name:pageTag(),content_category:'pack'+pack}); } }catch(e){}
+      var label = pageTag() + '_r' + rank;
+      try{ if(window.gtag){ gtag('event','offer_page_click',{event_category:'funnel',event_label:label,page_slug:pageTag(),offer:'memopezil',rank:rank}); } }catch(e){}
+      try{ if(window.fbq){ fbq('track','ViewContent',{content_name:pageTag(),content_category:'memopezil_offer'}); } }catch(e){}
     });
   });
 

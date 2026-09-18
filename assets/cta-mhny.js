@@ -1,44 +1,25 @@
 /* ============================================================================
    Memory Lab — MemoHoney offer wiring
-   EDIT ONLY THE CONFIG BLOCK BELOW.
    ----------------------------------------------------------------------------
    Mirrors assets/cta.js (the Memopezil wiring) but drives a DIFFERENT offer,
    so the two never collide:
-     a.buy-link       -> Memopezil   (cta.js)
-     a.buy-link-mhny  -> MemoHoney   (this file)
+     a.buy-link       -> Memopezil   (cta.js       -> /go/memopezil/)
+     a.buy-link-mhny  -> MemoHoney   (this file    -> /go/memohoney/)
 
-   MemoHoney offer IDs (note they differ from Memopezil's on every field):
-     account_id 12850 · aff_id 1622 · codenames PP_MMH{2,3,6}UNITS_AFF
-     (Memopezil is account_id 12340 · aff_id 21099 · PP_MMP{2,3,6}UNITS_AFF)
+   Buttons no longer jump straight to BuyGoods. They send the reader to the
+   MemoHoney offer page, where the package is actually chosen; that page builds
+   the checkout link. The MemoHoney checkout URLs (account_id 12850 · aff_id
+   1622 · PP_MMH{2,3,6}UNITS_AFF) therefore live in ONE place now:
+   assets/offer.js.
 
-   The {clickid} token is replaced at runtime by our subid so a sale ties back
-   to the page, the package and the button position.
-
-   Two params were deliberately stripped from the URL as supplied:
-     sessid2=…  a stale session id (stamped 2026-07-23), not part of affiliate
-                attribution, so carrying it forward serves no purpose
-     redirect=… base64 of https://improvingourhealth.com/mmh-aff-buy-up1/,
-                an upsell hop we do not want between the click and the cart
-
-   ⚠️  VERIFICATION STATUS
-     "6" was supplied directly and is confirmed.
-     "2" and "3" were DERIVED from the codename pattern, which mirrors the
-     Memopezil family exactly. They could not be verified programmatically:
-     BuyGoods renders its checkout client-side, so a bogus codename returns a
-     byte-identical 200 to a real one. Click both in a browser once and confirm
-     the cart shows 2 bottles / $158 and 3 bottles / $207.
+   The post slug goes over as ?s=, the button position as ?r= and any incoming
+   ad click id as ?c=, so the final BuyGoods subid keeps its old shape:
+     mhny_g_{slug}_p{pack}_r{rank}[_{incoming}]
    ============================================================================ */
 (function(){
   "use strict";
 
-  var BG = "https://buygoods.com/secure/checkout.html?aff_id=1622&account_id=12850&product_codename=";
-  var OFFERS = {
-    "2": BG + "PP_MMH2UNITS_AFF&subid={clickid}",   // derived from pattern — click-test
-    "3": BG + "PP_MMH3UNITS_AFF&subid={clickid}",   // derived from pattern — click-test
-    "6": BG + "PP_MMH6UNITS_AFF&subid={clickid}"    // supplied and confirmed
-  };
-  var DEFAULT_PACK = "6";      // generic buttons go to best value
-  var SUBID_TAG    = "mhny_g"; // base label for this offer (memohoney / google)
+  var BRIDGE = "/go/memohoney/";  // offer page; checkout URLs live in assets/offer.js
 
   var qs = new URLSearchParams(location.search);
   var incoming = qs.get('clickid') || qs.get('gclid') || qs.get('gbraid') || qs.get('wbraid')
@@ -50,41 +31,25 @@
     seg = seg.toLowerCase().replace(/\.html?$/,'').replace(/[^a-z0-9-]/g,'').slice(0,40);
     return seg || 'home';
   }
-  function buildHref(pack, rank){
-    var url = OFFERS[pack] || OFFERS[DEFAULT_PACK];
-    if(!url) return '';
-    var sub = SUBID_TAG + '_' + pageTag() + '_p' + pack + '_r' + rank + (incoming ? '_' + incoming : '');
-    return url.replace('{clickid}', encodeURIComponent(sub));
+  function buildHref(rank){
+    var q = 's=' + encodeURIComponent(pageTag()) + '&r=' + encodeURIComponent(rank);
+    if(incoming) q += '&c=' + encodeURIComponent(incoming);
+    return BRIDGE + '?' + q;
   }
 
-  var pending = 0;
   document.querySelectorAll('a.buy-link-mhny').forEach(function(a){
-    var pack = a.getAttribute('data-pack') || DEFAULT_PACK;
+    var href = a.getAttribute('href') || '';
+    if(href.length > 1 && href.charAt(0) === '#') return;   // leave real in-page anchors alone
     var rank = a.getAttribute('data-rank') || '1';
-    var href = buildHref(pack, rank);
-
-    if(!href){
-      // No URL configured yet: neutralise the button rather than send the click
-      // to the wrong offer (or to a 404 anchor).
-      pending++;
-      a.removeAttribute('href');
-      a.setAttribute('aria-disabled','true');
-      a.classList.add('is-pending');
-      a.addEventListener('click', function(e){ e.preventDefault(); });
-      return;
-    }
-
-    a.setAttribute('href', href);
-    a.setAttribute('target','_blank');
-    a.setAttribute('rel','nofollow sponsored noopener');
+    a.setAttribute('href', buildHref(rank));
+    a.removeAttribute('target');          // same tab: the offer page is a step in our own funnel
+    a.setAttribute('rel','nofollow');     // internal, and the offer page is noindex anyway
+    // Mid-funnel event. checkout_click / InitiateCheckout fire on the offer
+    // page, at the moment the reader actually leaves for BuyGoods.
     a.addEventListener('click', function(){
-      var label = pageTag() + '_p' + pack + '_r' + rank;
-      try{ if(window.gtag){ gtag('event','checkout_click',{event_category:'outbound',event_label:label,page_slug:pageTag(),offer:'memohoney',pack:pack,rank:rank}); } }catch(e){}
-      try{ if(window.fbq){ fbq('track','InitiateCheckout',{content_name:pageTag(),content_category:'mhny_pack'+pack}); } }catch(e){}
+      var label = pageTag() + '_r' + rank;
+      try{ if(window.gtag){ gtag('event','offer_page_click',{event_category:'funnel',event_label:label,page_slug:pageTag(),offer:'memohoney',rank:rank}); } }catch(e){}
+      try{ if(window.fbq){ fbq('track','ViewContent',{content_name:pageTag(),content_category:'memohoney_offer'}); } }catch(e){}
     });
   });
-
-  if(pending){
-    try{ console.warn('[cta-mhny] '+pending+' MemoHoney button(s) disabled: no checkout URL configured in assets/cta-mhny.js'); }catch(e){}
-  }
 })();

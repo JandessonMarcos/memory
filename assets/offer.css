@@ -1,0 +1,278 @@
+/* ============================================================================
+   Offer bridge page — shared layout for /go/memohoney/ and /go/memopezil/
+   ----------------------------------------------------------------------------
+   One stylesheet, two brands. Everything brand-specific is a custom property
+   redefined under [data-brand="..."] on <html>; the rest of the file never
+   names a product. Adding a third offer = one more [data-brand] block.
+   ============================================================================ */
+
+:root{
+  --ink:#14161a;
+  --ink-soft:#4a5058;
+  --line:#e4e6ea;
+  --bg:#ffffff;
+  --bg-alt:#f6f7f9;
+  --ok:#1f9254;
+  --alert:#c0392b;
+  --radius:14px;
+  --maxw:1120px;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --serif:Georgia,"Times New Roman",serif;
+}
+
+/* MemoHoney — honey/gold */
+[data-brand="mhny"]{
+  --brand:#c79213;
+  --brand-dark:#8f6708;
+  --brand-tint:#fdf6e6;
+  --brand-ink:#2a1f05;
+  --cta:#f0a500;
+  --cta-hover:#d89300;
+  --cta-ink:#2a1f05;
+}
+
+/* MemoPezil — purple */
+[data-brand="mepz"]{
+  --brand:#6b2fa0;
+  --brand-dark:#4a1f73;
+  --brand-tint:#f5eefb;
+  --brand-ink:#2a0f42;
+  --cta:#7a35b8;
+  --cta-hover:#63289a;
+  --cta-ink:#ffffff;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font:400 17px/1.62 var(--font);
+}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--brand-dark)}
+
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 18px}
+.narrow{max-width:820px}
+
+section{padding:46px 0}
+section.tint{background:var(--brand-tint)}
+section.alt{background:var(--bg-alt)}
+
+h1,h2,h3{line-height:1.2;margin:0 0 .5em;letter-spacing:-.01em}
+h1{font-size:clamp(26px,4.6vw,44px);font-weight:800}
+h2{font-size:clamp(23px,3.4vw,34px);font-weight:800;text-align:center}
+h3{font-size:20px;font-weight:700}
+p{margin:0 0 1em}
+.lead{font-size:clamp(17px,2.2vw,20px);color:var(--ink-soft)}
+.center{text-align:center}
+.brandword{color:var(--brand)}
+
+/* ---- advertising disclosure bar (FTC) ------------------------------------ */
+.disclose{
+  background:#2b2f36;color:#cdd2d9;font-size:12.5px;line-height:1.45;
+  padding:9px 0;text-align:center;
+}
+.disclose a{color:#fff;text-decoration:underline}
+
+/* ---- header -------------------------------------------------------------- */
+.topbar{border-bottom:1px solid var(--line);padding:14px 0}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:14px}
+.logo{font:800 22px/1 var(--serif);letter-spacing:-.02em;color:var(--ink)}
+.logo span{color:var(--brand)}
+.topbar .secure{font-size:12.5px;color:var(--ink-soft);white-space:nowrap}
+
+/* ---- hero ---------------------------------------------------------------- */
+.hero{padding:40px 0 34px}
+.hero-grid{display:grid;gap:26px;align-items:center;grid-template-columns:1fr}
+.hero h1{margin-bottom:.35em}
+.hero-img{margin:0 auto;max-width:420px}
+
+/* ---- offer cards --------------------------------------------------------- */
+.timer-head{text-align:center;margin-bottom:26px}
+.timer-head h2{margin-bottom:.35em}
+.timer{
+  display:inline-block;background:var(--alert);color:#fff;font-weight:800;
+  font-size:24px;letter-spacing:.04em;padding:6px 20px;border-radius:8px;
+  font-variant-numeric:tabular-nums;
+}
+.packs{
+  display:grid;gap:20px;grid-template-columns:1fr;align-items:stretch;
+}
+.pack{
+  position:relative;border:2px solid var(--line);border-radius:var(--radius);
+  background:#fff;padding:22px 18px 20px;text-align:center;
+  display:flex;flex-direction:column;
+}
+.pack.best{border-color:var(--brand);box-shadow:0 10px 30px rgba(0,0,0,.09)}
+.pack-flag{
+  position:absolute;top:-13px;left:50%;transform:translateX(-50%);
+  background:var(--brand);color:#fff;font-size:12.5px;font-weight:800;
+  letter-spacing:.06em;text-transform:uppercase;padding:5px 14px;border-radius:99px;
+  white-space:nowrap;
+}
+.pack.best .pack-flag{background:var(--alert)}
+.pack-title{font-size:21px;font-weight:800;margin:10px 0 2px}
+.pack-supply{font-size:14px;color:var(--ink-soft);margin-bottom:12px}
+/* Fixed box, not fixed width: the pack shots come in different aspect ratios
+   (2 bottles is wide, 6 is square) and a free-flowing image made the three
+   cards fall out of step — price under one, savings under the next. */
+.pack-img{height:190px;width:auto;max-width:100%;object-fit:contain;margin:0 auto 14px}
+.pack-unit{display:flex;align-items:baseline;justify-content:center;gap:4px;margin-bottom:6px}
+.pack-unit .cur{font-size:22px;font-weight:700;color:var(--brand)}
+.pack-unit .num{font-size:52px;font-weight:800;line-height:1;color:var(--brand)}
+.pack-unit .per{font-size:13px;color:var(--ink-soft);text-align:left;line-height:1.15}
+.pack-save{
+  display:inline-block;background:var(--brand-tint);color:var(--brand-dark);
+  font-weight:800;font-size:14px;padding:5px 12px;border-radius:99px;margin-bottom:10px;
+}
+.pack-guar{font-size:12.5px;font-weight:700;letter-spacing:.04em;color:var(--ink-soft);margin-bottom:12px}
+.pack-total{font-size:15px;color:var(--ink-soft);margin-bottom:4px}
+.pack-total s{opacity:.7}
+.pack-total b{font-size:30px;color:var(--ink);display:block;line-height:1.1}
+.pack-ship{font-size:13.5px;font-weight:700;color:var(--ok);margin-bottom:14px}
+.pack-ship.paid{color:var(--ink-soft)}
+.pack .btn{margin-top:auto}
+.pack-cards{margin:12px auto 0;max-width:180px;opacity:.85}
+
+.btn{
+  display:block;width:100%;background:var(--cta);color:var(--cta-ink);
+  font:800 19px/1.15 var(--font);letter-spacing:.02em;text-align:center;
+  text-decoration:none;padding:16px 14px;border-radius:10px;border:0;cursor:pointer;
+  box-shadow:0 4px 0 rgba(0,0,0,.16);transition:background .15s,transform .05s;
+}
+.btn:hover{background:var(--cta-hover)}
+.btn:active{transform:translateY(2px);box-shadow:0 2px 0 rgba(0,0,0,.16)}
+.btn.is-pending{background:#b9bec6;cursor:not-allowed;box-shadow:none}
+
+.shipnote{text-align:center;margin-top:24px;font-size:16px}
+.shipnote b{display:block;font-size:20px}
+.shipnote small{color:var(--ink-soft)}
+
+/* ---- guarantee ----------------------------------------------------------- */
+.guar-grid{display:grid;gap:26px;grid-template-columns:1fr;align-items:center}
+.guar-img{max-width:300px;margin:0 auto}
+
+/* ---- trust badges -------------------------------------------------------- */
+.badges{display:flex;flex-wrap:wrap;justify-content:center;gap:18px;margin-top:8px}
+.badges img{width:82px;height:auto}
+
+/* ---- expert quote -------------------------------------------------------- */
+.expert{display:grid;gap:22px;grid-template-columns:1fr;align-items:center}
+.expert-img{max-width:230px;margin:0 auto;border-radius:var(--radius);overflow:hidden;background:var(--bg-alt)}
+.expert blockquote{
+  margin:0;font:italic 400 clamp(18px,2.4vw,23px)/1.5 var(--serif);color:var(--ink);
+  border-left:4px solid var(--brand);padding-left:18px;
+}
+.expert .who{font-size:13.5px;color:var(--ink-soft);margin-top:12px;font-style:normal}
+
+/* ---- ingredients --------------------------------------------------------- */
+.ingredients{display:grid;gap:16px;grid-template-columns:1fr;margin-top:26px}
+.ing{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px}
+.ing h3{color:var(--brand-dark);margin-bottom:.35em}
+.ing p{margin:0;font-size:15.5px;color:var(--ink-soft)}
+
+/* ---- bonuses ------------------------------------------------------------- */
+.bonuses{display:grid;gap:22px;grid-template-columns:1fr;margin-top:28px}
+.bonus{
+  display:grid;gap:16px;grid-template-columns:1fr;align-items:center;
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px;
+}
+.bonus-img{max-width:170px;margin:0 auto}
+.bonus-tag{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--brand)}
+.bonus h3{margin:4px 0 6px}
+.bonus .price{font-size:15px;margin-bottom:8px}
+.bonus .price s{color:var(--ink-soft)}
+.bonus .price b{color:var(--ok)}
+.bonus p{font-size:15.5px;color:var(--ink-soft);margin-bottom:10px}
+.bonus .instant{font-size:12.5px;font-weight:800;letter-spacing:.06em;color:var(--brand-dark)}
+
+/* ---- testimonials -------------------------------------------------------- */
+.reviews{display:grid;gap:20px;grid-template-columns:1fr;margin-top:28px}
+.review{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px;display:flex;flex-direction:column}
+.review .photo{width:72px;height:72px;border-radius:50%;object-fit:cover;margin-bottom:12px}
+.stars{color:#f5a623;font-size:15px;letter-spacing:1px}
+.verified{font-size:12px;font-weight:800;letter-spacing:.05em;color:var(--ok);text-transform:uppercase}
+.review p{font-size:15.5px;margin:10px 0 12px}
+.review .who{margin-top:auto;font-size:14.5px;font-weight:700}
+.review .who span{display:block;font-weight:400;color:var(--ink-soft);font-size:13.5px}
+
+/* ---- benefits list ------------------------------------------------------- */
+.benefits{list-style:none;margin:24px auto 0;padding:0;max-width:760px}
+.benefits li{
+  display:flex;gap:12px;align-items:flex-start;padding:13px 0;border-bottom:1px solid var(--line);
+  font-size:16.5px;
+}
+.benefits li:last-child{border-bottom:0}
+.benefits li::before{
+  content:"✓";flex:0 0 26px;height:26px;border-radius:50%;background:var(--brand);
+  color:#fff;font-weight:800;font-size:15px;display:grid;place-items:center;margin-top:1px;
+}
+
+/* ---- offer recap strip --------------------------------------------------- */
+.recap{display:grid;gap:18px;grid-template-columns:1fr;margin-top:26px;text-align:center}
+.recap div{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:22px 14px}
+.recap .mark{font-size:30px;line-height:1;margin-bottom:10px}
+.recap b{display:block;font-size:18px;color:var(--brand-dark)}
+.recap small{color:var(--ink-soft);font-size:14px}
+
+/* ---- FAQ ----------------------------------------------------------------- */
+.faq{max-width:820px;margin:26px auto 0}
+.faq details{border:1px solid var(--line);border-radius:var(--radius);background:#fff;margin-bottom:12px}
+.faq summary{
+  cursor:pointer;list-style:none;padding:16px 46px 16px 18px;font-weight:700;font-size:16.5px;
+  position:relative;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);
+  font-size:24px;font-weight:400;color:var(--brand);line-height:1;
+}
+.faq details[open] summary::after{content:"–"}
+.faq .answer{padding:0 18px 16px;font-size:15.5px;color:var(--ink-soft)}
+.faq .answer p:last-child{margin-bottom:0}
+
+/* ---- references strip ---------------------------------------------------- */
+.refs{max-width:700px;margin:0 auto}
+.refs-note{font-size:12.5px;color:var(--ink-soft);text-align:center;margin-top:12px}
+
+/* ---- footer -------------------------------------------------------------- */
+footer{background:#1b1e23;color:#9aa1ab;font-size:13px;line-height:1.6;padding:34px 0 44px}
+footer a{color:#cfd4da}
+footer .foot-links{margin-bottom:18px;text-align:center;color:#cfd4da}
+footer .foot-links a{margin:0 6px}
+footer .legal{max-width:900px;margin:0 auto}
+footer .legal p{margin-bottom:.9em}
+
+/* ---- sticky mobile bar --------------------------------------------------- */
+.stickybar{
+  position:fixed;left:0;right:0;bottom:0;z-index:40;background:#fff;
+  border-top:1px solid var(--line);box-shadow:0 -4px 18px rgba(0,0,0,.1);
+  padding:10px 14px;display:none;
+}
+.stickybar .btn{font-size:17px;padding:14px}
+.stickybar small{display:block;text-align:center;font-size:12px;color:var(--ink-soft);margin-top:5px}
+body.has-sticky{padding-bottom:86px}
+
+/* ---- responsive ---------------------------------------------------------- */
+@media (min-width:700px){
+  .hero-grid{grid-template-columns:1.15fr .85fr}
+  .hero-img{max-width:100%}
+  .guar-grid{grid-template-columns:.8fr 1.2fr}
+  .expert{grid-template-columns:.7fr 1.3fr}
+  .ingredients{grid-template-columns:1fr 1fr}
+  .bonus{grid-template-columns:200px 1fr}
+  .bonus-img{margin:0}
+  .reviews{grid-template-columns:1fr 1fr}
+  .recap{grid-template-columns:repeat(4,1fr)}
+}
+@media (min-width:960px){
+  .packs{grid-template-columns:repeat(3,1fr)}
+  .reviews{grid-template-columns:repeat(3,1fr)}
+}
+@media (max-width:699px){
+  .stickybar{display:block}
+  .pack{padding-top:26px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important;animation:none!important}
+}

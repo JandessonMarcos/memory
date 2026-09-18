@@ -88,7 +88,7 @@ p{margin:0 0 1em}
 .hero-img{margin:0 auto;max-width:420px}
 
 /* ---- offer cards --------------------------------------------------------- */
-.timer-head{text-align:center;margin-bottom:26px}
+.timer-head{text-align:center;margin-bottom:34px}
 .timer-head h2{margin-bottom:.35em}
 .timer{
   display:inline-block;background:var(--alert);color:#fff;font-weight:800;
@@ -103,7 +103,21 @@ p{margin:0 0 1em}
   background:#fff;padding:22px 18px 20px;text-align:center;
   display:flex;flex-direction:column;
 }
-.pack.best{border-color:var(--brand);box-shadow:0 10px 30px rgba(0,0,0,.09)}
+/* The 6-bottle pack is the one we want chosen: best margin, best value, and
+   the option 96% of buyers take. It gets thicker border, a tinted body, a
+   taller CTA and — on the 3-up desktop grid — a scale bump so it reads as the
+   default rather than as one of three equals. */
+.pack.best{
+  border-width:3px;border-color:var(--brand);background:var(--brand-tint);
+  box-shadow:0 16px 40px rgba(0,0,0,.16);
+  padding:26px 18px 24px;
+}
+.pack.best .pack-title{font-size:24px}
+.pack.best .pack-img{height:215px}
+.pack.best .pack-unit .num{font-size:62px}
+.pack.best .pack-save{background:var(--brand);color:#fff}
+.pack.best .pack-total b{font-size:34px}
+.pack.best .btn{font-size:21px;padding:19px 14px}
 .pack-flag{
   position:absolute;top:-13px;left:50%;transform:translateX(-50%);
   background:var(--brand);color:#fff;font-size:12.5px;font-weight:800;
@@ -266,12 +280,19 @@ body.has-sticky{padding-bottom:86px}
   .recap{grid-template-columns:repeat(4,1fr)}
 }
 @media (min-width:960px){
-  .packs{grid-template-columns:repeat(3,1fr)}
+  /* The scaled-up best card grows upward, and its flag sits above the card
+     edge — without this it lands on top of the countdown. */
+  .packs{grid-template-columns:repeat(3,1fr);align-items:center;margin-top:28px}
   .reviews{grid-template-columns:repeat(3,1fr)}
+  /* Lift the recommended pack out of the row so it is not one of three equals. */
+  .pack.best{transform:scale(1.06);position:relative;z-index:2}
 }
 @media (max-width:699px){
   .stickybar{display:block}
   .pack{padding-top:26px}
+  /* Stacked, the 6-bottle pack would sit second and get scrolled past after
+     the reader has already anchored on $79/bottle. Put it first. */
+  .pack.best{order:-1}
 }
 @media (prefers-reduced-motion:reduce){
   *{transition:none!important;animation:none!important}

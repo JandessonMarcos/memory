@@ -2448,14 +2448,16 @@
       "title": "Sensory Memory Explained: The Split-Second Memory You Don't Notice",
       "kw": "sensory memory",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-20"
     },
     {
       "slug": "eyewitness-testimony-and-memory-reliability",
       "title": "Eyewitness Testimony and Memory: Why Confident Witnesses Can Still Be Wrong",
       "kw": "eyewitness testimony memory",
       "cat": "Memory",
-      "status": "pending"
+      "status": "pending",
+      "note": "Attempted 2026-09-20: offline image pool hit 0 available entries (last one used by sensory-memory-explained); Openverse egress blocked in-sandbox, source-image.py returned MISS + POOL-MISS. Left pending; needs a local pool refill before this can publish."
     },
     {
       "slug": "the-zeigarnik-effect-and-memory",

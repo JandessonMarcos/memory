@@ -1,0 +1,54 @@
+Routine blocked: 2026-09-21 11:17 UTC
+
+Blocker: image sourcing failed for both paths (Openverse blocked by sandbox egress
+policy AND the offline image pool is fully exhausted - 0 of 164 pool entries have
+used_by: null). This is the genuine FAILURE PROTOCOL condition per RUNBOOK.md
+("Sourcing has truly failed ONLY if the script prints BOTH MISS and POOL-MISS").
+
+Pre-check: _automation/img-pool.json shows 164 total images, 0 with used_by: null
+(confirmed via `python3 -c "import json; p=json.load(open('_automation/img-pool.json'));
+print(len(p['images']), len([i for i in p['images'] if i.get('used_by') is None]))"`
+-> 164 0).
+
+Pillow check (STEP 0): OK. `pip install --quiet Pillow` succeeded;
+`python3 -c "import PIL, PIL.Image; print(PIL.__version__)"` printed 12.3.0.
+
+Failing command:
+python3 _automation/source-image.py eyewitness-testimony-and-memory-reliability "police lineup" "courtroom witness testifying" "detective interviewing witness"
+
+Complete verbatim stdout/stderr:
+/home/user/memory/_automation/source-image.py:68: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  px = list(g.getdata()); a = sum(px)/len(px)
+  query err (police lineup/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (courtroom witness testifying/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (detective interviewing witness/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (police lineup/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (courtroom witness testifying/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (detective interviewing witness/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+MISS eyewitness-testimony-and-memory-reliability  (openverse: no real photo passed)
+  Openverse unavailable/miss -> falling back to offline pool
+POOL-MISS eyewitness-testimony-and-memory-reliability  (pool exhausted; refill locally with build-pool.py)
+
+[agent-proxy] While this command ran, 6 connections through the agent proxy failed:
+- api.openverse.org:443 — connect_rejected (the egress proxy denied the CONNECT (organization policy) or could not reach the destination) ×6
+For details: curl -sS http://127.0.0.1:42759/__agentproxy/status
+
+Exit code: 1
+
+Note: this is NOT the previously-fixed "Openverse blocked" scenario, which is
+expected and handled automatically by the offline pool fallback. The distinct,
+genuine blocker this run is that the offline pool itself is now fully consumed
+(0/164 available), so there is no fallback left for source-image.py to use.
+This matches the queue note already left on eyewitness-testimony-and-memory-reliability
+from the 2026-09-20 run ("offline image pool hit 0 available entries ... needs a
+local pool refill before this can publish") -- confirming the pool has been at 0
+for at least two consecutive daily runs now.
+
+Action needed (per RUNBOOK.md "Refilling the pool"): run, from a machine with real
+network access (NOT this cloud sandbox, which cannot reach api.openverse.org or
+Wikimedia):
+  python3 _automation/build-pool.py --target 8
+then manually visually-audit every new file before committing (mark unusable ones
+"used_by": "__disqualified__" in _automation/img-pool.json), then commit and push
+the refilled pool. No articles were written or published this run; the queue is
+unchanged except for this diagnostic file.

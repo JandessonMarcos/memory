@@ -1,17 +1,22 @@
-Routine blocked: 2026-09-21 11:17 UTC
+Routine blocked: 2026-09-22 11:13 UTC
 
 Blocker: image sourcing failed for both paths (Openverse blocked by sandbox egress
 policy AND the offline image pool is fully exhausted - 0 of 164 pool entries have
 used_by: null). This is the genuine FAILURE PROTOCOL condition per RUNBOOK.md
 ("Sourcing has truly failed ONLY if the script prints BOTH MISS and POOL-MISS").
 
-Pre-check: _automation/img-pool.json shows 164 total images, 0 with used_by: null
-(confirmed via `python3 -c "import json; p=json.load(open('_automation/img-pool.json'));
-print(len(p['images']), len([i for i in p['images'] if i.get('used_by') is None]))"`
--> 164 0).
+This is the SAME blocker as the 2026-09-21 run (see prior commit 30845d3). The pool
+has now been at 0/164 available for at least two consecutive daily runs (2026-09-21,
+2026-09-22) and has not been refilled locally in between.
 
-Pillow check (STEP 0): OK. `pip install --quiet Pillow` succeeded;
-`python3 -c "import PIL, PIL.Image; print(PIL.__version__)"` printed 12.3.0.
+Pre-check: _automation/img-pool.json confirmed via
+`python3 -c "import json; d=json.load(open('_automation/img-pool.json')); imgs=d['images']; print(len(imgs), len([i for i in imgs if i.get('used_by') is None]))"`
+-> 164 0
+
+Pillow check (STEP 0): Pillow was NOT importable at run start (ModuleNotFoundError).
+Fixed with `pip install --quiet Pillow` (first attempt succeeded); re-check
+`python3 -c "import PIL, PIL.Image; print(PIL.__version__)"` printed 12.3.0. Not the
+blocker for this run.
 
 Failing command:
 python3 _automation/source-image.py eyewitness-testimony-and-memory-reliability "police lineup" "courtroom witness testifying" "detective interviewing witness"
@@ -30,25 +35,23 @@ MISS eyewitness-testimony-and-memory-reliability  (openverse: no real photo pass
 POOL-MISS eyewitness-testimony-and-memory-reliability  (pool exhausted; refill locally with build-pool.py)
 
 [agent-proxy] While this command ran, 6 connections through the agent proxy failed:
-- api.openverse.org:443 — connect_rejected (the egress proxy denied the CONNECT (organization policy) or could not reach the destination) ×6
-For details: curl -sS http://127.0.0.1:42759/__agentproxy/status
+- api.openverse.org:443 - connect_rejected (the egress proxy denied the CONNECT (organization policy) or could not reach the destination) x6
 
 Exit code: 1
 
 Note: this is NOT the previously-fixed "Openverse blocked" scenario, which is
 expected and handled automatically by the offline pool fallback. The distinct,
-genuine blocker this run is that the offline pool itself is now fully consumed
-(0/164 available), so there is no fallback left for source-image.py to use.
-This matches the queue note already left on eyewitness-testimony-and-memory-reliability
-from the 2026-09-20 run ("offline image pool hit 0 available entries ... needs a
-local pool refill before this can publish") -- confirming the pool has been at 0
-for at least two consecutive daily runs now.
+genuine blocker is that the offline pool itself is fully consumed (0/164
+available), so there is no fallback left for source-image.py to use.
 
-Action needed (per RUNBOOK.md "Refilling the pool"): run, from a machine with real
+Action needed (per RUNBOOK.md "Refilling the pool"): from a machine with real
 network access (NOT this cloud sandbox, which cannot reach api.openverse.org or
-Wikimedia):
+Wikimedia), run:
   python3 _automation/build-pool.py --target 8
 then manually visually-audit every new file before committing (mark unusable ones
 "used_by": "__disqualified__" in _automation/img-pool.json), then commit and push
-the refilled pool. No articles were written or published this run; the queue is
-unchanged except for this diagnostic file.
+the refilled pool. This has now been the blocker on 2 consecutive daily runs
+(2026-09-21 and 2026-09-22) with no refill landing in between - matches the pattern
+described in RUNBOOK.md's "Known failure: the pool starved for 8 straight days"
+section. No articles were written or published this run; the queue is unchanged
+except that this diagnostic file was refreshed.

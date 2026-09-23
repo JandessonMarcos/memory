@@ -38,17 +38,17 @@ HAM_MIN    = 10
 THEMES = {
     # "brain-science" is intentionally retired: Commons returns clinical/cadaver
     # specimens for these queries. Brain/memory articles route to "thinking-memory".
-    "senior-aging":      ["elderly woman portrait", "senior man outdoors", "old couple walking", "grandmother gardening", "senior citizen smiling"],
+    "senior-aging":      ["elderly woman portrait color", "senior man park bench", "retired couple walking beach", "grandmother gardening", "older woman reading glasses"],
     "food-nutrition":    ["fresh vegetables", "healthy salad", "blueberries fruit", "salmon dish", "nuts walnuts"],
     "exercise-fitness":  ["person jogging", "woman yoga", "senior exercise", "people walking outdoors", "nordic walking", "woman running outdoor", "cycling outdoors", "gym dumbbell workout", "elderly couple walking"],
     "sleep-rest":        ["person sleeping", "bedroom bed", "woman resting", "man sleeping bed", "woman sleeping pillow", "napping sofa", "bedroom interior morning"],
     "study-focus":       ["student studying", "woman reading book", "person laptop working", "library books", "woman studying laptop", "man reading newspaper", "reading glasses book", "college student writing", "desk workspace laptop"],
-    "supplement-pills":  ["dietary supplement capsules", "vitamin pills", "medicine tablets", "fish oil capsules", "pills close up", "medication bottle", "pharmacy tablets", "colorful pills"],
+    "supplement-pills":  ["dietary supplement capsules", "vitamin pills", "medicine tablets", "fish oil capsules", "pills close up", "pharmacy tablets", "colorful pills"],
     "doctor-medical":    ["doctor patient", "nurse blood pressure", "stethoscope", "medical checkup"],
     "nature-lifestyle":  ["forest path walking", "sunrise landscape", "green tea cup", "coffee cup table"],
     "meditation-calm":   ["woman meditation", "yoga meditation", "person relaxing outdoors"],
-    "social-connection": ["friends together", "family dinner", "elderly people group", "people talking cafe"],
-    "thinking-memory":   ["person thinking", "jigsaw puzzle pieces", "chess board", "sticky notes wall", "notebook writing"],
+    "social-connection": ["family dinner table", "people talking cafe", "friends coffee shop conversation", "seniors playing cards", "picnic in park adults"],
+    "thinking-memory":   ["jigsaw puzzle pieces", "chess board", "sticky notes wall", "notebook writing", "crossword puzzle pen", "man hand on chin portrait"],
 }
 
 def structure(im):

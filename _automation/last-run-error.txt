@@ -1,13 +1,15 @@
-Routine blocked: 2026-09-22 11:13 UTC
+Routine blocked: 2026-09-23 UTC
 
 Blocker: image sourcing failed for both paths (Openverse blocked by sandbox egress
 policy AND the offline image pool is fully exhausted - 0 of 164 pool entries have
 used_by: null). This is the genuine FAILURE PROTOCOL condition per RUNBOOK.md
 ("Sourcing has truly failed ONLY if the script prints BOTH MISS and POOL-MISS").
 
-This is the SAME blocker as the 2026-09-21 run (see prior commit 30845d3). The pool
-has now been at 0/164 available for at least two consecutive daily runs (2026-09-21,
-2026-09-22) and has not been refilled locally in between.
+This is the SAME blocker as the 2026-09-21 and 2026-09-22 runs (see prior commits
+30845d3 and 44e3b40). The pool has now been at 0/164 available for at least THREE
+consecutive daily runs (2026-09-21, 2026-09-22, 2026-09-23) and has not been
+refilled locally in between. Breakdown of the 164 manifest entries: 105 used_by
+set to a slug, 59 used_by: "__disqualified__", 0 available.
 
 Pre-check: _automation/img-pool.json confirmed via
 `python3 -c "import json; d=json.load(open('_automation/img-pool.json')); imgs=d['images']; print(len(imgs), len([i for i in imgs if i.get('used_by') is None]))"`
@@ -50,8 +52,10 @@ Wikimedia), run:
   python3 _automation/build-pool.py --target 8
 then manually visually-audit every new file before committing (mark unusable ones
 "used_by": "__disqualified__" in _automation/img-pool.json), then commit and push
-the refilled pool. This has now been the blocker on 2 consecutive daily runs
-(2026-09-21 and 2026-09-22) with no refill landing in between - matches the pattern
-described in RUNBOOK.md's "Known failure: the pool starved for 8 straight days"
-section. No articles were written or published this run; the queue is unchanged
-except that this diagnostic file was refreshed.
+the refilled pool. This has now been the blocker on 3 consecutive daily runs
+(2026-09-21, 2026-09-22, 2026-09-23) with no refill landing in between - matches
+the pattern described in RUNBOOK.md's "Known failure: the pool starved for 8
+straight days" section, and is on track to repeat that outage unless a human
+refills the pool locally and commits it before the next scheduled run. No
+articles were written or published this run; the queue is unchanged (16 pending
+topics remain) except that this diagnostic file was refreshed.

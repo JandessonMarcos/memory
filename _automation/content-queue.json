@@ -2456,15 +2456,17 @@
       "title": "Eyewitness Testimony and Memory: Why Confident Witnesses Can Still Be Wrong",
       "kw": "eyewitness testimony memory",
       "cat": "Memory",
-      "status": "pending",
-      "note": "Attempted 2026-09-20: offline image pool hit 0 available entries (last one used by sensory-memory-explained); Openverse egress blocked in-sandbox, source-image.py returned MISS + POOL-MISS. Left pending; needs a local pool refill before this can publish."
+      "status": "done",
+      "note": "Attempted 2026-09-20: offline image pool hit 0 available entries (last one used by sensory-memory-explained); Openverse egress blocked in-sandbox, source-image.py returned MISS + POOL-MISS. Left pending; needs a local pool refill before this can publish.",
+      "published": "2026-09-24"
     },
     {
       "slug": "the-zeigarnik-effect-and-memory",
       "title": "The Zeigarnik Effect: Why Unfinished Tasks Stick in Your Memory",
       "kw": "zeigarnik effect",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-24"
     },
     {
       "slug": "why-we-remember-embarrassing-moments",

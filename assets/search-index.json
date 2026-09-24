@@ -1041,5 +1041,26 @@
     "c": "Memory",
     "k": "procedural memory implicit memory basal ganglia cerebellum motor skill",
     "d": "Riding a bike, typing, tying your shoes: procedural memory keeps skills like these long after other memories fade. Here's what it is, where it lives in the brain, and how to build it faster."
+  },
+  {
+    "t": "Eyewitness Testimony and Memory: Why Confident Witnesses Can Still Be Wrong",
+    "u": "/eyewitness-testimony-and-memory-reliability/",
+    "c": "Memory",
+    "k": "eyewitness testimony memory",
+    "d": "Eyewitness memory feels like a video replay, but it isn't one. Here's why even a witness who sounds certain can misremember, and what courts are doing about it."
+  },
+  {
+    "t": "The Zeigarnik Effect: Why Unfinished Tasks Stick in Your Memory",
+    "u": "/the-zeigarnik-effect-and-memory/",
+    "c": "Memory",
+    "k": "zeigarnik effect",
+    "d": "An unfinished task can nag at your memory far more than a finished one. Here's the psychology behind the Zeigarnik effect and how to actually use it."
+  },
+  {
+    "t": "Scientists Release Landmark Single-Cell Map of Alzheimer's and Brain Disorders",
+    "u": "/alzheimers-single-cell-brain-atlas-study/",
+    "c": "News",
+    "k": "",
+    "d": "An NIH-funded consortium published nine papers mapping the molecular and cellular architecture of Alzheimer's, Parkinson's and other brain disorders at single-cell resolution. Here's what the research actually shows."
   }
 ]

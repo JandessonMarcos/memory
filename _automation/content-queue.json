@@ -2490,7 +2490,8 @@
       "kw": "nicotine cognitive function",
       "cat": "Brain Health",
       "angle": "YMYL: hedge heavily, never encourage nicotine use, note addiction and cardiovascular risk, doctor caveat, distinguish nicotine from smoking-related harm.",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-26"
     },
     {
       "slug": "glp1-drugs-and-brain-fog",
@@ -2498,7 +2499,8 @@
       "kw": "glp-1 drugs brain fog",
       "cat": "Brain Health",
       "angle": "YMYL: factual, hedge heavily, this is an active area of research, never suggest starting/stopping medication, doctor caveat up front.",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-26"
     },
     {
       "slug": "secondhand-smoke-and-cognitive-decline",

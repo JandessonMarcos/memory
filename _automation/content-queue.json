@@ -2507,14 +2507,16 @@
       "title": "Secondhand Smoke and Cognitive Decline: What the Evidence Shows",
       "kw": "secondhand smoke cognitive decline",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-27"
     },
     {
       "slug": "ultra-processed-food-and-brain-fog",
       "title": "Ultra-Processed Food and Brain Fog: What the Research Says",
       "kw": "ultra processed food brain fog",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-27"
     },
     {
       "slug": "misophonia-and-concentration",

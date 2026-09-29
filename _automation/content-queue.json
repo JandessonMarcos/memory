@@ -2539,14 +2539,16 @@
       "title": "Pet Ownership and Cognitive Health: Can a Dog Help Protect Your Memory?",
       "kw": "pet ownership cognitive health",
       "cat": "Aging Well",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-29"
     },
     {
       "slug": "gardening-and-brain-health",
       "title": "Gardening and Brain Health: What the Research Shows",
       "kw": "gardening brain health",
       "cat": "Aging Well",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-09-29"
     },
     {
       "slug": "dancing-and-dementia-risk",
@@ -2589,6 +2591,146 @@
       "slug": "nac-n-acetylcysteine-and-brain-health",
       "title": "NAC (N-Acetylcysteine) and Brain Health: What the Evidence Supports",
       "kw": "nac n-acetylcysteine brain health",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "tai-chi-and-cognitive-function",
+      "title": "Tai Chi and Cognitive Function: What the Research Shows",
+      "kw": "tai chi cognitive function",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "yoga-and-brain-health",
+      "title": "Yoga and Brain Health: Does It Really Sharpen Focus and Memory?",
+      "kw": "yoga brain health",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "singing-and-memory",
+      "title": "Can Singing Improve Memory? The Research on Choirs and Recall",
+      "kw": "singing memory choir",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "driving-cessation-and-cognitive-decline",
+      "title": "Giving Up Driving and Cognitive Decline: Is There a Link?",
+      "kw": "driving cessation cognitive decline",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "hearing-aids-and-cognitive-decline",
+      "title": "Can Hearing Aids Slow Cognitive Decline? What Studies Show",
+      "kw": "hearing aids cognitive decline",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "vision-loss-and-cognitive-decline",
+      "title": "Vision Loss and Cognitive Decline: What's the Connection?",
+      "kw": "vision loss cognitive decline",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "grip-strength-and-cognitive-decline",
+      "title": "Grip Strength and Cognitive Decline: An Unexpected Predictor?",
+      "kw": "grip strength cognitive decline",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "periodontal-disease-and-dementia-risk",
+      "title": "Periodontal Disease and Dementia Risk: What the Research Says",
+      "kw": "periodontal disease dementia",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "chewing-and-cognitive-function",
+      "title": "Chewing and Cognitive Function: Does Poor Dental Health Affect Memory?",
+      "kw": "chewing cognitive function",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "smartphone-dependence-and-memory",
+      "title": "Smartphone Dependence and Memory: Is Your Phone Weakening Recall?",
+      "kw": "smartphone dependence memory",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "gps-navigation-and-spatial-memory",
+      "title": "GPS Navigation and Spatial Memory: Is Your Phone Dulling Your Sense of Direction?",
+      "kw": "gps navigation spatial memory",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "artificial-sweeteners-and-brain-fog",
+      "title": "Artificial Sweeteners and Brain Fog: Is There a Real Connection?",
+      "kw": "artificial sweeteners brain fog",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "microplastics-and-brain-health",
+      "title": "Microplastics and Brain Health: What the Early Research Shows",
+      "kw": "microplastics brain health",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "cranberry-and-cognitive-function",
+      "title": "Cranberries and Cognitive Function: What the Research Suggests",
+      "kw": "cranberry cognitive function",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "beetroot-juice-and-brain-health",
+      "title": "Beetroot Juice and Brain Health: Can Nitrates Boost Blood Flow to the Brain?",
+      "kw": "beetroot juice brain health",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "tea-vs-coffee-for-focus",
+      "title": "Tea vs Coffee for Focus: Which Is Better for Your Brain?",
+      "kw": "tea vs coffee focus",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "cooking-and-brain-health",
+      "title": "Cooking and Brain Health: Why Meal Prep Doubles as Mental Exercise",
+      "kw": "cooking and brain health",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "beta-carotene-and-brain-health",
+      "title": "Beta-Carotene and Brain Health: What the Evidence Shows",
+      "kw": "beta carotene brain health",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "homocysteine-and-cognitive-decline",
+      "title": "Homocysteine and Cognitive Decline: Why This Marker Matters",
+      "kw": "homocysteine cognitive decline",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "cinnamon-and-brain-health",
+      "title": "Cinnamon and Brain Health: Does It Really Support Memory?",
+      "kw": "cinnamon brain health",
       "cat": "Ingredients",
       "status": "pending"
     }

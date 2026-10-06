@@ -2667,14 +2667,16 @@
       "title": "Chewing and Cognitive Function: Does Poor Dental Health Affect Memory?",
       "kw": "chewing cognitive function",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-10-06"
     },
     {
       "slug": "smartphone-dependence-and-memory",
       "title": "Smartphone Dependence and Memory: Is Your Phone Weakening Recall?",
       "kw": "smartphone dependence memory",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-10-06"
     },
     {
       "slug": "gps-navigation-and-spatial-memory",

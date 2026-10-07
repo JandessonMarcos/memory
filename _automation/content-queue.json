@@ -2683,14 +2683,16 @@
       "title": "GPS Navigation and Spatial Memory: Is Your Phone Dulling Your Sense of Direction?",
       "kw": "gps navigation spatial memory",
       "cat": "Memory",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-10-07"
     },
     {
       "slug": "artificial-sweeteners-and-brain-fog",
       "title": "Artificial Sweeteners and Brain Fog: Is There a Real Connection?",
       "kw": "artificial sweeteners brain fog",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-10-07"
     },
     {
       "slug": "microplastics-and-brain-health",

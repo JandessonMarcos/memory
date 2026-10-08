@@ -2699,14 +2699,16 @@
       "title": "Microplastics and Brain Health: What the Early Research Shows",
       "kw": "microplastics brain health",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-10-08"
     },
     {
       "slug": "cranberry-and-cognitive-function",
       "title": "Cranberries and Cognitive Function: What the Research Suggests",
       "kw": "cranberry cognitive function",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-10-08"
     },
     {
       "slug": "beetroot-juice-and-brain-health",

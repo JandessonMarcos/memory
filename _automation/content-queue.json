@@ -2715,14 +2715,16 @@
       "title": "Beetroot Juice and Brain Health: Can Nitrates Boost Blood Flow to the Brain?",
       "kw": "beetroot juice brain health",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-10-09"
     },
     {
       "slug": "tea-vs-coffee-for-focus",
       "title": "Tea vs Coffee for Focus: Which Is Better for Your Brain?",
       "kw": "tea vs coffee focus",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "pending",
+      "note": "SKIPPED 2026-10-09: image pool has zero stock in every on-topic theme (nature-lifestyle, study-focus, food-nutrition all at 0 available); the only theme with stock left is sleep-rest (bedroom/bed photos), which is not a defensible hero image for this topic. Needs a local pool refill (build-pool.py) before this can run safely, or re-check pool availability on a later run."
     },
     {
       "slug": "cooking-and-brain-health",
@@ -2750,6 +2752,146 @@
       "title": "Cinnamon and Brain Health: Does It Really Support Memory?",
       "kw": "cinnamon brain health",
       "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "houseplants-and-cognitive-function",
+      "title": "Houseplants and Cognitive Function: Does Greenery Really Sharpen Focus?",
+      "kw": "houseplants cognitive function focus",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "pet-ownership-and-cognitive-decline",
+      "title": "Pet Ownership and Cognitive Decline: What the Research Shows",
+      "kw": "pet ownership cognitive decline",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "volunteering-and-cognitive-decline",
+      "title": "Volunteering and Cognitive Decline: Does Giving Back Protect Your Brain?",
+      "kw": "volunteering cognitive decline",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "knitting-and-cognitive-function",
+      "title": "Knitting and Cognitive Function: The Case for Handcrafts and a Sharper Mind",
+      "kw": "knitting cognitive function brain",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "white-noise-machines-and-focus",
+      "title": "White Noise Machines and Focus: Do They Actually Help Concentration?",
+      "kw": "white noise focus concentration",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "mushroom-coffee-and-focus",
+      "title": "Mushroom Coffee and Focus: Does It Actually Sharpen Concentration?",
+      "kw": "mushroom coffee focus",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "taurine-and-cognitive-function",
+      "title": "Taurine and Cognitive Function: What the Research Actually Shows",
+      "kw": "taurine cognitive function brain",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "vitamin-e-and-brain-health",
+      "title": "Vitamin E and Brain Health: Why This Antioxidant Matters for Memory",
+      "kw": "vitamin e brain health",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "vitamin-k2-and-brain-health",
+      "title": "Vitamin K2 and Brain Health: An Overlooked Nutrient's Role in Cognition",
+      "kw": "vitamin k2 brain health",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "elderberry-and-cognitive-function",
+      "title": "Elderberry and Cognitive Function: Is There Any Brain Benefit?",
+      "kw": "elderberry cognitive function brain",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "apple-cider-vinegar-and-brain-fog",
+      "title": "Apple Cider Vinegar and Brain Fog: Does It Really Help Focus?",
+      "kw": "apple cider vinegar brain fog",
+      "cat": "Ingredients",
+      "status": "pending"
+    },
+    {
+      "slug": "red-light-therapy-and-brain-health",
+      "title": "Red Light Therapy and Brain Health: What the Evidence Actually Shows",
+      "kw": "red light therapy brain health",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "forest-bathing-and-cognitive-function",
+      "title": "Forest Bathing and Cognitive Function: Can Time in Nature Sharpen Your Mind?",
+      "kw": "forest bathing cognitive function",
+      "cat": "Aging Well",
+      "status": "pending"
+    },
+    {
+      "slug": "decluttering-and-mental-clarity",
+      "title": "Decluttering and Mental Clarity: Does a Tidy Space Really Help You Think?",
+      "kw": "decluttering mental clarity focus",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "morning-light-exposure-and-cognitive-function",
+      "title": "Morning Light Exposure and Cognitive Function: Why Early Sun Matters",
+      "kw": "morning light exposure cognitive function",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "commute-length-and-cognitive-fatigue",
+      "title": "Commute Length and Cognitive Fatigue: Is a Long Commute Draining Your Focus?",
+      "kw": "commute length cognitive fatigue",
+      "cat": "Brain Health",
+      "status": "pending"
+    },
+    {
+      "slug": "deep-work-technique-and-memory",
+      "title": "Deep Work and Memory: Does Focused, Uninterrupted Work Improve Recall?",
+      "kw": "deep work memory focus",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "digital-detox-and-memory",
+      "title": "Digital Detox and Memory: What Happens When You Unplug?",
+      "kw": "digital detox memory",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "crossword-vs-sudoku-for-brain-health",
+      "title": "Crossword vs Sudoku for Brain Health: Which Puzzle Wins?",
+      "kw": "crossword vs sudoku brain health",
+      "cat": "Memory",
+      "status": "pending"
+    },
+    {
+      "slug": "weighted-blankets-and-sleep-quality-memory",
+      "title": "Weighted Blankets, Sleep Quality and Memory: Is There a Real Connection?",
+      "kw": "weighted blankets sleep memory",
+      "cat": "Brain Health",
       "status": "pending"
     }
   ]

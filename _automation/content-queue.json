@@ -2724,7 +2724,7 @@
       "kw": "tea vs coffee focus",
       "cat": "Ingredients",
       "status": "pending",
-      "note": "SKIPPED 2026-10-09: image pool has zero stock in every on-topic theme (nature-lifestyle, study-focus, food-nutrition all at 0 available); the only theme with stock left is sleep-rest (bedroom/bed photos), which is not a defensible hero image for this topic. Needs a local pool refill (build-pool.py) before this can run safely, or re-check pool availability on a later run."
+      "note": "SKIPPED 2026-10-09 and 2026-10-10: image pool is down to 3 unused images total, all in the sleep-rest theme (bedroom/bed photos); every other theme (nature-lifestyle, study-focus, food-nutrition, etc.) is at 0 available. A sleep-rest photo is not a defensible hero image for this topic. Only 2 sleep-rest images remain unused as of 2026-10-10. Needs a LOCAL pool refill (python3 _automation/build-pool.py --target 8, run where Openverse/Wikimedia are reachable, then a human visual audit) before this or most other pending topics can run safely."
     },
     {
       "slug": "cooking-and-brain-health",
@@ -2892,7 +2892,8 @@
       "title": "Weighted Blankets, Sleep Quality and Memory: Is There a Real Connection?",
       "kw": "weighted blankets sleep memory",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-10-10"
     }
   ]
 }

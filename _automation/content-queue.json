@@ -2731,7 +2731,8 @@
       "title": "Cooking and Brain Health: Why Meal Prep Doubles as Mental Exercise",
       "kw": "cooking and brain health",
       "cat": "Aging Well",
-      "status": "pending"
+      "status": "pending",
+      "note": "SKIPPED 2026-10-11 along with the other early-queue pending topics: image pool was down to 2 unused images total, both in the sleep-rest theme (bedroom photos). white-noise-machines-and-focus and morning-light-exposure-and-cognitive-function were published instead because they're genuinely bedroom/sleep-context topics those photos fit. Pool is now fully exhausted (0 available in every theme). Needs a LOCAL pool refill (python3 _automation/build-pool.py --target 8, run where Openverse/Wikimedia are reachable, then a human visual audit) before this or most other pending topics can run."
     },
     {
       "slug": "beta-carotene-and-brain-health",
@@ -2787,7 +2788,8 @@
       "title": "White Noise Machines and Focus: Do They Actually Help Concentration?",
       "kw": "white noise focus concentration",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-10-11"
     },
     {
       "slug": "mushroom-coffee-and-focus",
@@ -2857,7 +2859,8 @@
       "title": "Morning Light Exposure and Cognitive Function: Why Early Sun Matters",
       "kw": "morning light exposure cognitive function",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "done",
+      "published": "2026-10-11"
     },
     {
       "slug": "commute-length-and-cognitive-fatigue",

@@ -1,38 +1,37 @@
-UTC date: 2026-10-12
+UTC date: 2026-10-13
 Blocker: Image pool exhausted (0 available entries in every theme) AND Openverse unreachable from this cloud sandbox (expected, per RUNBOOK network note). source-image.py printed BOTH MISS and POOL-MISS for the next pending queue topic, so per RUNBOOK FAILURE PROTOCOL no article was published this run.
 
-Pool state check (python3 one-liner over _automation/img-pool.json), counting entries with used_by == null per theme:
+STEP 0 check: Pillow did not import on first try (ModuleNotFoundError). Installed via `python3 -m pip install --quiet Pillow`; re-check succeeded: `import PIL, PIL.Image` -> OK, version 12.3.0. This is NOT the blocker.
+
+Pool state check (python3 one-liner over _automation/img-pool.json), counting entries with used_by == null:
   total images: 247
-  by theme total: {'senior-aging': 17, 'food-nutrition': 25, 'exercise-fitness': 22, 'sleep-rest': 22, 'doctor-medical': 22, 'nature-lifestyle': 22, 'meditation-calm': 21, 'social-connection': 22, 'thinking-memory': 24, 'study-focus': 26, 'supplement-pills': 23}
-  by theme available (used_by is null): {}
-  overall available: 0
+  available total (used_by is null): 0
+  by theme available: {} (empty — every theme is at 0)
 
-This matches the notes already recorded on the next pending queue items (tea-vs-coffee-for-focus: skipped 2026-10-09 and 2026-10-10 for the same reason; cooking-and-brain-health: skipped 2026-10-11, pool fully exhausted in every theme). The exhaustion has now persisted across at least three prior runs plus this one.
+This is unchanged from the previous run (2026-10-12, see prior diagnostic / commit 9c58513), which recorded the same total (247) and the same 0-available state across all 11 themes. The pool has not been refilled locally since then.
 
-Command run to confirm (first pending topic: beta-carotene-and-brain-health):
-$ python3 _automation/source-image.py beta-carotene-and-brain-health "beta carotene foods" "orange vegetables" "carrots sweet potatoes"
+Command run to confirm (first pending topic: tea-vs-coffee-for-focus):
+$ python3 _automation/source-image.py tea-vs-coffee-for-focus "coffee cup on desk" "tea cup with leaves" "person drinking coffee"
 
 Complete verbatim stdout/stderr:
 /home/user/memory/_automation/source-image.py:68: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
   px = list(g.getdata()); a = sum(px)/len(px)
-  query err (beta carotene foods/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
-  query err (orange vegetables/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
-  query err (carrots sweet potatoes/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
-  query err (beta carotene foods/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
-  query err (orange vegetables/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
-  query err (carrots sweet potatoes/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
-MISS beta-carotene-and-brain-health  (openverse: no real photo passed)
+  query err (coffee cup on desk/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (tea cup with leaves/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (person drinking coffee/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (coffee cup on desk/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (tea cup with leaves/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+  query err (person drinking coffee/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+MISS tea-vs-coffee-for-focus  (openverse: no real photo passed)
   Openverse unavailable/miss -> falling back to offline pool
-POOL-MISS beta-carotene-and-brain-health  (pool exhausted; refill locally with build-pool.py)
+POOL-MISS tea-vs-coffee-for-focus  (pool exhausted; refill locally with build-pool.py)
 
 [agent-proxy] While this command ran, 6 connections through the agent proxy failed:
 - api.openverse.org:443 — connect_rejected (the egress proxy denied the CONNECT (organization policy) or could not reach the destination) x6
 Exit code: 1
 
-Note: Pillow itself imports fine in this environment (installed via `python3 -m pip install --quiet Pillow`, version 12.3.0 confirmed). This is NOT a Pillow blocker. The blocker is strictly: Openverse network egress is blocked (expected/known) AND the offline pool fallback has zero usable images left in every theme.
-
 Required fix (per RUNBOOK, must be done LOCALLY where Openverse/Wikimedia are reachable):
   python3 _automation/build-pool.py --target 8
 followed by a human visual audit of every newly pulled image before committing (mark rejects used_by: "__disqualified__"), then push the refilled _automation/img-pool.json and assets/img-pool/ files so the next cloud run can publish again.
 
-No article was written or published this run. No files other than this diagnostic were changed.
+This is now the 2nd consecutive cloud run blocked by pool exhaustion (preceded by at least three earlier skips on tea-vs-coffee-for-focus and cooking-and-brain-health per notes already in the queue, plus the 2026-10-12 diagnostic). No article was written or published this run. No files other than this diagnostic were changed.

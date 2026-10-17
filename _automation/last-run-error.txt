@@ -1,40 +1,58 @@
-UTC date: 2026-10-16
-Blocker: Image pool exhausted (0 available entries in every theme) AND Openverse unreachable from this cloud sandbox (expected, per RUNBOOK network note). source-image.py printed BOTH MISS and POOL-MISS for the next pending queue topic, so per RUNBOOK FAILURE PROTOCOL no article was published this run.
+Routine blocked: 2026-10-17 11:06:12 UTC
 
-STEP 0 check: Pillow did not import on first try (ModuleNotFoundError: No module named 'PIL'). The interpreter resolved by `python3`/`pip` is Python 3.11 at /usr/local/bin/python3; a plain `pip install --quiet Pillow` reported "Requirement already satisfied" against a *different* Python 3.13 site-packages directory and did not fix the 3.11 interpreter actually used. `python3 -m pip install --quiet Pillow` (pip 24.0, python 3.11) succeeded; re-check succeeded: `import PIL, PIL.Image` -> OK, version 12.3.0. This is NOT the blocker.
+BLOCKER: Image sourcing failed for both paths (Openverse unreachable AND offline pool exhausted).
+This is the FAILURE PROTOCOL case per RUNBOOK.md / task instructions: source-image.py printed
+both MISS and POOL-MISS for the test slug below.
 
-Git state at session start: local HEAD was detached from refs/heads/main, pointing at the previous diagnostic commit (37990d9), which was already equal to origin/main. Ran `git checkout main` (plain checkout of the existing local branch, already identical to the detached commit — no reset needed) then `git merge --ff-only origin/main` to land 3 commits that already existed on the remote (the 10-13/10-14/10-15 diagnostics) that this clone's local `main` ref hadn't caught up to. Nothing was discarded. Not the blocker, but recorded in case it recurs.
+Environment check (STEP 0) passed fine:
+  $ python3 -c "import PIL, PIL.Image; print('OK Pillow', PIL.__version__)"
+  OK Pillow 13.0.0
+  (Pillow was not preinstalled; `python3 -m pip install --quiet Pillow` succeeded on the first
+  retry after a plain `pip install --quiet Pillow` failed with ModuleNotFoundError.)
 
-Pool state check (python3 one-liner over _automation/img-pool.json), counting entries with used_by == null:
-  total images: 247
-  available total (used_by is null): 0
-  by theme available: {} (empty — every theme is at 0)
+Pool status check (direct manifest audit, independent of source-image.py):
+  $ python3 -c "
+  import json
+  d = json.load(open('_automation/img-pool.json'))
+  imgs = d['images']
+  disq = sum(1 for e in imgs if e.get('used_by') == '__disqualified__')
+  used = sum(1 for e in imgs if e.get('used_by') and e.get('used_by') != '__disqualified__')
+  avail = sum(1 for e in imgs if not e.get('used_by'))
+  print('total entries:', len(imgs), 'disqualified:', disq, 'used:', used, 'available:', avail)
+  "
+  total entries: 247 disqualified: 103 used: 144 available: 0
 
-This is unchanged from the previous five runs (2026-10-11 through 2026-10-15), all of which recorded the same total (247) and the same 0-available state across all themes. The pool has still not been refilled locally. This is now the 6th consecutive cloud run blocked by pool exhaustion.
+Network check (direct, independent of source-image.py):
+  $ curl -sS -o /dev/null -w "openverse: %{http_code}\n" --max-time 10 "https://api.openverse.org/v1/images/?q=test"
+  curl: (56) CONNECT tunnel failed, response 403
+  openverse: 000
+  $ curl -sS -o /dev/null -w "wikimedia: %{http_code}\n" --max-time 10 "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=test&format=json"
+  curl: (56) CONNECT tunnel failed, response 403
+  wikimedia: 000
+  [agent-proxy] While this command ran, 2 connections through the agent proxy failed:
+  - commons.wikimedia.org:443 — connect_rejected (the egress proxy refused the connection or could not reach the host; a refusal most often means that the host is not allowed for this session)
+  - api.openverse.org:443 — connect_rejected (the egress proxy refused the connection or could not reach the host; a refusal most often means that the host is not allowed for this session)
 
-Command run to confirm (next pending topic, top of queue: tea-vs-coffee-for-focus):
-$ python3 _automation/source-image.py tea-vs-coffee-for-focus "coffee cup on desk" "tea cup with leaves" "person drinking coffee" "warm beverage focus"
+Actual sourcing attempt (complete verbatim stdout/stderr) for the top pending queue item,
+"tea-vs-coffee-for-focus":
+  $ python3 _automation/source-image.py tea-vs-coffee-for-focus 'cup of tea on table' 'coffee cup on desk' 'person drinking tea'
+  /home/user/memory/_automation/source-image.py:68: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+    px = list(g.getdata()); a = sum(px)/len(px)
+    query err (cup of tea on table/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+    query err (coffee cup on desk/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+    query err (person drinking tea/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
+    query err (cup of tea on table/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+    query err (coffee cup on desk/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+    query err (person drinking tea/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
+  MISS tea-vs-coffee-for-focus  (openverse: no real photo passed)
+    Openverse unavailable/miss -> falling back to offline pool
+  POOL-MISS tea-vs-coffee-for-focus  (pool exhausted; refill locally with build-pool.py)
+  [exit code 1]
+  [agent-proxy] While this command ran, 6 connections through the agent proxy failed:
+  - api.openverse.org:443 — connect_rejected (the egress proxy refused the connection or could not reach the host; a refusal most often means that the host is not allowed for this session) x6
 
-Complete verbatim stdout/stderr:
-/home/user/memory/_automation/source-image.py:68: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
-  px = list(g.getdata()); a = sum(px)/len(px)
-  query err (coffee cup on desk/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
-  query err (tea cup with leaves/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
-  query err (person drinking coffee/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
-  query err (warm beverage focus/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden>
-  query err (coffee cup on desk/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
-  query err (tea cup with leaves/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
-  query err (person drinking coffee/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
-  query err (warm beverage focus/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden>
-MISS tea-vs-coffee-for-focus  (openverse: no real photo passed)
-  Openverse unavailable/miss -> falling back to offline pool
-POOL-MISS tea-vs-coffee-for-focus  (pool exhausted; refill locally with build-pool.py)
-
-[agent-proxy] While this command ran, 8 connections through the agent proxy failed:
-- api.openverse.org:443 — connect_rejected (the egress proxy refused the connection or could not reach the host; a refusal most often means that the host is not allowed for this session) x8
-
-Required fix (per RUNBOOK, must be done LOCALLY where Openverse/Wikimedia are reachable):
-  python3 _automation/build-pool.py --target 8
-followed by a human visual audit of every newly pulled image before committing (mark rejects used_by: "__disqualified__"), then push the refilled _automation/img-pool.json and assets/img-pool/ files so the next cloud run can publish again.
-
-No article was written or published this run. No files other than this diagnostic were changed. Queue health is otherwise fine: 22 pending topics remain, well above the 6-item refill threshold, so no queue refill was needed this run.
+CONCLUSION: Per RUNBOOK.md, this needs a LOCAL refill (`python3 _automation/build-pool.py --target 8`
+run from a machine where Openverse/Wikimedia egress works, with a human visually auditing every new
+image before commit). The cloud sandbox cannot do this refill itself. No articles were written or
+published this run to avoid shipping an imageless/synthetic-image post. This is day 6 of this same
+blocker (prior diag commits: 2026-10-12, 10-13, 10-14, 10-15, 10-16 all cite the identical cause).

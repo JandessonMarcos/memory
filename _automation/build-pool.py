@@ -49,6 +49,12 @@ THEMES = {
     "nature-lifestyle":  ["forest path walking", "sunrise landscape", "green tea cup", "coffee cup table"],
     "meditation-calm":   ["woman meditation", "yoga meditation", "person relaxing outdoors"],
     "social-connection": ["friends laughing table", "family having dinner", "women talking coffee", "family dinner table", "people talking cafe", "friends coffee shop conversation", "seniors playing cards", "picnic in park adults"],
+    # health areas beyond memory (added 2026-10-19)
+    "heart-health":      ["woman jogging park", "blood pressure measurement", "couple walking dog park", "running shoes jogging", "oatmeal breakfast bowl", "heart rate monitor watch"],
+    "gut-digestion":     ["woman eating yogurt", "fermented vegetables jar", "fruit and granola bowl", "lentil soup bowl", "yogurt bowl berries", "kefir glass", "sauerkraut jar", "woman drinking water kitchen", "whole grain bread"],
+    "joints-mobility":   ["woman stretching legs", "senior yoga class", "man stretching after run", "knee brace", "older couple hiking", "woman stretching mat"],
+    "men-health":        ["middle aged man running", "man lifting weights gym", "man smiling outdoors portrait", "man cooking healthy"],
+    "women-health":      ["middle aged woman jogging", "woman smiling outdoors portrait", "woman yoga mat home", "woman drinking tea"],
     "thinking-memory":   ["man thinking window", "woman writing notebook", "person doing crossword", "playing chess", "jigsaw puzzle pieces", "chess board", "sticky notes wall", "notebook writing", "crossword puzzle pen", "man hand on chin portrait"],
 }
 
@@ -124,7 +130,8 @@ def search(q):
 # propaganda, engravings, tractors), so they come from Openverse (modern Flickr
 # photos, commercial-use licenses only). Openverse is reachable locally, not in
 # the cloud sandbox, which is fine: this script only runs locally.
-OPENVERSE_THEMES = {"thinking-memory", "social-connection", "senior-aging"}
+OPENVERSE_THEMES = {"thinking-memory", "social-connection", "senior-aging",
+                    "heart-health", "gut-digestion", "joints-mobility", "men-health", "women-health"}
 
 def search_openverse(q):
     """Same shape as search(): (url, license, author, landing_url)."""

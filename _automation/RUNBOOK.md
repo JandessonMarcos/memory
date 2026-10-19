@@ -2,10 +2,31 @@
 
 **Goal:** publish a *small, safe* batch of genuinely useful SEO+GEO articles per day on a NEW domain, without manual triggering. Quality > quantity (avoid Google's scaled-content-abuse penalty).
 
-## Cadence (ramp — do NOT exceed)
-- Week 1: **2 articles/day**
-- Week 2+: **3 articles/day**
-- Never publish more than 3/day while the domain is < ~6 months old.
+## Cadence
+- **5 articles/day** (owner decision, 2026-10-19), news included. Do not exceed 5.
+- Each run takes the top 5 `pending` items in queue order. The queue is already interleaved: **2 memory/brain + 3 from the other health areas** per day. Keep that mix when refilling.
+- Risk the owner accepted: the old cap was 3/day because the domain is young (< 6 months) and Google's scaled-content filter watches exactly this. That makes quality per article MORE important, not less. Never pad, never publish a near-duplicate of an existing slug.
+
+## Sections (health areas)
+The site covers health beyond memory since 2026-10-19. Allowed `cat` values and their hub pages (built by `site.py`):
+
+| `cat` in the queue | Section | Hub |
+|---|---|---|
+| Memory, Brain Health | Memory & Brain | /topics/memory-brain/ |
+| Sleep | Sleep | /topics/sleep/ |
+| Heart Health | Heart Health | /topics/heart/ |
+| Gut Health | Gut Health | /topics/gut/ |
+| Energy & Metabolism | Energy & Metabolism | /topics/energy/ |
+| Joints & Mobility | Joints & Mobility | /topics/joints/ |
+| Men's Health | Men's Health | /topics/men/ |
+| Women's Health | Women's Health | /topics/women/ |
+| Nutrition | Nutrition | /topics/nutrition/ |
+| Aging Well | Healthy Aging | /topics/healthy-aging/ |
+| Ingredients | Supplements | /topics/supplements/ |
+| Reviews | Reviews | /topics/reviews/ |
+| News | News | /topics/news/ |
+
+A new `cat` must be added to `CATS`/`CAT_MAP` in `site.py` first, or the post lands in Memory & Brain.
 
 ## Each daily run does:
 1. Read `_automation/content-queue.json`. Pick the top **N** items with `status: "pending"` (N per ramp). Skip any slug already in `published_base` or `status: "done"`.
@@ -13,8 +34,9 @@
    - `<meta charset>` + favicon line, FTC bar, header, topnav, footer, disclaimer, byline SVG.
    - Full JSON-LD @graph: Organization, WebSite, BreadcrumbList, Article (**author and publisher both `#org`**, dates = today, en-US), FAQPage matching the visible FAQ EXACTLY. **No Person nodes and no `reviewedBy`.** See `## Authorship` below before changing any of this.
    - GEO: `.method` Key takeaways, direct-answer intro, question-style `h2.sec`, `.pull` quote, `.faq` `<details>`.
-   - One `.recbox` mid + one `.final` banner, both `<a class="buy-btn ... buy-link" data-rank="1" href="#">`.
-   - Internal links: MUST link the pillar `../how-to-improve-memory/`, the money page `../best-memory-supplements-2026/`, and 1–2 topically-related spokes.
+   - **Memory/brain/supplement/review topics** (`cat` Memory, Brain Health, Aging Well, Ingredients, Reviews, News): one `.recbox` mid + one `.final` banner, both `<a class="buy-btn ... buy-link" data-rank="1" href="#">`, and internal links to the pillar `../how-to-improve-memory/`, the money page `../best-memory-supplements-2026/`, and 1–2 related spokes.
+   - **Other health areas** (Sleep, Heart Health, Gut Health, Energy & Metabolism, Joints & Mobility, Men's Health, Women's Health, Nutrition): **no `.recbox`, no `.final` buy banner, no memory-supplement pitch** (the offer is a memory product; pushing it on a knee-pain article is off-topic and hurts trust). Link the section hub (`/topics/<hub>/`), 1–2 related articles (same area first), and, only when the topic genuinely touches the brain (sleep, blood sugar, menopause), one memory article. Breadcrumb and BreadcrumbList position 2 = the section name + hub URL from the table above.
+   - The header/nav/FTC block does not need to be copied by hand: `site.py` rewrites it on every page.
    - canonical/og/url = `https://www.memorylabdaily.com/<slug>/`. og:image = `/assets/img/<slug>.jpg`.
    - **Length: use the item's `words` field** as the body-word target (±10%). Items without `words` keep the old ~1000–1500. Do NOT pad to hit the number: a longer target buys more *sections* (fuller ingredient/dosage tables, a real pros-and-cons, an objections FAQ), never more adjectives.
    - Accurate, hedged, NO fabricated studies/stats/testimonials. English/US. Brand "Memory Lab".
@@ -32,8 +54,9 @@
    - **Refilling the pool (do this LOCALLY, where Openverse/Wikimedia work):** `python3 _automation/build-pool.py --target 8` tops up each theme from Wikimedia Commons, applying the same real-photo + uniqueness gates and recording license/attribution in the manifest. **Every refill needs a human to LOOK at each new file before it is committed** (2026-08-25: of 36 images a refill pulled, only 12 were usable; the rest were engravings, cartoons, off-topic subjects, or photos that should never be auto-selected). Mark rejects `"used_by": "__disqualified__"` so the picker skips them permanently, and do not commit their files. The automated gates measure "real, unique photo" and cannot judge subject or appropriateness. Each pool image is consumed once (`used_by` in the manifest), so at 2 posts/day a 66-image pool lasts ~a month of pure-fallback runs. Keep it topped up. **Do not add graphic/clinical images** (e.g. cadaver brain specimens) — the `brain-science` theme was removed for this reason; brain/memory articles route to the people-based `thinking-memory` theme instead.
    - **After it installs, still OPEN the file with the Read tool and LOOK** (when running interactively). The gate guarantees "a real, unique photo," not "the right subject." If it's off-topic, re-run with sharper subject phrases (Openverse path) or accept the pool's best match on a blocked cloud run.
    - **NEVER reuse an existing image as a fallback**, and never let one source photo serve two slugs — the script's uniqueness guard (against both `assets/img/` heroes and pool `used_by`) enforces this, do not work around it.
-4. **Home placement — newest first:** insert the new post's card at the **TOP** of the **`Latest`** section in `index.html` (as the first child of that section's `.card-grid`, right after `<p class="section-label">Latest</p>`). Keep **Latest capped at 4 cards**: if it now exceeds 4, move the **oldest** (last) card out of Latest and append it to its proper **thematic** section (`Memory & brain health`, `Ingredients & evidence`, `Reviews & comparisons`, or `Bill Gates & brain research`) based on its category/topic. Then add the URL to `sitemap.xml`. *(Copy an existing `.post-card` block verbatim for the markup; NEVER let the same slug appear in two sections.)*
-4b. **Rotate the home lead story every 2 days (freshness):** The Portal Hero lead in `index.html` (`<a class="ph-lead" …>`) must not go stale. On each run, check which slug it points to. If the **same** lead has been featured for **≥ 2 days**, swap the entire `.ph-lead` block (href + `.ph-img` `<img>` with correct `width`/`height` + `.ph-cat` + `<h2>` + `<p>`) to a different high-interest post — a recent news item or a strong evergreen with a good real photo. Move the outgoing lead into the `Top stories` sidebar if it isn't already prominent elsewhere. Never feature a post whose image is a flat gradient (see the image gate below).
+4. **Home, hubs and header: run `python3 _automation/site.py`** (publish.py runs it for you). It rebuilds `index.html` (newest post = lead story, sections by category), every `/topics/<hub>/` page, `assets/latest.json` (article sidebar) and the shared header on every page. **Do not hand-edit the home any more.** Steps 4-old and 4b below are retired and kept only as history.
+4-old. ~~**Home placement — newest first:**~~ insert the new post's card at the **TOP** of the **`Latest`** section in `index.html` (as the first child of that section's `.card-grid`, right after `<p class="section-label">Latest</p>`). Keep **Latest capped at 4 cards**: if it now exceeds 4, move the **oldest** (last) card out of Latest and append it to its proper **thematic** section (`Memory & brain health`, `Ingredients & evidence`, `Reviews & comparisons`, or `Bill Gates & brain research`) based on its category/topic. Then add the URL to `sitemap.xml`. *(Copy an existing `.post-card` block verbatim for the markup; NEVER let the same slug appear in two sections.)*
+4b-old. ~~**Rotate the home lead story every 2 days**~~ (automatic now: the newest post leads): The Portal Hero lead in `index.html` (`<a class="ph-lead" …>`) must not go stale. On each run, check which slug it points to. If the **same** lead has been featured for **≥ 2 days**, swap the entire `.ph-lead` block (href + `.ph-img` `<img>` with correct `width`/`height` + `.ph-cat` + `<h2>` + `<p>`) to a different high-interest post — a recent news item or a strong evergreen with a good real photo. Move the outgoing lead into the `Top stories` sidebar if it isn't already prominent elsewhere. Never feature a post whose image is a flat gradient (see the image gate below).
 5. **Quality gate** (skip & log if fails): word count ≥ **85% of the item's `words` target** (≥ 900 when the item has no `words`), has Article+FAQPage schema, single H1, links to pillar + money page, slug not duplicated, **brand-name rule per step 2** (a non-`Reviews` item still must not say "Memopezil"), **≤ 1 em dash (—) in the whole article**. **Image gate — run BOTH audits at the end of the run; both MUST print `OK` before you commit:**
    - `python3 _automation/check-image-real.py --audit` → rejects synthetic junk (gradients, grain/noise textures, abstract renders, clip-art, monochrome fills). This gate measures *structure on a downscaled copy* + distinct-color count. **Do NOT use the old full-res edge-energy one-liner** — grain and checkerboards pass it (noise = high local diff), which is exactly how the "natural grain texture" heroes shipped. If this prints `FAIL`, re-source that slug with `source-image.py` (never hand-fix the pixels).
    - `python3 _automation/check-image-unique.py --audit` → must print `OK` (zero colliding groups).
@@ -101,7 +124,7 @@ Affiliate + YMYL content has to read like a person wrote it. That is an E-E-A-T,
 Self-check before saving each article: count the em dashes (must be ≤ 1), scan the first word of every paragraph (are they varied?), and confirm two or three sentences run under 8 words.
 
 ## When the queue runs low
-When < 6 `pending` remain, generate ~20 new long-tail, low-KD memory/brain topics (distinct from everything published) and append them as `pending`, **each with its own `words` and `intent`**.
+When < 15 `pending` remain, generate ~40 new long-tail, low-KD topics (distinct from everything published) and append them as `pending`, **each with its own `words` and `intent`**: ~16 memory/brain and ~24 spread across the other health areas (3 each), interleaved so every block of 5 is 2 memory + 3 other areas. Stay clear of topics that only make sense as a diagnosis or treatment page (cancer, diabetes management, kidney or liver disease): explain, hedge, send people to their doctor.
 
 **If a run empties the queue, it must refill before it commits.** The 2026-08-25 run did exactly this correctly: it refilled with 20 topics and skipped publishing because the day's cap was already used, and the routine then published normally on 26, 27, 28 and 29 August. Keep that behaviour.
 
@@ -121,7 +144,7 @@ Besides the evergreen queue, scan reputable sources for NEW brain/memory/Alzheim
   2. Schema: Article (NewsArticle ok), with `dateModified`. Keep FAQ optional.
   3. **Accuracy is paramount (YMYL):** only real, sourced facts; NO fabricated studies, quotes or stats; hedge; doctor caveat.
   4. Append the source URL to `_automation/news-covered.json` (dedup).
-- **Cap:** at most 1–2 news posts/day, and never exceed the **total daily cap of 3** while the domain is new.
+- **Cap:** at most 1 news post/day, counted inside the **total daily cap of 5**. News can come from any covered health area, not only memory.
 
 ## Known failure: the pool starved for 8 straight days (2026-08-14 to 2026-08-25)
 

@@ -23,6 +23,14 @@ CATS = {
     "Ingredients":  ("Ingredients",  "../citicoline-for-memory/"),
     "News":         ("News",         "/brain-health-lifestyle/"),
     "Reviews":      ("Reviews",      "../best-memory-supplements-2026/"),
+    "Sleep":               ("Sleep",               "/topics/sleep/"),
+    "Heart Health":        ("Heart Health",        "/topics/heart/"),
+    "Gut Health":          ("Gut Health",          "/topics/gut/"),
+    "Energy & Metabolism": ("Energy & Metabolism", "/topics/energy/"),
+    "Joints & Mobility":   ("Joints & Mobility",   "/topics/joints/"),
+    "Men's Health":        ("Men's Health",        "/topics/men/"),
+    "Women's Health":      ("Women's Health",      "/topics/women/"),
+    "Nutrition":           ("Nutrition",           "/topics/nutrition/"),
 }
 
 HEAD = '''<!doctype html>

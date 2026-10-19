@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 """
-Place already-rendered posts on the home page, refresh the sitemap, and mark the
-queue done. Run after gen-post.py + source-image.py, before the image gates.
-
-Home rules from the RUNBOOK: new cards go to the TOP of Latest, Latest stays
-capped at 4, and anything pushed out moves to its thematic section. A slug must
-never appear in two sections, so every insert removes any existing card first.
+Refresh the sitemap and search index, mark the queue done, then rebuild the home,
+section hubs and shared header with site.py. Run after gen-post.py +
+source-image.py, before the image gates.
 
   python3 _automation/publish.py <slug> [<slug> ...]      # last listed = newest
 """
@@ -66,30 +63,10 @@ def drop_slug(html, slug):
 
 
 def main(slugs):
-    html = open("index.html").read()
     specs = {s: json.load(open(f"_automation/posts/{s}.json")) for s in slugs}
 
-    # Newest first at the top of Latest.
-    for slug in slugs:
-        html = drop_slug(html, slug)
-        start, end = grid_bounds(html, "Latest")
-        html = html[:start] + "\n" + card(slug, specs[slug]) + html[start:end].lstrip("\n") + html[end:]
-
-    # Overflow past the cap drops into each post's thematic section.
-    start, end = grid_bounds(html, "Latest")
-    latest = cards_in(html[start:end])
-    keep, overflow = latest[:LATEST_CAP], latest[LATEST_CAP:]
-    html = html[:start] + "\n" + "".join(keep) + html[end:]
-
-    for c in overflow:
-        slug = re.search(r'href="([^/"]+)/"', c).group(1)
-        cat = re.search(r'<span class="pc-cat">([^<]+)</span>', c).group(1)
-        label = SECTION.get(cat, "Memory &amp; brain health")
-        s2, e2 = grid_bounds(html, label)
-        html = html[:e2] + c + html[e2:]
-        print(f"  moved out of Latest: {slug} -> {label}")
-
-    open("index.html", "w").write(html)
+    # The home is no longer edited card by card: site.py rebuilds it (and the
+    # section hubs) from the articles themselves at the end of this script.
 
     # Sitemap: append any missing URL next to the existing entries.
     sm = open("sitemap.xml").read()
@@ -140,8 +117,9 @@ def main(slugs):
         sadded += 1
     json.dump(idx, open(sif, "w"), indent=2, ensure_ascii=False)
 
-    print(f"home: {len(slugs)} card(s) placed | sitemap: +{added} | "
-          f"queue: {done} marked done | search-index: +{sadded}")
+    print(f"sitemap: +{added} | queue: {done} marked done | search-index: +{sadded}")
+    import subprocess
+    subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__), "site.py")], check=True)
 
 
 if __name__ == "__main__":

@@ -47,6 +47,11 @@ THEME_HINTS = {
     "nature-lifestyle":  ["nature", "forest", "tea", "coffee", "outdoor", "outdoors", "sunrise", "lifestyle", "walk in nature", "fresh air"],
     "meditation-calm":   ["meditation", "meditate", "calm", "stress", "relax", "mindfulness", "breathing", "anxiety", "cortisol", "wellbeing", "mood"],
     "social-connection": ["social", "friend", "family", "connection", "lonely", "loneliness", "together", "people", "community", "relationship", "conversation"],
+    "heart-health":      ["heart", "cardio", "cardiovascular", "blood pressure", "hypertension", "cholesterol", "artery", "arteries", "circulation", "heart rate", "pulse", "stroke"],
+    "gut-digestion":     ["gut", "digest", "digestion", "digestive", "microbiome", "bloating", "probiotic", "fiber", "fibre", "constipation", "stomach", "ibs", "fermented", "yogurt", "kefir"],
+    "joints-mobility":   ["joint", "joints", "knee", "hip", "arthritis", "mobility", "flexibility", "stretch", "bone", "bones", "osteoporosis", "back pain", "posture", "collagen", "cartilage"],
+    "men-health":        ["men's", "male", "testosterone", "prostate", "erectile", "andropause"],
+    "women-health":      ["women", "woman", "female", "menopause", "perimenopause", "pregnan", "estrogen", "menstrual", "pcos", "postpartum"],
     "thinking-memory":   ["memory", "remember", "recall", "think", "thinking", "puzzle", "chess", "forget", "forgetful", "brain training", "brain game", "notes", "working memory", "cognition", "cognitive", "mental", "brain", "neuron", "neural", "cortex", "mri", "scan", "anatomy", "mind"],
 }
 

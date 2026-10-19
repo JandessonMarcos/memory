@@ -1,11 +1,7 @@
 {
   "_comment": "Fila de conteúdo do Memory Lab. status: pending | done. A rotina diária consome os 'pending' mais ao topo, gera o artigo, e marca 'done' com a data. NÃO repetir slugs já publicados (14 iniciais). Campos opcionais por item: 'words' = alvo de palavras do corpo (substitui o ~1000-1500 padrao); 'intent' = commercial | commercial-high, controla a densidade comercial (ver RUNBOOK, secao 'Commercial depth'). Itens sem esses campos seguem o padrao antigo.",
   "niche": "memory / brain health",
-  "ramp": {
-    "week1": 2,
-    "week2": 3,
-    "week3plus": 3
-  },
+  "ramp": "5 articles/day (since 2026-10-19). Mix per run: 2 memory/brain + 3 from the other health areas.",
   "published_base": [
     "how-to-improve-memory",
     "best-memory-supplements-2026",
@@ -2737,6 +2733,30 @@
       "note": "Pool was refilled locally since the 2026-10-11 skip; published now with a food-nutrition theme photo."
     },
     {
+      "slug": "white-noise-machines-and-focus",
+      "title": "White Noise Machines and Focus: Do They Actually Help Concentration?",
+      "kw": "white noise focus concentration",
+      "cat": "Brain Health",
+      "status": "done",
+      "published": "2026-10-11"
+    },
+    {
+      "slug": "morning-light-exposure-and-cognitive-function",
+      "title": "Morning Light Exposure and Cognitive Function: Why Early Sun Matters",
+      "kw": "morning light exposure cognitive function",
+      "cat": "Brain Health",
+      "status": "done",
+      "published": "2026-10-11"
+    },
+    {
+      "slug": "weighted-blankets-and-sleep-quality-memory",
+      "title": "Weighted Blankets, Sleep Quality and Memory: Is There a Real Connection?",
+      "kw": "weighted blankets sleep memory",
+      "cat": "Brain Health",
+      "status": "done",
+      "published": "2026-10-10"
+    },
+    {
       "slug": "beta-carotene-and-brain-health",
       "title": "Beta-Carotene and Brain Health: What the Evidence Shows",
       "kw": "beta carotene brain health",
@@ -2749,6 +2769,30 @@
       "kw": "homocysteine cognitive decline",
       "cat": "Brain Health",
       "status": "pending"
+    },
+    {
+      "slug": "how-long-to-fall-asleep-normal",
+      "title": "How Long Does It Take to Fall Asleep? What's Normal and What Isn't",
+      "kw": "how long to fall asleep normal",
+      "cat": "Sleep",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "resting-heart-rate-by-age",
+      "title": "Resting Heart Rate by Age: What's Healthy?",
+      "kw": "resting heart rate by age",
+      "cat": "Heart Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "signs-of-unhealthy-gut",
+      "title": "Signs of an Unhealthy Gut: What to Watch For",
+      "kw": "signs of unhealthy gut",
+      "cat": "Gut Health",
+      "status": "pending",
+      "words": 1400
     },
     {
       "slug": "cinnamon-and-brain-health",
@@ -2765,6 +2809,30 @@
       "status": "pending"
     },
     {
+      "slug": "why-am-i-always-tired",
+      "title": "Why Am I Always Tired? Everyday Causes Worth Checking",
+      "kw": "why am i always tired",
+      "cat": "Energy & Metabolism",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "knee-pain-climbing-stairs",
+      "title": "Knee Pain When Climbing Stairs: Common Causes",
+      "kw": "knee pain climbing stairs",
+      "cat": "Joints & Mobility",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "testosterone-levels-by-age",
+      "title": "Testosterone Levels by Age: What's Normal?",
+      "kw": "testosterone levels by age",
+      "cat": "Men's Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
       "slug": "pet-ownership-and-cognitive-decline",
       "title": "Pet Ownership and Cognitive Decline: What the Research Shows",
       "kw": "pet ownership cognitive decline",
@@ -2779,6 +2847,30 @@
       "status": "pending"
     },
     {
+      "slug": "perimenopause-symptoms-early-signs",
+      "title": "Perimenopause Symptoms: The Early Signs Many Women Miss",
+      "kw": "perimenopause symptoms early signs",
+      "cat": "Women's Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "anti-inflammatory-foods-list",
+      "title": "Anti-Inflammatory Foods List: What to Eat More Of",
+      "kw": "anti inflammatory foods list",
+      "cat": "Nutrition",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "waking-up-at-3am-causes",
+      "title": "Waking Up at 3 AM Every Night: Common Causes and What Helps",
+      "kw": "waking up at 3am causes",
+      "cat": "Sleep",
+      "status": "pending",
+      "words": 1400
+    },
+    {
       "slug": "knitting-and-cognitive-function",
       "title": "Knitting and Cognitive Function: The Case for Handcrafts and a Sharper Mind",
       "kw": "knitting cognitive function brain",
@@ -2786,19 +2878,35 @@
       "status": "pending"
     },
     {
-      "slug": "white-noise-machines-and-focus",
-      "title": "White Noise Machines and Focus: Do They Actually Help Concentration?",
-      "kw": "white noise focus concentration",
-      "cat": "Brain Health",
-      "status": "done",
-      "published": "2026-10-11"
-    },
-    {
       "slug": "mushroom-coffee-and-focus",
       "title": "Mushroom Coffee and Focus: Does It Actually Sharpen Concentration?",
       "kw": "mushroom coffee focus",
       "cat": "Ingredients",
       "status": "pending"
+    },
+    {
+      "slug": "lower-blood-pressure-naturally",
+      "title": "How to Lower Blood Pressure Naturally: Habits With Real Evidence",
+      "kw": "lower blood pressure naturally",
+      "cat": "Heart Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "prebiotics-vs-probiotics",
+      "title": "Prebiotics vs Probiotics: What's the Difference?",
+      "kw": "prebiotics vs probiotics",
+      "cat": "Gut Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "afternoon-energy-slump",
+      "title": "Afternoon Energy Slump: Why It Happens and How to Beat It",
+      "kw": "afternoon energy slump",
+      "cat": "Energy & Metabolism",
+      "status": "pending",
+      "words": 1400
     },
     {
       "slug": "taurine-and-cognitive-function",
@@ -2815,6 +2923,30 @@
       "status": "pending"
     },
     {
+      "slug": "morning-joint-stiffness",
+      "title": "Morning Stiffness in Joints: What It Means",
+      "kw": "morning joint stiffness",
+      "cat": "Joints & Mobility",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "enlarged-prostate-symptoms",
+      "title": "Enlarged Prostate Symptoms: When to See a Doctor",
+      "kw": "enlarged prostate symptoms",
+      "cat": "Men's Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "hot-flashes-natural-relief",
+      "title": "Hot Flashes: Causes and Natural Ways to Cope",
+      "kw": "hot flashes natural relief",
+      "cat": "Women's Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
       "slug": "vitamin-k2-and-brain-health",
       "title": "Vitamin K2 and Brain Health: An Overlooked Nutrient's Role in Cognition",
       "kw": "vitamin k2 brain health",
@@ -2827,6 +2959,30 @@
       "kw": "elderberry cognitive function brain",
       "cat": "Ingredients",
       "status": "pending"
+    },
+    {
+      "slug": "protein-per-day-after-50",
+      "title": "How Much Protein Do You Need per Day After 50?",
+      "kw": "protein per day after 50",
+      "cat": "Nutrition",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "magnesium-glycinate-for-sleep",
+      "title": "Magnesium Glycinate for Sleep: What the Evidence Shows",
+      "kw": "magnesium glycinate for sleep",
+      "cat": "Sleep",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "steps-per-day-heart-health",
+      "title": "Walking and Heart Health: How Many Steps Make a Difference?",
+      "kw": "steps per day heart health",
+      "cat": "Heart Health",
+      "status": "pending",
+      "words": 1400
     },
     {
       "slug": "apple-cider-vinegar-and-brain-fog",
@@ -2843,6 +2999,30 @@
       "status": "pending"
     },
     {
+      "slug": "why-am-i-always-bloated",
+      "title": "Why Am I Always Bloated? Common Causes and Fixes",
+      "kw": "why am i always bloated",
+      "cat": "Gut Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "blood-sugar-spikes-after-eating",
+      "title": "Blood Sugar Spikes After Meals: What They Mean",
+      "kw": "blood sugar spikes after eating",
+      "cat": "Energy & Metabolism",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "glucosamine-chondroitin-joints",
+      "title": "Glucosamine and Chondroitin: Do They Help Joints?",
+      "kw": "glucosamine chondroitin joints",
+      "cat": "Joints & Mobility",
+      "status": "pending",
+      "words": 1400
+    },
+    {
       "slug": "forest-bathing-and-cognitive-function",
       "title": "Forest Bathing and Cognitive Function: Can Time in Nature Sharpen Your Mind?",
       "kw": "forest bathing cognitive function",
@@ -2857,12 +3037,28 @@
       "status": "pending"
     },
     {
-      "slug": "morning-light-exposure-and-cognitive-function",
-      "title": "Morning Light Exposure and Cognitive Function: Why Early Sun Matters",
-      "kw": "morning light exposure cognitive function",
-      "cat": "Brain Health",
-      "status": "done",
-      "published": "2026-10-11"
+      "slug": "zinc-for-men",
+      "title": "Zinc for Men: Benefits and How Much You Need",
+      "kw": "zinc for men",
+      "cat": "Men's Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "iron-deficiency-women-signs",
+      "title": "Iron Deficiency in Women: Signs and What to Eat",
+      "kw": "iron deficiency women signs",
+      "cat": "Women's Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "mediterranean-diet-for-beginners",
+      "title": "Mediterranean Diet for Beginners: A Simple Guide",
+      "kw": "mediterranean diet for beginners",
+      "cat": "Nutrition",
+      "status": "pending",
+      "words": 1400
     },
     {
       "slug": "commute-length-and-cognitive-fatigue",
@@ -2879,6 +3075,30 @@
       "status": "pending"
     },
     {
+      "slug": "sleep-hygiene-checklist",
+      "title": "Sleep Hygiene Checklist: 12 Habits That Actually Matter",
+      "kw": "sleep hygiene checklist",
+      "cat": "Sleep",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "potassium-foods-blood-pressure",
+      "title": "Potassium-Rich Foods and Blood Pressure: What to Eat",
+      "kw": "potassium foods blood pressure",
+      "cat": "Heart Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "high-fiber-foods-list",
+      "title": "High-Fiber Foods List: Easy Ways to Eat More Fiber",
+      "kw": "high fiber foods list",
+      "cat": "Gut Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
       "slug": "digital-detox-and-memory",
       "title": "Digital Detox and Memory: What Happens When You Unplug?",
       "kw": "digital detox memory",
@@ -2893,12 +3113,300 @@
       "status": "pending"
     },
     {
-      "slug": "weighted-blankets-and-sleep-quality-memory",
-      "title": "Weighted Blankets, Sleep Quality and Memory: Is There a Real Connection?",
-      "kw": "weighted blankets sleep memory",
-      "cat": "Brain Health",
-      "status": "done",
-      "published": "2026-10-10"
+      "slug": "walking-after-eating-blood-sugar",
+      "title": "Walking After Meals: Does It Lower Blood Sugar?",
+      "kw": "walking after eating blood sugar",
+      "cat": "Energy & Metabolism",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "collagen-for-joint-pain",
+      "title": "Collagen for Joint Pain: What the Evidence Shows",
+      "kw": "collagen for joint pain",
+      "cat": "Joints & Mobility",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "strength-training-after-50-men",
+      "title": "Strength Training After 50 for Men: Where to Start",
+      "kw": "strength training after 50 men",
+      "cat": "Men's Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "calcium-vitamin-d-women-over-50",
+      "title": "Calcium and Vitamin D for Women Over 50",
+      "kw": "calcium vitamin d women over 50",
+      "cat": "Women's Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "healthy-snacks-for-energy",
+      "title": "Healthy Snacks for Steady Energy",
+      "kw": "healthy snacks for energy",
+      "cat": "Nutrition",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "is-6-hours-of-sleep-enough",
+      "title": "Is Sleeping 6 Hours a Night Enough? What Research Says",
+      "kw": "is 6 hours of sleep enough",
+      "cat": "Sleep",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "ldl-vs-hdl-cholesterol",
+      "title": "LDL vs HDL Cholesterol: What Your Numbers Mean",
+      "kw": "ldl vs hdl cholesterol",
+      "cat": "Heart Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "kefir-vs-yogurt-gut-health",
+      "title": "Kefir vs Yogurt: Which Is Better for Your Gut?",
+      "kw": "kefir vs yogurt gut health",
+      "cat": "Gut Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "metabolism-after-40",
+      "title": "Metabolism After 40: What Really Changes",
+      "kw": "metabolism after 40",
+      "cat": "Energy & Metabolism",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "low-impact-exercise-bad-knees",
+      "title": "Low-Impact Exercises for Bad Knees",
+      "kw": "low impact exercise bad knees",
+      "cat": "Joints & Mobility",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "belly-fat-men-over-40",
+      "title": "Belly Fat in Men: Why It Builds Up After 40",
+      "kw": "belly fat men over 40",
+      "cat": "Men's Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "strength-training-women-over-40",
+      "title": "Strength Training for Women Over 40: Why It Matters",
+      "kw": "strength training women over 40",
+      "cat": "Women's Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "olive-oil-health-benefits",
+      "title": "Olive Oil Health Benefits: What the Research Shows",
+      "kw": "olive oil health benefits",
+      "cat": "Nutrition",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "tart-cherry-juice-sleep",
+      "title": "Tart Cherry Juice for Sleep: Does It Work?",
+      "kw": "tart cherry juice sleep",
+      "cat": "Sleep",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "omega-3-triglycerides",
+      "title": "Omega-3 and Triglycerides: What the Research Shows",
+      "kw": "omega 3 triglycerides",
+      "cat": "Heart Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "psyllium-husk-benefits",
+      "title": "Psyllium Husk: Benefits, Dosage and Side Effects",
+      "kw": "psyllium husk benefits",
+      "cat": "Gut Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "protein-breakfast-energy",
+      "title": "Protein at Breakfast and Energy: What Studies Show",
+      "kw": "protein breakfast energy",
+      "cat": "Energy & Metabolism",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "hip-mobility-exercises-over-50",
+      "title": "Hip Mobility Exercises for Adults Over 50",
+      "kw": "hip mobility exercises over 50",
+      "cat": "Joints & Mobility",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "saw-palmetto-evidence",
+      "title": "Saw Palmetto: What the Evidence Shows",
+      "kw": "saw palmetto evidence",
+      "cat": "Men's Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "magnesium-for-women",
+      "title": "Magnesium for Women: Benefits and Best Food Sources",
+      "kw": "magnesium for women",
+      "cat": "Women's Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "how-much-water-per-day",
+      "title": "How Much Water Should You Drink a Day?",
+      "kw": "how much water per day",
+      "cat": "Nutrition",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "wake-up-tired-after-8-hours",
+      "title": "Why You Wake Up Tired After 8 Hours of Sleep",
+      "kw": "wake up tired after 8 hours",
+      "cat": "Sleep",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "how-much-salt-per-day-blood-pressure",
+      "title": "Salt and Blood Pressure: How Much Is Too Much?",
+      "kw": "how much salt per day blood pressure",
+      "cat": "Heart Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "leaky-gut-science",
+      "title": "Leaky Gut: What the Science Actually Says",
+      "kw": "leaky gut science",
+      "cat": "Gut Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "b12-deficiency-fatigue",
+      "title": "Vitamin B12 and Fatigue: Signs You Might Be Low",
+      "kw": "b12 deficiency fatigue",
+      "cat": "Energy & Metabolism",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "bone-density-after-50",
+      "title": "Bone Density After 50: How to Protect It",
+      "kw": "bone density after 50",
+      "cat": "Joints & Mobility",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "mens-health-checkups-by-age",
+      "title": "Men's Health Checkups by Age: What to Ask For",
+      "kw": "mens health checkups by age",
+      "cat": "Men's Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "thyroid-symptoms-women",
+      "title": "Thyroid Symptoms in Women: What to Watch For",
+      "kw": "thyroid symptoms women",
+      "cat": "Women's Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "how-to-spot-ultra-processed-foods",
+      "title": "Ultra-Processed Foods: How to Spot Them",
+      "kw": "how to spot ultra processed foods",
+      "cat": "Nutrition",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "best-bedroom-temperature-for-sleep",
+      "title": "Bedroom Temperature for Sleep: What's the Ideal Setting?",
+      "kw": "best bedroom temperature for sleep",
+      "cat": "Sleep",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "heart-rate-variability-explained",
+      "title": "Heart Rate Variability Explained: What HRV Tells You",
+      "kw": "heart rate variability explained",
+      "cat": "Heart Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "eating-slowly-digestion",
+      "title": "Eating Slowly and Digestion: Why Pace Matters",
+      "kw": "eating slowly digestion",
+      "cat": "Gut Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "insulin-resistance-explained",
+      "title": "Insulin Resistance Explained in Plain English",
+      "kw": "insulin resistance explained",
+      "cat": "Energy & Metabolism",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "turmeric-joint-pain",
+      "title": "Turmeric for Joint Pain: What Research Says",
+      "kw": "turmeric joint pain",
+      "cat": "Joints & Mobility",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "sleep-and-testosterone",
+      "title": "Sleep and Testosterone: How Rest Affects Hormones",
+      "kw": "sleep and testosterone",
+      "cat": "Men's Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "menopause-sleep-problems",
+      "title": "Sleep Problems During Menopause: What Helps",
+      "kw": "menopause sleep problems",
+      "cat": "Women's Health",
+      "status": "pending",
+      "words": 1400
+    },
+    {
+      "slug": "eggs-and-cholesterol",
+      "title": "Eggs and Cholesterol: What the Latest Evidence Says",
+      "kw": "eggs and cholesterol",
+      "cat": "Nutrition",
+      "status": "pending",
+      "words": 1400
     }
   ]
 }

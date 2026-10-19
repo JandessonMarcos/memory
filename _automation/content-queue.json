@@ -2723,16 +2723,18 @@
       "title": "Tea vs Coffee for Focus: Which Is Better for Your Brain?",
       "kw": "tea vs coffee focus",
       "cat": "Ingredients",
-      "status": "pending",
-      "note": "SKIPPED 2026-10-09 and 2026-10-10: image pool is down to 3 unused images total, all in the sleep-rest theme (bedroom/bed photos); every other theme (nature-lifestyle, study-focus, food-nutrition, etc.) is at 0 available. A sleep-rest photo is not a defensible hero image for this topic. Only 2 sleep-rest images remain unused as of 2026-10-10. Needs a LOCAL pool refill (python3 _automation/build-pool.py --target 8, run where Openverse/Wikimedia are reachable, then a human visual audit) before this or most other pending topics can run safely."
+      "status": "done",
+      "published": "2026-10-19",
+      "note": "Pool was refilled locally since the 2026-10-09/10/11 skips; published now with a study-focus theme photo (desk/laptop) rather than the off-topic sunrise-landscape match the auto-picker first returned."
     },
     {
       "slug": "cooking-and-brain-health",
       "title": "Cooking and Brain Health: Why Meal Prep Doubles as Mental Exercise",
       "kw": "cooking and brain health",
       "cat": "Aging Well",
-      "status": "pending",
-      "note": "SKIPPED 2026-10-11 along with the other early-queue pending topics: image pool was down to 2 unused images total, both in the sleep-rest theme (bedroom photos). white-noise-machines-and-focus and morning-light-exposure-and-cognitive-function were published instead because they're genuinely bedroom/sleep-context topics those photos fit. Pool is now fully exhausted (0 available in every theme). Needs a LOCAL pool refill (python3 _automation/build-pool.py --target 8, run where Openverse/Wikimedia are reachable, then a human visual audit) before this or most other pending topics can run."
+      "status": "done",
+      "published": "2026-10-19",
+      "note": "Pool was refilled locally since the 2026-10-11 skip; published now with a food-nutrition theme photo."
     },
     {
       "slug": "beta-carotene-and-brain-health",

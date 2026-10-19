@@ -17,6 +17,7 @@ the manifest so the fallback path stays attribution-compliant.
 Run locally to build or top up the pool:
   python3 _automation/build-pool.py            # top up toward the per-theme target (6)
   python3 _automation/build-pool.py --target 8 # aim for N usable images per theme
+  python3 _automation/build-pool.py --target 10 --only thinking-memory,social-connection
 
 Validates every image with the SAME real-photo + uniqueness gates as
 source-image.py, and guarantees pool images don't collide with each other or with
@@ -38,7 +39,7 @@ HAM_MIN    = 10
 THEMES = {
     # "brain-science" is intentionally retired: Commons returns clinical/cadaver
     # specimens for these queries. Brain/memory articles route to "thinking-memory".
-    "senior-aging":      ["elderly woman portrait color", "senior man park bench", "retired couple walking beach", "grandmother gardening", "older woman reading glasses"],
+    "senior-aging":      ["senior woman smiling", "grandfather portrait", "elderly couple park", "elderly woman portrait color", "senior man park bench", "retired couple walking beach", "grandmother gardening", "older woman reading glasses"],
     "food-nutrition":    ["fresh vegetables", "healthy salad", "blueberries fruit", "salmon dish", "nuts walnuts"],
     "exercise-fitness":  ["person jogging", "woman yoga", "senior exercise", "people walking outdoors", "nordic walking", "woman running outdoor", "cycling outdoors", "gym dumbbell workout", "elderly couple walking"],
     "sleep-rest":        ["person sleeping", "bedroom bed", "woman resting", "man sleeping bed", "woman sleeping pillow", "napping sofa", "bedroom interior morning"],
@@ -47,8 +48,8 @@ THEMES = {
     "doctor-medical":    ["doctor patient", "nurse blood pressure", "stethoscope", "medical checkup"],
     "nature-lifestyle":  ["forest path walking", "sunrise landscape", "green tea cup", "coffee cup table"],
     "meditation-calm":   ["woman meditation", "yoga meditation", "person relaxing outdoors"],
-    "social-connection": ["family dinner table", "people talking cafe", "friends coffee shop conversation", "seniors playing cards", "picnic in park adults"],
-    "thinking-memory":   ["jigsaw puzzle pieces", "chess board", "sticky notes wall", "notebook writing", "crossword puzzle pen", "man hand on chin portrait"],
+    "social-connection": ["friends laughing table", "family having dinner", "women talking coffee", "family dinner table", "people talking cafe", "friends coffee shop conversation", "seniors playing cards", "picnic in park adults"],
+    "thinking-memory":   ["man thinking window", "woman writing notebook", "person doing crossword", "playing chess", "jigsaw puzzle pieces", "chess board", "sticky notes wall", "notebook writing", "crossword puzzle pen", "man hand on chin portrait"],
 }
 
 def structure(im):
@@ -119,7 +120,26 @@ def search(q):
         out.append((thumb, lic, author, ii.get("descriptionurl", "")))
     return out
 
-def build(target):
+# Commons answers these themes with historical archives (vintage puzzles, WWII
+# propaganda, engravings, tractors), so they come from Openverse (modern Flickr
+# photos, commercial-use licenses only). Openverse is reachable locally, not in
+# the cloud sandbox, which is fine: this script only runs locally.
+OPENVERSE_THEMES = {"thinking-memory", "social-connection", "senior-aging"}
+
+def search_openverse(q):
+    """Same shape as search(): (url, license, author, landing_url)."""
+    params = {"q": q, "page_size": "20", "category": "photograph", "mature": "false",
+              "license_type": "commercial", "source": "flickr", "aspect_ratio": "wide"}
+    d = json.load(urllib.request.urlopen(urllib.request.Request(
+        "https://api.openverse.org/v1/images/?" + urllib.parse.urlencode(params), headers=UA), timeout=60))
+    out = []
+    for r in d.get("results") or []:
+        lic = ("CC " + (r.get("license") or "").upper() + " " + (r.get("license_version") or "")).strip()
+        if r.get("license") in ("cc0", "pdm"): lic = r["license"].upper()
+        out.append((r.get("url"), lic, r.get("creator") or "", r.get("foreign_landing_url") or ""))
+    return out
+
+def build(target, only=None):
     os.makedirs(POOL_DIR, exist_ok=True)
     man = load_manifest()
     have = man["images"]
@@ -136,6 +156,7 @@ def build(target):
 
     added_total = 0
     for theme, queries in THEMES.items():
+        if only and theme not in only: continue
         need = target - per_theme.get(theme, 0)
         if need <= 0:
             print(f"[{theme}] has {per_theme.get(theme,0)} (>= {target}), skip"); continue
@@ -143,7 +164,10 @@ def build(target):
         for q in queries:
             if added >= need: break
             try:
-                results = search(q)
+                if theme in OPENVERSE_THEMES:
+                    results = search_openverse(q); time.sleep(4)  # anonymous Openverse throttles bursts (429)
+                else:
+                    results = search(q)
             except Exception as e:
                 print(f"  [{theme}] search err ({q}): {e}"); time.sleep(2); continue
             for thumb, lic, author, descurl in results:
@@ -165,8 +189,8 @@ def build(target):
                 fn = f"{theme}-{idx:02d}.jpg"
                 nh = int(im.size[1] * 900 / im.size[0])
                 im.resize((900, nh), Image.LANCZOS).save(os.path.join(POOL_DIR, fn), "JPEG", quality=86)
-                entry = {"file": fn, "themes": [theme], "kw": q, "license": lic or "Wikimedia Commons",
-                         "attribution": (author or "Unknown") + " / Wikimedia Commons", "src": thumb, "descurl": descurl, "used_by": None}
+                entry = {"file": fn, "themes": [theme], "kw": q, "license": lic or ("Openverse" if theme in OPENVERSE_THEMES else "Wikimedia Commons"),
+                         "attribution": (author or "Unknown") + (" / Openverse (Flickr)" if theme in OPENVERSE_THEMES else " / Wikimedia Commons"), "src": thumb, "descurl": descurl, "used_by": None}
                 have.append(entry); seen.add(thumb); hashes.append(hsh)
                 added += 1; added_total += 1
                 print(f'  [{theme}] +{fn}  lic={lic}  <- "{q}"')
@@ -182,4 +206,7 @@ if __name__ == "__main__":
     target = 6
     if "--target" in sys.argv:
         target = int(sys.argv[sys.argv.index("--target")+1])
-    build(target)
+    only = None
+    if "--only" in sys.argv:
+        only = set(sys.argv[sys.argv.index("--only")+1].split(","))
+    build(target, only)

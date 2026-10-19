@@ -28,6 +28,14 @@ The site covers health beyond memory since 2026-10-19. Allowed `cat` values and 
 
 A new `cat` must be added to `CATS`/`CAT_MAP` in `site.py` first, or the post lands in Memory & Brain.
 
+## Prewritten items (`"prewritten": true`), added 2026-10-19
+Twenty branded Memopezil/MemoHoney pages were written and fact-checked by hand, with their photos already sourced locally. They sit in the queue as `pending` with `"prewritten": true`, 2 per day (1 Memopezil + 1 MemoHoney) in the memory slots. **This section overrides step 2, step 3 and the routine prompt's "write" and "images" steps for those items:**
+1. **Do NOT write or rewrite the article.** The spec is final: `_automation/posts/<slug>.json`.
+2. Set the spec's `"date"` to today (UTC, `YYYY-MM-DD`), then run `python3 _automation/gen-post.py <slug>`.
+3. **Do NOT run `source-image.py` for them.** `assets/img/<slug>.jpg` (hero) and `assets/img/<slug>-in.jpg` (inline photo) are already committed and were checked by eye. If either file is missing, skip the slug and leave it pending.
+4. Publish with `python3 _automation/publish.py <slug> ...` (sitemap, search index, queue `done`, site.py), then run the normal gates and push.
+Brand wiring is in `gen-post.py`: spec `"brand"` picks the CTA (`buy-link` → /go/memopezil/, `buy-link-mhny` + `cta-mhny.js` → /go/memohoney/), the `prodbox`/`packs` blocks with bottle photos, and the `figure` inline photo.
+
 ## Each daily run does:
 1. Read `_automation/content-queue.json`. Pick the top **N** items with `status: "pending"` (N per ramp). Skip any slug already in `published_base` or `status: "done"`.
 2. For EACH picked topic, generate `/<slug>/index.html` by mirroring the template **`how-to-improve-memory/index.html`** exactly:

@@ -3090,7 +3090,7 @@
    "attribution": "FitTasteTic / Wikimedia Commons",
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Colorful_healthy_Chickpea_Salad.jpg/1280px-Colorful_healthy_Chickpea_Salad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "descurl": "https://commons.wikimedia.org/wiki/File:Colorful_healthy_Chickpea_Salad.jpg",
-   "used_by": null
+   "used_by": "memohoney-dosage-and-timing"
   },
   {
    "file": "food-nutrition-21.jpg",
@@ -3615,7 +3615,7 @@
    "attribution": "Pöllö / Wikimedia Commons",
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Tablets_pills_medicine_medical_waste.jpg/1280px-Tablets_pills_medicine_medical_waste.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "descurl": "https://commons.wikimedia.org/wiki/File:Tablets_pills_medicine_medical_waste.jpg",
-   "used_by": null
+   "used_by": "does-memopezil-work"
   },
   {
    "file": "supplement-pills-22.jpg",
@@ -3640,7 +3640,8 @@
    "attribution": "Marco Almbauer / Wikimedia Commons",
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Lachs%C3%B6lkapsel.jpg/1280px-Lachs%C3%B6lkapsel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "descurl": "https://commons.wikimedia.org/wiki/File:Lachs%C3%B6lkapsel.jpg",
-   "used_by": null
+   "used_by": "__disqualified__",
+   "reason": "near-duplicate of mediterranean-diet-and-memory hero"
   },
   {
    "file": "supplement-pills-24.jpg",
@@ -3665,7 +3666,7 @@
    "attribution": "Gpkp / Wikimedia Commons",
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Omega_3_Fish_oil_softgel_capsules.jpg/1280px-Omega_3_Fish_oil_softgel_capsules.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "descurl": "https://commons.wikimedia.org/wiki/File:Omega_3_Fish_oil_softgel_capsules.jpg",
-   "used_by": null
+   "used_by": "memohoney-ingredients-explained"
   },
   {
    "file": "supplement-pills-26.jpg",
@@ -3715,7 +3716,7 @@
    "attribution": "Linda Bartlett (Photographer) / Wikimedia Commons",
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Nurse_checks_blood_pressure.jpg/1280px-Nurse_checks_blood_pressure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "descurl": "https://commons.wikimedia.org/wiki/File:Nurse_checks_blood_pressure.jpg",
-   "used_by": null
+   "used_by": "memohoney-side-effects"
   },
   {
    "file": "doctor-medical-14.jpg",

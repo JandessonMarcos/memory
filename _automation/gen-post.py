@@ -137,7 +137,7 @@ src="https://www.facebook.com/tr?id=831503250016369&ev=PageView&noscript=1"/></n
     <div class="final">
       <h3>@@final_h@@</h3>
       <p>@@final_p@@</p>
-      <a class="buy-btn buy-link" data-rank="1" href="#">See the Top 5 Memory Formulas &rarr;</a>
+      <a class="buy-btn @@buy_cls@@" data-rank="1" href="#">@@final_btn@@</a>
     </div>
 
     <div class="sources" style="font-size:14px;margin-top:22px;padding-top:14px;border-top:1px solid #e6e8ec">
@@ -160,7 +160,7 @@ src="https://www.facebook.com/tr?id=831503250016369&ev=PageView&noscript=1"/></n
 </footer>
 
 <script src="../assets/cta.js"></script>
-</body>
+@@brand_js@@</body>
 </html>
 '''
 
@@ -196,6 +196,91 @@ RECBOX_BRAND = '''    <!-- inline recommendation (branded page) -->
       </div>
     </div>
 '''
+
+# Branded pages (spec "brand"). MemoHoney buttons use a.buy-link-mhny, wired by
+# assets/cta-mhny.js to /go/memohoney/; Memopezil keeps a.buy-link (cta.js).
+# Prices mirror the review pages; change them in both places together.
+BRANDS = {
+    "memopezil": {"name": "Memopezil", "cls": "buy-link", "packs": "packs", "js": "",
+                  "line": "Five ingredients with every dose printed: BCAAs, bacopa, rhodiola, L-theanine and panax ginseng. Two capsules a day, stimulant-free.",
+                  "ship2": "+ shipping"},
+    "memohoney": {"name": "MemoHoney", "cls": "buy-link-mhny", "packs": "packs-mhny",
+                  "js": '<script src="../assets/cta-mhny.js"></script>\n',
+                  "line": "A blood-flow-first formula with ginkgo, bacopa, blueberry and honey. One capsule a day, stimulant-free.",
+                  "ship2": "+ $9.99 shipping"},
+}
+
+PRODBOX = '''    <div class="prodbox">
+      <img src="../assets/img/@@packs@@/6.png" width="520" height="520" alt="@@name@@ bottles from the official store" loading="lazy">
+      <div>
+        <span class="pb-tag">Official store</span>
+        <h4>@@name@@: check today's price</h4>
+        <p>@@line@@ Sold only on the official site, with a 60-day money-back guarantee.</p>
+        <a class="buy-btn sm @@cls@@" data-rank="@@rank@@" href="#">See the official price &rarr;</a>
+      </div>
+    </div>
+'''
+
+PACKBOX = '''    <div class="packbox">
+      <a class="pack-opt @@cls@@" data-pack="2" data-rank="@@rank@@">
+        <img class="po-img" src="../assets/img/@@packs@@/2.png" width="520" height="520" alt="@@name@@ 2-bottle package" loading="lazy">
+        <span class="po-top">2 Bottles · Starter</span>
+        <span class="po-price">$79<small>/bottle</small></span>
+        <span class="po-cta">Check Availability &rarr;</span>
+        <span class="po-ship">@@ship2@@</span>
+      </a>
+      <a class="pack-opt best @@cls@@" data-pack="6" data-rank="@@rank@@">
+        <img class="po-img" src="../assets/img/@@packs@@/6.png" width="520" height="520" alt="@@name@@ 6-bottle package, best value" loading="lazy">
+        <span class="po-top">6 Bottles · Best Value</span>
+        <span class="po-price">$49<small>/bottle</small></span>
+        <span class="po-cta">Claim Discount &rarr;</span>
+        <span class="po-ship">Free US Shipping</span>
+      </a>
+      <a class="pack-opt @@cls@@" data-pack="3" data-rank="@@rank@@">
+        <img class="po-img" src="../assets/img/@@packs@@/3.png" width="520" height="520" alt="@@name@@ 3-bottle package" loading="lazy">
+        <span class="po-top">3 Bottles · Popular</span>
+        <span class="po-price">$69<small>/bottle</small></span>
+        <span class="po-cta">Claim Discount &rarr;</span>
+        <span class="po-ship">Free US Shipping</span>
+      </a>
+    </div>
+    <div class="grt-line"><span class="tk">&#10003;</span> 60-Day Money-Back Guarantee · Official site only · One-time charge</div>
+    <p class="pricenote">Prices shown are the manufacturer's published rates at the time of writing and can change without notice.</p>
+'''
+
+
+def brand_block(tpl, brand, rank):
+    b = BRANDS[brand]
+    out = tpl
+    for k, v in (("name", b["name"]), ("cls", b["cls"]), ("packs", b["packs"]),
+                 ("line", b["line"]), ("ship2", b["ship2"]), ("rank", str(rank))):
+        out = out.replace("@@" + k + "@@", v)
+    return out.rstrip("\n")
+
+
+def figure(file, alt, caption):
+    """Inline photo. Credit goes in the caption when the licence asks for it."""
+    key = os.path.splitext(os.path.basename(file))[0]
+    cred = ""
+    try:
+        c = json.load(open(CREDITS_FILE)).get(key)
+    except Exception:
+        c = None
+    if c and c.get("license") not in ("CC0", "Public domain", None):
+        who = c.get("creator") or "Unknown"
+        src = c.get("source") or ""
+        who_h = f'<a href="{src}" rel="noopener nofollow" target="_blank">{who}</a>' if src else who
+        cred = f' <span class="fig-credit">Photo: {who_h} / {c.get("license")}</span>'
+    try:
+        from PIL import Image
+        w, h = Image.open(f"assets/img/{file}").size
+    except Exception:
+        w, h = 900, 600
+    return (f'    <figure class="inl">\n'
+            f'      <img src="../assets/img/{file}" width="{w}" height="{h}" alt="{alt}" loading="lazy">\n'
+            f'      <figcaption>{caption}{cred}</figcaption>\n'
+            f'    </figure>')
+
 
 CREDITS_FILE = "_automation/img-credits.json"
 POOL_MANIFEST = "_automation/img-pool.json"
@@ -272,7 +357,9 @@ def render(slug):
     cat_label, cat_href = CATS[s["cat"]]
 
     # body: list of ["h2", text] / ["p", html] / ["recbox"]
+    brand = s.get("brand")
     parts = []
+    rank = 0
     for node in s["body"]:
         if node[0] == "h2":
             parts.append(f'    <h2 class="sec">{node[1]}</h2>')
@@ -282,6 +369,13 @@ def render(slug):
             variant = node[1] if len(node) > 1 else None
             box = RECBOX_BRAND if variant == "brand" else RECBOX
             parts.append(box.rstrip("\n"))
+        elif node[0] in ("prodbox", "packs"):
+            if not brand:
+                raise SystemExit(f"{slug}: {node[0]} needs a spec 'brand'")
+            rank += 1
+            parts.append(brand_block(PRODBOX if node[0] == "prodbox" else PACKBOX, brand, rank))
+        elif node[0] == "figure":
+            parts.append(figure(node[1], node[2], node[3]))
         elif node[0] == "h3":
             parts.append(f'    <h3>{node[1]}</h3>')
         elif node[0] == "ul":
@@ -329,6 +423,10 @@ def render(slug):
         "img_credit": hero_credit(slug),
         "pull": s["pull"], "faq_html": faq_html, "final_h": s["final_h"],
         "final_p": s["final_p"], "sources": sources, "related": related,
+        "buy_cls": BRANDS[brand]["cls"] if brand else "buy-link",
+        "final_btn": (f'See {BRANDS[brand]["name"]}\'s official price &rarr;' if brand
+                      else "See the Top 5 Memory Formulas &rarr;"),
+        "brand_js": BRANDS[brand]["js"] if brand else "",
     }
     out = HEAD
     for k, v in fields.items():

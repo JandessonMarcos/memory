@@ -457,3 +457,19 @@ main.ml-main{grid-template-columns:minmax(0,1fr) 340px;gap:56px;justify-content:
 .mlh-logo b{margin-left:0}
 .article p.img-credit{font-size:12px;line-height:1.4;color:#8a8f98;margin:6px 0 0}
 .article p.img-credit.end{margin:22px 0 0;padding-top:10px;border-top:1px solid var(--line2)}
+/* branded pages: product box + inline figures (gen-post.py, 2026-10-19) */
+.prodbox{display:grid;grid-template-columns:150px 1fr;gap:18px;align-items:center;border:2px solid var(--gold);background:#fffdf6;border-radius:14px;padding:16px 18px;margin:26px 0;box-shadow:0 6px 22px rgba(0,0,0,.06)}
+.prodbox img{width:100%;height:auto;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}
+.prodbox .pb-tag{font-size:11px;font-weight:900;letter-spacing:1px;text-transform:uppercase;background:var(--gold);color:#3a2c00;padding:3px 9px;border-radius:20px;display:inline-block;margin-bottom:6px}
+.prodbox h4{margin:0 0 6px;font-size:18px;font-weight:800;color:var(--ink)}
+.prodbox p{margin:0 0 10px;font-size:14px;color:#444}
+@media(max-width:560px){.prodbox{grid-template-columns:96px 1fr;gap:12px;padding:14px}}
+figure.inl{margin:26px 0}
+figure.inl img{width:100%;height:auto;border-radius:10px;display:block}
+figure.inl figcaption{font-size:13px;color:#666;margin-top:6px;line-height:1.5}
+figure.inl .fig-credit{display:block;font-size:11px;color:#999;margin-top:2px}
+
+.article .pricenote{font-size:13px;color:#666;text-align:center;margin:6px 0 0}
+.pack-opt .po-img{width:100%;max-width:132px;height:96px;object-fit:contain;display:block;margin:0 auto 2px;filter:drop-shadow(0 5px 9px rgba(0,0,0,.18))}
+.pack-opt.best .po-img{max-width:150px;height:104px}
+@media(max-width:559px){.pack-opt .po-img,.pack-opt.best .po-img{max-width:112px;height:82px}}

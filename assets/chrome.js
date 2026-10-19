@@ -11,6 +11,26 @@
     var p=location.pathname, m=p.match(/^\/topics\/[^\/]+\//);
     [].forEach.call(nav.querySelectorAll('a'),function(a){ var h=a.getAttribute('href'); if((m&&h===m[0])||(p==='/'&&h==='/')) a.classList.add('on'); });
   }
+  // home hero: reveal extra stories while they fit beside the lead column
+  var hx=document.querySelector('.hx');
+  function fill(){
+    if(!hx) return;
+    var a=hx.querySelector('.hx-a'); if(!a) return;
+    [['.hx-b','.st',3],['.hx-c','.th',5]].forEach(function(c){
+      var col=hx.querySelector(c[0]); if(!col) return;
+      var items=col.querySelectorAll(c[1]);
+      for(var i=c[2];i<items.length;i++) items[i].classList.remove('show');
+      if(window.innerWidth<=1280&&c[0]==='.hx-c') return;
+      if(window.innerWidth<=760) return;
+      var limit=a.getBoundingClientRect().bottom;
+      for(var j=c[2];j<items.length;j++){
+        items[j].classList.add('show');
+        if(items[j].getBoundingClientRect().bottom>limit+4){ items[j].classList.remove('show'); break; }
+      }
+    });
+  }
+  if(hx){ fill(); window.addEventListener('load',fill); var t; window.addEventListener('resize',function(){ clearTimeout(t); t=setTimeout(fill,150); }); }
+
   var as=document.querySelector('.ml-aside');
   if(as){
     fetch('/assets/latest.json').then(function(r){return r.json();}).then(function(L){

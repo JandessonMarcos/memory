@@ -129,7 +129,9 @@ def load_posts():
 
 # ---------------------------------------------------------------- chrome
 def header_html(active_cats):
-    nav = ['<a href="/">Home</a>'] + [f'<a href="/topics/{s}/">{esc(CAT_LABEL[s])}</a>' for s in active_cats]
+    # every section is listed, even before its first article (its hub says so)
+    nav = (['<a href="/">Home</a>'] + [f'<a href="/topics/{s}/">{esc(l)}</a>' for s, l, _ in CATS]
+           + ['<a href="/memory-test/">Memory Test</a>', '<a href="/best-memory-supplements-2026/">Best of 2026</a>'])
     return (
         '<header class="mlh">\n'
         '  <div class="mlh-bar">\n'
@@ -138,7 +140,7 @@ def header_html(active_cats):
         '      <button class="ico-search mlh-search" aria-label="Search"><span class="mlh-ph">Search health topics</span>'
         '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="16.5" y1="16.5" x2="21" y2="21"></line></svg></button>\n'
         '    </div>\n'
-        '    <a class="mlh-logo" href="/">Memory<b>Lab</b></a>\n'
+        '    <a class="mlh-logo" href="/">Memory<b>Lab</b>Daily</a>\n'
         '    <div class="mlh-right"><a class="mlh-cta" href="/memory-test/">Free Memory Test</a></div>\n'
         '  </div>\n'
         f'  <nav class="mlh-nav" aria-label="Sections"><div class="mlh-nav-in">{"".join(nav)}</div></nav>\n'
@@ -209,9 +211,11 @@ def hero(posts):
     lead = P[0]
     rel = [x for x in P[1:4] if x]
     mini = [x for x in P[4:7] if x]
-    mid = [x for x in P[7:10] if x]
-    midrel = [x for x in P[10:13] if x]
-    side = [x for x in P[13:18] if x]
+    # extra stories/thumbs stay hidden until chrome.js sees room for them,
+    # so the three columns end level on any screen width
+    mid = [x for x in P[7:15] if x]
+    midrel = [x for x in P[15:23] if x]
+    side = [x for x in P[23:31] if x]
     out = ['<section class="hx">', '<div class="hx-a">']
     if lead:
         out.append(f'<a class="hx-lead" href="{url(lead)}">{img_tag(lead, lazy=False)}<div class="hx-ov"><span>{esc(CAT_LABEL[lead["cat"]])}</span><h2>{esc(lead["title"])}</h2></div></a>')
@@ -227,7 +231,7 @@ def hero(posts):
     out.append('<div class="hx-c">' + "".join(
         f'<a class="th" href="{url(x)}">{img_tag(x)}<div><span>{esc(CAT_LABEL[x["cat"]])}</span><h3>{esc(x["title"])}</h3></div></a>' for x in side) + "</div>")
     out.append("</section>")
-    used = {x["slug"] for x in P[:18] if x}
+    used = {x["slug"] for x in P[:31] if x}
     return "\n".join(out), used
 
 
@@ -299,10 +303,18 @@ def build_topics(posts, head_html, tail):
     urls = []
     for slug, label, desc in CATS:
         items = [p for p in posts if p["cat"] == slug]
-        if not items:
-            continue
         canon = f"{SITE}/topics/{slug}/"
         h = set_meta(head, f"{label} — Memory Lab", desc, canon)
+        if not items:
+            # listed in the nav before its first article: noindex, show the latest posts
+            h = h.replace('<meta name="robots" content="index, follow">', '<meta name="robots" content="noindex, follow">')
+            body = (f"\n{head_html}\n\n<main class=\"home2\">\n"
+                    f'<div class="tp-head"><div class="crumb"><a href="/">Home</a> › {esc(label)}</div><h1>{esc(label)}</h1><p>{esc(desc)}</p></div>\n'
+                    f'<p class="tp-soon">The first {esc(label)} articles are being published this week. Meanwhile, here is the latest from Memory Lab.</p>\n'
+                    f'<section class="sec"><div class="grid g5">{"".join(card(p) for p in posts[:10])}</div></section>\n</main>\n\n')
+            os.makedirs(f"topics/{slug}", exist_ok=True)
+            open(f"topics/{slug}/index.html", "w", encoding="utf-8").write(h + body + tail.replace('src="assets/', 'src="/assets/'))
+            continue
         lead, rest = items[0], items[1:]
         body = (f"\n{head_html}\n\n<main class=\"home2\">\n"
                 f'<div class="tp-head"><div class="crumb"><a href="/">Home</a> › {esc(label)}</div><h1>{esc(label)}</h1><p>{esc(desc)}</p></div>\n'
@@ -331,6 +343,8 @@ def main():
     active = [s for s, _, _ in CATS if any(p["cat"] == s for p in posts)]
     head_html = header_html(active)
     _, tail = split_index()
+    if SCRIPT not in tail:
+        tail = tail.replace("</body>", SCRIPT + "\n</body>", 1)
     build_home(posts, head_html, tail)
     topic_urls = build_topics(posts, head_html, tail)
     changed = 0

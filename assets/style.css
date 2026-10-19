@@ -425,3 +425,10 @@ h1.headline{font-size:clamp(26px,2.6vw,38px);letter-spacing:-.8px}
 @media (max-width:640px){main.ml-main{padding:16px 16px 0}}
 h1.headline,h1.headline .hl{color:#111}
 main.ml-main .cat{color:var(--blue)}
+.mlh-logo{letter-spacing:-.8px}
+.hx-b .st:nth-child(n+4),.hx-c .th:nth-child(n+6){display:none}
+.hx-b .st.show,.hx-c .th.show{display:block}
+.hx-c .th.show{display:grid}
+.tp-soon{background:#f3f7ff;border:1px solid #d6e4ff;border-radius:8px;padding:12px 16px;font-size:15px;color:#24406e;margin:0 0 6px}
+@media (max-width:760px){.mlh-logo{font-size:19px;letter-spacing:-.6px}.mlh-cta{font-size:12px;padding:7px 11px}}
+@media (max-width:400px){.mlh-cta{display:none}}

@@ -303,11 +303,28 @@ HOME_DESC = "Independent, plain-English guides and reviews on memory, sleep, hea
 def build_home(posts, head_html, tail):
     head, _ = split_index()
     head = set_meta(head, HOME_TITLE, HOME_DESC, SITE + "/")
-    hx, used = hero(posts)
+    # the home's top block leads with editorial news; product reviews show up in
+    # their own sections below (Men's Health, Energy, Heart, Reviews)
+    editorial = [p for p in posts if not is_product_page(p)]
+    hx, used = hero(editorial + [p for p in posts if is_product_page(p)])
     body = (f"\n{head_html}\n\n<main class=\"home2\">\n<h1 class=\"sr-only\">Memory Lab: independent health, memory and wellness news, guides and reviews</h1>\n"
             f"{hx}\n{picks_row(posts)}\n{sections(posts, used)}\n</main>\n\n")
     tail = tail.replace('src="assets/', 'src="/assets/')
     open("index.html", "w", encoding="utf-8").write(head + body + tail)
+
+
+def is_product_page(p):
+    """Branded review/comparison pages. They belong in their own section only,
+    never as filler for an unrelated hub (a men's gummy under 'Sleep')."""
+    sl = p["slug"]
+    if p["cat"] == "reviews" or sl.endswith("-review"):
+        return True
+    try:
+        brands = ["memopezil", "memohoney"] + [o["slug"] for o in json.load(open("_automation/offers.json"))["offers"]]
+        brands += ["horse-boost"]
+    except Exception:
+        brands = ["memopezil", "memohoney"]
+    return any(b in sl for b in brands)
 
 
 def build_topics(posts, head_html, tail):
@@ -323,7 +340,7 @@ def build_topics(posts, head_html, tail):
             body = (f"\n{head_html}\n\n<main class=\"home2\">\n"
                     f'<div class="tp-head"><div class="crumb"><a href="/">Home</a> › {esc(label)}</div><h1>{esc(label)}</h1><p>{esc(desc)}</p></div>\n'
                     f'<p class="tp-soon">The first {esc(label)} articles are being published this week. Meanwhile, here is the latest from Memory Lab.</p>\n'
-                    f'<section class="sec"><div class="grid g5">{"".join(card(p) for p in posts[:10])}</div></section>\n</main>\n\n')
+                    f'<section class="sec"><div class="grid g5">{"".join(card(p) for p in [x for x in posts if not is_product_page(x)][:10])}</div></section>\n</main>\n\n')
             os.makedirs(f"topics/{slug}", exist_ok=True)
             open(f"topics/{slug}/index.html", "w", encoding="utf-8").write(h + body + tail.replace('src="assets/', 'src="/assets/'))
             continue

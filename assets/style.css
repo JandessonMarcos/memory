@@ -432,3 +432,28 @@ main.ml-main .cat{color:var(--blue)}
 .tp-soon{background:#f3f7ff;border:1px solid #d6e4ff;border-radius:8px;padding:12px 16px;font-size:15px;color:#24406e;margin:0 0 6px}
 @media (max-width:760px){.mlh-logo{font-size:19px;letter-spacing:-.6px}.mlh-cta{font-size:12px;padding:7px 11px}}
 @media (max-width:400px){.mlh-cta{display:none}}
+/* article: 3 columns on wide screens (toc | article | sidebar) */
+.ml-toc{display:none}
+main.ml-main{grid-template-columns:minmax(0,1fr) 340px;gap:56px;justify-content:stretch}
+@media (min-width:1400px){
+  main.ml-main{grid-template-columns:250px minmax(0,1fr) 340px;gap:48px}
+  .ml-toc{display:block;padding-top:6px}
+  .ml-toc .toc-in{position:sticky;top:120px}
+  .ml-toc h3{font-size:13px;letter-spacing:.8px;text-transform:uppercase;color:var(--mute2);margin:0 0 10px}
+  .ml-toc a{display:block;font-size:14px;line-height:1.4;color:#333;padding:8px 0 8px 12px;border-left:2px solid var(--line2)}
+  .ml-toc a:hover,.ml-toc a.on{color:var(--blue-d);border-left-color:var(--blue);text-decoration:none}
+}
+@media (min-width:1700px){.article p,.article ul,.article ol{font-size:19.5px;line-height:1.75}}
+.ml-aside .promo{display:block;background:#000;color:#fff;border-radius:10px;padding:20px;margin:6px 0 26px;border:0}
+.ml-aside .promo:hover{color:#fff}
+.ml-aside .promo b{font-size:18px;color:#fff}
+.ml-aside .promo span{color:#cfd8e6;font-size:14px;margin:6px 0 14px}
+.ml-aside .promo i{display:inline-block;font-style:normal;background:var(--blue);color:#fff;font-weight:700;font-size:14px;padding:9px 16px;border-radius:999px}
+.ml-aside h3.pop{margin-top:6px}
+.ml-aside .poplist a{grid-template-columns:28px 1fr}
+.ml-aside .poplist em{font-style:normal;font-size:22px;font-weight:800;color:var(--blue);line-height:1}
+@media (max-width:1100px){main.ml-main{grid-template-columns:minmax(0,1fr)}}
+.mlh-logo{letter-spacing:-.5px;word-spacing:2px}
+.mlh-logo b{margin-left:0}
+.article p.img-credit{font-size:12px;line-height:1.4;color:#8a8f98;margin:6px 0 0}
+.article p.img-credit.end{margin:22px 0 0;padding-top:10px;border-top:1px solid var(--line2)}

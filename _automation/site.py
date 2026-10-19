@@ -140,7 +140,7 @@ def header_html(active_cats):
         '      <button class="ico-search mlh-search" aria-label="Search"><span class="mlh-ph">Search health topics</span>'
         '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="16.5" y1="16.5" x2="21" y2="21"></line></svg></button>\n'
         '    </div>\n'
-        '    <a class="mlh-logo" href="/">Memory<b>Lab</b>Daily</a>\n'
+        '    <a class="mlh-logo" href="/">Memory <b>Lab</b> Daily</a>\n'
         '    <div class="mlh-right"><a class="mlh-cta" href="/memory-test/">Free Memory Test</a></div>\n'
         '  </div>\n'
         f'  <nav class="mlh-nav" aria-label="Sections"><div class="mlh-nav-in">{"".join(nav)}</div></nav>\n'
@@ -170,12 +170,24 @@ def apply_chrome(path, head):
     else:
         return False
     if path.split("/")[0] in NO_ASIDE:
+        s = s.replace('\n  <nav class="ml-toc" aria-label="In this article"></nav>', "")
         s = re.sub(r'\n  <aside class="ml-aside" aria-label="Latest"></aside>', "", s)
         s = s.replace('<main class="ml-main">', "<main>", 1)
     elif '<article class="article">' in s:
         s = s.replace("<main>", '<main class="ml-main">', 1)
+        if 'class="ml-toc"' not in s:
+            s = s.replace('<main class="ml-main">', '<main class="ml-main">\n  <nav class="ml-toc" aria-label="In this article"></nav>', 1)
         if 'class="ml-aside"' not in s:
             s = re.sub(r"(</article>)(\s*</main>)", r'\1\n  <aside class="ml-aside" aria-label="Latest"></aside>\2', s, count=1)
+    # Photo credit: never under the hero. CC0/public domain need none, so it goes;
+    # CC BY / BY-SA require attribution, so it moves to the end of the article.
+    m = re.search(r'\s*<p class="img-credit">.*?</p>', s, re.S)
+    if m and "</article>" in s:
+        credit = m.group(0).strip()
+        s = s[:m.start()] + s[m.end():]
+        if not re.search(r"/ (CC0|Public domain)</p>$", credit, re.I):
+            credit = credit.replace('<p class="img-credit">Photo:', '<p class="img-credit end">Image:', 1)
+            s = s.replace("</article>", "  " + credit + "\n  </article>", 1)
     if SCRIPT not in s:
         s = s.replace("</body>", SCRIPT + "\n</body>", 1)
     if s != o:

@@ -31,6 +31,19 @@
   }
   if(hx){ fill(); window.addEventListener('load',fill); var t; window.addEventListener('resize',function(){ clearTimeout(t); t=setTimeout(fill,150); }); }
 
+  // left rail: table of contents from the article's section headings
+  var toc=document.querySelector('.ml-toc'), art=document.querySelector('article.article');
+  if(toc&&art){
+    var hs=art.querySelectorAll('h2.sec'), links=[];
+    if(hs.length>1){
+      var h='<div class="toc-in"><h3>In this article</h3>';
+      [].forEach.call(hs,function(el,i){ if(!el.id) el.id='s'+(i+1); h+='<a href="#'+el.id+'">'+el.textContent.replace(/[&<>]/g,'')+'</a>'; });
+      toc.innerHTML=h+'</div>'; links=toc.querySelectorAll('a');
+      var spy=function(){ var cur=-1; [].forEach.call(hs,function(el,i){ if(el.getBoundingClientRect().top<160) cur=i; }); [].forEach.call(links,function(l,i){ l.classList.toggle('on',i===cur); }); };
+      window.addEventListener('scroll',spy,{passive:true}); spy();
+    }
+  }
+
   var as=document.querySelector('.ml-aside');
   if(as){
     fetch('/assets/latest.json').then(function(r){return r.json();}).then(function(L){
@@ -39,7 +52,11 @@
         var e=function(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});};
         h+='<a href="'+x.u+'">'+(x.i?'<img src="'+x.i+'" alt="" loading="lazy" width="84" height="84">':'')+'<div><span>'+e(x.c)+'</span><b>'+e(x.t)+'</b></div></a>';
       });
-      as.innerHTML=h+'</div>';
+      h+='<a class="promo" href="/memory-test/"><div><b>How sharp is your memory?</b><span>Two quick tasks, a score in 3 minutes. Free, no sign-up.</span><i>Take the free test</i></div></a>';
+      var pop=[['/how-to-improve-memory/','How to Improve Your Memory: 11 Science-Backed Ways'],['/brain-fog-causes-and-fixes/','Brain Fog: 7 Common Causes and How to Clear It'],['/sleep-and-memory/','Sleep and Memory: Why Deep Sleep Locks In Recall'],['/best-memory-supplements-2026/','The 5 Best Memory Formulas of 2026']];
+      h+='<h3 class="pop">Most read</h3><div class="poplist">';
+      pop.filter(function(x){return x[0]!==here;}).forEach(function(x,i){ h+='<a href="'+x[0]+'"><em>'+(i+1)+'</em><div><b>'+x[1]+'</b></div></a>'; });
+      as.innerHTML=h+'</div></div>';
     }).catch(function(){});
   }
 })();

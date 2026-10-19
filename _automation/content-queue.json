@@ -2761,14 +2761,16 @@
       "title": "Beta-Carotene and Brain Health: What the Evidence Shows",
       "kw": "beta carotene brain health",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "homocysteine-and-cognitive-decline",
       "title": "Homocysteine and Cognitive Decline: Why This Marker Matters",
       "kw": "homocysteine cognitive decline",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "how-long-to-fall-asleep-normal",
@@ -2776,7 +2778,7 @@
       "kw": "how long to fall asleep normal",
       "cat": "Sleep",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "resting-heart-rate-by-age",
@@ -2784,7 +2786,7 @@
       "kw": "resting heart rate by age",
       "cat": "Heart Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "signs-of-unhealthy-gut",
@@ -2792,21 +2794,23 @@
       "kw": "signs of unhealthy gut",
       "cat": "Gut Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "cinnamon-and-brain-health",
       "title": "Cinnamon and Brain Health: Does It Really Support Memory?",
       "kw": "cinnamon brain health",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "houseplants-and-cognitive-function",
       "title": "Houseplants and Cognitive Function: Does Greenery Really Sharpen Focus?",
       "kw": "houseplants cognitive function focus",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "why-am-i-always-tired",
@@ -2814,7 +2818,7 @@
       "kw": "why am i always tired",
       "cat": "Energy & Metabolism",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "knee-pain-climbing-stairs",
@@ -2822,7 +2826,7 @@
       "kw": "knee pain climbing stairs",
       "cat": "Joints & Mobility",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "testosterone-levels-by-age",
@@ -2830,21 +2834,23 @@
       "kw": "testosterone levels by age",
       "cat": "Men's Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "pet-ownership-and-cognitive-decline",
       "title": "Pet Ownership and Cognitive Decline: What the Research Shows",
       "kw": "pet ownership cognitive decline",
       "cat": "Aging Well",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "volunteering-and-cognitive-decline",
       "title": "Volunteering and Cognitive Decline: Does Giving Back Protect Your Brain?",
       "kw": "volunteering cognitive decline",
       "cat": "Aging Well",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "perimenopause-symptoms-early-signs",
@@ -2852,7 +2858,7 @@
       "kw": "perimenopause symptoms early signs",
       "cat": "Women's Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "anti-inflammatory-foods-list",
@@ -2860,7 +2866,7 @@
       "kw": "anti inflammatory foods list",
       "cat": "Nutrition",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "waking-up-at-3am-causes",
@@ -2868,21 +2874,23 @@
       "kw": "waking up at 3am causes",
       "cat": "Sleep",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "knitting-and-cognitive-function",
       "title": "Knitting and Cognitive Function: The Case for Handcrafts and a Sharper Mind",
       "kw": "knitting cognitive function brain",
       "cat": "Memory",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "mushroom-coffee-and-focus",
       "title": "Mushroom Coffee and Focus: Does It Actually Sharpen Concentration?",
       "kw": "mushroom coffee focus",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "lower-blood-pressure-naturally",
@@ -2890,7 +2898,7 @@
       "kw": "lower blood pressure naturally",
       "cat": "Heart Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "prebiotics-vs-probiotics",
@@ -2898,7 +2906,7 @@
       "kw": "prebiotics vs probiotics",
       "cat": "Gut Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "afternoon-energy-slump",
@@ -2906,21 +2914,23 @@
       "kw": "afternoon energy slump",
       "cat": "Energy & Metabolism",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "taurine-and-cognitive-function",
       "title": "Taurine and Cognitive Function: What the Research Actually Shows",
       "kw": "taurine cognitive function brain",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "vitamin-e-and-brain-health",
       "title": "Vitamin E and Brain Health: Why This Antioxidant Matters for Memory",
       "kw": "vitamin e brain health",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "morning-joint-stiffness",
@@ -2928,7 +2938,7 @@
       "kw": "morning joint stiffness",
       "cat": "Joints & Mobility",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "enlarged-prostate-symptoms",
@@ -2936,7 +2946,7 @@
       "kw": "enlarged prostate symptoms",
       "cat": "Men's Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "hot-flashes-natural-relief",
@@ -2944,21 +2954,23 @@
       "kw": "hot flashes natural relief",
       "cat": "Women's Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "vitamin-k2-and-brain-health",
       "title": "Vitamin K2 and Brain Health: An Overlooked Nutrient's Role in Cognition",
       "kw": "vitamin k2 brain health",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "elderberry-and-cognitive-function",
       "title": "Elderberry and Cognitive Function: Is There Any Brain Benefit?",
       "kw": "elderberry cognitive function brain",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "protein-per-day-after-50",
@@ -2966,7 +2978,7 @@
       "kw": "protein per day after 50",
       "cat": "Nutrition",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "magnesium-glycinate-for-sleep",
@@ -2974,7 +2986,7 @@
       "kw": "magnesium glycinate for sleep",
       "cat": "Sleep",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "steps-per-day-heart-health",
@@ -2982,21 +2994,23 @@
       "kw": "steps per day heart health",
       "cat": "Heart Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "apple-cider-vinegar-and-brain-fog",
       "title": "Apple Cider Vinegar and Brain Fog: Does It Really Help Focus?",
       "kw": "apple cider vinegar brain fog",
       "cat": "Ingredients",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "red-light-therapy-and-brain-health",
       "title": "Red Light Therapy and Brain Health: What the Evidence Actually Shows",
       "kw": "red light therapy brain health",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "why-am-i-always-bloated",
@@ -3004,7 +3018,7 @@
       "kw": "why am i always bloated",
       "cat": "Gut Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "blood-sugar-spikes-after-eating",
@@ -3012,7 +3026,7 @@
       "kw": "blood sugar spikes after eating",
       "cat": "Energy & Metabolism",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "glucosamine-chondroitin-joints",
@@ -3020,21 +3034,23 @@
       "kw": "glucosamine chondroitin joints",
       "cat": "Joints & Mobility",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "forest-bathing-and-cognitive-function",
       "title": "Forest Bathing and Cognitive Function: Can Time in Nature Sharpen Your Mind?",
       "kw": "forest bathing cognitive function",
       "cat": "Aging Well",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "decluttering-and-mental-clarity",
       "title": "Decluttering and Mental Clarity: Does a Tidy Space Really Help You Think?",
       "kw": "decluttering mental clarity focus",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "zinc-for-men",
@@ -3042,7 +3058,7 @@
       "kw": "zinc for men",
       "cat": "Men's Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "iron-deficiency-women-signs",
@@ -3050,7 +3066,7 @@
       "kw": "iron deficiency women signs",
       "cat": "Women's Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "mediterranean-diet-for-beginners",
@@ -3058,21 +3074,23 @@
       "kw": "mediterranean diet for beginners",
       "cat": "Nutrition",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "commute-length-and-cognitive-fatigue",
       "title": "Commute Length and Cognitive Fatigue: Is a Long Commute Draining Your Focus?",
       "kw": "commute length cognitive fatigue",
       "cat": "Brain Health",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "deep-work-technique-and-memory",
       "title": "Deep Work and Memory: Does Focused, Uninterrupted Work Improve Recall?",
       "kw": "deep work memory focus",
       "cat": "Memory",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "sleep-hygiene-checklist",
@@ -3080,7 +3098,7 @@
       "kw": "sleep hygiene checklist",
       "cat": "Sleep",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "potassium-foods-blood-pressure",
@@ -3088,7 +3106,7 @@
       "kw": "potassium foods blood pressure",
       "cat": "Heart Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "high-fiber-foods-list",
@@ -3096,21 +3114,23 @@
       "kw": "high fiber foods list",
       "cat": "Gut Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "digital-detox-and-memory",
       "title": "Digital Detox and Memory: What Happens When You Unplug?",
       "kw": "digital detox memory",
       "cat": "Memory",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "crossword-vs-sudoku-for-brain-health",
       "title": "Crossword vs Sudoku for Brain Health: Which Puzzle Wins?",
       "kw": "crossword vs sudoku brain health",
       "cat": "Memory",
-      "status": "pending"
+      "status": "pending",
+      "words": 1900
     },
     {
       "slug": "walking-after-eating-blood-sugar",
@@ -3118,7 +3138,7 @@
       "kw": "walking after eating blood sugar",
       "cat": "Energy & Metabolism",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "collagen-for-joint-pain",
@@ -3126,7 +3146,7 @@
       "kw": "collagen for joint pain",
       "cat": "Joints & Mobility",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "strength-training-after-50-men",
@@ -3134,7 +3154,7 @@
       "kw": "strength training after 50 men",
       "cat": "Men's Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "calcium-vitamin-d-women-over-50",
@@ -3142,7 +3162,7 @@
       "kw": "calcium vitamin d women over 50",
       "cat": "Women's Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "healthy-snacks-for-energy",
@@ -3150,7 +3170,7 @@
       "kw": "healthy snacks for energy",
       "cat": "Nutrition",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "is-6-hours-of-sleep-enough",
@@ -3158,7 +3178,7 @@
       "kw": "is 6 hours of sleep enough",
       "cat": "Sleep",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "ldl-vs-hdl-cholesterol",
@@ -3166,7 +3186,7 @@
       "kw": "ldl vs hdl cholesterol",
       "cat": "Heart Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "kefir-vs-yogurt-gut-health",
@@ -3174,7 +3194,7 @@
       "kw": "kefir vs yogurt gut health",
       "cat": "Gut Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "metabolism-after-40",
@@ -3182,7 +3202,7 @@
       "kw": "metabolism after 40",
       "cat": "Energy & Metabolism",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "low-impact-exercise-bad-knees",
@@ -3190,7 +3210,7 @@
       "kw": "low impact exercise bad knees",
       "cat": "Joints & Mobility",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "belly-fat-men-over-40",
@@ -3198,7 +3218,7 @@
       "kw": "belly fat men over 40",
       "cat": "Men's Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "strength-training-women-over-40",
@@ -3206,7 +3226,7 @@
       "kw": "strength training women over 40",
       "cat": "Women's Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "olive-oil-health-benefits",
@@ -3214,7 +3234,7 @@
       "kw": "olive oil health benefits",
       "cat": "Nutrition",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "tart-cherry-juice-sleep",
@@ -3222,7 +3242,7 @@
       "kw": "tart cherry juice sleep",
       "cat": "Sleep",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "omega-3-triglycerides",
@@ -3230,7 +3250,7 @@
       "kw": "omega 3 triglycerides",
       "cat": "Heart Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "psyllium-husk-benefits",
@@ -3238,7 +3258,7 @@
       "kw": "psyllium husk benefits",
       "cat": "Gut Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "protein-breakfast-energy",
@@ -3246,7 +3266,7 @@
       "kw": "protein breakfast energy",
       "cat": "Energy & Metabolism",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "hip-mobility-exercises-over-50",
@@ -3254,7 +3274,7 @@
       "kw": "hip mobility exercises over 50",
       "cat": "Joints & Mobility",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "saw-palmetto-evidence",
@@ -3262,7 +3282,7 @@
       "kw": "saw palmetto evidence",
       "cat": "Men's Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "magnesium-for-women",
@@ -3270,7 +3290,7 @@
       "kw": "magnesium for women",
       "cat": "Women's Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "how-much-water-per-day",
@@ -3278,7 +3298,7 @@
       "kw": "how much water per day",
       "cat": "Nutrition",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "wake-up-tired-after-8-hours",
@@ -3286,7 +3306,7 @@
       "kw": "wake up tired after 8 hours",
       "cat": "Sleep",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "how-much-salt-per-day-blood-pressure",
@@ -3294,7 +3314,7 @@
       "kw": "how much salt per day blood pressure",
       "cat": "Heart Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "leaky-gut-science",
@@ -3302,7 +3322,7 @@
       "kw": "leaky gut science",
       "cat": "Gut Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "b12-deficiency-fatigue",
@@ -3310,7 +3330,7 @@
       "kw": "b12 deficiency fatigue",
       "cat": "Energy & Metabolism",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "bone-density-after-50",
@@ -3318,7 +3338,7 @@
       "kw": "bone density after 50",
       "cat": "Joints & Mobility",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "mens-health-checkups-by-age",
@@ -3326,7 +3346,7 @@
       "kw": "mens health checkups by age",
       "cat": "Men's Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "thyroid-symptoms-women",
@@ -3334,7 +3354,7 @@
       "kw": "thyroid symptoms women",
       "cat": "Women's Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "how-to-spot-ultra-processed-foods",
@@ -3342,7 +3362,7 @@
       "kw": "how to spot ultra processed foods",
       "cat": "Nutrition",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "best-bedroom-temperature-for-sleep",
@@ -3350,7 +3370,7 @@
       "kw": "best bedroom temperature for sleep",
       "cat": "Sleep",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "heart-rate-variability-explained",
@@ -3358,7 +3378,7 @@
       "kw": "heart rate variability explained",
       "cat": "Heart Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "eating-slowly-digestion",
@@ -3366,7 +3386,7 @@
       "kw": "eating slowly digestion",
       "cat": "Gut Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "insulin-resistance-explained",
@@ -3374,7 +3394,7 @@
       "kw": "insulin resistance explained",
       "cat": "Energy & Metabolism",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "turmeric-joint-pain",
@@ -3382,7 +3402,7 @@
       "kw": "turmeric joint pain",
       "cat": "Joints & Mobility",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "sleep-and-testosterone",
@@ -3390,7 +3410,7 @@
       "kw": "sleep and testosterone",
       "cat": "Men's Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "menopause-sleep-problems",
@@ -3398,7 +3418,7 @@
       "kw": "menopause sleep problems",
       "cat": "Women's Health",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     },
     {
       "slug": "eggs-and-cholesterol",
@@ -3406,7 +3426,7 @@
       "kw": "eggs and cholesterol",
       "cat": "Nutrition",
       "status": "pending",
-      "words": 1400
+      "words": 1900
     }
   ]
 }

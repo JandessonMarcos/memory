@@ -1,4 +1,54 @@
 {
+  "blood-pril-side-effects": {
+    "attribution_required": false,
+    "creator": "Dunedin City Council Archives",
+    "license": "Public domain",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "provider": "flickr",
+    "query": "pharmacy",
+    "source": "https://www.flickr.com/photos/95014006@N04/27948230045",
+    "title": "Roslyn Pharmacy and a Greengrocer's, Roslyn, 1934"
+  },
+  "does-blood-pril-work": {
+    "attribution_required": false,
+    "creator": "auksainis",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "provider": "wordpress",
+    "query": "watermelon slices",
+    "source": "https://wordpress.org/photos/photo/76a2145798/",
+    "title": "A platter of neatly arranged watermelon slices sits on a black tray. The slices are cut into triangular shapes, revealing their bright pink, juicy flesh dotted with small black seeds. The outer green rind is still visible at the base of each slice. In the background, there is a green potted plant with upright leaves, adding a touch of color and freshness to the scene, which is set against a simple gray backdrop."
+  },
+  "does-gumitide-work": {
+    "attribution_required": false,
+    "creator": "JFVelasquez Floro",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+    "provider": "wikimedia",
+    "query": "apple cider vinegar",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=104101053",
+    "title": "9896Barnes Naturals Apple Cider Vinegar 04"
+  },
+  "does-horse-boost-work": {
+    "attribution_required": false,
+    "creator": "JESHOOTS.com",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "provider": "stocksnap",
+    "query": "running shoes",
+    "source": "https://stocksnap.io/photo/running-shoes-645GI8G1W4",
+    "title": "Running Shoes"
+  },
+  "does-jellytide-work": {
+    "attribution_required": false,
+    "creator": "JFVelasquez Floro",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+    "provider": "wikimedia",
+    "query": "apple cider vinegar",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=104101058",
+    "title": "9896Barnes Naturals Apple Cider Vinegar 08"
+  },
   "does-memohoney-work": {
     "attribution_required": false,
     "creator": "Tokyo538",
@@ -28,6 +78,96 @@
     "query": "fresh tea leaves plantation",
     "source": "https://www.flickr.com/photos/98640399@N08/9345961669",
     "title": "Tea Plantation 8048"
+  },
+  "does-sodaslim-work": {
+    "attribution_required": false,
+    "creator": "cogdogblog",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "provider": "flickr",
+    "query": "oatmeal bowl",
+    "source": "https://www.flickr.com/photos/37996646802@N01/3180105556",
+    "title": "2009/365/8 Oatmeal as Experimentation"
+  },
+  "does-sugar-reset-work": {
+    "attribution_required": false,
+    "creator": "Dennis S. Hurd",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "provider": "flickr",
+    "query": "green tea leaves",
+    "source": "https://www.flickr.com/photos/43296902@N00/526744640",
+    "title": "2007_06_02"
+  },
+  "does-vigor-boost-work": {
+    "attribution_required": false,
+    "creator": "Alabama Extension",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "provider": "flickr",
+    "query": "running shoes",
+    "source": "https://www.flickr.com/photos/184594136@N08/50166960078",
+    "title": "Running Shoes, Hand Weights & Resistance Band"
+  },
+  "gumitide-vs-jellytide": {
+    "attribution_required": false,
+    "creator": "Nilo Velez",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "provider": "wordpress",
+    "query": "gummy candies",
+    "source": "https://wordpress.org/photos/photo/715683357b/",
+    "title": "A close-up image featuring an assortment of colorful gummy candies scattered across a white surface. The candies come in various shapes and sizes, including bear-shaped and fruit-shaped gummies, with bright colors"
+  },
+  "horse-boost-ingredients": {
+    "attribution_required": true,
+    "creator": "Sander van der Wel",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "provider": "flickr",
+    "query": "fresh strawberries",
+    "source": "https://www.flickr.com/photos/40803964@N08/4735910403",
+    "title": "Delicious fresh strawberries"
+  },
+  "horse-boost-price": {
+    "attribution_required": false,
+    "creator": "Pittigrilli",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+    "provider": "wikimedia",
+    "query": "calculator",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=146120775",
+    "title": "Financial Calculator Hewlett-Packard HP-12C built from 1981, this item produced 1988 (edited to remove background, warmer colours)"
+  },
+  "horse-boost-refund-policy": {
+    "attribution_required": false,
+    "creator": "Bench Accounting",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "provider": "stocksnap",
+    "query": "cardboard shipping box",
+    "source": "https://stocksnap.io/photo/box-boxes-WP1KHDXGOY",
+    "title": "Box Boxes"
+  },
+  "how-to-take-vigor-boost": {
+    "attribution_required": false,
+    "creator": "Image Catalog",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "provider": "flickr",
+    "query": "alarm clock",
+    "source": "https://www.flickr.com/photos/132795455@N08/20979939428",
+    "title": "Small Decorative Alarm Clock"
+  },
+  "is-horse-boost-legit": {
+    "attribution_required": true,
+    "creator": "abegum",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "provider": "flickr",
+    "query": "computer keyboard",
+    "source": "https://www.flickr.com/photos/141776778@N02/29164807165",
+    "title": "computer keyboard"
   },
   "is-memohoney-worth-it": {
     "attribution_required": false,
@@ -68,6 +208,16 @@
     "query": "smartphone in hand at desk",
     "source": "https://stocksnap.io/photo/samsung-galaxy-QVKE96OD36",
     "title": "Samsung Galaxy"
+  },
+  "is-vapocept-legit": {
+    "attribution_required": false,
+    "creator": "BU Rennes 2",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "provider": "flickr",
+    "query": "magnifying glass",
+    "source": "https://www.flickr.com/photos/59505333@N03/17794651543",
+    "title": "2196-book-magnifying-glass"
   },
   "memohoney-dosage-and-timing-in": {
     "attribution_required": false,
@@ -369,6 +519,126 @@
     "source": "https://www.inaturalist.org/photos/165022223",
     "title": "herb of grace"
   },
+  "sodaslim-side-effects": {
+    "attribution_required": false,
+    "creator": "Angelos @ Ottawa",
+    "license": "Public domain",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "provider": "flickr",
+    "query": "chicory flower",
+    "source": "https://www.flickr.com/photos/194609185@N08/53835356359",
+    "title": "Wild Chicory Flower"
+  },
+  "sugar-reset-ingredients": {
+    "attribution_required": false,
+    "creator": "Alabama Extension",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "provider": "flickr",
+    "query": "green tea leaves",
+    "source": "https://www.flickr.com/photos/184594136@N08/49867462923",
+    "title": "Camellia sinensis, Home Grown Tea, Mobile County"
+  },
+  "sugar-reset-review": {
+    "attribution_required": false,
+    "creator": "Discover the world.",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "provider": "flickr",
+    "query": "green tea leaves",
+    "source": "https://www.flickr.com/photos/149844568@N06/34644323910",
+    "title": ""
+  },
+  "vapocept-how-long-results": {
+    "attribution_required": false,
+    "creator": "Amitbalani",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+    "provider": "wikimedia",
+    "query": "wall calendar",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=148932133",
+    "title": "Manual scrollable wooden wall calendar"
+  },
+  "vapocept-ingredients": {
+    "attribution_required": false,
+    "creator": "Alessandro Martini",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "provider": "wikimedia",
+    "query": "green tea leaves",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=15435152",
+    "title": "File:Green tea 3 appearances.jpg"
+  },
+  "vapocept-price": {
+    "attribution_required": false,
+    "creator": "pasukaru76",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "provider": "flickr",
+    "query": "piggy bank",
+    "source": "https://www.flickr.com/photos/38451115@N04/5296559285",
+    "title": "[116/365] Piggy Bank"
+  },
+  "vapocept-vs-memohoney": {
+    "attribution_required": false,
+    "creator": "Lottie's pets & stuff",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "provider": "flickr",
+    "query": "ginkgo leaves",
+    "source": "https://www.flickr.com/photos/36943025@N07/9527004535",
+    "title": "Ginkgo leaves"
+  },
+  "vapocept-vs-memopezil": {
+    "attribution_required": false,
+    "creator": "romainguy",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "provider": "flickr",
+    "query": "chess",
+    "source": "https://www.flickr.com/photos/24046097@N00/230416692",
+    "title": "Chess"
+  },
+  "vigor-boost-ingredients": {
+    "attribution_required": true,
+    "creator": "tacowitte",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "provider": "flickr",
+    "query": "maca root",
+    "source": "https://www.flickr.com/photos/31817492@N00/29821043355",
+    "title": "Maca root"
+  },
+  "vigor-boost-side-effects": {
+    "attribution_required": false,
+    "creator": "cogdogblog",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "provider": "flickr",
+    "query": "pill organizer",
+    "source": "https://www.flickr.com/photos/37996646802@N01/147359921",
+    "title": "Pill Buffet"
+  },
+  "vigor-boost-vs-horse-boost": {
+    "attribution_required": false,
+    "creator": "megforce1",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "provider": "flickr",
+    "query": "coffee beans",
+    "source": "https://www.flickr.com/photos/35608308@N05/22257623231",
+    "title": "Coffee Beans Texture"
+  },
+  "where-to-buy-horse-boost": {
+    "attribution_required": false,
+    "creator": "Wallboat",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "provider": "flickr",
+    "query": "credit card",
+    "source": "https://www.flickr.com/photos/151415985@N06/36340504370",
+    "title": "Credit Card"
+  },
   "where-to-buy-memohoney": {
     "attribution_required": false,
     "creator": "D Coetzee",
@@ -388,5 +658,15 @@
     "query": "delivery box",
     "source": "https://www.flickr.com/photos/37996646802@N01/4267944720",
     "title": "Today's Favorite Color is UPS / B&H Brown!"
+  },
+  "where-to-buy-vigor-boost": {
+    "attribution_required": false,
+    "creator": "Wallboat",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "provider": "flickr",
+    "query": "laptop keyboard",
+    "source": "https://www.flickr.com/photos/151415985@N06/36191698460",
+    "title": "laptop keyboard"
   }
 }

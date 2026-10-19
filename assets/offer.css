@@ -42,6 +42,116 @@
   --cta-ink:#ffffff;
 }
 
+/* VapoCept, navy/copper */
+[data-brand="vpc"]{
+  --brand:#1b2a5c;
+  --brand-dark:#121d40;
+  --brand-tint:#eef1f8;
+  --brand-ink:#0d1530;
+  --cta:#e0702a;
+  --cta-hover:#c55e1f;
+  --cta-ink:#ffffff;
+}
+
+/* SodaSlim, navy/orange */
+[data-brand="sds"]{
+  --brand:#1f3a6e;
+  --brand-dark:#152a52;
+  --brand-tint:#eef3fa;
+  --brand-ink:#0f1f3d;
+  --cta:#f07d1a;
+  --cta-hover:#d66b0f;
+  --cta-ink:#ffffff;
+}
+
+/* Blood Pril, dark red */
+[data-brand="bdp"]{
+  --brand:#8e1b1b;
+  --brand-dark:#6a1313;
+  --brand-tint:#fbeeee;
+  --brand-ink:#3a0808;
+  --cta:#c62828;
+  --cta-hover:#a51f1f;
+  --cta-ink:#ffffff;
+}
+
+/* Gumitide, berry */
+[data-brand="gmt"]{
+  --brand:#7a1a45;
+  --brand-dark:#5a1233;
+  --brand-tint:#fbeef4;
+  --brand-ink:#33091d;
+  --cta:#b0245f;
+  --cta-hover:#911d4e;
+  --cta-ink:#ffffff;
+}
+
+/* JellyTide, purple */
+[data-brand="jyt"]{
+  --brand:#4b2e83;
+  --brand-dark:#36205f;
+  --brand-tint:#f2eefa;
+  --brand-ink:#1f1238;
+  --cta:#6a3fb5;
+  --cta-hover:#56329a;
+  --cta-ink:#ffffff;
+}
+
+/* Sugar Reset, red */
+[data-brand="srt"]{
+  --brand:#b3242b;
+  --brand-dark:#8a1b21;
+  --brand-tint:#fcefef;
+  --brand-ink:#40090c;
+  --cta:#d32f2f;
+  --cta-hover:#b52626;
+  --cta-ink:#ffffff;
+}
+
+/* Gelatine Sculpt, pink */
+[data-brand="gst"]{
+  --brand:#c2185b;
+  --brand-dark:#960f45;
+  --brand-tint:#fdeef4;
+  --brand-ink:#45061f;
+  --cta:#e91e63;
+  --cta-hover:#c8164f;
+  --cta-ink:#ffffff;
+}
+
+/* Glyco Pezil, indigo */
+[data-brand="gpz"]{
+  --brand:#3a2a8c;
+  --brand-dark:#2a1e68;
+  --brand-tint:#f0eefb;
+  --brand-ink:#160f3a;
+  --cta:#4d3bc0;
+  --cta-hover:#3e2fa3;
+  --cta-ink:#ffffff;
+}
+
+/* Vigor Boost, red/orange */
+[data-brand="vgb"]{
+  --brand:#b3261e;
+  --brand-dark:#871c16;
+  --brand-tint:#fdf0ee;
+  --brand-ink:#3d0a07;
+  --cta:#e8501f;
+  --cta-hover:#c94317;
+  --cta-ink:#ffffff;
+}
+
+/* HorseBoost, dark red */
+[data-brand="hsb"]{
+  --brand:#8b0000;
+  --brand-dark:#650000;
+  --brand-tint:#fbeeee;
+  --brand-ink:#300000;
+  --cta:#c62828;
+  --cta-hover:#a51f1f;
+  --cta-ink:#ffffff;
+}
+
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{

@@ -210,6 +210,13 @@ BRANDS = {
                   "ship2": "+ $9.99 shipping"},
 }
 
+# Every other affiliate offer comes from _automation/offers.json (build-offers.py
+# builds its /go/ page and cta-<key>.js). Spec "brand" = the offer's slug.
+for _o in json.load(open("_automation/offers.json"))["offers"]:
+    BRANDS[_o["slug"]] = {"name": _o["name"], "cls": "buy-link-" + _o["key"], "packs": "packs-" + _o["key"],
+                          "js": f'<script src="../assets/cta-{_o["key"]}.js"></script>\n',
+                          "line": _o["line"], "ship2": _o["ship2"]}
+
 PRODBOX = '''    <div class="prodbox">
       <img src="../assets/img/@@packs@@/6.png" width="520" height="520" alt="@@name@@ bottles from the official store" loading="lazy">
       <div>
@@ -352,8 +359,25 @@ def build_ldjson(s, slug, cat_label, cat_href):
                       indent=2, ensure_ascii=False)
 
 
+def _live(target, slug):
+    return target == slug or os.path.isdir(target)
+
+
+def unlink_missing(html, slug):
+    """Prewritten pages link siblings that publish on later days. Until a sibling
+    exists, show its anchor as plain text instead of a 404; re-rendering after
+    each publish (--refresh-prewritten) turns the link back on."""
+    return re.sub(r'<a href=[\'"]\.\./([a-z0-9-]+)/[\'"][^>]*>(.*?)</a>',
+                  lambda m: m.group(0) if _live(m.group(1), slug) else m.group(2), html)
+
+
 def render(slug):
     s = json.load(open(f"{SPEC_DIR}/{slug}.json"))
+    s["body"] = [[n[0], unlink_missing(n[1], slug)] + n[2:] if n[0] in ("p", "h2", "h3") else
+                 ([n[0], [unlink_missing(x, slug) for x in n[1]]] if n[0] == "ul" else n)
+                 for n in s["body"]]
+    s["faq"] = [[q, unlink_missing(a, slug)] for q, a in s["faq"]]
+    s["related"] = [r for r in s["related"] if _live(r[1], slug)]
     cat_label, cat_href = CATS[s["cat"]]
 
     # body: list of ["h2", text] / ["p", html] / ["recbox"]
@@ -457,5 +481,13 @@ def render(slug):
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         raise SystemExit(__doc__)
-    for slug in sys.argv[1:]:
+    args = sys.argv[1:]
+    if "--refresh-prewritten" in args:
+        # re-render every prewritten page already live, so links to siblings
+        # published since then switch on
+        args.remove("--refresh-prewritten")
+        q = json.load(open("_automation/content-queue.json"))["queue"]
+        args += [i["slug"] for i in q if i.get("prewritten") and i.get("status") == "done"
+                 and os.path.isdir(i["slug"]) and i["slug"] not in args]
+    for slug in args:
         render(slug)

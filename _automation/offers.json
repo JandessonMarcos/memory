@@ -1,0 +1,333 @@
+{
+  "_comment": "Affiliate offers beyond Memopezil/MemoHoney. build-offers.py turns each entry into /go/<slug>/ (noindex bridge page), assets/cta-<key>.js (a.buy-link-<key> -> /go/<slug>/) and the offer.js checkout block. gen-post.py reads this file for spec 'brand' = <slug>. Facts come ONLY from the producer's own label image (assets/img/<slug>-label.png); 'facts': null means the producer publishes no label, so no ingredient claims anywhere.",
+  "offers": [
+    {
+      "key": "vpc",
+      "slug": "vapocept",
+      "name": "VapoCept",
+      "account": "12903",
+      "aff": "22146",
+      "codes": {
+        "2": "PP_VPC2UNITS_AFF",
+        "3": "PP_VPC3UNITS_AFF",
+        "6": "PP_VPC6UNITS_AFF"
+      },
+      "producer": "https://myvapocepthealth.online/vpc-aff-buy-dtc/?aff_id=22146",
+      "form": "capsule",
+      "unit": "capsules",
+      "count": "30 capsules",
+      "serving": "Take one capsule daily with an 8 oz glass of water, ideally 20 to 30 minutes before a meal.",
+      "headline": "VapoCept: one capsule a day for focus, mental clarity and steady energy",
+      "intro": "A stimulant-free daily capsule built around <strong>ginkgo biloba</strong>, with turmeric, lutein from marigold, green tea and bamboo extract. Every ingredient is printed on the label with its amount.",
+      "line": "A ginkgo-led daily capsule with turmeric, lutein and green tea, every dose printed. One capsule a day, stimulant-free.",
+      "facts": [
+        [
+          "D-Glucosamine Sulfate Potassium Chloride",
+          "250 mg"
+        ],
+        [
+          "Ginkgo biloba leaf extract (4:1)",
+          "100 mg"
+        ],
+        [
+          "Turmeric root extract (30:1)",
+          "50 mg"
+        ],
+        [
+          "Marigold flower extract (std. to 5% lutein)",
+          "25 mg"
+        ],
+        [
+          "Green tea leaf extract (98% polyphenols, 50% EGCG)",
+          "15 mg"
+        ],
+        [
+          "Bamboo leaf extract (30:1, std. to 70% silica)",
+          "5 mg"
+        ]
+      ],
+      "caution": "Talk to your doctor first if you take blood thinners or have a bleeding disorder (ginkgo and turmeric), if you're pregnant or nursing, or if you have a shellfish allergy (glucosamine is often sourced from shellfish).",
+      "distributor": "Gex Corporation LLP, Ogden, UT",
+      "ship2": "+ $9.99 shipping"
+    },
+    {
+      "key": "sds",
+      "slug": "sodaslim",
+      "name": "SodaSlim",
+      "account": "12899",
+      "aff": "64522",
+      "codes": {
+        "2": "PP_SDS2UNITS_AFF",
+        "3": "PP_SDS3UNITS_AFF",
+        "6": "PP_SDS6UNITS_AFF"
+      },
+      "producer": "https://sodaslim.com/sds-aff-buy-dtc/?aff_id=64522",
+      "form": "capsule",
+      "unit": "capsules",
+      "count": "30 capsules",
+      "serving": "Take one capsule daily with an 8 oz glass of water. The label recommends keeping it refrigerated.",
+      "headline": "SodaSlim: a daily fiber and probiotic capsule for appetite and metabolic support",
+      "intro": "SodaSlim pairs <strong>chicory root inulin</strong> and <strong>resistant potato starch</strong>, two prebiotic fibers, with a probiotic blend that includes <strong>Akkermansia muciniphila</strong>. One capsule a day, every amount printed on the label.",
+      "line": "Prebiotic fibers plus a probiotic blend with Akkermansia. One capsule a day, label fully printed.",
+      "facts": [
+        [
+          "Chicory root inulin",
+          "211 mg"
+        ],
+        [
+          "Potato resistant starch",
+          "100 mg"
+        ],
+        [
+          "Probiotic blend: Bifidobacterium infantis, Clostridium butyricum, Akkermansia muciniphila",
+          "36 mg"
+        ]
+      ],
+      "caution": "New fiber and probiotics can cause gas or bloating for the first week or two. Talk to your doctor first if you're pregnant or nursing, have a weakened immune system, or have a serious digestive condition.",
+      "distributor": "Instituto Experience, Lakeland, FL",
+      "ship2": "+ $9.99 shipping"
+    },
+    {
+      "key": "bdp",
+      "slug": "blood-pril",
+      "name": "Blood Pril",
+      "account": "12425",
+      "aff": "14062",
+      "codes": {
+        "2": "PP_BDP2UNITS_AFF",
+        "3": "PP_BDP3UNITS_AFF",
+        "6": "PP_BDP6UNITS_AFF"
+      },
+      "producer": "https://mybloodpril.online/bdp-aff-buy-dtc/?aff_id=14062",
+      "form": "capsule",
+      "unit": "capsules",
+      "count": "60 capsules",
+      "serving": "Take one or two capsules daily with an 8 oz glass of water.",
+      "headline": "Blood Pril: an amino acid capsule for circulation and cardiovascular support",
+      "intro": "Blood Pril is a 500 mg blend of <strong>L-arginine</strong>, <strong>L-arginine alpha-ketoglutarate</strong> and <strong>L-citrulline malate</strong>, the amino acids your body uses to make nitric oxide, which helps blood vessels relax. It supports healthy circulation; it is not a replacement for blood pressure medication.",
+      "line": "A nitric-oxide amino acid blend (arginine and citrulline) for circulation support. One or two capsules a day.",
+      "facts": [
+        [
+          "Proprietary blend: L-Arginine HCl, L-Arginine Alpha-Ketoglutarate, L-Citrulline Malate",
+          "500 mg"
+        ]
+      ],
+      "caution": "Do not stop or change any blood pressure medication on your own. Talk to your doctor first if you take blood pressure drugs, nitrates or erectile dysfunction medicines (combined effects can lower blood pressure too far), if you've had a heart attack, or if you're pregnant or nursing.",
+      "distributor": "Instituto Experience, Lakeland, FL",
+      "ship2": "+ $9.99 shipping"
+    },
+    {
+      "key": "gmt",
+      "slug": "gumitide",
+      "name": "Gumitide",
+      "account": "12512",
+      "aff": "14946",
+      "codes": {
+        "2": "PP_GMT2UNITS_AFF",
+        "3": "PP_GMT3UNITS_AFF",
+        "6": "PP_GMT6UNITS_AFF"
+      },
+      "producer": "https://gumitide.com/gmt-aff-buy-dtc/?aff_id=14946",
+      "form": "gummy",
+      "unit": "gummies",
+      "count": "30 gummies",
+      "serving": "Take one gummy daily, about 30 minutes before your morning or afternoon meal, with a full glass of water.",
+      "headline": "Gumitide: a once-a-day apple cider vinegar and BHB gummy for weight management support",
+      "intro": "Each Gumitide gummy carries a 525 mg blend of <strong>apple cider vinegar</strong> and <strong>BHB salts</strong> (beta-hydroxybutyrate as calcium, magnesium and sodium salts), with 8 calories and 2 g of sugar. It's meant to sit alongside diet and activity, not replace them.",
+      "line": "An apple cider vinegar and BHB gummy, one a day, 8 calories each.",
+      "facts": [
+        [
+          "Proprietary blend: Apple Cider Vinegar, BHB (calcium, magnesium and sodium beta-hydroxybutyrate)",
+          "525 mg"
+        ],
+        [
+          "Calories / total sugars",
+          "8 / 2 g"
+        ]
+      ],
+      "caution": "Talk to your doctor first if you take medication, are under a physician's care, are pregnant or nursing, or follow a sodium-restricted diet.",
+      "distributor": "Instituto Experience, Lakeland, FL",
+      "ship2": "+ $9.99 shipping"
+    },
+    {
+      "key": "jyt",
+      "slug": "jellytide",
+      "name": "JellyTide",
+      "account": "12446",
+      "aff": "17187",
+      "codes": {
+        "2": "PP_JYT2UNITS_AFF",
+        "3": "PP_JYT3UNITS_AFF",
+        "6": "PP_JYT6UNITS_AFF"
+      },
+      "producer": "https://jellytidelab.com/jyt-aff-buy-dtc/?aff_id=17187",
+      "form": "gummy",
+      "unit": "gummies",
+      "count": "30 gummies",
+      "serving": "Take one gummy daily, about 30 minutes before your morning or afternoon meal, with a full glass of water.",
+      "headline": "JellyTide: a daily apple cider vinegar and BHB gummy for appetite and digestion support",
+      "intro": "Each JellyTide gummy carries a 525 mg blend of <strong>apple cider vinegar</strong> and <strong>BHB salts</strong>, with 8 calories and 2 g of sugar. One a day, before a meal, alongside your normal diet and activity.",
+      "line": "An apple cider vinegar and BHB gummy for appetite support, one a day.",
+      "facts": [
+        [
+          "Proprietary blend: Apple Cider Vinegar, BHB (calcium, magnesium and sodium beta-hydroxybutyrate)",
+          "525 mg"
+        ],
+        [
+          "Calories / total sugars",
+          "8 / 2 g"
+        ]
+      ],
+      "caution": "Talk to your doctor first if you take medication, are under a physician's care, are pregnant or nursing, or follow a sodium-restricted diet.",
+      "distributor": "Instituto Experience, Lakeland, FL",
+      "ship2": "+ $9.99 shipping"
+    },
+    {
+      "key": "srt",
+      "slug": "sugar-reset",
+      "name": "Sugar Reset",
+      "account": "12377",
+      "aff": "13270",
+      "codes": {
+        "2": "PP_SRT2UNITS_AFF",
+        "3": "PP_SRT3UNITS_AFF",
+        "6": "PP_SRT6UNITS_AFF"
+      },
+      "producer": "https://forsugarreset.com/srt-aff-buy-dtc/?aff_id=13270",
+      "form": "liquid",
+      "unit": "ml",
+      "count": "2 fl oz (60 ml)",
+      "serving": "Shake well. Take one or two droppers (1 ml each) daily.",
+      "headline": "Sugar Reset: a liquid botanical blend for metabolic balance",
+      "intro": "Sugar Reset is a liquid supplement with <strong>chromium</strong> and a 200 mg blend of botanicals and amino acids, among them gymnema, green tea, maca, panax ginseng and guarana. It is designed to support metabolic balance. It is not a treatment for diabetes and doesn't replace any glucose-lowering medicine.",
+      "line": "A liquid chromium and botanical blend for metabolic balance. One or two droppers a day.",
+      "facts": [
+        [
+          "Chromium (as chromium picolinate)",
+          "0.7 mcg"
+        ],
+        [
+          "Proprietary blend: maca, grape seed, guarana, African mango, eleuthero, astragalus, green tea, gymnema, coleus forskohlii, capsicum, grapefruit, panax ginseng, raspberry ketones, L-glutamine, L-tyrosine, L-arginine, beta-alanine, monoammonium glycyrrhizinate, GABA, L-ornithine, L-tryptophan, L-carnitine",
+          "200 mg"
+        ]
+      ],
+      "caution": "If you take insulin or any medicine for blood sugar, talk to your doctor before using it: gymnema and chromium can add to their effect. Contains guarana, a source of caffeine. Not for pregnancy or nursing.",
+      "distributor": "Instituto Experience, Lakeland, FL",
+      "ship2": "+ $9.99 shipping"
+    },
+    {
+      "key": "gst",
+      "slug": "gelatine-sculpt",
+      "name": "Gelatine Sculpt",
+      "account": "12063",
+      "aff": "29799",
+      "codes": {
+        "2": "gel2",
+        "3": "gel3",
+        "6": "gel6"
+      },
+      "producer": "https://gelatinesculpt.com/gst-dtc-buy-aff/?aff_id=29799",
+      "form": "liquid",
+      "unit": "ml",
+      "count": "2 fl oz (60 ml)",
+      "serving": "Follow the directions on the bottle.",
+      "headline": "Gelatine Sculpt: a liquid supplement for digestion and metabolism support",
+      "intro": "Gelatine Sculpt is a liquid dietary supplement in a dropper bottle. The label front says it helps maintain healthy digestion and nutrient absorption and supports healthy metabolism. The manufacturer's order page does not publish the full supplement facts panel, so check the label on the bottle before you use it.",
+      "line": "A liquid supplement for digestion and metabolism support, in a dropper bottle.",
+      "facts": null,
+      "caution": "The full ingredient list isn't published on the order page. Read the bottle label, and talk to your doctor before using it if you take medication, are pregnant or nursing, or have a medical condition.",
+      "distributor": "",
+      "ship2": "+ $9.99 shipping"
+    },
+    {
+      "key": "gpz",
+      "slug": "glyco-pezil",
+      "name": "Glyco Pezil",
+      "account": "12281",
+      "aff": "2735",
+      "codes": {
+        "2": "PP_GPZ2UNITS_AFF",
+        "3": "PP_GPZ3UNITS_AFF",
+        "6": "PP_GPZ6UNITS_AFF"
+      },
+      "producer": "https://glycocareonline.online/gpz-dtc-buy-aff/?aff_id=2735",
+      "form": "liquid",
+      "unit": "ml",
+      "count": "dropper bottle",
+      "serving": "Follow the directions on the bottle.",
+      "headline": "Glyco Pezil: a liquid supplement for healthy blood sugar support",
+      "intro": "Glyco Pezil is a liquid dietary supplement in a dropper bottle, marketed for blood sugar support. The manufacturer's order page does not publish the supplement facts panel, so read the bottle label before use. It is not a treatment for diabetes and doesn't replace any medicine your doctor prescribed.",
+      "line": "A liquid blood sugar support supplement in a dropper bottle.",
+      "facts": null,
+      "caution": "If you take insulin or any medicine for blood sugar, talk to your doctor before using any blood sugar supplement. The full ingredient list isn't published on the order page; read the bottle label.",
+      "distributor": "",
+      "ship2": "+ shipping"
+    },
+    {
+      "key": "vgb",
+      "slug": "vigor-boost",
+      "name": "Vigor Boost",
+      "account": "11749",
+      "aff": "9782",
+      "codes": {
+        "2": "PP_VGB2UNITS_AFF",
+        "3": "PP_VGB3UNITS_AFF",
+        "6": "PP_VGB6UNITS_AFF"
+      },
+      "producer": "https://myvigorboost.com/vgb-aff-buy-dtc/?aff_id=9782",
+      "form": "gummy",
+      "unit": "gummies",
+      "count": "30 gummies",
+      "serving": "Take one gummy once daily. Store at room temperature with the bottle tightly closed.",
+      "headline": "Vigor Boost: a once-daily gummy for men's energy, stamina and vitality",
+      "intro": "Vigor Boost is a daily gummy for men built on traditional botanicals: <strong>muira puama</strong>, <strong>maca</strong>, <strong>catuaba</strong>, <strong>tribulus</strong>, <strong>horny goat weed</strong> and <strong>ashwagandha</strong>, plus L-arginine and 10 mg of caffeine. It supports energy and vitality. It is not a treatment for erectile dysfunction.",
+      "line": "A once-daily men's vitality gummy with maca, muira puama, tribulus and horny goat weed.",
+      "facts": [
+        [
+          "Proprietary blend: Muira Puama extract, Ashwagandha, Maca extract, Catuaba extract, Green Tea extract, Caffeine (10 mg), L-Arginine, Tribulus terrestris, Horny Goat Weed extract",
+          "82 mg"
+        ],
+        [
+          "Calories / total sugars",
+          "10 / 2 g"
+        ]
+      ],
+      "caution": "Talk to your doctor first if you take medication (especially for blood pressure, heart conditions or erectile dysfunction), have a medical condition, or are sensitive to caffeine. If erection problems are new or persistent, see a doctor: they can be an early sign of heart or blood vessel disease.",
+      "distributor": "Loja Experience Ltda, Largo, FL",
+      "ship2": "+ shipping"
+    },
+    {
+      "key": "hsb",
+      "slug": "horseboost",
+      "name": "HorseBoost",
+      "account": "12661",
+      "aff": "9782",
+      "codes": {
+        "2": "PP_HSB2UNITS_AFF",
+        "3": "PP_HSB3UNITS_AFF",
+        "6": "PP_HSB6UNITS_AFF"
+      },
+      "producer": "https://myhorseboost.com/hsb-aff-buy-dtc/?aff_id=9782",
+      "form": "gummy",
+      "unit": "gummies",
+      "count": "30 gummies",
+      "serving": "Take one strawberry-flavored gummy once daily. Store at room temperature with the bottle tightly closed.",
+      "headline": "HorseBoost: a strawberry gummy for men's daily energy, stamina and vitality",
+      "intro": "HorseBoost is a once-daily strawberry gummy for men with <strong>muira puama</strong>, <strong>maca</strong>, <strong>catuaba</strong>, <strong>tribulus</strong>, <strong>horny goat weed</strong>, <strong>ashwagandha</strong>, L-arginine and 5 mg of caffeine. It supports energy and vitality. It is not a treatment for erectile dysfunction.",
+      "line": "A once-daily strawberry men's vitality gummy with maca, muira puama, tribulus and horny goat weed.",
+      "facts": [
+        [
+          "Proprietary blend: Muira Puama extract, Maca extract, Catuaba extract, Green Tea extract, Caffeine (5 mg), Ashwagandha, L-Arginine, Tribulus terrestris, Horny Goat Weed extract",
+          "82 mg"
+        ],
+        [
+          "Calories / total sugars / sodium",
+          "10 / 3 g / 4 mg"
+        ]
+      ],
+      "caution": "Talk to your doctor first if you take medication (especially for blood pressure, heart conditions or erectile dysfunction), have a medical condition, or are sensitive to caffeine. If erection problems are new or persistent, see a doctor: they can be an early sign of heart or blood vessel disease.",
+      "distributor": "Instituto Experience, Lakeland, FL",
+      "ship2": "+ $9.99 shipping"
+    }
+  ]
+}

@@ -47,7 +47,109 @@
         "3": "https://buygoods.com/secure/checkout.html?aff_id=1622&account_id=12850&product_codename=PP_MMH3UNITS_AFF&subid={clickid}",
         "6": "https://buygoods.com/secure/checkout.html?aff_id=1622&account_id=12850&product_codename=PP_MMH6UNITS_AFF&subid={clickid}"
       }
+    },
+    // BUILD-OFFERS:START (generated, edit _automation/offers.json)
+    // VapoCept: account_id 12903 · aff_id 22146
+    vpc: {
+      tag: "vpc_g",
+      name: "vapocept",
+      packs: {
+        "2": "https://buygoods.com/secure/checkout.html?aff_id=22146&account_id=12903&product_codename=PP_VPC2UNITS_AFF&subid={clickid}",
+        "3": "https://buygoods.com/secure/checkout.html?aff_id=22146&account_id=12903&product_codename=PP_VPC3UNITS_AFF&subid={clickid}",
+        "6": "https://buygoods.com/secure/checkout.html?aff_id=22146&account_id=12903&product_codename=PP_VPC6UNITS_AFF&subid={clickid}"
+      }
+    },
+    // SodaSlim: account_id 12899 · aff_id 64522
+    sds: {
+      tag: "sds_g",
+      name: "sodaslim",
+      packs: {
+        "2": "https://buygoods.com/secure/checkout.html?aff_id=64522&account_id=12899&product_codename=PP_SDS2UNITS_AFF&subid={clickid}",
+        "3": "https://buygoods.com/secure/checkout.html?aff_id=64522&account_id=12899&product_codename=PP_SDS3UNITS_AFF&subid={clickid}",
+        "6": "https://buygoods.com/secure/checkout.html?aff_id=64522&account_id=12899&product_codename=PP_SDS6UNITS_AFF&subid={clickid}"
+      }
+    },
+    // Blood Pril: account_id 12425 · aff_id 14062
+    bdp: {
+      tag: "bdp_g",
+      name: "blood-pril",
+      packs: {
+        "2": "https://buygoods.com/secure/checkout.html?aff_id=14062&account_id=12425&product_codename=PP_BDP2UNITS_AFF&subid={clickid}",
+        "3": "https://buygoods.com/secure/checkout.html?aff_id=14062&account_id=12425&product_codename=PP_BDP3UNITS_AFF&subid={clickid}",
+        "6": "https://buygoods.com/secure/checkout.html?aff_id=14062&account_id=12425&product_codename=PP_BDP6UNITS_AFF&subid={clickid}"
+      }
+    },
+    // Gumitide: account_id 12512 · aff_id 14946
+    gmt: {
+      tag: "gmt_g",
+      name: "gumitide",
+      packs: {
+        "2": "https://buygoods.com/secure/checkout.html?aff_id=14946&account_id=12512&product_codename=PP_GMT2UNITS_AFF&subid={clickid}",
+        "3": "https://buygoods.com/secure/checkout.html?aff_id=14946&account_id=12512&product_codename=PP_GMT3UNITS_AFF&subid={clickid}",
+        "6": "https://buygoods.com/secure/checkout.html?aff_id=14946&account_id=12512&product_codename=PP_GMT6UNITS_AFF&subid={clickid}"
+      }
+    },
+    // JellyTide: account_id 12446 · aff_id 17187
+    jyt: {
+      tag: "jyt_g",
+      name: "jellytide",
+      packs: {
+        "2": "https://buygoods.com/secure/checkout.html?aff_id=17187&account_id=12446&product_codename=PP_JYT2UNITS_AFF&subid={clickid}",
+        "3": "https://buygoods.com/secure/checkout.html?aff_id=17187&account_id=12446&product_codename=PP_JYT3UNITS_AFF&subid={clickid}",
+        "6": "https://buygoods.com/secure/checkout.html?aff_id=17187&account_id=12446&product_codename=PP_JYT6UNITS_AFF&subid={clickid}"
+      }
+    },
+    // Sugar Reset: account_id 12377 · aff_id 13270
+    srt: {
+      tag: "srt_g",
+      name: "sugar-reset",
+      packs: {
+        "2": "https://buygoods.com/secure/checkout.html?aff_id=13270&account_id=12377&product_codename=PP_SRT2UNITS_AFF&subid={clickid}",
+        "3": "https://buygoods.com/secure/checkout.html?aff_id=13270&account_id=12377&product_codename=PP_SRT3UNITS_AFF&subid={clickid}",
+        "6": "https://buygoods.com/secure/checkout.html?aff_id=13270&account_id=12377&product_codename=PP_SRT6UNITS_AFF&subid={clickid}"
+      }
+    },
+    // Gelatine Sculpt: account_id 12063 · aff_id 29799
+    gst: {
+      tag: "gst_g",
+      name: "gelatine-sculpt",
+      packs: {
+        "2": "https://buygoods.com/secure/checkout.html?aff_id=29799&account_id=12063&product_codename=gel2&subid={clickid}",
+        "3": "https://buygoods.com/secure/checkout.html?aff_id=29799&account_id=12063&product_codename=gel3&subid={clickid}",
+        "6": "https://buygoods.com/secure/checkout.html?aff_id=29799&account_id=12063&product_codename=gel6&subid={clickid}"
+      }
+    },
+    // Glyco Pezil: account_id 12281 · aff_id 2735
+    gpz: {
+      tag: "gpz_g",
+      name: "glyco-pezil",
+      packs: {
+        "2": "https://buygoods.com/secure/checkout.html?aff_id=2735&account_id=12281&product_codename=PP_GPZ2UNITS_AFF&subid={clickid}",
+        "3": "https://buygoods.com/secure/checkout.html?aff_id=2735&account_id=12281&product_codename=PP_GPZ3UNITS_AFF&subid={clickid}",
+        "6": "https://buygoods.com/secure/checkout.html?aff_id=2735&account_id=12281&product_codename=PP_GPZ6UNITS_AFF&subid={clickid}"
+      }
+    },
+    // Vigor Boost: account_id 11749 · aff_id 9782
+    vgb: {
+      tag: "vgb_g",
+      name: "vigor-boost",
+      packs: {
+        "2": "https://buygoods.com/secure/checkout.html?aff_id=9782&account_id=11749&product_codename=PP_VGB2UNITS_AFF&subid={clickid}",
+        "3": "https://buygoods.com/secure/checkout.html?aff_id=9782&account_id=11749&product_codename=PP_VGB3UNITS_AFF&subid={clickid}",
+        "6": "https://buygoods.com/secure/checkout.html?aff_id=9782&account_id=11749&product_codename=PP_VGB6UNITS_AFF&subid={clickid}"
+      }
+    },
+    // HorseBoost: account_id 12661 · aff_id 9782
+    hsb: {
+      tag: "hsb_g",
+      name: "horseboost",
+      packs: {
+        "2": "https://buygoods.com/secure/checkout.html?aff_id=9782&account_id=12661&product_codename=PP_HSB2UNITS_AFF&subid={clickid}",
+        "3": "https://buygoods.com/secure/checkout.html?aff_id=9782&account_id=12661&product_codename=PP_HSB3UNITS_AFF&subid={clickid}",
+        "6": "https://buygoods.com/secure/checkout.html?aff_id=9782&account_id=12661&product_codename=PP_HSB6UNITS_AFF&subid={clickid}"
+      }
     }
+    // BUILD-OFFERS:END
   };
 
   var DEFAULT_PACK = "6";

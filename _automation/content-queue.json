@@ -2559,6 +2559,94 @@
       "published": "2026-10-10"
     },
     {
+      "slug": "vapocept-review",
+      "title": "VapoCept Review 2026: Every Dose Checked Against the Research",
+      "kw": "vapocept review",
+      "cat": "Reviews",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-19"
+    },
+    {
+      "slug": "vigor-boost-review",
+      "title": "Vigor Boost Reviews: Label, Evidence, Price and Verdict",
+      "kw": "vigor boost review",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-19"
+    },
+    {
+      "slug": "horse-boost-review",
+      "title": "Horse Boost Review 2026: What the HorseBoost Label Really Shows",
+      "kw": "horse boost review",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-19"
+    },
+    {
+      "slug": "gumitide-review",
+      "title": "Gumitide Reviews 2026: What the Label, Evidence and Price Show",
+      "kw": "gumitide review",
+      "cat": "Energy & Metabolism",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-19"
+    },
+    {
+      "slug": "jellytide-review",
+      "title": "JellyTide Reviews 2026: Is the Jelly Tide Gummy Worth It?",
+      "kw": "jellytide review",
+      "cat": "Energy & Metabolism",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-19"
+    },
+    {
+      "slug": "sodaslim-review",
+      "title": "SodaSlim Reviews 2026: What the Label Says and Whether It's Worth It",
+      "kw": "sodaslim review",
+      "cat": "Energy & Metabolism",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-19"
+    },
+    {
+      "slug": "blood-pril-review",
+      "title": "Blood Pril Reviews: Label, Dose, Price and Our Verdict",
+      "kw": "blood pril review",
+      "cat": "Heart Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-19"
+    },
+    {
+      "slug": "sugar-reset-review",
+      "title": "Sugar Reset Reviews 2026: What's in the Drops and Is It Worth It?",
+      "kw": "sugar reset review",
+      "cat": "Energy & Metabolism",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-19"
+    },
+    {
       "slug": "does-memopezil-work",
       "title": "Does Memopezil Work? An Honest Look at the Evidence",
       "kw": "does memopezil work",
@@ -2581,6 +2669,16 @@
       "prewritten": true
     },
     {
+      "slug": "vapocept-ingredients",
+      "title": "VapoCept Ingredients Explained: All 6 Doses Checked Against the Research",
+      "kw": "vapocept ingredients",
+      "cat": "Reviews",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
       "slug": "how-long-to-fall-asleep-normal",
       "title": "How Long Does It Take to Fall Asleep? What's Normal and What Isn't",
       "kw": "how long to fall asleep normal",
@@ -2593,14 +2691,6 @@
       "title": "Resting Heart Rate by Age: What's Healthy?",
       "kw": "resting heart rate by age",
       "cat": "Heart Health",
-      "status": "pending",
-      "words": 1900
-    },
-    {
-      "slug": "signs-of-unhealthy-gut",
-      "title": "Signs of an Unhealthy Gut: What to Watch For",
-      "kw": "signs of unhealthy gut",
-      "cat": "Gut Health",
       "status": "pending",
       "words": 1900
     },
@@ -2627,26 +2717,28 @@
       "prewritten": true
     },
     {
+      "slug": "vigor-boost-ingredients",
+      "title": "Vigor Boost Ingredients: All 9, Dose Limits and Evidence",
+      "kw": "vigor boost ingredients",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "signs-of-unhealthy-gut",
+      "title": "Signs of an Unhealthy Gut: What to Watch For",
+      "kw": "signs of unhealthy gut",
+      "cat": "Gut Health",
+      "status": "pending",
+      "words": 1900
+    },
+    {
       "slug": "why-am-i-always-tired",
       "title": "Why Am I Always Tired? Everyday Causes Worth Checking",
       "kw": "why am i always tired",
       "cat": "Energy & Metabolism",
-      "status": "pending",
-      "words": 1900
-    },
-    {
-      "slug": "knee-pain-climbing-stairs",
-      "title": "Knee Pain When Climbing Stairs: Common Causes",
-      "kw": "knee pain climbing stairs",
-      "cat": "Joints & Mobility",
-      "status": "pending",
-      "words": 1900
-    },
-    {
-      "slug": "testosterone-levels-by-age",
-      "title": "Testosterone Levels by Age: What's Normal?",
-      "kw": "testosterone levels by age",
-      "cat": "Men's Health",
       "status": "pending",
       "words": 1900
     },
@@ -2673,26 +2765,28 @@
       "prewritten": true
     },
     {
-      "slug": "perimenopause-symptoms-early-signs",
-      "title": "Perimenopause Symptoms: The Early Signs Many Women Miss",
-      "kw": "perimenopause symptoms early signs",
-      "cat": "Women's Health",
+      "slug": "horse-boost-ingredients",
+      "title": "Horse Boost Ingredients: What Each of the 9 Actually Does",
+      "kw": "horse boost ingredients",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "knee-pain-climbing-stairs",
+      "title": "Knee Pain When Climbing Stairs: Common Causes",
+      "kw": "knee pain climbing stairs",
+      "cat": "Joints & Mobility",
       "status": "pending",
       "words": 1900
     },
     {
-      "slug": "anti-inflammatory-foods-list",
-      "title": "Anti-Inflammatory Foods List: What to Eat More Of",
-      "kw": "anti inflammatory foods list",
-      "cat": "Nutrition",
-      "status": "pending",
-      "words": 1900
-    },
-    {
-      "slug": "waking-up-at-3am-causes",
-      "title": "Waking Up at 3 AM Every Night: Common Causes and What Helps",
-      "kw": "waking up at 3am causes",
-      "cat": "Sleep",
+      "slug": "testosterone-levels-by-age",
+      "title": "Testosterone Levels by Age: What's Normal?",
+      "kw": "testosterone levels by age",
+      "cat": "Men's Health",
       "status": "pending",
       "words": 1900
     },
@@ -2719,26 +2813,28 @@
       "prewritten": true
     },
     {
-      "slug": "lower-blood-pressure-naturally",
-      "title": "How to Lower Blood Pressure Naturally: Habits With Real Evidence",
-      "kw": "lower blood pressure naturally",
-      "cat": "Heart Health",
-      "status": "pending",
-      "words": 1900
-    },
-    {
-      "slug": "prebiotics-vs-probiotics",
-      "title": "Prebiotics vs Probiotics: What's the Difference?",
-      "kw": "prebiotics vs probiotics",
-      "cat": "Gut Health",
-      "status": "pending",
-      "words": 1900
-    },
-    {
-      "slug": "afternoon-energy-slump",
-      "title": "Afternoon Energy Slump: Why It Happens and How to Beat It",
-      "kw": "afternoon energy slump",
+      "slug": "does-gumitide-work",
+      "title": "Does Gumitide Work? What the ACV and BHB Evidence Really Shows",
+      "kw": "does gumitide work?",
       "cat": "Energy & Metabolism",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "perimenopause-symptoms-early-signs",
+      "title": "Perimenopause Symptoms: The Early Signs Many Women Miss",
+      "kw": "perimenopause symptoms early signs",
+      "cat": "Women's Health",
+      "status": "pending",
+      "words": 1900
+    },
+    {
+      "slug": "anti-inflammatory-foods-list",
+      "title": "Anti-Inflammatory Foods List: What to Eat More Of",
+      "kw": "anti inflammatory foods list",
+      "cat": "Nutrition",
       "status": "pending",
       "words": 1900
     },
@@ -2765,26 +2861,28 @@
       "prewritten": true
     },
     {
-      "slug": "morning-joint-stiffness",
-      "title": "Morning Stiffness in Joints: What It Means",
-      "kw": "morning joint stiffness",
-      "cat": "Joints & Mobility",
+      "slug": "does-sodaslim-work",
+      "title": "Does SodaSlim Work? The Prebiotic and Probiotic Evidence, Dose by Dose",
+      "kw": "does sodaslim work?",
+      "cat": "Energy & Metabolism",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "waking-up-at-3am-causes",
+      "title": "Waking Up at 3 AM Every Night: Common Causes and What Helps",
+      "kw": "waking up at 3am causes",
+      "cat": "Sleep",
       "status": "pending",
       "words": 1900
     },
     {
-      "slug": "enlarged-prostate-symptoms",
-      "title": "Enlarged Prostate Symptoms: When to See a Doctor",
-      "kw": "enlarged prostate symptoms",
-      "cat": "Men's Health",
-      "status": "pending",
-      "words": 1900
-    },
-    {
-      "slug": "hot-flashes-natural-relief",
-      "title": "Hot Flashes: Causes and Natural Ways to Cope",
-      "kw": "hot flashes natural relief",
-      "cat": "Women's Health",
+      "slug": "lower-blood-pressure-naturally",
+      "title": "How to Lower Blood Pressure Naturally: Habits With Real Evidence",
+      "kw": "lower blood pressure naturally",
+      "cat": "Heart Health",
       "status": "pending",
       "words": 1900
     },
@@ -2811,26 +2909,28 @@
       "prewritten": true
     },
     {
-      "slug": "protein-per-day-after-50",
-      "title": "How Much Protein Do You Need per Day After 50?",
-      "kw": "protein per day after 50",
-      "cat": "Nutrition",
-      "status": "pending",
-      "words": 1900
-    },
-    {
-      "slug": "magnesium-glycinate-for-sleep",
-      "title": "Magnesium Glycinate for Sleep: What the Evidence Shows",
-      "kw": "magnesium glycinate for sleep",
-      "cat": "Sleep",
-      "status": "pending",
-      "words": 1900
-    },
-    {
-      "slug": "steps-per-day-heart-health",
-      "title": "Walking and Heart Health: How Many Steps Make a Difference?",
-      "kw": "steps per day heart health",
+      "slug": "does-blood-pril-work",
+      "title": "Does Blood Pril Work? Nitric Oxide, Dose and Evidence",
+      "kw": "does blood pril work?",
       "cat": "Heart Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "prebiotics-vs-probiotics",
+      "title": "Prebiotics vs Probiotics: What's the Difference?",
+      "kw": "prebiotics vs probiotics",
+      "cat": "Gut Health",
+      "status": "pending",
+      "words": 1900
+    },
+    {
+      "slug": "afternoon-energy-slump",
+      "title": "Afternoon Energy Slump: Why It Happens and How to Beat It",
+      "kw": "afternoon energy slump",
+      "cat": "Energy & Metabolism",
       "status": "pending",
       "words": 1900
     },
@@ -2856,26 +2956,28 @@
       "prewritten": true
     },
     {
-      "slug": "why-am-i-always-bloated",
-      "title": "Why Am I Always Bloated? Common Causes and Fixes",
-      "kw": "why am i always bloated",
-      "cat": "Gut Health",
+      "slug": "does-vapocept-work",
+      "title": "Does VapoCept Work? The Evidence, Ingredient by Ingredient",
+      "kw": "does vapocept work?",
+      "cat": "Reviews",
+      "words": 2200,
+      "intent": "commercial-high",
       "status": "pending",
-      "words": 1900
+      "prewritten": true
     },
     {
-      "slug": "blood-sugar-spikes-after-eating",
-      "title": "Blood Sugar Spikes After Meals: What They Mean",
-      "kw": "blood sugar spikes after eating",
-      "cat": "Energy & Metabolism",
-      "status": "pending",
-      "words": 1900
-    },
-    {
-      "slug": "glucosamine-chondroitin-joints",
-      "title": "Glucosamine and Chondroitin: Do They Help Joints?",
-      "kw": "glucosamine chondroitin joints",
+      "slug": "morning-joint-stiffness",
+      "title": "Morning Stiffness in Joints: What It Means",
+      "kw": "morning joint stiffness",
       "cat": "Joints & Mobility",
+      "status": "pending",
+      "words": 1900
+    },
+    {
+      "slug": "enlarged-prostate-symptoms",
+      "title": "Enlarged Prostate Symptoms: When to See a Doctor",
+      "kw": "enlarged prostate symptoms",
+      "cat": "Men's Health",
       "status": "pending",
       "words": 1900
     },
@@ -2902,25 +3004,27 @@
       "prewritten": true
     },
     {
-      "slug": "zinc-for-men",
-      "title": "Zinc for Men: Benefits and How Much You Need",
-      "kw": "zinc for men",
+      "slug": "does-vigor-boost-work",
+      "title": "Does Vigor Boost Work? An Honest Look at the Evidence",
+      "kw": "does vigor boost work?",
       "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
       "status": "pending",
-      "words": 1900
+      "prewritten": true
     },
     {
-      "slug": "iron-deficiency-women-signs",
-      "title": "Iron Deficiency in Women: Signs and What to Eat",
-      "kw": "iron deficiency women signs",
+      "slug": "hot-flashes-natural-relief",
+      "title": "Hot Flashes: Causes and Natural Ways to Cope",
+      "kw": "hot flashes natural relief",
       "cat": "Women's Health",
       "status": "pending",
       "words": 1900
     },
     {
-      "slug": "mediterranean-diet-for-beginners",
-      "title": "Mediterranean Diet for Beginners: A Simple Guide",
-      "kw": "mediterranean diet for beginners",
+      "slug": "protein-per-day-after-50",
+      "title": "How Much Protein Do You Need per Day After 50?",
+      "kw": "protein per day after 50",
       "cat": "Nutrition",
       "status": "pending",
       "words": 1900
@@ -2948,26 +3052,28 @@
       "prewritten": true
     },
     {
-      "slug": "sleep-hygiene-checklist",
-      "title": "Sleep Hygiene Checklist: 12 Habits That Actually Matter",
-      "kw": "sleep hygiene checklist",
+      "slug": "does-horse-boost-work",
+      "title": "Does Horse Boost Work? What the Evidence Can and Can't Tell You",
+      "kw": "does horse boost work?",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "magnesium-glycinate-for-sleep",
+      "title": "Magnesium Glycinate for Sleep: What the Evidence Shows",
+      "kw": "magnesium glycinate for sleep",
       "cat": "Sleep",
       "status": "pending",
       "words": 1900
     },
     {
-      "slug": "potassium-foods-blood-pressure",
-      "title": "Potassium-Rich Foods and Blood Pressure: What to Eat",
-      "kw": "potassium foods blood pressure",
+      "slug": "steps-per-day-heart-health",
+      "title": "Walking and Heart Health: How Many Steps Make a Difference?",
+      "kw": "steps per day heart health",
       "cat": "Heart Health",
-      "status": "pending",
-      "words": 1900
-    },
-    {
-      "slug": "high-fiber-foods-list",
-      "title": "High-Fiber Foods List: Easy Ways to Eat More Fiber",
-      "kw": "high fiber foods list",
-      "cat": "Gut Health",
       "status": "pending",
       "words": 1900
     },
@@ -2993,12 +3099,244 @@
       "prewritten": true
     },
     {
+      "slug": "does-jellytide-work",
+      "title": "Does JellyTide Work? What the Evidence Says on Appetite and Digestion",
+      "kw": "does jellytide work?",
+      "cat": "Energy & Metabolism",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "why-am-i-always-bloated",
+      "title": "Why Am I Always Bloated? Common Causes and Fixes",
+      "kw": "why am i always bloated",
+      "cat": "Gut Health",
+      "status": "pending",
+      "words": 1900
+    },
+    {
+      "slug": "blood-sugar-spikes-after-eating",
+      "title": "Blood Sugar Spikes After Meals: What They Mean",
+      "kw": "blood sugar spikes after eating",
+      "cat": "Energy & Metabolism",
+      "status": "pending",
+      "words": 1900
+    },
+    {
+      "slug": "sodaslim-side-effects",
+      "title": "SodaSlim Side Effects: Gas, Bloating, Probiotic Safety and Who Should Skip It",
+      "kw": "sodaslim side effects",
+      "cat": "Energy & Metabolism",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "blood-pril-side-effects",
+      "title": "Blood Pril Side Effects: Interactions and Who Should Skip",
+      "kw": "blood pril side effects",
+      "cat": "Heart Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "vapocept-side-effects",
+      "title": "VapoCept Side Effects: Bleeding Risk, Allergies and Who Should Skip It",
+      "kw": "vapocept side effects",
+      "cat": "Reviews",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "glucosamine-chondroitin-joints",
+      "title": "Glucosamine and Chondroitin: Do They Help Joints?",
+      "kw": "glucosamine chondroitin joints",
+      "cat": "Joints & Mobility",
+      "status": "pending",
+      "words": 1900
+    },
+    {
+      "slug": "zinc-for-men",
+      "title": "Zinc for Men: Benefits and How Much You Need",
+      "kw": "zinc for men",
+      "cat": "Men's Health",
+      "status": "pending",
+      "words": 1900
+    },
+    {
+      "slug": "vigor-boost-side-effects",
+      "title": "Vigor Boost Side Effects: Interactions and Who Should Skip",
+      "kw": "vigor boost side effects",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "horse-boost-side-effects",
+      "title": "Horse Boost Side Effects: Interactions, Cautions and Who Should Skip It",
+      "kw": "horse boost side effects",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "gumitide-vs-jellytide",
+      "title": "Gumitide vs JellyTide: Same Formula, Same Price, Different Branding",
+      "kw": "gumitide vs jellytide",
+      "cat": "Energy & Metabolism",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "iron-deficiency-women-signs",
+      "title": "Iron Deficiency in Women: Signs and What to Eat",
+      "kw": "iron deficiency women signs",
+      "cat": "Women's Health",
+      "status": "pending",
+      "words": 1900
+    },
+    {
+      "slug": "mediterranean-diet-for-beginners",
+      "title": "Mediterranean Diet for Beginners: A Simple Guide",
+      "kw": "mediterranean diet for beginners",
+      "cat": "Nutrition",
+      "status": "pending",
+      "words": 1900
+    },
+    {
+      "slug": "sugar-reset-side-effects",
+      "title": "Sugar Reset Side Effects: Diabetes Meds, Caffeine, Xylitol and Who Should Skip It",
+      "kw": "sugar reset side effects",
+      "cat": "Energy & Metabolism",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "does-sugar-reset-work",
+      "title": "Does Sugar Reset Work? Gymnema, Chromium and the Dose",
+      "kw": "does sugar reset work?",
+      "cat": "Energy & Metabolism",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "vapocept-price",
+      "title": "VapoCept Price: Cost Per Day, Pack Choice and Guarantee Timing",
+      "kw": "vapocept price",
+      "cat": "Reviews",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "sleep-hygiene-checklist",
+      "title": "Sleep Hygiene Checklist: 12 Habits That Actually Matter",
+      "kw": "sleep hygiene checklist",
+      "cat": "Sleep",
+      "status": "pending",
+      "words": 1900
+    },
+    {
+      "slug": "potassium-foods-blood-pressure",
+      "title": "Potassium-Rich Foods and Blood Pressure: What to Eat",
+      "kw": "potassium foods blood pressure",
+      "cat": "Heart Health",
+      "status": "pending",
+      "words": 1900
+    },
+    {
+      "slug": "vigor-boost-price",
+      "title": "Vigor Boost Price: Cost Per Day, Packs and Guarantee",
+      "kw": "vigor boost price",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "horse-boost-price",
+      "title": "Horse Boost Price 2026: What Each HorseBoost Pack Costs Per Day",
+      "kw": "horse boost price",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "sugar-reset-ingredients",
+      "title": "Sugar Reset Ingredients: All 22, Grouped and Explained",
+      "kw": "sugar reset ingredients",
+      "cat": "Energy & Metabolism",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "high-fiber-foods-list",
+      "title": "High-Fiber Foods List: Easy Ways to Eat More Fiber",
+      "kw": "high fiber foods list",
+      "cat": "Gut Health",
+      "status": "pending",
+      "words": 1900
+    },
+    {
       "slug": "walking-after-eating-blood-sugar",
       "title": "Walking After Meals: Does It Lower Blood Sugar?",
       "kw": "walking after eating blood sugar",
       "cat": "Energy & Metabolism",
       "status": "pending",
       "words": 1900
+    },
+    {
+      "slug": "is-vapocept-legit",
+      "title": "Is VapoCept Legit or a Scam? A Buyer's Checklist Before You Order",
+      "kw": "is vapocept legit?",
+      "cat": "Reviews",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "is-vigor-boost-legit",
+      "title": "Is Vigor Boost Legit or a Scam? What We Could and Couldn't Verify",
+      "kw": "is vigor boost legit?",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "is-horse-boost-legit",
+      "title": "Is Horse Boost Legit? A Scam Checklist and the Fake Review Problem",
+      "kw": "is horse boost legit?",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
     },
     {
       "slug": "collagen-for-joint-pain",
@@ -3017,20 +3355,34 @@
       "words": 1900
     },
     {
-      "slug": "beta-carotene-and-brain-health",
-      "title": "Beta-Carotene and Brain Health: What the Evidence Shows",
-      "kw": "beta carotene brain health",
-      "cat": "Ingredients",
+      "slug": "how-to-take-vapocept",
+      "title": "How to Take VapoCept: Timing, Dose, Missed Doses and What Not to Stack",
+      "kw": "how to take vapocept",
+      "cat": "Reviews",
+      "words": 2200,
+      "intent": "commercial-high",
       "status": "pending",
-      "words": 1900
+      "prewritten": true
     },
     {
-      "slug": "homocysteine-and-cognitive-decline",
-      "title": "Homocysteine and Cognitive Decline: Why This Marker Matters",
-      "kw": "homocysteine cognitive decline",
-      "cat": "Brain Health",
+      "slug": "how-to-take-vigor-boost",
+      "title": "How to Take Vigor Boost Gummies: Dose, Timing, Stacking and Storage",
+      "kw": "how to take vigor boost",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
       "status": "pending",
-      "words": 1900
+      "prewritten": true
+    },
+    {
+      "slug": "how-to-take-horse-boost",
+      "title": "How to Take Horse Boost: Daily Dose, Best Timing, Caffeine and Storage",
+      "kw": "how to take horse boost",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
     },
     {
       "slug": "calcium-vitamin-d-women-over-50",
@@ -3049,26 +3401,40 @@
       "words": 1900
     },
     {
+      "slug": "vapocept-how-long-results",
+      "title": "VapoCept Results: How Long Before You Notice Anything? A Week-by-Week Timeline",
+      "kw": "vapocept results timeline",
+      "cat": "Reviews",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "vigor-boost-how-long-results",
+      "title": "How Long Does Vigor Boost Take to Work? A Realistic Results Timeline",
+      "kw": "vigor boost results: how long?",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "horse-boost-how-long-results",
+      "title": "Horse Boost Results: How Long It Takes, Ingredient by Ingredient",
+      "kw": "horse boost results timeline",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
       "slug": "is-6-hours-of-sleep-enough",
       "title": "Is Sleeping 6 Hours a Night Enough? What Research Says",
       "kw": "is 6 hours of sleep enough",
       "cat": "Sleep",
-      "status": "pending",
-      "words": 1900
-    },
-    {
-      "slug": "cinnamon-and-brain-health",
-      "title": "Cinnamon and Brain Health: Does It Really Support Memory?",
-      "kw": "cinnamon brain health",
-      "cat": "Ingredients",
-      "status": "pending",
-      "words": 1900
-    },
-    {
-      "slug": "houseplants-and-cognitive-function",
-      "title": "Houseplants and Cognitive Function: Does Greenery Really Sharpen Focus?",
-      "kw": "houseplants cognitive function focus",
-      "cat": "Brain Health",
       "status": "pending",
       "words": 1900
     },
@@ -3079,6 +3445,36 @@
       "cat": "Heart Health",
       "status": "pending",
       "words": 1900
+    },
+    {
+      "slug": "vapocept-vs-memopezil",
+      "title": "VapoCept vs Memopezil: Formula, Evidence, Cost and Who Should Pick Which",
+      "kw": "vapocept vs memopezil",
+      "cat": "Reviews",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "where-to-buy-vigor-boost",
+      "title": "Where to Buy Vigor Boost: Amazon, Walmart or the Official Site?",
+      "kw": "where to buy vigor boost",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
+    },
+    {
+      "slug": "where-to-buy-horse-boost",
+      "title": "Where to Buy Horse Boost: Official Site, Amazon and Counterfeit Risk",
+      "kw": "where to buy horse boost",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
     },
     {
       "slug": "kefir-vs-yogurt-gut-health",
@@ -3097,20 +3493,34 @@
       "words": 1900
     },
     {
-      "slug": "pet-ownership-and-cognitive-decline",
-      "title": "Pet Ownership and Cognitive Decline: What the Research Shows",
-      "kw": "pet ownership cognitive decline",
-      "cat": "Aging Well",
+      "slug": "vapocept-vs-memohoney",
+      "title": "VapoCept vs MemoHoney: Two One-a-Day Ginkgo Formulas Compared Fairly",
+      "kw": "vapocept vs memohoney",
+      "cat": "Reviews",
+      "words": 2200,
+      "intent": "commercial-high",
       "status": "pending",
-      "words": 1900
+      "prewritten": true
     },
     {
-      "slug": "volunteering-and-cognitive-decline",
-      "title": "Volunteering and Cognitive Decline: Does Giving Back Protect Your Brain?",
-      "kw": "volunteering cognitive decline",
-      "cat": "Aging Well",
+      "slug": "vigor-boost-vs-horse-boost",
+      "title": "Vigor Boost vs Horse Boost (HorseBoost): Same 82 mg Blend, Four Real Differences",
+      "kw": "vigor boost vs horse boost",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
       "status": "pending",
-      "words": 1900
+      "prewritten": true
+    },
+    {
+      "slug": "horse-boost-refund-policy",
+      "title": "Horse Boost Refund Policy: How the 60-Day Money-Back Guarantee Works",
+      "kw": "horse boost refund policy",
+      "cat": "Men's Health",
+      "words": 2200,
+      "intent": "commercial-high",
+      "status": "pending",
+      "prewritten": true
     },
     {
       "slug": "low-impact-exercise-bad-knees",
@@ -3129,6 +3539,14 @@
       "words": 1900
     },
     {
+      "slug": "beta-carotene-and-brain-health",
+      "title": "Beta-Carotene and Brain Health: What the Evidence Shows",
+      "kw": "beta carotene brain health",
+      "cat": "Ingredients",
+      "status": "pending",
+      "words": 1900
+    },
+    {
       "slug": "strength-training-women-over-40",
       "title": "Strength Training for Women Over 40: Why It Matters",
       "kw": "strength training women over 40",
@@ -3137,18 +3555,10 @@
       "words": 1900
     },
     {
-      "slug": "knitting-and-cognitive-function",
-      "title": "Knitting and Cognitive Function: The Case for Handcrafts and a Sharper Mind",
-      "kw": "knitting cognitive function brain",
-      "cat": "Memory",
-      "status": "pending",
-      "words": 1900
-    },
-    {
-      "slug": "mushroom-coffee-and-focus",
-      "title": "Mushroom Coffee and Focus: Does It Actually Sharpen Concentration?",
-      "kw": "mushroom coffee focus",
-      "cat": "Ingredients",
+      "slug": "homocysteine-and-cognitive-decline",
+      "title": "Homocysteine and Cognitive Decline: Why This Marker Matters",
+      "kw": "homocysteine cognitive decline",
+      "cat": "Brain Health",
       "status": "pending",
       "words": 1900
     },
@@ -3161,10 +3571,26 @@
       "words": 1900
     },
     {
+      "slug": "cinnamon-and-brain-health",
+      "title": "Cinnamon and Brain Health: Does It Really Support Memory?",
+      "kw": "cinnamon brain health",
+      "cat": "Ingredients",
+      "status": "pending",
+      "words": 1900
+    },
+    {
       "slug": "tart-cherry-juice-sleep",
       "title": "Tart Cherry Juice for Sleep: Does It Work?",
       "kw": "tart cherry juice sleep",
       "cat": "Sleep",
+      "status": "pending",
+      "words": 1900
+    },
+    {
+      "slug": "houseplants-and-cognitive-function",
+      "title": "Houseplants and Cognitive Function: Does Greenery Really Sharpen Focus?",
+      "kw": "houseplants cognitive function focus",
+      "cat": "Brain Health",
       "status": "pending",
       "words": 1900
     },
@@ -3177,18 +3603,10 @@
       "words": 1900
     },
     {
-      "slug": "taurine-and-cognitive-function",
-      "title": "Taurine and Cognitive Function: What the Research Actually Shows",
-      "kw": "taurine cognitive function brain",
-      "cat": "Ingredients",
-      "status": "pending",
-      "words": 1900
-    },
-    {
-      "slug": "vitamin-e-and-brain-health",
-      "title": "Vitamin E and Brain Health: Why This Antioxidant Matters for Memory",
-      "kw": "vitamin e brain health",
-      "cat": "Ingredients",
+      "slug": "pet-ownership-and-cognitive-decline",
+      "title": "Pet Ownership and Cognitive Decline: What the Research Shows",
+      "kw": "pet ownership cognitive decline",
+      "cat": "Aging Well",
       "status": "pending",
       "words": 1900
     },
@@ -3201,10 +3619,26 @@
       "words": 1900
     },
     {
+      "slug": "volunteering-and-cognitive-decline",
+      "title": "Volunteering and Cognitive Decline: Does Giving Back Protect Your Brain?",
+      "kw": "volunteering cognitive decline",
+      "cat": "Aging Well",
+      "status": "pending",
+      "words": 1900
+    },
+    {
       "slug": "protein-breakfast-energy",
       "title": "Protein at Breakfast and Energy: What Studies Show",
       "kw": "protein breakfast energy",
       "cat": "Energy & Metabolism",
+      "status": "pending",
+      "words": 1900
+    },
+    {
+      "slug": "knitting-and-cognitive-function",
+      "title": "Knitting and Cognitive Function: The Case for Handcrafts and a Sharper Mind",
+      "kw": "knitting cognitive function brain",
+      "cat": "Memory",
       "status": "pending",
       "words": 1900
     },
@@ -3217,17 +3651,9 @@
       "words": 1900
     },
     {
-      "slug": "vitamin-k2-and-brain-health",
-      "title": "Vitamin K2 and Brain Health: An Overlooked Nutrient's Role in Cognition",
-      "kw": "vitamin k2 brain health",
-      "cat": "Ingredients",
-      "status": "pending",
-      "words": 1900
-    },
-    {
-      "slug": "elderberry-and-cognitive-function",
-      "title": "Elderberry and Cognitive Function: Is There Any Brain Benefit?",
-      "kw": "elderberry cognitive function brain",
+      "slug": "mushroom-coffee-and-focus",
+      "title": "Mushroom Coffee and Focus: Does It Actually Sharpen Concentration?",
+      "kw": "mushroom coffee focus",
       "cat": "Ingredients",
       "status": "pending",
       "words": 1900
@@ -3241,10 +3667,26 @@
       "words": 1900
     },
     {
+      "slug": "taurine-and-cognitive-function",
+      "title": "Taurine and Cognitive Function: What the Research Actually Shows",
+      "kw": "taurine cognitive function brain",
+      "cat": "Ingredients",
+      "status": "pending",
+      "words": 1900
+    },
+    {
       "slug": "magnesium-for-women",
       "title": "Magnesium for Women: Benefits and Best Food Sources",
       "kw": "magnesium for women",
       "cat": "Women's Health",
+      "status": "pending",
+      "words": 1900
+    },
+    {
+      "slug": "vitamin-e-and-brain-health",
+      "title": "Vitamin E and Brain Health: Why This Antioxidant Matters for Memory",
+      "kw": "vitamin e brain health",
+      "cat": "Ingredients",
       "status": "pending",
       "words": 1900
     },
@@ -3257,18 +3699,10 @@
       "words": 1900
     },
     {
-      "slug": "apple-cider-vinegar-and-brain-fog",
-      "title": "Apple Cider Vinegar and Brain Fog: Does It Really Help Focus?",
-      "kw": "apple cider vinegar brain fog",
+      "slug": "vitamin-k2-and-brain-health",
+      "title": "Vitamin K2 and Brain Health: An Overlooked Nutrient's Role in Cognition",
+      "kw": "vitamin k2 brain health",
       "cat": "Ingredients",
-      "status": "pending",
-      "words": 1900
-    },
-    {
-      "slug": "red-light-therapy-and-brain-health",
-      "title": "Red Light Therapy and Brain Health: What the Evidence Actually Shows",
-      "kw": "red light therapy brain health",
-      "cat": "Brain Health",
       "status": "pending",
       "words": 1900
     },
@@ -3281,10 +3715,26 @@
       "words": 1900
     },
     {
+      "slug": "elderberry-and-cognitive-function",
+      "title": "Elderberry and Cognitive Function: Is There Any Brain Benefit?",
+      "kw": "elderberry cognitive function brain",
+      "cat": "Ingredients",
+      "status": "pending",
+      "words": 1900
+    },
+    {
       "slug": "how-much-salt-per-day-blood-pressure",
       "title": "Salt and Blood Pressure: How Much Is Too Much?",
       "kw": "how much salt per day blood pressure",
       "cat": "Heart Health",
+      "status": "pending",
+      "words": 1900
+    },
+    {
+      "slug": "apple-cider-vinegar-and-brain-fog",
+      "title": "Apple Cider Vinegar and Brain Fog: Does It Really Help Focus?",
+      "kw": "apple cider vinegar brain fog",
+      "cat": "Ingredients",
       "status": "pending",
       "words": 1900
     },
@@ -3297,17 +3747,9 @@
       "words": 1900
     },
     {
-      "slug": "forest-bathing-and-cognitive-function",
-      "title": "Forest Bathing and Cognitive Function: Can Time in Nature Sharpen Your Mind?",
-      "kw": "forest bathing cognitive function",
-      "cat": "Aging Well",
-      "status": "pending",
-      "words": 1900
-    },
-    {
-      "slug": "decluttering-and-mental-clarity",
-      "title": "Decluttering and Mental Clarity: Does a Tidy Space Really Help You Think?",
-      "kw": "decluttering mental clarity focus",
+      "slug": "red-light-therapy-and-brain-health",
+      "title": "Red Light Therapy and Brain Health: What the Evidence Actually Shows",
+      "kw": "red light therapy brain health",
       "cat": "Brain Health",
       "status": "pending",
       "words": 1900
@@ -3321,10 +3763,26 @@
       "words": 1900
     },
     {
+      "slug": "forest-bathing-and-cognitive-function",
+      "title": "Forest Bathing and Cognitive Function: Can Time in Nature Sharpen Your Mind?",
+      "kw": "forest bathing cognitive function",
+      "cat": "Aging Well",
+      "status": "pending",
+      "words": 1900
+    },
+    {
       "slug": "bone-density-after-50",
       "title": "Bone Density After 50: How to Protect It",
       "kw": "bone density after 50",
       "cat": "Joints & Mobility",
+      "status": "pending",
+      "words": 1900
+    },
+    {
+      "slug": "decluttering-and-mental-clarity",
+      "title": "Decluttering and Mental Clarity: Does a Tidy Space Really Help You Think?",
+      "kw": "decluttering mental clarity focus",
+      "cat": "Brain Health",
       "status": "pending",
       "words": 1900
     },
@@ -3345,18 +3803,18 @@
       "words": 1900
     },
     {
-      "slug": "deep-work-technique-and-memory",
-      "title": "Deep Work and Memory: Does Focused, Uninterrupted Work Improve Recall?",
-      "kw": "deep work memory focus",
-      "cat": "Memory",
-      "status": "pending",
-      "words": 1900
-    },
-    {
       "slug": "thyroid-symptoms-women",
       "title": "Thyroid Symptoms in Women: What to Watch For",
       "kw": "thyroid symptoms women",
       "cat": "Women's Health",
+      "status": "pending",
+      "words": 1900
+    },
+    {
+      "slug": "deep-work-technique-and-memory",
+      "title": "Deep Work and Memory: Does Focused, Uninterrupted Work Improve Recall?",
+      "kw": "deep work memory focus",
+      "cat": "Memory",
       "status": "pending",
       "words": 1900
     },
@@ -3369,18 +3827,18 @@
       "words": 1900
     },
     {
-      "slug": "best-bedroom-temperature-for-sleep",
-      "title": "Bedroom Temperature for Sleep: What's the Ideal Setting?",
-      "kw": "best bedroom temperature for sleep",
-      "cat": "Sleep",
-      "status": "pending",
-      "words": 1900
-    },
-    {
       "slug": "digital-detox-and-memory",
       "title": "Digital Detox and Memory: What Happens When You Unplug?",
       "kw": "digital detox memory",
       "cat": "Memory",
+      "status": "pending",
+      "words": 1900
+    },
+    {
+      "slug": "best-bedroom-temperature-for-sleep",
+      "title": "Bedroom Temperature for Sleep: What's the Ideal Setting?",
+      "kw": "best bedroom temperature for sleep",
+      "cat": "Sleep",
       "status": "pending",
       "words": 1900
     },

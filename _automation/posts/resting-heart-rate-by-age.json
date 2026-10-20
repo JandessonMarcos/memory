@@ -1,0 +1,292 @@
+{
+  "date": "2026-10-20",
+  "cat": "Heart Health",
+  "crumb": "Resting Heart Rate by Age",
+  "title_tag": "Resting Heart Rate by Age: What's Healthy?",
+  "og_title": "Resting Heart Rate by Age: What Counts as Healthy?",
+  "desc": "A normal resting heart rate for most adults is 60 to 100 beats per minute at any age. Here's how fitness, age and health conditions change that number.",
+  "h1_a": "Resting Heart Rate by Age: ",
+  "h1_b": "What Counts as Healthy?",
+  "subhead": "For adults, a healthy resting heart rate stays in roughly the same range from your 20s into your 70s. What actually moves the number is fitness, not the calendar.",
+  "alt": "Cyclist pausing on a desert mountain-bike trail, the kind of cardio activity that helps lower resting heart rate",
+  "takeaways": [
+    "<strong>For adults, 60 to 100 beats per minute is the normal resting range at any age</strong>, according to the American Heart Association.",
+    "<strong>Resting heart rate doesn't steadily climb or fall with age in adults.</strong> It mostly tracks fitness level, body size, medications and stress.",
+    "<strong>Children have faster resting heart rates than adults</strong>, and the range gradually narrows down to the adult band by around age 10.",
+    "<strong>Very fit people, including trained athletes, often sit near 40 to 60 beats per minute</strong> at rest, which is normal for them, not a warning sign.",
+    "<strong>See a doctor if your resting rate is consistently above 100 or below 60</strong> (and you're not an athlete), especially with dizziness, fatigue or shortness of breath."
+  ],
+  "pull": "Your resting heart rate isn't really a clock reading your age. It's closer to a readout of your fitness, your stress load and how well your heart is doing its job.",
+  "body": [
+    [
+      "p",
+      "A healthy resting heart rate for most adults is 60 to 100 beats per minute, and that range holds true whether you're 25 or 75. What changes the number more than age is fitness: a well-conditioned heart pumps more blood per beat, so it needs fewer beats per minute to do the same job."
+    ],
+    [
+      "p",
+      "That doesn't mean age plays no role at all. It shows up earlier in life, in how children's hearts compare with adults', and later in how certain heart conditions and medications become more common. Here's how the real picture breaks down by life stage."
+    ],
+    [
+      "h2",
+      "What is considered a normal resting heart rate for adults?"
+    ],
+    [
+      "p",
+      "The American Heart Association puts the normal adult resting heart rate at 60 to 100 beats per minute, measured while you're sitting or lying down, calm, and haven't moved or had caffeine in the last 30 minutes. That single range covers healthy 20-year-olds and healthy 80-year-olds alike."
+    ],
+    [
+      "p",
+      "Inside that range, lower is generally a sign of good cardiovascular fitness, not a problem. Mayo Clinic notes that very fit athletes can have a resting heart rate closer to 40 beats per minute, well under the usual floor, simply because a trained heart is a more efficient pump."
+    ],
+    [
+      "h2",
+      "Does resting heart rate actually change with age in adults?"
+    ],
+    [
+      "p",
+      "Not much, and not in a straight line. Large population surveys find the average resting pulse in adults stays fairly flat from early adulthood through the senior years, generally hovering in the low-to-mid 70s. What shifts far more across that same age range is body weight, activity level, stress, and the medications people start taking."
+    ],
+    [
+      "p",
+      "Put another way: a sedentary 30-year-old and a sedentary 65-year-old are likely to have more similar resting heart rates to each other than either has to a highly active person their own age. Fitness, not birthday, is doing most of the work."
+    ],
+    [
+      "h3",
+      "Is resting heart rate the same thing as heart rate variability?"
+    ],
+    [
+      "p",
+      "No, and the two get mixed up often since wearables report both. Resting heart rate is simply how many times your heart beats per minute at rest. Heart rate variability (HRV) measures something different: the tiny variation in the time between individual beats, which reflects how well your nervous system is balancing stress and recovery."
+    ],
+    [
+      "p",
+      "A lower resting heart rate and a higher HRV both tend to track with better cardiovascular fitness, but they're separate numbers measuring separate things, and neither one alone tells the full story. Think of resting heart rate as the speedometer and HRV as a rough gauge of how smoothly the engine is running."
+    ],
+    [
+      "h3",
+      "Is this the same number as my exercise or target heart rate?"
+    ],
+    [
+      "p",
+      "No. Resting heart rate is measured at rest, by definition. Target or training heart rate zones are calculated from your maximum heart rate (roughly 220 minus your age, as a rough estimate) and used during exercise. A low resting heart rate and a healthy exercise range are related, since both improve with cardiovascular fitness, but they're calculated differently and serve different purposes."
+    ],
+    [
+      "h2",
+      "How does resting heart rate look in children compared with adults?"
+    ],
+    [
+      "p",
+      "This is where age genuinely matters. Children's hearts are smaller and beat faster at rest, and the normal range narrows down toward the adult band as they grow."
+    ],
+    [
+      "table",
+      [
+        "Age group",
+        "Typical resting heart rate range (bpm)"
+      ],
+      [
+        [
+          "Newborn (0&ndash;1 month)",
+          "70&ndash;190"
+        ],
+        [
+          "Infant (1&ndash;11 months)",
+          "80&ndash;160"
+        ],
+        [
+          "Toddler (1&ndash;2 years)",
+          "80&ndash;130"
+        ],
+        [
+          "Preschool (3&ndash;4 years)",
+          "80&ndash;120"
+        ],
+        [
+          "School age (5&ndash;9 years)",
+          "70&ndash;115"
+        ],
+        [
+          "10 years and older, and adults",
+          "60&ndash;100"
+        ]
+      ]
+    ],
+    [
+      "p",
+      "Those pediatric ranges are approximate and vary somewhat by source; a pediatrician's reading at a well visit is far more meaningful than any chart. By around age 10, resting heart rate has settled into the same range adults carry for the rest of their lives."
+    ],
+    [
+      "h2",
+      "Why do fitness and lifestyle matter more than age?"
+    ],
+    [
+      "ul",
+      [
+        "<strong>Cardiovascular fitness.</strong> Regular aerobic exercise strengthens the heart muscle so it moves more blood with each beat, which lowers the resting rate over weeks to months.",
+        "<strong>Body size and composition.</strong> Larger body mass generally means a somewhat higher resting heart rate, independent of age.",
+        "<strong>Stress and anxiety.</strong> Both raise resting heart rate through the same stress-hormone pathways, regardless of how old you are.",
+        "<strong>Smoking and caffeine.</strong> Nicotine and caffeine both temporarily push the heart rate up.",
+        "<strong>Dehydration.</strong> The heart compensates for lower blood volume by beating faster.",
+        "<strong>Medications and thyroid function.</strong> Beta-blockers lower resting heart rate; some thyroid conditions, stimulants and decongestants raise it."
+      ]
+    ],
+    [
+      "p",
+      "A related number worth knowing is heart rate recovery: how quickly your pulse drops after you stop exercising. A heart that's used to working efficiently tends to settle back toward its resting rate faster, often within one to two minutes, while a slower recovery can be a sign of lower fitness or, in some cases, an underlying heart issue worth mentioning at a checkup. It's measured the same simple way as resting heart rate, just timed right after you stop moving instead of first thing in the morning."
+    ],
+    [
+      "p",
+      "Sex plays a smaller, steadier role too. On average, women's resting heart rates run a few beats per minute higher than men's, mostly because hearts are, on average, somewhat smaller and move less blood per beat, so they compensate with a slightly faster pace. It's a population-level average, not a rule for any one person."
+    ],
+    [
+      "h2",
+      "Can a low resting heart rate ever be a problem?"
+    ],
+    [
+      "p",
+      "Usually not, especially if you're active and feel fine. A resting rate in the 50s or even high 40s is common and healthy in people who exercise regularly. It becomes worth checking when a low rate comes with dizziness, extreme fatigue, fainting or shortness of breath, which can point to a heart rhythm problem called bradycardia rather than simple fitness."
+    ],
+    [
+      "p",
+      "The difference usually comes down to context, not the number alone. A 35-year-old marathoner with a resting rate of 45 who feels fine is describing a well-trained heart. A sedentary 60-year-old with the same number who feels light-headed standing up is describing something a doctor should look at. Same reading, different meaning."
+    ],
+    [
+      "h2",
+      "Can a high resting heart rate ever be a problem?"
+    ],
+    [
+      "p",
+      "A resting rate that's regularly above 100 beats per minute, a condition called tachycardia, is worth discussing with a doctor, particularly if you're not in the middle of a fever, stress spike or caffeine binge when you check it. Persistent elevation can reflect anxiety, dehydration, thyroid issues, anemia, or in some cases an underlying heart condition."
+    ],
+    [
+      "p",
+      "It's also one of the more useful numbers to track over time rather than once. A resting heart rate that's drifted up by 10 or more beats per minute over a few months, with no obvious cause like new stress or less sleep, is a reasonable thing to mention at your next checkup. Beta-blockers and certain blood pressure medications are prescribed specifically to lower heart rate, so a low reading on those drugs is usually the medication working as intended, not a new problem; stimulant medications, decongestants and an overactive thyroid tend to push it the other way."
+    ],
+    [
+      "h2",
+      "Does pregnancy change resting heart rate?"
+    ],
+    [
+      "p",
+      "Yes, this is one of the clearer exceptions to \"age doesn't matter much.\" Blood volume rises substantially during pregnancy to support the growing fetus, and the heart has to beat faster to move that extra volume. Resting heart rate commonly climbs by 10 to 20 beats per minute by the third trimester, which is expected and not itself a warning sign."
+    ],
+    [
+      "p",
+      "A sharp, sudden jump, or a rate that comes with chest pain, severe shortness of breath or swelling, is different and belongs in a conversation with an OB-GYN, not a wait-and-see. Pregnancy is a good example of why a single \"normal range\" chart can't cover every life stage; context changes what a given number means."
+    ],
+    [
+      "h2",
+      "How do you lower your resting heart rate, if you want to?"
+    ],
+    [
+      "p",
+      "Regular aerobic exercise is the best-studied way to bring a resting heart rate down over time, often by several beats per minute within a few months of consistent training. It doesn't have to be intense. Brisk <a href='../walking-and-brain-health/'>walking</a> several times a week has a real, measurable effect, and it carries a second benefit that has nothing to do with your pulse: the same cardiovascular fitness that lowers resting heart rate is also one of the more consistently supported habits for long-term <a href='../exercise-and-brain-health/'>brain health</a>, likely through better blood flow to the brain."
+    ],
+    [
+      "p",
+      "Sleep, stress management, cutting back on caffeine and nicotine, and staying hydrated round out the list. None of these moves the number overnight; expect weeks, not days."
+    ],
+    [
+      "h2",
+      "How do you actually measure your resting heart rate?"
+    ],
+    [
+      "ul",
+      [
+        "Check it first thing in the morning, before you get out of bed, for the most accurate baseline.",
+        "Place two fingers on your wrist (radial pulse) or neck (carotid pulse), never your thumb, since it has its own pulse.",
+        "Count beats for a full 60 seconds, or count for 30 seconds and double it.",
+        "Repeat on a few different mornings. One reading tells you less than a weekly average.",
+        "A fitness tracker or smartwatch works too, though cheaper optical sensors can be a few beats off compared with a manual count."
+      ]
+    ],
+    [
+      "p",
+      "Consistency matters more than precision here. Heart rate naturally dips during deep sleep and rises through the day with activity, caffeine, meals and stress, so a reading taken at 7 a.m. and one taken after climbing three flights of stairs at 2 p.m. aren't comparable. Checking at roughly the same time, under the same conditions, is what makes a trend worth trusting."
+    ],
+    [
+      "h2",
+      "When should you see a doctor about your resting heart rate?"
+    ],
+    [
+      "p",
+      "Bring it up if your resting rate is consistently above 100 or below 60 and you're not a trained athlete, if it has climbed or dropped noticeably over a few months without an obvious reason, or if it comes with dizziness, chest discomfort, fainting, or shortness of breath. An irregular rhythm, not just a fast or slow one, is also worth a prompt call rather than a wait-and-see approach. It's also fair to mention a persistently fast or slow rate even without symptoms, simply to get a baseline on record; a reading your doctor already has on file is far more useful for spotting a real change later than a first-ever mention during an unrelated visit."
+    ],
+    [
+      "p",
+      "A single odd reading rarely means much on its own. A pattern, especially one with symptoms attached, is what moves this from \"interesting number\" to \"call your doctor.\" For more on the habits that support the heart over the long run, see our <a href='/topics/heart/'>heart health coverage</a>."
+    ]
+  ],
+  "faq": [
+    [
+      "Is a resting heart rate of 50 bpm dangerous?",
+      "Not on its own, especially in someone who exercises regularly; athletes commonly sit in the 40s and 50s. It's worth a doctor's attention if it comes with dizziness, fatigue or fainting, or in someone who isn't physically active."
+    ],
+    [
+      "Why is my resting heart rate higher in the morning than I expect?",
+      "Stress, poor sleep the night before, dehydration, or checking it right after waking with an alarm (rather than waking naturally) can all push the number up temporarily. Check a few mornings before drawing a conclusion."
+    ],
+    [
+      "Does resting heart rate predict how long you'll live?",
+      "Large population studies have found an association between a persistently higher resting heart rate and greater cardiovascular risk over time, but it's one data point among many, not a standalone prediction, and it doesn't account for individual health context."
+    ],
+    [
+      "Can anxiety alone raise your resting heart rate?",
+      "Yes. Anxiety activates the same stress-hormone response that physical exertion does, and it can keep resting heart rate elevated even while you're sitting still."
+    ],
+    [
+      "Is it normal for resting heart rate to be different lying down versus sitting?",
+      "A small difference is normal; lying down, the heart doesn't have to work against gravity as much, so the rate often runs a few beats per minute lower than seated."
+    ],
+    [
+      "Do women typically have a different resting heart rate than men?",
+      "Women's resting heart rates run, on average, a few beats per minute higher than men's, largely due to differences in heart size, though the healthy 60 to 100 bpm range applies to both."
+    ],
+    [
+      "Can dehydration really change your resting heart rate?",
+      "Yes. Lower blood volume from dehydration means the heart has to beat more often to circulate the same amount of blood, which can raise resting heart rate until you rehydrate."
+    ],
+    [
+      "Should I worry about one single high heart rate reading?",
+      "Generally no, if you felt fine and it followed caffeine, stress, a fever or recent movement. A pattern across several calm readings matters far more than any one number."
+    ]
+  ],
+  "sources": [
+    [
+      "American Heart Association: All About Heart Rate (Pulse)",
+      "https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse"
+    ],
+    [
+      "Mayo Clinic: Heart rate: What's normal?",
+      "https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979"
+    ],
+    [
+      "MedlinePlus: Pulse",
+      "https://medlineplus.gov/ency/article/003399.htm"
+    ],
+    [
+      "National Institute on Aging: Heart Health and Aging",
+      "https://www.nia.nih.gov/health/heart-health/heart-health-and-aging"
+    ]
+  ],
+  "related": [
+    [
+      "Exercise and brain health: the memory connection",
+      "exercise-and-brain-health"
+    ],
+    [
+      "Walking and brain health: how daily steps protect memory",
+      "walking-and-brain-health"
+    ],
+    [
+      "Cholesterol and brain health: what the research really says",
+      "cholesterol-and-brain-health"
+    ]
+  ],
+  "hero_queries": [
+    "person checking pulse at wrist",
+    "doctor measuring patient heart rate",
+    "fitness tracker on wrist outdoors",
+    "senior man checking pulse"
+  ]
+}

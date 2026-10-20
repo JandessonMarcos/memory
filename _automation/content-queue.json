@@ -2654,8 +2654,9 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Evidence exists for the INGREDIENTS, not for this finished product. Say that plainly. No cure claims.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-20"
     },
     {
       "slug": "does-memohoney-work",
@@ -2665,8 +2666,9 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Ingredient-level evidence only. No product trial exists; say so.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-20"
     },
     {
       "slug": "vapocept-ingredients",
@@ -2675,24 +2677,27 @@
       "cat": "Reviews",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-20"
     },
     {
       "slug": "how-long-to-fall-asleep-normal",
       "title": "How Long Does It Take to Fall Asleep? What's Normal and What Isn't",
       "kw": "how long to fall asleep normal",
       "cat": "Sleep",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-10-20"
     },
     {
       "slug": "resting-heart-rate-by-age",
       "title": "Resting Heart Rate by Age: What's Healthy?",
       "kw": "resting heart rate by age",
       "cat": "Heart Health",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-10-20"
     },
     {
       "slug": "memopezil-price-per-bottle",

@@ -15,6 +15,12 @@ import sys, os, re, json
 SITE = "https://www.memorylabdaily.com"
 SPEC_DIR = "_automation/posts"
 
+# Other health areas never pitch the memory supplement: no .recbox, no .final
+# buy banner (RUNBOOK ## Sections and step 2). A branded page in one of these
+# cats (its own offer, via spec "brand") still gets its own CTA.
+OTHER_AREAS = {"Sleep", "Heart Health", "Gut Health", "Energy & Metabolism",
+               "Joints & Mobility", "Men's Health", "Women's Health", "Nutrition"}
+
 # category -> (breadcrumb label, breadcrumb href)
 CATS = {
     "Memory":       ("Memory",       "/memory-basics/"),
@@ -133,12 +139,7 @@ src="https://www.facebook.com/tr?id=831503250016369&ev=PageView&noscript=1"/></n
 @@faq_html@@
     </div>
 
-    <!-- final CTA -->
-    <div class="final">
-      <h3>@@final_h@@</h3>
-      <p>@@final_p@@</p>
-      <a class="buy-btn @@buy_cls@@" data-rank="1" href="#">@@final_btn@@</a>
-    </div>
+@@final_block@@
 
     <div class="sources" style="font-size:14px;margin-top:22px;padding-top:14px;border-top:1px solid #e6e8ec">
       <strong>Sources &amp; further reading</strong>
@@ -437,6 +438,21 @@ def render(slug):
 
     # Token substitution rather than str.format: the head carries inline gtag and
     # fbq JavaScript full of literal braces, which .format() tries to parse.
+    no_pitch = s["cat"] in OTHER_AREAS and not brand
+    if no_pitch:
+        final_block = ""
+    else:
+        buy_cls = BRANDS[brand]["cls"] if brand else "buy-link"
+        final_btn = (f'See {BRANDS[brand]["name"]}\'s official price &rarr;' if brand
+                     else "See the Top 5 Memory Formulas &rarr;")
+        final_block = (
+            '    <!-- final CTA -->\n'
+            '    <div class="final">\n'
+            f'      <h3>{s["final_h"]}</h3>\n'
+            f'      <p>{s["final_p"]}</p>\n'
+            f'      <a class="buy-btn {buy_cls}" data-rank="1" href="#">{final_btn}</a>\n'
+            '    </div>'
+        )
     fields = {
         "title_tag": s["title_tag"], "desc": s["desc"], "og_title": s["og_title"],
         "site": SITE, "slug": slug,
@@ -445,11 +461,8 @@ def render(slug):
         "h1_a": s["h1_a"], "h1_b": s["h1_b"], "subhead": s["subhead"],
         "pubdate_h": pubdate_h, "alt": s["alt"], "takeaways": takeaways, "body": body,
         "img_credit": hero_credit(slug),
-        "pull": s["pull"], "faq_html": faq_html, "final_h": s["final_h"],
-        "final_p": s["final_p"], "sources": sources, "related": related,
-        "buy_cls": BRANDS[brand]["cls"] if brand else "buy-link",
-        "final_btn": (f'See {BRANDS[brand]["name"]}\'s official price &rarr;' if brand
-                      else "See the Top 5 Memory Formulas &rarr;"),
+        "pull": s["pull"], "faq_html": faq_html,
+        "final_block": final_block, "sources": sources, "related": related,
         "brand_js": BRANDS[brand]["js"] if brand else "",
     }
     out = HEAD

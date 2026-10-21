@@ -2707,8 +2707,9 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Cost-per-day framing. Do NOT state exact dollar figures that may change; teach the reader to do the math and check current pricing.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-21"
     },
     {
       "slug": "memohoney-price-per-serving",
@@ -2718,8 +2719,9 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Cost-per-serving reasoning vs capsules. Avoid quoting prices that go stale.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-21"
     },
     {
       "slug": "vigor-boost-ingredients",
@@ -2728,24 +2730,27 @@
       "cat": "Men's Health",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-21"
     },
     {
       "slug": "signs-of-unhealthy-gut",
       "title": "Signs of an Unhealthy Gut: What to Watch For",
       "kw": "signs of unhealthy gut",
       "cat": "Gut Health",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-10-21"
     },
     {
       "slug": "why-am-i-always-tired",
       "title": "Why Am I Always Tired? Everyday Causes Worth Checking",
       "kw": "why am i always tired",
       "cat": "Energy & Metabolism",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-10-21"
     },
     {
       "slug": "memopezil-vs-prevagen",

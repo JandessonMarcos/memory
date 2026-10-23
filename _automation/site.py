@@ -67,6 +67,11 @@ CAT_MAP = {
 # fixed evergreen picks for the "Editors' picks" row (skipped if missing)
 PICKS = ["how-to-improve-memory", "best-memory-supplements-2026", "brain-fog-causes-and-fixes", "sleep-and-memory"]
 
+# money pages pinned high on the home: the old home linked all of them and they
+# carried the product clicks; dropping them in the 19/10 redesign stopped those clicks
+TOP_REVIEWS = ["best-memory-supplements-2026", "memopezil-review", "memohoney-review",
+               "prevagen-alternatives", "best-brain-supplements-for-adults"]
+
 # money pages keep the reader on the offer: no "Latest" sidebar
 NO_ASIDE = {"best-memory-supplements-2026"}
 
@@ -260,6 +265,16 @@ def picks_row(posts):
             '<div class="grid g4">' + "".join(card(p) for p in ps[:3]) + "</div>" + tools + "</div></section>")
 
 
+def reviews_row(posts):
+    by = {p["slug"]: p for p in posts}
+    ps = [by[s] for s in TOP_REVIEWS if s in by]
+    if not ps:
+        return ""
+    return ('<section class="sec"><h2 class="sh"><a href="/topics/reviews/">Reviews &amp; top picks</a>'
+            '<a class="all" href="/topics/reviews/">See all →</a></h2>'
+            '<div class="grid g5">' + "".join(card(p) for p in ps) + "</div></section>")
+
+
 def sections(posts, used):
     out = []
     for slug, label, _ in CATS:
@@ -308,7 +323,7 @@ def build_home(posts, head_html, tail):
     editorial = [p for p in posts if not is_product_page(p)]
     hx, used = hero(editorial + [p for p in posts if is_product_page(p)])
     body = (f"\n{head_html}\n\n<main class=\"home2\">\n<h1 class=\"sr-only\">Memory Lab: independent health, memory and wellness news, guides and reviews</h1>\n"
-            f"{hx}\n{picks_row(posts)}\n{sections(posts, used)}\n</main>\n\n")
+            f"{hx}\n{picks_row(posts)}\n{reviews_row(posts)}\n{sections(posts, used | set(TOP_REVIEWS))}\n</main>\n\n")
     tail = tail.replace('src="assets/', 'src="/assets/')
     open("index.html", "w", encoding="utf-8").write(head + body + tail)
 

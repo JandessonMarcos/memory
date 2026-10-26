@@ -2972,8 +2972,9 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. What a 60-day guarantee does and does not cover; how to actually file; keep receipts. Mirror the tone of memohoney-review's refund section.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-26"
     },
     {
       "slug": "memohoney-how-long-to-see-results",
@@ -2982,8 +2983,9 @@
       "words": 2200,
       "intent": "commercial-high",
       "title": "How Long Does MemoHoney Take to Work? A Realistic Timeline",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-26"
     },
     {
       "slug": "does-vapocept-work",
@@ -2992,24 +2994,27 @@
       "cat": "Reviews",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-26"
     },
     {
       "slug": "morning-joint-stiffness",
       "title": "Morning Stiffness in Joints: What It Means",
       "kw": "morning joint stiffness",
       "cat": "Joints & Mobility",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-10-26"
     },
     {
       "slug": "enlarged-prostate-symptoms",
       "title": "Enlarged Prostate Symptoms: When to See a Doctor",
       "kw": "enlarged prostate symptoms",
       "cat": "Men's Health",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-10-26"
     },
     {
       "slug": "memopezil-vs-alpha-brain",

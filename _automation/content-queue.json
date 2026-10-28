@@ -3077,8 +3077,9 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Focus Factor = large multivitamin-style blend. Contrast focused formula vs kitchen-sink.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-28"
     },
     {
       "slug": "memohoney-dosage-and-timing",
@@ -3088,8 +3089,9 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Practical dosing plus the blood-sugar caveat a honey base creates.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-28"
     },
     {
       "slug": "does-horse-boost-work",
@@ -3098,24 +3100,27 @@
       "cat": "Men's Health",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-28"
     },
     {
       "slug": "magnesium-glycinate-for-sleep",
       "title": "Magnesium Glycinate for Sleep: What the Evidence Shows",
       "kw": "magnesium glycinate for sleep",
       "cat": "Sleep",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-10-28"
     },
     {
       "slug": "steps-per-day-heart-health",
       "title": "Walking and Heart Health: How Many Steps Make a Difference?",
       "kw": "steps per day heart health",
       "cat": "Heart Health",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-10-28"
     },
     {
       "slug": "memopezil-vs-memohoney",

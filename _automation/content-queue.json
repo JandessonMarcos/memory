@@ -3130,8 +3130,9 @@
       "angle": "FACTUAL, hedged. No disease claims, no fabricated studies/stats/testimonials. FTC disclosure + FDA disclaimer stay. Brand facts only from the official page (5-ingredient formula: BCAAs, Bacopa monnieri, Rhodiola rosea, L-theanine, Panax ginseng; 60 caps = 30 servings; 60-day money-back; 1/3/6-bottle packs). Never invent a dose the label does not state. Both are covered on this site; be even-handed, name the trade-offs of each delivery form honestly.",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-29"
     },
     {
       "slug": "memohoney-refund-policy",
@@ -3140,8 +3141,9 @@
       "words": 2200,
       "intent": "commercial-high",
       "title": "MemoHoney's 60-Day Guarantee: How the Refund Really Works",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-29"
     },
     {
       "slug": "does-jellytide-work",
@@ -3150,24 +3152,27 @@
       "cat": "Energy & Metabolism",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-29"
     },
     {
       "slug": "why-am-i-always-bloated",
       "title": "Why Am I Always Bloated? Common Causes and Fixes",
       "kw": "why am i always bloated",
       "cat": "Gut Health",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-10-29"
     },
     {
       "slug": "blood-sugar-spikes-after-eating",
       "title": "Blood Sugar Spikes After Meals: What They Mean",
       "kw": "blood sugar spikes after eating",
       "cat": "Energy & Metabolism",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-10-29"
     },
     {
       "slug": "sodaslim-side-effects",

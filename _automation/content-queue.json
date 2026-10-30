@@ -3181,8 +3181,9 @@
       "cat": "Energy & Metabolism",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-30"
     },
     {
       "slug": "blood-pril-side-effects",
@@ -3191,8 +3192,9 @@
       "cat": "Heart Health",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-30"
     },
     {
       "slug": "vapocept-side-effects",
@@ -3201,24 +3203,27 @@
       "cat": "Reviews",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-30"
     },
     {
       "slug": "glucosamine-chondroitin-joints",
       "title": "Glucosamine and Chondroitin: Do They Help Joints?",
       "kw": "glucosamine chondroitin joints",
       "cat": "Joints & Mobility",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-10-30"
     },
     {
       "slug": "zinc-for-men",
       "title": "Zinc for Men: Benefits and How Much You Need",
       "kw": "zinc for men",
       "cat": "Men's Health",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-10-30"
     },
     {
       "slug": "vigor-boost-side-effects",

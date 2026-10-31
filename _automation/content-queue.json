@@ -3232,8 +3232,9 @@
       "cat": "Men's Health",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-31"
     },
     {
       "slug": "horse-boost-side-effects",
@@ -3242,8 +3243,9 @@
       "cat": "Men's Health",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-31"
     },
     {
       "slug": "gumitide-vs-jellytide",
@@ -3252,24 +3254,27 @@
       "cat": "Energy & Metabolism",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-10-31"
     },
     {
       "slug": "iron-deficiency-women-signs",
       "title": "Iron Deficiency in Women: Signs and What to Eat",
       "kw": "iron deficiency women signs",
       "cat": "Women's Health",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-10-31"
     },
     {
       "slug": "mediterranean-diet-for-beginners",
       "title": "Mediterranean Diet for Beginners: A Simple Guide",
       "kw": "mediterranean diet for beginners",
       "cat": "Nutrition",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-10-31"
     },
     {
       "slug": "sugar-reset-side-effects",

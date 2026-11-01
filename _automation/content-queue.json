@@ -3283,8 +3283,9 @@
       "cat": "Energy & Metabolism",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-11-01"
     },
     {
       "slug": "does-sugar-reset-work",
@@ -3293,8 +3294,9 @@
       "cat": "Energy & Metabolism",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-11-01"
     },
     {
       "slug": "vapocept-price",
@@ -3303,8 +3305,9 @@
       "cat": "Reviews",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-11-01"
     },
     {
       "slug": "sleep-hygiene-checklist",

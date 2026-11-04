@@ -3324,7 +3324,8 @@
       "kw": "potassium foods blood pressure",
       "cat": "Heart Health",
       "status": "pending",
-      "words": 1900
+      "words": 1900,
+      "note": "SKIPPED 2026-11-04: Openverse blocked in the cloud sandbox (403), and the offline image pool has 0 available entries left in the relevant theme(s) for this topic (food-nutrition/heart-health/gut-digestion/joints-mobility/men-health/exercise-fitness all exhausted). Remaining pool stock (senior-aging, study-focus, thinking-memory, nature-lifestyle, social-connection, women-health) is off-topic for this slug. Needs a local pool refill (build-pool.py) before this can publish with a real, on-topic photo."
     },
     {
       "slug": "vigor-boost-price",
@@ -3365,7 +3366,8 @@
       "kw": "high fiber foods list",
       "cat": "Gut Health",
       "status": "pending",
-      "words": 1900
+      "words": 1900,
+      "note": "SKIPPED 2026-11-04: Openverse blocked in the cloud sandbox (403), and the offline image pool has 0 available entries left in the relevant theme(s) for this topic (food-nutrition/heart-health/gut-digestion/joints-mobility/men-health/exercise-fitness all exhausted). Remaining pool stock (senior-aging, study-focus, thinking-memory, nature-lifestyle, social-connection, women-health) is off-topic for this slug. Needs a local pool refill (build-pool.py) before this can publish with a real, on-topic photo."
     },
     {
       "slug": "walking-after-eating-blood-sugar",
@@ -3415,7 +3417,8 @@
       "kw": "collagen for joint pain",
       "cat": "Joints & Mobility",
       "status": "pending",
-      "words": 1900
+      "words": 1900,
+      "note": "SKIPPED 2026-11-04: Openverse blocked in the cloud sandbox (403), and the offline image pool has 0 available entries left in the relevant theme(s) for this topic (food-nutrition/heart-health/gut-digestion/joints-mobility/men-health/exercise-fitness all exhausted). Remaining pool stock (senior-aging, study-focus, thinking-memory, nature-lifestyle, social-connection, women-health) is off-topic for this slug. Needs a local pool refill (build-pool.py) before this can publish with a real, on-topic photo."
     },
     {
       "slug": "strength-training-after-50-men",
@@ -3423,7 +3426,8 @@
       "kw": "strength training after 50 men",
       "cat": "Men's Health",
       "status": "pending",
-      "words": 1900
+      "words": 1900,
+      "note": "SKIPPED 2026-11-04: Openverse blocked in the cloud sandbox (403), and the offline image pool has 0 available entries left in the relevant theme(s) for this topic (food-nutrition/heart-health/gut-digestion/joints-mobility/men-health/exercise-fitness all exhausted). Remaining pool stock (senior-aging, study-focus, thinking-memory, nature-lifestyle, social-connection, women-health) is off-topic for this slug. Needs a local pool refill (build-pool.py) before this can publish with a real, on-topic photo."
     },
     {
       "slug": "how-to-take-vapocept",

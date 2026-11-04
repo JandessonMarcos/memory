@@ -3405,8 +3405,9 @@
       "cat": "Men's Health",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-11-04"
     },
     {
       "slug": "collagen-for-joint-pain",

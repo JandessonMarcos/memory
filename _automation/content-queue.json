@@ -3323,9 +3323,9 @@
       "title": "Potassium-Rich Foods and Blood Pressure: What to Eat",
       "kw": "potassium foods blood pressure",
       "cat": "Heart Health",
-      "status": "pending",
+      "status": "done",
       "words": 1900,
-      "note": "SKIPPED 2026-11-04: Openverse blocked in the cloud sandbox (403), and the offline image pool has 0 available entries left in the relevant theme(s) for this topic (food-nutrition/heart-health/gut-digestion/joints-mobility/men-health/exercise-fitness all exhausted). Remaining pool stock (senior-aging, study-focus, thinking-memory, nature-lifestyle, social-connection, women-health) is off-topic for this slug. Needs a local pool refill (build-pool.py) before this can publish with a real, on-topic photo."
+      "published": "2026-11-05"
     },
     {
       "slug": "vigor-boost-price",
@@ -3365,9 +3365,9 @@
       "title": "High-Fiber Foods List: Easy Ways to Eat More Fiber",
       "kw": "high fiber foods list",
       "cat": "Gut Health",
-      "status": "pending",
+      "status": "done",
       "words": 1900,
-      "note": "SKIPPED 2026-11-04: Openverse blocked in the cloud sandbox (403), and the offline image pool has 0 available entries left in the relevant theme(s) for this topic (food-nutrition/heart-health/gut-digestion/joints-mobility/men-health/exercise-fitness all exhausted). Remaining pool stock (senior-aging, study-focus, thinking-memory, nature-lifestyle, social-connection, women-health) is off-topic for this slug. Needs a local pool refill (build-pool.py) before this can publish with a real, on-topic photo."
+      "published": "2026-11-05"
     },
     {
       "slug": "walking-after-eating-blood-sugar",
@@ -3416,18 +3416,18 @@
       "title": "Collagen for Joint Pain: What the Evidence Shows",
       "kw": "collagen for joint pain",
       "cat": "Joints & Mobility",
-      "status": "pending",
+      "status": "done",
       "words": 1900,
-      "note": "SKIPPED 2026-11-04: Openverse blocked in the cloud sandbox (403), and the offline image pool has 0 available entries left in the relevant theme(s) for this topic (food-nutrition/heart-health/gut-digestion/joints-mobility/men-health/exercise-fitness all exhausted). Remaining pool stock (senior-aging, study-focus, thinking-memory, nature-lifestyle, social-connection, women-health) is off-topic for this slug. Needs a local pool refill (build-pool.py) before this can publish with a real, on-topic photo."
+      "published": "2026-11-05"
     },
     {
       "slug": "strength-training-after-50-men",
       "title": "Strength Training After 50 for Men: Where to Start",
       "kw": "strength training after 50 men",
       "cat": "Men's Health",
-      "status": "pending",
+      "status": "done",
       "words": 1900,
-      "note": "SKIPPED 2026-11-04: Openverse blocked in the cloud sandbox (403), and the offline image pool has 0 available entries left in the relevant theme(s) for this topic (food-nutrition/heart-health/gut-digestion/joints-mobility/men-health/exercise-fitness all exhausted). Remaining pool stock (senior-aging, study-focus, thinking-memory, nature-lifestyle, social-connection, women-health) is off-topic for this slug. Needs a local pool refill (build-pool.py) before this can publish with a real, on-topic photo."
+      "published": "2026-11-05"
     },
     {
       "slug": "how-to-take-vapocept",
@@ -3436,8 +3436,9 @@
       "cat": "Reviews",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-11-05"
     },
     {
       "slug": "how-to-take-vigor-boost",

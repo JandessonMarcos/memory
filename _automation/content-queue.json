@@ -3447,8 +3447,9 @@
       "cat": "Men's Health",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-11-06"
     },
     {
       "slug": "how-to-take-horse-boost",
@@ -3457,24 +3458,27 @@
       "cat": "Men's Health",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-11-06"
     },
     {
       "slug": "calcium-vitamin-d-women-over-50",
       "title": "Calcium and Vitamin D for Women Over 50",
       "kw": "calcium vitamin d women over 50",
       "cat": "Women's Health",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-11-06"
     },
     {
       "slug": "healthy-snacks-for-energy",
       "title": "Healthy Snacks for Steady Energy",
       "kw": "healthy snacks for energy",
       "cat": "Nutrition",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-11-06"
     },
     {
       "slug": "vapocept-how-long-results",
@@ -3483,8 +3487,9 @@
       "cat": "Reviews",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-11-06"
     },
     {
       "slug": "vigor-boost-how-long-results",

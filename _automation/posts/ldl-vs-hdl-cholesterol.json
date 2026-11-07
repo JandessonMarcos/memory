@@ -1,0 +1,297 @@
+{
+  "date": "2026-11-07",
+  "cat": "Heart Health",
+  "crumb": "LDL vs HDL Cholesterol",
+  "title_tag": "LDL vs HDL Cholesterol: What Your Numbers Mean",
+  "og_title": "LDL vs HDL Cholesterol: What Your Numbers Actually Mean",
+  "desc": "LDL and HDL cholesterol affect heart risk in opposite directions. See healthy ranges by number, what moves each one, and what your ratio really tells you.",
+  "h1_a": "LDL vs HDL Cholesterol: ",
+  "h1_b": "What Your Numbers Actually Mean",
+  "subhead": "Doctors call them bad and good cholesterol for a reason, but the nickname hides most of the useful part. Here's what each number is doing in your body.",
+  "alt": "A tired woman rubbing her eyes at her laptop late at night, a reminder that stress and poor sleep affect heart health alongside LDL and HDL cholesterol",
+  "hero_queries": [
+    "doctor reviewing blood test results with patient",
+    "cholesterol test tube in lab",
+    "heart health checkup stethoscope",
+    "healthy meal with salmon and vegetables"
+  ],
+  "takeaways": [
+    "<strong>LDL and HDL move cholesterol in opposite directions.</strong> LDL carries it toward artery walls; HDL carries it away, back to the liver.",
+    "<strong>Optimal LDL is generally under 100 mg/dL</strong>, and HDL above 60 mg/dL is considered protective. Everything in between depends on your overall risk picture.",
+    "<strong>The ratio between total cholesterol and HDL</strong> often tells a doctor more than either number read alone.",
+    "<strong>Diet, weight, exercise and smoking status move both numbers</strong>, sometimes in opposite directions at the same time.",
+    "<strong>One test result isn't a diagnosis.</strong> Your doctor weighs cholesterol alongside blood pressure, blood sugar and family history before deciding on treatment."
+  ],
+  "pull": "LDL and HDL share a name, a blood test and a unit of measurement. What they actually do inside an artery is close to opposite.",
+  "body": [
+    [
+      "p",
+      "LDL vs HDL cholesterol: they are not two versions of the same thing. LDL carries cholesterol into artery walls, raising heart disease risk as it climbs. HDL carries cholesterol away from arteries back to the liver, which is why a higher HDL is generally protective. The ratio between the two often matters as much as either number alone."
+    ],
+    [
+      "p",
+      "Most people see these two numbers on a lab report without much explanation of what separates them. Here's what LDL and HDL are actually doing inside your blood vessels, what counts as a healthy range, and which everyday habits move each one up or down."
+    ],
+    [
+      "h2",
+      "What's the difference between LDL and HDL cholesterol?"
+    ],
+    [
+      "p",
+      "Cholesterol itself doesn't travel through blood on its own. It needs a carrier, since it doesn't mix with water the way blood plasma does. LDL, short for low-density lipoprotein, is one such carrier, and it delivers cholesterol from the liver out to cells throughout the body. When there's more LDL cholesterol circulating than cells need, the excess can lodge in artery walls and contribute to plaque."
+    ],
+    [
+      "p",
+      "HDL, or high-density lipoprotein, works in the other direction. It collects cholesterol that cells and artery walls don't need and ferries it back to the liver, where it's processed and removed from circulation. That reverse transport is sometimes called reverse cholesterol transport, and it's the main reason researchers consider HDL protective rather than simply neutral."
+    ],
+    [
+      "p",
+      "Both are technically lipoproteins, a packaging of fat and protein, not pure cholesterol molecules. The names LDL and HDL describe the density of that packaging, which is also what a lab separates by when it runs your blood sample. That technical detail matters less than what each one does once it's circulating, which is where the bad and good nicknames come from."
+    ],
+    [
+      "h2",
+      "What do your LDL and HDL numbers actually mean?"
+    ],
+    [
+      "table",
+      [
+        "Test",
+        "Level",
+        "What it generally means"
+      ],
+      [
+        [
+          "LDL",
+          "Under 100 mg/dL",
+          "Optimal"
+        ],
+        [
+          "LDL",
+          "100-129 mg/dL",
+          "Near optimal"
+        ],
+        [
+          "LDL",
+          "130-159 mg/dL",
+          "Borderline high"
+        ],
+        [
+          "LDL",
+          "160-189 mg/dL",
+          "High"
+        ],
+        [
+          "LDL",
+          "190 mg/dL and up",
+          "Very high"
+        ],
+        [
+          "HDL (men)",
+          "Under 40 mg/dL",
+          "Low, a risk factor on its own"
+        ],
+        [
+          "HDL (women)",
+          "Under 50 mg/dL",
+          "Low, a risk factor on its own"
+        ],
+        [
+          "HDL",
+          "60 mg/dL and up",
+          "Considered protective"
+        ]
+      ]
+    ],
+    [
+      "p",
+      "These ranges come from long-standing clinical guidelines and are a starting point, not a verdict. A doctor reads your LDL and HDL alongside triglycerides, blood pressure, blood sugar, age, smoking status and family history before deciding whether a number needs attention or monitoring."
+    ],
+    [
+      "h2",
+      "Why is LDL called bad cholesterol?"
+    ],
+    [
+      "p",
+      "The nickname comes from what happens when LDL particles get stuck. If an LDL particle lodges in the wall of an artery, especially if it's oxidized by free radicals along the way, the immune system treats it as a problem and sends cells to deal with it. Those cells can themselves become part of a growing plaque, narrowing the artery and raising the risk of a clot that triggers a heart attack or stroke."
+    ],
+    [
+      "p",
+      "Not every LDL particle behaves the same way. Smaller, denser LDL particles are thought to slip into artery walls more easily than larger, fluffier ones, which is part of why some people with a moderate LDL number still carry meaningful risk, and why doctors sometimes order more detailed particle testing in specific cases, usually when family history or other risk factors don't match the standard numbers."
+    ],
+    [
+      "p",
+      "This buildup process, atherosclerosis, happens slowly over years and often produces no symptoms until an artery is significantly narrowed. That's the main reason cholesterol gets checked with a blood test long before anyone feels anything; by the time symptoms show up, plaque has usually been accumulating for a long time already."
+    ],
+    [
+      "h2",
+      "Why is HDL called good cholesterol?"
+    ],
+    [
+      "p",
+      "HDL earns its nickname by doing cleanup work. Beyond carrying cholesterol back to the liver, HDL appears to have some antioxidant and anti-inflammatory properties that may help protect artery walls directly, though this effect is studied less thoroughly than the transport role."
+    ],
+    [
+      "p",
+      "That said, HDL isn't a simple more-is-always-better number. Research on raising HDL with medication has repeatedly failed to translate into fewer heart attacks, which suggests HDL is more of a marker of a healthy metabolic state than a lever you can pull in isolation. Lifestyle changes that raise HDL tend to improve several risk factors together, and that combination is likely doing the real work rather than the HDL number by itself."
+    ],
+    [
+      "p",
+      "This is a case where the lab value and the underlying biology have drifted apart somewhat since HDL first earned its good reputation. Doctors still view a low HDL as a warning sign worth taking seriously. They're just less confident that chasing a higher HDL number on its own, through a pill rather than through diet and exercise, buys you anything extra."
+    ],
+    [
+      "h2",
+      "Does the ratio between LDL and HDL matter more than either number alone?"
+    ],
+    [
+      "p",
+      "Often, yes. Many clinicians look at the ratio of total cholesterol to HDL, since a seemingly fine LDL paired with a very low HDL can carry more risk than a higher LDL paired with a strong HDL. A ratio under about 5 to 1 is generally viewed as favorable, with lower ratios considered better."
+    ],
+    [
+      "p",
+      "This is why two people with an identical LDL reading can have different risk pictures. It's also why doctors rarely make a decision from LDL alone, particularly in someone whose HDL or triglycerides sit far from average."
+    ],
+    [
+      "h2",
+      "What raises LDL and lowers HDL?"
+    ],
+    [
+      "ul",
+      [
+        "Diets high in saturated fat and trans fat, which push LDL up and can pull HDL down at the same time.",
+        "Being overweight, particularly with extra fat around the midsection, which tends to raise LDL and triglycerides while lowering HDL.",
+        "Smoking, which lowers HDL and damages the artery lining, making LDL particles more likely to cause harm once they're there.",
+        "Being sedentary, since regular activity is one of the more reliable ways to nudge HDL upward.",
+        "Genetics, including inherited conditions like familial hypercholesterolemia that drive LDL far above typical ranges regardless of diet."
+      ]
+    ],
+    [
+      "h2",
+      "What foods and habits improve your cholesterol numbers?"
+    ],
+    [
+      "p",
+      "Diet changes that move LDL and HDL in a favorable direction tend to overlap heavily with general heart-healthy eating."
+    ],
+    [
+      "ul",
+      [
+        "Swap saturated fat for unsaturated fat: olive oil, nuts, avocado and fatty fish instead of butter, fatty red meat and fried food.",
+        "Add soluble fiber, found in oats, beans, apples and barley, which binds cholesterol in the gut and can meaningfully lower LDL over weeks.",
+        "Get regular aerobic activity. Even brisk walking several times a week is linked to higher HDL in multiple studies.",
+        "Lose excess weight if you're carrying it, since even a modest reduction can improve both LDL and HDL together.",
+        "Quit smoking. HDL often rises within weeks of quitting, one of the faster wins in this list."
+      ]
+    ],
+    [
+      "p",
+      "None of these changes work overnight, and genetics sets a real limit on how far diet and exercise alone can move LDL for some people. For a broader look at eating patterns with solid evidence behind them, see our guide to <a href=\"../lower-blood-pressure-naturally/\">lowering blood pressure naturally</a>, since many of the same habits help both numbers."
+    ],
+    [
+      "h2",
+      "Do triglycerides fit into this picture?"
+    ],
+    [
+      "p",
+      "Triglycerides are a third type of fat the same blood panel measures, and they tell a related but separate story. They rise with excess calories, added sugar and alcohol, and a high triglyceride level alongside low HDL is a pattern doctors watch closely, since it often travels with insulin resistance. A standard lipid panel reports LDL, HDL and triglycerides together for exactly this reason. No single number captures the full picture."
+    ],
+    [
+      "p",
+      "Very high triglycerides, well above what diet alone usually produces, can also raise the risk of pancreatitis, a painful inflammation of the pancreas, which is a separate concern from heart disease and one more reason doctors don't ignore this third number even when LDL and HDL look fine."
+    ],
+    [
+      "h2",
+      "When do you need medication instead of lifestyle changes?"
+    ],
+    [
+      "p",
+      "Lifestyle changes are the first step for most people with moderately elevated LDL and no other major risk factors, and they're worth a genuine trial of a few months before adding medication. But medication becomes the right call sooner for people with very high LDL, an inherited cholesterol disorder, existing heart disease, diabetes, or several risk factors stacked together, where waiting carries real cost. Statins remain the most studied and widely used option, and a doctor weighs your full risk profile, not LDL in isolation, before recommending one."
+    ],
+    [
+      "p",
+      "Doctors increasingly use a 10-year risk calculator rather than a fixed LDL cutoff to decide. That calculation folds in age, blood pressure, smoking status and diabetes alongside cholesterol, which is why two people with the same LDL number sometimes get different treatment recommendations. It can feel inconsistent from the outside; it's actually the more precise approach."
+    ],
+    [
+      "h2",
+      "How often should you get your cholesterol checked?"
+    ],
+    [
+      "p",
+      "Most healthy adults are advised to get a baseline lipid panel in their 20s and recheck every 4 to 6 years if results are normal and risk is low. People with risk factors such as high blood pressure, diabetes, a family history of early heart disease, or a previous abnormal result are typically checked more often, sometimes yearly. Our guide to <a href=\"../resting-heart-rate-by-age/\">resting heart rate by age</a> covers another simple number worth tracking alongside cholesterol."
+    ],
+    [
+      "p",
+      "A standard lipid panel usually asks you to fast for 9 to 12 hours beforehand, mainly to get an accurate triglyceride reading, though some newer guidelines allow non-fasting tests in certain situations. Ask ahead of your appointment which approach your clinic uses, so the result reflects what your doctor needs to see."
+    ],
+    [
+      "p",
+      "One test, taken on one day, can also shift slightly due to recent illness, a hard workout the day before, or even the time of year for some people. A single borderline result usually prompts a repeat test rather than an immediate verdict, which is normal and not a sign the first test was done wrong."
+    ]
+  ],
+  "faq": [
+    [
+      "Can you have high LDL and high HDL at the same time?",
+      "Yes. The two numbers move somewhat independently, and some people have both elevated. A doctor looks at the ratio and your overall risk picture rather than judging LDL in isolation."
+    ],
+    [
+      "Does diet alone usually fix high LDL?",
+      "For some people, yes, especially with sustained changes over months. For others, genetics sets a floor that diet can't fully overcome, which is when medication enters the conversation."
+    ],
+    [
+      "Is a total cholesterol number enough, or do I need the breakdown?",
+      "The breakdown matters. Two people can share the same total cholesterol with very different LDL and HDL splits, and very different risk as a result."
+    ],
+    [
+      "Can exercise raise HDL by itself?",
+      "Regular aerobic exercise is one of the more consistent ways to raise HDL, independent of weight loss, though the size of the effect varies between people."
+    ],
+    [
+      "Does age change what counts as a healthy LDL number?",
+      "The clinical thresholds for LDL don't shift much with age on their own, but a doctor weighs LDL alongside age-related risk factors like blood pressure and years of exposure to elevated cholesterol."
+    ],
+    [
+      "Is good cholesterol ever too high?",
+      "Very high HDL is uncommon and usually not a concern, though extremely elevated levels in rare genetic cases are sometimes investigated further by a doctor."
+    ],
+    [
+      "Do eggs really raise cholesterol the way people used to think?",
+      "Current guidance is more nuanced than the old advice. For most healthy people, moderate egg intake has a smaller effect on blood LDL than saturated fat does, though people with diabetes or existing heart disease are often advised to be more cautious."
+    ]
+  ],
+  "sources": [
+    [
+      "American Heart Association: About Cholesterol",
+      "https://www.heart.org/en/health-topics/cholesterol/about-cholesterol"
+    ],
+    [
+      "Mayo Clinic: High Cholesterol - Symptoms and Causes",
+      "https://www.mayoclinic.org/diseases-conditions/high-blood-cholesterol/symptoms-causes/syc-20350800"
+    ],
+    [
+      "MedlinePlus: Cholesterol",
+      "https://medlineplus.gov/cholesterol.html"
+    ],
+    [
+      "NHLBI: Blood Cholesterol",
+      "https://www.nhlbi.nih.gov/health/blood-cholesterol"
+    ]
+  ],
+  "related": [
+    [
+      "Resting heart rate by age",
+      "resting-heart-rate-by-age"
+    ],
+    [
+      "How to lower blood pressure naturally",
+      "lower-blood-pressure-naturally"
+    ],
+    [
+      "Potassium-rich foods and blood pressure",
+      "potassium-foods-blood-pressure"
+    ],
+    [
+      "Walking and heart health",
+      "steps-per-day-heart-health"
+    ]
+  ],
+  "slug": "ldl-vs-hdl-cholesterol"
+}

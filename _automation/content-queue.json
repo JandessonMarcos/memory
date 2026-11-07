@@ -3498,8 +3498,9 @@
       "cat": "Men's Health",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-11-07"
     },
     {
       "slug": "horse-boost-how-long-results",
@@ -3508,24 +3509,27 @@
       "cat": "Men's Health",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-11-07"
     },
     {
       "slug": "is-6-hours-of-sleep-enough",
       "title": "Is Sleeping 6 Hours a Night Enough? What Research Says",
       "kw": "is 6 hours of sleep enough",
       "cat": "Sleep",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-11-07"
     },
     {
       "slug": "ldl-vs-hdl-cholesterol",
       "title": "LDL vs HDL Cholesterol: What Your Numbers Mean",
       "kw": "ldl vs hdl cholesterol",
       "cat": "Heart Health",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-11-07"
     },
     {
       "slug": "vapocept-vs-memopezil",
@@ -3534,8 +3538,9 @@
       "cat": "Reviews",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-11-07"
     },
     {
       "slug": "where-to-buy-vigor-boost",

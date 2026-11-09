@@ -3549,8 +3549,9 @@
       "cat": "Men's Health",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-11-09"
     },
     {
       "slug": "where-to-buy-horse-boost",
@@ -3559,24 +3560,27 @@
       "cat": "Men's Health",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-11-09"
     },
     {
       "slug": "kefir-vs-yogurt-gut-health",
       "title": "Kefir vs Yogurt: Which Is Better for Your Gut?",
       "kw": "kefir vs yogurt gut health",
       "cat": "Gut Health",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-11-09"
     },
     {
       "slug": "metabolism-after-40",
       "title": "Metabolism After 40: What Really Changes",
       "kw": "metabolism after 40",
       "cat": "Energy & Metabolism",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-11-09"
     },
     {
       "slug": "vapocept-vs-memohoney",
@@ -3585,8 +3589,9 @@
       "cat": "Reviews",
       "words": 2200,
       "intent": "commercial-high",
-      "status": "pending",
-      "prewritten": true
+      "status": "done",
+      "prewritten": true,
+      "published": "2026-11-09"
     },
     {
       "slug": "vigor-boost-vs-horse-boost",

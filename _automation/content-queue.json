@@ -3692,16 +3692,18 @@
    "title": "Houseplants and Cognitive Function: Does Greenery Really Sharpen Focus?",
    "kw": "houseplants cognitive function focus",
    "cat": "Brain Health",
-   "status": "pending",
-   "words": 1900
+   "status": "done",
+   "words": 1900,
+   "published": "2026-11-12"
   },
   {
    "slug": "omega-3-triglycerides",
    "title": "Omega-3 and Triglycerides: What the Research Shows",
    "kw": "omega 3 triglycerides",
    "cat": "Heart Health",
-   "status": "pending",
-   "words": 1900
+   "status": "done",
+   "words": 1900,
+   "published": "2026-11-12"
   },
   {
    "slug": "pet-ownership-and-cognitive-decline",
@@ -3716,24 +3718,27 @@
    "title": "Psyllium Husk: Benefits, Dosage and Side Effects",
    "kw": "psyllium husk benefits",
    "cat": "Gut Health",
-   "status": "pending",
-   "words": 1900
+   "status": "done",
+   "words": 1900,
+   "published": "2026-11-12"
   },
   {
    "slug": "volunteering-and-cognitive-decline",
    "title": "Volunteering and Cognitive Decline: Does Giving Back Protect Your Brain?",
    "kw": "volunteering cognitive decline",
    "cat": "Aging Well",
-   "status": "pending",
-   "words": 1900
+   "status": "done",
+   "words": 1900,
+   "published": "2026-11-12"
   },
   {
    "slug": "protein-breakfast-energy",
    "title": "Protein at Breakfast and Energy: What Studies Show",
    "kw": "protein breakfast energy",
    "cat": "Energy & Metabolism",
-   "status": "pending",
-   "words": 1900
+   "status": "done",
+   "words": 1900,
+   "published": "2026-11-12"
   },
   {
    "slug": "knitting-and-cognitive-function",

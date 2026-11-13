@@ -3710,8 +3710,9 @@
    "title": "Pet Ownership and Cognitive Decline: What the Research Shows",
    "kw": "pet ownership cognitive decline",
    "cat": "Aging Well",
-   "status": "pending",
-   "words": 1900
+   "status": "done",
+   "words": 1900,
+   "published": "2026-11-13"
   },
   {
    "slug": "psyllium-husk-benefits",
@@ -3745,32 +3746,36 @@
    "title": "Knitting and Cognitive Function: The Case for Handcrafts and a Sharper Mind",
    "kw": "knitting cognitive function brain",
    "cat": "Memory",
-   "status": "pending",
-   "words": 1900
+   "status": "done",
+   "words": 1900,
+   "published": "2026-11-13"
   },
   {
    "slug": "hip-mobility-exercises-over-50",
    "title": "Hip Mobility Exercises for Adults Over 50",
    "kw": "hip mobility exercises over 50",
    "cat": "Joints & Mobility",
-   "status": "pending",
-   "words": 1900
+   "status": "done",
+   "words": 1900,
+   "published": "2026-11-13"
   },
   {
    "slug": "mushroom-coffee-and-focus",
    "title": "Mushroom Coffee and Focus: Does It Actually Sharpen Concentration?",
    "kw": "mushroom coffee focus",
    "cat": "Ingredients",
-   "status": "pending",
-   "words": 1900
+   "status": "done",
+   "words": 1900,
+   "published": "2026-11-13"
   },
   {
    "slug": "saw-palmetto-evidence",
    "title": "Saw Palmetto: What the Evidence Shows",
    "kw": "saw palmetto evidence",
    "cat": "Men's Health",
-   "status": "pending",
-   "words": 1900
+   "status": "done",
+   "words": 1900,
+   "published": "2026-11-13"
   },
   {
    "slug": "taurine-and-cognitive-function",

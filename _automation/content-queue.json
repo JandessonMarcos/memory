@@ -3980,40 +3980,45 @@
       "title": "Crossword vs Sudoku for Brain Health: Which Puzzle Wins?",
       "kw": "crossword vs sudoku brain health",
       "cat": "Memory",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-11-18"
     },
     {
       "slug": "heart-rate-variability-explained",
       "title": "Heart Rate Variability Explained: What HRV Tells You",
       "kw": "heart rate variability explained",
       "cat": "Heart Health",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-11-18"
     },
     {
       "slug": "eating-slowly-digestion",
       "title": "Eating Slowly and Digestion: Why Pace Matters",
       "kw": "eating slowly digestion",
       "cat": "Gut Health",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-11-18"
     },
     {
       "slug": "insulin-resistance-explained",
       "title": "Insulin Resistance Explained in Plain English",
       "kw": "insulin resistance explained",
       "cat": "Energy & Metabolism",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-11-18"
     },
     {
       "slug": "turmeric-joint-pain",
       "title": "Turmeric for Joint Pain: What Research Says",
       "kw": "turmeric joint pain",
       "cat": "Joints & Mobility",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-11-18"
     },
     {
       "slug": "sleep-and-testosterone",

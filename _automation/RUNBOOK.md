@@ -3,9 +3,9 @@
 **Goal:** publish a *small, safe* batch of genuinely useful SEO+GEO articles per day on a NEW domain, without manual triggering. Quality > quantity (avoid Google's scaled-content-abuse penalty).
 
 ## Cadence
-- **5 articles/day** (owner decision, 2026-10-19), news included. Do not exceed 5.
-- Each run takes the top 5 `pending` items in queue order. The queue is already interleaved: **2 memory/brain + 3 from the other health areas** per day. Keep that mix when refilling.
-- Risk the owner accepted: the old cap was 3/day because the domain is young (< 6 months) and Google's scaled-content filter watches exactly this. That makes quality per article MORE important, not less. Never pad, never publish a near-duplicate of an existing slug.
+- **1 article/day** (owner decision, 2026-11-19), news included. Do not exceed 1. This overrides every "5/day", "3 prewritten + 2 others" or "top 5" mention elsewhere in this file and in the routine prompt.
+- Each run takes the top 1 `pending` item in queue order.
+- Why: impressions fell from ~40/day (late Sept) to ~0 (Nov) while ~312 of ~438 known URLs sit in "Discovered, currently not indexed". Volume is not being rewarded on this young YMYL domain; one excellent, well-sourced article beats five average ones. Never pad, never publish a near-duplicate of an existing slug.
 
 ## Sections (health areas)
 The site covers health beyond memory since 2026-10-19. Allowed `cat` values and their hub pages (built by `site.py`):
@@ -84,6 +84,7 @@ Longer only ranks when the extra words answer more of what searchers ask. Earn t
 - **FAQ with 6–8 questions** that are NOT repeats of the H2s, mirrored exactly in FAQPage schema.
 - **Internal links: 4–6**, descriptive anchor text (never "click here"), to the section hub and to the most related existing articles (check `assets/search-index.json`).
 - **2–4 outbound links** to authoritative sources (NIH, Mayo Clinic, Cleveland Clinic, Harvard Health, peer-reviewed papers) in the sources block.
+  - **At least 2 of them must be specific studies or reviews** linked by PubMed (pubmed.ncbi.nlm.nih.gov/<PMID>/) or DOI, cited where the claim is made in the text. Generic topic hubs (e.g. a Harvard Health landing page) do not count toward the 2. Only cite a PMID/DOI you have actually opened and confirmed matches the claim; never invent one.
 - **Image alt text** describes the photo and naturally includes the topic.
 - Short paragraphs (2–4 sentences), plain words, contractions. The writing-style rules below still apply.
 

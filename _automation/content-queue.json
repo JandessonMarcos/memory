@@ -4025,40 +4025,45 @@
       "title": "Sleep and Testosterone: How Rest Affects Hormones",
       "kw": "sleep and testosterone",
       "cat": "Men's Health",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-11-19"
     },
     {
       "slug": "menopause-sleep-problems",
       "title": "Sleep Problems During Menopause: What Helps",
       "kw": "menopause sleep problems",
       "cat": "Women's Health",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-11-19"
     },
     {
       "slug": "eggs-and-cholesterol",
       "title": "Eggs and Cholesterol: What the Latest Evidence Says",
       "kw": "eggs and cholesterol",
       "cat": "Nutrition",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-11-19"
     },
     {
       "slug": "caffeine-withdrawal-and-brain-fog",
       "title": "Caffeine Withdrawal and Brain Fog: What's Actually Happening",
       "kw": "caffeine withdrawal brain fog",
       "cat": "Brain Health",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-11-19"
     },
     {
       "slug": "nicotine-and-memory",
       "title": "Nicotine and Memory: What the Research Actually Shows",
       "kw": "nicotine and memory",
       "cat": "Brain Health",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-11-19"
     },
     {
       "slug": "sleep-apnea-warning-signs",

@@ -1,0 +1,102 @@
+Routine blocked: 2026-11-21
+
+BLOCKER: image pool effectively exhausted for every topic except generic
+"sunrise landscape" stock. source-image.py cannot source a genuinely on-topic
+hero image for today's queue item (or for any pending queue item), and the
+runbook forbids publishing an article without one. This reproduces the
+documented 2026-08-14 -> 2026-08-25 failure mode (RUNBOOK.md, "Known failure:
+the pool starved for 8 straight days").
+
+Queue item attempted: blue-light-glasses-sleep-evidence (cat: Sleep, words: 1900)
+Article was written in full (SEO checklist, schema, FAQ, word count, em-dash
+and internal-link gates all verified passing) and then discarded along with
+its sourced image once the image was confirmed off-topic, so nothing
+half-finished is left in the tree.
+
+Pillow: OK after a fresh environment. `pip install Pillow` and
+`python3 -m pip install Pillow` both left the broken system install in place
+(ImportError: cannot import name '_imaging'); fixing it needed
+`python3 -m pip install --break-system-packages --force-reinstall Pillow`,
+which reported 13.0.0 afterward. This was not the blocker, just logged per
+Step 0 for the record.
+
+--- Step 2 command and full output ---
+$ python3 _automation/source-image.py blue-light-glasses-sleep-evidence "person wearing amber glasses reading tablet in bed at night" "glowing smartphone screen in dark bedroom" "pair of blue light blocking glasses on nightstand" "woman using laptop in bed at night"
+
+/home/user/memory/_automation/source-image.py:73: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  px = list(g.getdata()); a = sum(px)/len(px)
+  query err (person wearing amber glasses reading tablet in bed at night/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>
+  query err (glowing smartphone screen in dark bedroom/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>
+  query err (pair of blue light blocking glasses on nightstand/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>
+  query err (woman using laptop in bed at night/cc0,pdm): <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>
+  query err (person wearing amber glasses reading tablet in bed at night/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>
+  query err (glowing smartphone screen in dark bedroom/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>
+  query err (pair of blue light blocking glasses on nightstand/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>
+  query err (woman using laptop in bed at night/by,by-sa): <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or network setting allows this host)>
+MISS blue-light-glasses-sleep-evidence  (openverse: no real photo passed)
+  Openverse unavailable/miss -> falling back to offline pool
+OK  blue-light-glasses-sleep-evidence  (pool/nature-lifestyle)  lic=CC BY-SA 4.0  attr="Basile Morin / Wikimedia Commons"  <- nature-lifestyle-29.jpg
+
+(This is the expected 403 on api.openverse.org per the routine's network note;
+not itself a failure.)
+
+The script printed OK (pool fallback), but opening the installed file showed
+a misty river-valley town at dawn (Luang Prabang, Laos) -- a generic
+"sunrise landscape" photo with zero relation to blue light glasses, screens,
+bedrooms or sleep. Per RUNBOOK step 2, I opened and looked at the file before
+accepting it, per the explicit instruction "still OPEN the file with the Read
+tool and LOOK ... If it's off-topic, re-run with sharper subject phrases
+(Openverse path) or accept the pool's best match on a blocked cloud run."
+
+I checked whether different subject phrasing could reach a better theme.
+It cannot: pool availability by theme (entries with used_by: null) is:
+
+  doctor-medical      0/42      heart-health      0/21
+  exercise-fitness    0/42      joints-mobility   0/21
+  food-nutrition      0/45      meditation-calm   0/22
+  gut-digestion       0/6       men-health        0/7
+  senior-aging        0/31      social-connection 0/36
+  sleep-rest          0/42      supplement-pills  0/43
+  thinking-memory     0/38      women-health      0/12
+  nature-lifestyle    8/38  <- only theme with any real availability
+  study-focus         2/44  <- both unusable (see below)
+
+Every theme that could plausibly match ANY pending queue topic (sleep-rest,
+thinking-memory, doctor-medical, heart-health, etc.) is at 0 available.
+nature-lifestyle is all "sunrise landscape" stock, unrelated to this or most
+other pending topics. The two "available" study-focus entries are both
+unusable: one manifest entry for study-focus-13.jpg is flagged
+disqualified_reason: "likely minors" (the code does not currently filter on
+disqualified_reason, only on used_by, which is a manifest-handling gap worth
+fixing locally); the other manifest entry for the same file
+(kw: "woman reading book") is pixel-identical (hash distance 0) to the
+already-published assets/img/vigor-boost-price.jpg, so the script's own
+uniqueness guard correctly rejects it -- the file was already used as a hero
+under a different slug and the manifest's used_by bookkeeping for it is
+stale/wrong.
+
+This is not topic-specific: I re-derived theme scores for the queue's other
+pending topics (Sleep, Brain Health, Heart Health, etc. are all 0/avail in
+their matching theme), so picking a different queue item would not have
+produced a genuinely on-topic image either.
+
+CONCLUSION: this reproduces the documented pool-exhaustion failure. Per
+RUNBOOK ("Never fall back to generating or reusing an image" + "do not
+publish an imageless article" / off-topic equivalent), I did not publish the
+sunrise-landscape photo as the hero for a blue-light/sleep article. I
+reverted the manifest mutation and deleted the installed image and the
+drafted article directory before stopping, so the working tree is clean and
+content-queue.json / sitemap.xml / search-index.json were never touched.
+
+NEEDS A HUMAN, LOCALLY (per RUNBOOK): run
+`python3 _automation/build-pool.py --target 8` from a machine that can reach
+Wikimedia/Openverse, visually vet each new image (the 2026-08-25 postmortem:
+of 36 pulled, only 12 were usable), mark true rejects
+`"used_by": "__disqualified__"` (not just disqualified_reason text, which the
+picker ignores), and fix study-focus-13.jpg's stale manifest entry (it is
+already in use as assets/img/vigor-boost-price.jpg's source but still shows
+used_by: null for its "woman reading book" record).
+
+No article was published today. The daily cap (1) was not consumed; today's
+top queue item (blue-light-glasses-sleep-evidence) remains "pending" and
+untouched in _automation/content-queue.json.

@@ -6120,6 +6120,1552 @@
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Sunrise_at_Maligne_lake_2.jpg/1280px-Sunrise_at_Maligne_lake_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "descurl": "https://commons.wikimedia.org/wiki/File:Sunrise_at_Maligne_lake_2.jpg",
    "used_by": null
+  },
+  {
+   "file": "senior-aging-15.jpg",
+   "themes": [
+    "senior-aging"
+   ],
+   "kw": "elderly couple park",
+   "license": "CC BY-SA 2.0",
+   "attribution": "w_lemay / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/52563149494_862fefbd3d_b.jpg",
+   "descurl": "https://www.flickr.com/photos/59081381@N03/52563149494",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "senior-aging-17.jpg",
+   "themes": [
+    "senior-aging"
+   ],
+   "kw": "grandmother gardening",
+   "license": "CC BY-SA 2.0",
+   "attribution": "UKinUSA / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/52173551725_31b9463a40_b.jpg",
+   "descurl": "https://www.flickr.com/photos/31430487@N05/52173551725",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "senior-aging-18.jpg",
+   "themes": [
+    "senior-aging"
+   ],
+   "kw": "grandmother gardening",
+   "license": "CC BY-SA 2.0",
+   "attribution": "UKinUSA / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/52173068941_09b60802c1_b.jpg",
+   "descurl": "https://www.flickr.com/photos/31430487@N05/52173068941",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "senior-aging-19.jpg",
+   "themes": [
+    "senior-aging"
+   ],
+   "kw": "grandmother gardening",
+   "license": "CC BY-SA 2.0",
+   "attribution": "UKinUSA / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/52170238693_3b2c753176_b.jpg",
+   "descurl": "https://www.flickr.com/photos/31430487@N05/52170238693",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "senior-aging-20.jpg",
+   "themes": [
+    "senior-aging"
+   ],
+   "kw": "grandmother gardening",
+   "license": "CC BY-SA 2.0",
+   "attribution": "UKinUSA / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/52169275717_b28d5f0afb_b.jpg",
+   "descurl": "https://www.flickr.com/photos/31430487@N05/52169275717",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "senior-aging-22.jpg",
+   "themes": [
+    "senior-aging"
+   ],
+   "kw": "grandmother gardening",
+   "license": "CC BY-SA 2.0",
+   "attribution": "UKinUSA / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/52167834714_d875a38801_b.jpg",
+   "descurl": "https://www.flickr.com/photos/31430487@N05/52167834714",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "senior-aging-24.jpg",
+   "themes": [
+    "senior-aging"
+   ],
+   "kw": "grandmother gardening",
+   "license": "CC BY-SA 2.0",
+   "attribution": "UKinUSA / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/52167944639_c0fd0e67bf_b.jpg",
+   "descurl": "https://www.flickr.com/photos/31430487@N05/52167944639",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "senior-aging-25.jpg",
+   "themes": [
+    "senior-aging"
+   ],
+   "kw": "grandmother gardening",
+   "license": "CC BY-SA 2.0",
+   "attribution": "UKinUSA / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/52167597571_ed5f6bc78e_b.jpg",
+   "descurl": "https://www.flickr.com/photos/31430487@N05/52167597571",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "senior-aging-26.jpg",
+   "themes": [
+    "senior-aging"
+   ],
+   "kw": "grandmother gardening",
+   "license": "CC BY-SA 2.0",
+   "attribution": "UKinUSA / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/52167596856_acae8f5b47_b.jpg",
+   "descurl": "https://www.flickr.com/photos/31430487@N05/52167596856",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "senior-aging-27.jpg",
+   "themes": [
+    "senior-aging"
+   ],
+   "kw": "grandmother gardening",
+   "license": "CC BY-SA 2.0",
+   "attribution": "UKinUSA / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/52166573687_bc2bc774b2_b.jpg",
+   "descurl": "https://www.flickr.com/photos/31430487@N05/52166573687",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "senior-aging-28.jpg",
+   "themes": [
+    "senior-aging"
+   ],
+   "kw": "grandmother gardening",
+   "license": "CC BY-SA 2.0",
+   "attribution": "UKinUSA / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/52173317779_1b6d63525f_b.jpg",
+   "descurl": "https://www.flickr.com/photos/31430487@N05/52173317779",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "senior-aging-29.jpg",
+   "themes": [
+    "senior-aging"
+   ],
+   "kw": "grandmother gardening",
+   "license": "CC BY-SA 2.0",
+   "attribution": "UKinUSA / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/52167607108_06c9d72e72_b.jpg",
+   "descurl": "https://www.flickr.com/photos/31430487@N05/52167607108",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "food-nutrition-28.jpg",
+   "themes": [
+    "food-nutrition"
+   ],
+   "kw": "healthy salad",
+   "license": "CC BY-SA 4.0",
+   "attribution": "Rijushna Gogoi / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/A_beautifully_decorated_Salad_Platter.jpg/1280px-A_beautifully_decorated_Salad_Platter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:A_beautifully_decorated_Salad_Platter.jpg",
+   "used_by": null
+  },
+  {
+   "file": "food-nutrition-39.jpg",
+   "themes": [
+    "food-nutrition"
+   ],
+   "kw": "blueberries fruit",
+   "license": "CC0",
+   "attribution": "Stephanie Albert / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Blueberries10.jpg/1280px-Blueberries10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Blueberries10.jpg",
+   "used_by": null
+  },
+  {
+   "file": "food-nutrition-40.jpg",
+   "themes": [
+    "food-nutrition"
+   ],
+   "kw": "blueberries fruit",
+   "license": "CC0",
+   "attribution": "Fumikas Sagisavas / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Blueberries_%282%29.jpg/1280px-Blueberries_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Blueberries_(2).jpg",
+   "used_by": null
+  },
+  {
+   "file": "food-nutrition-41.jpg",
+   "themes": [
+    "food-nutrition"
+   ],
+   "kw": "blueberries fruit",
+   "license": "CC0",
+   "attribution": "Fumikas Sagisavas / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Blueberries_%283%29.jpg/1280px-Blueberries_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Blueberries_(3).jpg",
+   "used_by": null
+  },
+  {
+   "file": "food-nutrition-42.jpg",
+   "themes": [
+    "food-nutrition"
+   ],
+   "kw": "blueberries fruit",
+   "license": "CC0",
+   "attribution": "Fumikas Sagisavas / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Blueberries_%284%29.jpg/1280px-Blueberries_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Blueberries_(4).jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "food-nutrition-43.jpg",
+   "themes": [
+    "food-nutrition"
+   ],
+   "kw": "blueberries fruit",
+   "license": "CC BY 2.0",
+   "attribution": "Rosmarie Voegtli / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Blueberries_..._-_Flickr_-_Rosmarie_Voegtli.jpg/1280px-Blueberries_..._-_Flickr_-_Rosmarie_Voegtli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Blueberries_..._-_Flickr_-_Rosmarie_Voegtli.jpg",
+   "used_by": null
+  },
+  {
+   "file": "food-nutrition-44.jpg",
+   "themes": [
+    "food-nutrition"
+   ],
+   "kw": "blueberries fruit",
+   "license": "CC BY-SA 4.0",
+   "attribution": "FASTILY / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Blueberries_2_2017-01-16.jpg/1280px-Blueberries_2_2017-01-16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Blueberries_2_2017-01-16.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "food-nutrition-45.jpg",
+   "themes": [
+    "food-nutrition"
+   ],
+   "kw": "blueberries fruit",
+   "license": "CC0",
+   "attribution": "Daderot / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Blueberries_in_a_little_bowl.jpg/1280px-Blueberries_in_a_little_bowl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Blueberries_in_a_little_bowl.jpg",
+   "used_by": null
+  },
+  {
+   "file": "food-nutrition-46.jpg",
+   "themes": [
+    "food-nutrition"
+   ],
+   "kw": "blueberries fruit",
+   "license": "CC BY 2.0",
+   "attribution": "THOR / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Blueberry_Gold_%284334488790%29.jpg/1280px-Blueberry_Gold_%284334488790%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Blueberry_Gold_(4334488790).jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "food-nutrition-47.jpg",
+   "themes": [
+    "food-nutrition"
+   ],
+   "kw": "blueberries fruit",
+   "license": "CC BY 2.0",
+   "attribution": "Bart Everson / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Blueberry_Harvest%2C_New_Orleans_April_2021.jpg/1280px-Blueberry_Harvest%2C_New_Orleans_April_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Blueberry_Harvest,_New_Orleans_April_2021.jpg",
+   "used_by": null
+  },
+  {
+   "file": "food-nutrition-48.jpg",
+   "themes": [
+    "food-nutrition"
+   ],
+   "kw": "blueberries fruit",
+   "license": "CC BY 3.0",
+   "attribution": "Wendy Pramik / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Blueberry_Picking_%28125267747%29.jpeg/1280px-Blueberry_Picking_%28125267747%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Blueberry_Picking_(125267747).jpeg",
+   "used_by": null
+  },
+  {
+   "file": "food-nutrition-49.jpg",
+   "themes": [
+    "food-nutrition"
+   ],
+   "kw": "blueberries fruit",
+   "license": "CC BY-SA 4.0",
+   "attribution": "小石川人晃 / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Blueberry_tree_at_the_Ibaraki_Botanical_Garden_01.jpg/1280px-Blueberry_tree_at_the_Ibaraki_Botanical_Garden_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Blueberry_tree_at_the_Ibaraki_Botanical_Garden_01.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "exercise-fitness-16.jpg",
+   "themes": [
+    "exercise-fitness"
+   ],
+   "kw": "nordic walking",
+   "license": "CC BY-SA 2.0",
+   "attribution": "N Chadwick / Wikimedia Commons",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Nordic_Walking_-_geograph.org.uk_-_4479126.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Nordic_Walking_-_geograph.org.uk_-_4479126.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "exercise-fitness-19.jpg",
+   "themes": [
+    "exercise-fitness"
+   ],
+   "kw": "nordic walking",
+   "license": "CC BY-SA 3.0",
+   "attribution": "Peter van der Sluijs / Wikimedia Commons",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Nordic_walking.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Nordic_walking.JPG",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "exercise-fitness-21.jpg",
+   "themes": [
+    "exercise-fitness"
+   ],
+   "kw": "nordic walking",
+   "license": "CC BY-SA 4.0",
+   "attribution": "Vijay.shivu / Wikimedia Commons",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/8/83/Nordic_walking_by_group_of_people_from_all_ethnics%2C_gender_and_age_from_different_parts_of_the_world.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Nordic_walking_by_group_of_people_from_all_ethnics,_gender_and_age_from_different_parts_of_the_world.jpg",
+   "used_by": null
+  },
+  {
+   "file": "exercise-fitness-22.jpg",
+   "themes": [
+    "exercise-fitness"
+   ],
+   "kw": "nordic walking",
+   "license": "CC0",
+   "attribution": "WrS.tm.pl / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Nordic_walking_in_Tomasz%C3%B3w_Mazowiecki%2C_Strzelecka_Street.jpg/1280px-Nordic_walking_in_Tomasz%C3%B3w_Mazowiecki%2C_Strzelecka_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Nordic_walking_in_Tomasz%C3%B3w_Mazowiecki,_Strzelecka_Street.jpg",
+   "used_by": null
+  },
+  {
+   "file": "exercise-fitness-24.jpg",
+   "themes": [
+    "exercise-fitness"
+   ],
+   "kw": "nordic walking",
+   "license": "CC BY-SA 3.0",
+   "attribution": "Anneli Salo / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Nordic_walking_in_Vallila_C_H8219.jpg/1280px-Nordic_walking_in_Vallila_C_H8219.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Nordic_walking_in_Vallila_C_H8219.jpg",
+   "used_by": null
+  },
+  {
+   "file": "exercise-fitness-26.jpg",
+   "themes": [
+    "exercise-fitness"
+   ],
+   "kw": "nordic walking",
+   "license": "CC BY-SA 4.0",
+   "attribution": "Rbartik / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Nordic_walking_v_%C5%BDiline.jpg/1280px-Nordic_walking_v_%C5%BDiline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Nordic_walking_v_%C5%BDiline.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "exercise-fitness-29.jpg",
+   "themes": [
+    "exercise-fitness"
+   ],
+   "kw": "nordic walking",
+   "license": "CC BY-SA 3.0",
+   "attribution": "Lubicz / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Trasy_nordic_walking_w_skwierzynie.JPG/1280px-Trasy_nordic_walking_w_skwierzynie.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Trasy_nordic_walking_w_skwierzynie.JPG",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "exercise-fitness-30.jpg",
+   "themes": [
+    "exercise-fitness"
+   ],
+   "kw": "woman running outdoor",
+   "license": "CC BY 2.0",
+   "attribution": "jenaragon94 / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/2014_ACC_Outdoor_Track_and_Field_Championships_%2813895551046%29.jpg/1280px-2014_ACC_Outdoor_Track_and_Field_Championships_%2813895551046%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:2014_ACC_Outdoor_Track_and_Field_Championships_(13895551046).jpg",
+   "used_by": null
+  },
+  {
+   "file": "exercise-fitness-31.jpg",
+   "themes": [
+    "exercise-fitness"
+   ],
+   "kw": "cycling outdoors",
+   "license": "CC BY 2.5",
+   "attribution": "ערן שפי / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/140466_albert_katz_promenade_in_mitzpe_ramon_PikiWiki_Israel.jpg/1280px-140466_albert_katz_promenade_in_mitzpe_ramon_PikiWiki_Israel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:140466_albert_katz_promenade_in_mitzpe_ramon_PikiWiki_Israel.jpg",
+   "used_by": null
+  },
+  {
+   "file": "exercise-fitness-32.jpg",
+   "themes": [
+    "exercise-fitness"
+   ],
+   "kw": "cycling outdoors",
+   "license": "CC BY 2.0",
+   "attribution": "Kenny Louie from Vancouver, Canada / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/50_52_-_The_great_outdoors_%284015589381%29.jpg/1280px-50_52_-_The_great_outdoors_%284015589381%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:50_52_-_The_great_outdoors_(4015589381).jpg",
+   "used_by": null
+  },
+  {
+   "file": "exercise-fitness-33.jpg",
+   "themes": [
+    "exercise-fitness"
+   ],
+   "kw": "cycling outdoors",
+   "license": "Public domain",
+   "attribution": "U.S. Army Corps of Engineers Sacramento District / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/America%E2%80%99s_Great_Outdoors_event_at_the_Effie_Yeaw_Nature_Center_%286195163503%29.jpg/1280px-America%E2%80%99s_Great_Outdoors_event_at_the_Effie_Yeaw_Nature_Center_%286195163503%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:America%E2%80%99s_Great_Outdoors_event_at_the_Effie_Yeaw_Nature_Center_(6195163503).jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "exercise-fitness-34.jpg",
+   "themes": [
+    "exercise-fitness"
+   ],
+   "kw": "cycling outdoors",
+   "license": "CC BY-SA 3.0",
+   "attribution": "Globetrotter19 / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Cycling_girl_fountain%2C_2019_Si%C3%B3fok.jpg/1280px-Cycling_girl_fountain%2C_2019_Si%C3%B3fok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Cycling_girl_fountain,_2019_Si%C3%B3fok.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "sleep-rest-15.jpg",
+   "themes": [
+    "sleep-rest"
+   ],
+   "kw": "man sleeping bed",
+   "license": "CC BY 2.0",
+   "attribution": "The Integer Club / Wikimedia Commons",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Bed_%286922366172%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Bed_(6922366172).jpg",
+   "used_by": null
+  },
+  {
+   "file": "sleep-rest-16.jpg",
+   "themes": [
+    "sleep-rest"
+   ],
+   "kw": "man sleeping bed",
+   "license": "Public domain",
+   "attribution": "Arturo Michelena / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Miranda_en_la_Carraca_by_Arturo_Michelena.jpg/1280px-Miranda_en_la_Carraca_by_Arturo_Michelena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Miranda_en_la_Carraca_by_Arturo_Michelena.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "sleep-rest-27.jpg",
+   "themes": [
+    "sleep-rest"
+   ],
+   "kw": "woman sleeping pillow",
+   "license": "CC BY 2.0",
+   "attribution": "Naty Sweet from Rio de Janeiro, Brazil / Wikimedia Commons",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Woman_sleeping_on_tiled_floor_in_Rio_de_Janeiro%2C_Brazil-16Jan2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Woman_sleeping_on_tiled_floor_in_Rio_de_Janeiro,_Brazil-16Jan2011.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "sleep-rest-29.jpg",
+   "themes": [
+    "sleep-rest"
+   ],
+   "kw": "woman sleeping pillow",
+   "license": "CC BY 2.0",
+   "attribution": "Naty Sweet from Rio de Janeiro, Brazil / Wikimedia Commons",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Woman_sleeping_on_tiled_floor_in_Rio_de_Janeiro%2C_Brazil-16Jan2011_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Woman_sleeping_on_tiled_floor_in_Rio_de_Janeiro,_Brazil-16Jan2011_(1).jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "sleep-rest-30.jpg",
+   "themes": [
+    "sleep-rest"
+   ],
+   "kw": "napping sofa",
+   "license": "CC BY-SA 4.0",
+   "attribution": "Javier Perez Montes / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Gato_Comun_Europeo_-_Retrato_03.jpg/1280px-Gato_Comun_Europeo_-_Retrato_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Gato_Comun_Europeo_-_Retrato_03.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "sleep-rest-31.jpg",
+   "themes": [
+    "sleep-rest"
+   ],
+   "kw": "napping sofa",
+   "license": "CC BY 2.0",
+   "attribution": "studio tdes / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Sleep_here_-_not_at_the_wheel_%285633048976%29.jpg/1280px-Sleep_here_-_not_at_the_wheel_%285633048976%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Sleep_here_-_not_at_the_wheel_(5633048976).jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "sleep-rest-32.jpg",
+   "themes": [
+    "sleep-rest"
+   ],
+   "kw": "bedroom interior morning",
+   "license": "CC BY-SA 2.0",
+   "attribution": "Liz Lawley from Rochester, NY / Wikimedia Commons",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Broadmoor_Hotel%2C_suite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Broadmoor_Hotel,_suite.jpg",
+   "used_by": null
+  },
+  {
+   "file": "sleep-rest-33.jpg",
+   "themes": [
+    "sleep-rest"
+   ],
+   "kw": "bedroom interior morning",
+   "license": "Public domain",
+   "attribution": "Ebenezer Downard / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Ebenezer_Newman_Downard_Morning_prayer_1860-61.jpg/1280px-Ebenezer_Newman_Downard_Morning_prayer_1860-61.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Ebenezer_Newman_Downard_Morning_prayer_1860-61.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "sleep-rest-34.jpg",
+   "themes": [
+    "sleep-rest"
+   ],
+   "kw": "bedroom interior morning",
+   "license": "Public domain",
+   "attribution": "Moritz von Schwind / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Moritz_von_Schwind_-_Morgenstunde_-_1858.jpeg/1280px-Moritz_von_Schwind_-_Morgenstunde_-_1858.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Moritz_von_Schwind_-_Morgenstunde_-_1858.jpeg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "sleep-rest-35.jpg",
+   "themes": [
+    "sleep-rest"
+   ],
+   "kw": "bedroom interior morning",
+   "license": "Public domain",
+   "attribution": "Maximilien Luce / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Morning%2C_Interior_-_Luce.jpeg/1280px-Morning%2C_Interior_-_Luce.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Morning,_Interior_-_Luce.jpeg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "sleep-rest-36.jpg",
+   "themes": [
+    "sleep-rest"
+   ],
+   "kw": "bedroom interior morning",
+   "license": "CC BY-SA 4.0",
+   "attribution": "Jonathan Schilling / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/University_Arms_Hotel_-_room_interior_1999.jpg/1280px-University_Arms_Hotel_-_room_interior_1999.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:University_Arms_Hotel_-_room_interior_1999.jpg",
+   "used_by": null
+  },
+  {
+   "file": "sleep-rest-37.jpg",
+   "themes": [
+    "sleep-rest"
+   ],
+   "kw": "bedroom interior morning",
+   "license": "CC BY 2.0",
+   "attribution": "Rick Massey / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Wightwick_Manor%2C_Wolverhampton%2C_~_The_Great_Parlour._%2840906688583%29.jpg/1280px-Wightwick_Manor%2C_Wolverhampton%2C_~_The_Great_Parlour._%2840906688583%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Wightwick_Manor,_Wolverhampton,_~_The_Great_Parlour._(40906688583).jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "study-focus-33.jpg",
+   "themes": [
+    "study-focus"
+   ],
+   "kw": "person laptop working",
+   "license": "CC0",
+   "attribution": "rawpixel.com rawpixel / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Man_working_on_laptop_outside_%28Unsplash%29.jpg/1280px-Man_working_on_laptop_outside_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Man_working_on_laptop_outside_(Unsplash).jpg",
+   "used_by": null
+  },
+  {
+   "file": "study-focus-37.jpg",
+   "themes": [
+    "study-focus"
+   ],
+   "kw": "person laptop working",
+   "license": "CC BY 2.0",
+   "attribution": "Shixart1985 / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Person_working_on_laptop_in_a_cozy_indoor_setting_during_daytime.jpg/1280px-Person_working_on_laptop_in_a_cozy_indoor_setting_during_daytime.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Person_working_on_laptop_in_a_cozy_indoor_setting_during_daytime.jpg",
+   "used_by": null
+  },
+  {
+   "file": "study-focus-38.jpg",
+   "themes": [
+    "study-focus"
+   ],
+   "kw": "person laptop working",
+   "license": "CC0",
+   "attribution": "Derrick Coetzee from Berkeley, CA, USA / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Technician_with_laptop_working_on_server_rack_at_NERSC.jpg/1280px-Technician_with_laptop_working_on_server_rack_at_NERSC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Technician_with_laptop_working_on_server_rack_at_NERSC.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "study-focus-39.jpg",
+   "themes": [
+    "study-focus"
+   ],
+   "kw": "person laptop working",
+   "license": "CC BY-SA 4.0",
+   "attribution": "DERDAKI ILIAS / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/WikiCamp_Morocco_2026_Day_4_-_Man_working_on_Dell_laptop_at_table_with_water_bottle_-_0019.jpg/1280px-WikiCamp_Morocco_2026_Day_4_-_Man_working_on_Dell_laptop_at_table_with_water_bottle_-_0019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:WikiCamp_Morocco_2026_Day_4_-_Man_working_on_Dell_laptop_at_table_with_water_bottle_-_0019.jpg",
+   "used_by": null
+  },
+  {
+   "file": "study-focus-40.jpg",
+   "themes": [
+    "study-focus"
+   ],
+   "kw": "person laptop working",
+   "license": "CC BY-SA 4.0",
+   "attribution": "DERDAKI ILIAS / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Wikimedia_Morocco_Mini-Hackathon_2026_day_1_-_Person_working_on_laptop_with_stickers_and_pen_-_0020.jpg/1280px-Wikimedia_Morocco_Mini-Hackathon_2026_day_1_-_Person_working_on_laptop_with_stickers_and_pen_-_0020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Wikimedia_Morocco_Mini-Hackathon_2026_day_1_-_Person_working_on_laptop_with_stickers_and_pen_-_0020.jpg",
+   "used_by": null
+  },
+  {
+   "file": "study-focus-41.jpg",
+   "themes": [
+    "study-focus"
+   ],
+   "kw": "person laptop working",
+   "license": "CC BY 2.0",
+   "attribution": "Shixart1985 / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Woman_working_on_laptop_with_a_glass_of_water_at_a_table_in_a_cozy_indoor_setting_during_daytime.jpg/1280px-Woman_working_on_laptop_with_a_glass_of_water_at_a_table_in_a_cozy_indoor_setting_during_daytime.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Woman_working_on_laptop_with_a_glass_of_water_at_a_table_in_a_cozy_indoor_setting_during_daytime.jpg",
+   "used_by": null
+  },
+  {
+   "file": "study-focus-42.jpg",
+   "themes": [
+    "study-focus"
+   ],
+   "kw": "person laptop working",
+   "license": "CC0",
+   "attribution": "Muhammad Raufan Yusup muhraufan / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Working_Late_%28Unsplash%29.jpg/1280px-Working_Late_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Working_Late_(Unsplash).jpg",
+   "used_by": null
+  },
+  {
+   "file": "study-focus-43.jpg",
+   "themes": [
+    "study-focus"
+   ],
+   "kw": "person laptop working",
+   "license": "CC BY 2.0",
+   "attribution": "Shixart1985 / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Working_at_a_desk_with_a_laptop_coffee_cup_and_a_plant_on_a_white_surface.jpg/1280px-Working_at_a_desk_with_a_laptop_coffee_cup_and_a_plant_on_a_white_surface.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Working_at_a_desk_with_a_laptop_coffee_cup_and_a_plant_on_a_white_surface.jpg",
+   "used_by": null
+  },
+  {
+   "file": "study-focus-44.jpg",
+   "themes": [
+    "study-focus"
+   ],
+   "kw": "person laptop working",
+   "license": "CC0",
+   "attribution": "Alejandro Escamilla alejandroescamilla / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Working_on_a_laptop_outdoors_%28Unsplash%29.jpg/1280px-Working_on_a_laptop_outdoors_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Working_on_a_laptop_outdoors_(Unsplash).jpg",
+   "used_by": null
+  },
+  {
+   "file": "study-focus-45.jpg",
+   "themes": [
+    "study-focus"
+   ],
+   "kw": "person laptop working",
+   "license": "CC BY 2.0",
+   "attribution": "Shixart1985 / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Working_on_a_laptop_while_enjoying_a_cup_of_coffee_at_home.jpg/1280px-Working_on_a_laptop_while_enjoying_a_cup_of_coffee_at_home.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Working_on_a_laptop_while_enjoying_a_cup_of_coffee_at_home.jpg",
+   "used_by": null
+  },
+  {
+   "file": "supplement-pills-14.jpg",
+   "themes": [
+    "supplement-pills"
+   ],
+   "kw": "pharmacy tablets",
+   "license": "CC BY-SA 4.0",
+   "attribution": "Jiří Sedláček / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Hand_tablet_measurer_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks%2C_Trutnov_District.jpg/1280px-Hand_tablet_measurer_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks%2C_Trutnov_District.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Hand_tablet_measurer_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks,_Trutnov_District.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "supplement-pills-18.jpg",
+   "themes": [
+    "supplement-pills"
+   ],
+   "kw": "pharmacy tablets",
+   "license": "CC BY-SA 4.0",
+   "attribution": "Jiří Sedláček / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Hand_tablet_packer_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks%2C_Trutnov_District.jpg/1280px-Hand_tablet_packer_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks%2C_Trutnov_District.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Hand_tablet_packer_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks,_Trutnov_District.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "supplement-pills-28.jpg",
+   "themes": [
+    "supplement-pills"
+   ],
+   "kw": "pharmacy tablets",
+   "license": "CC0",
+   "attribution": "Mx. Granger / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Iodine_pills.jpg/1280px-Iodine_pills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Iodine_pills.jpg",
+   "used_by": null
+  },
+  {
+   "file": "supplement-pills-30.jpg",
+   "themes": [
+    "supplement-pills"
+   ],
+   "kw": "pharmacy tablets",
+   "license": "Public domain",
+   "attribution": "Maksym Kozlenko / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Nurofen_tablets_on_pharmacy_shelf.jpg/1280px-Nurofen_tablets_on_pharmacy_shelf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Nurofen_tablets_on_pharmacy_shelf.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "supplement-pills-31.jpg",
+   "themes": [
+    "supplement-pills"
+   ],
+   "kw": "pharmacy tablets",
+   "license": "CC BY-SA 4.0",
+   "attribution": "Jiří Sedláček / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Old_pharmacy_pill_filler_with_pills_material_in_exposition_History_of_pharmacies_in_Kuks_Hospital_in_Kuks%2C_Trutnov_District.jpg/1280px-Old_pharmacy_pill_filler_with_pills_material_in_exposition_History_of_pharmacies_in_Kuks_Hospital_in_Kuks%2C_Trutnov_District.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Old_pharmacy_pill_filler_with_pills_material_in_exposition_History_of_pharmacies_in_Kuks_Hospital_in_Kuks,_Trutnov_District.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "supplement-pills-32.jpg",
+   "themes": [
+    "supplement-pills"
+   ],
+   "kw": "pharmacy tablets",
+   "license": "CC BY-SA 3.0",
+   "attribution": "User:Mpelletier1 / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Pill_Bottle_SpilledNo.jpg/1280px-Pill_Bottle_SpilledNo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Pill_Bottle_SpilledNo.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "supplement-pills-33.jpg",
+   "themes": [
+    "supplement-pills"
+   ],
+   "kw": "pharmacy tablets",
+   "license": "CC BY-SA 4.0",
+   "attribution": "Jiří Sedláček / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Pill_divider_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks%2C_Trutnov_District.jpg/1280px-Pill_divider_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks%2C_Trutnov_District.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Pill_divider_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks,_Trutnov_District.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "supplement-pills-34.jpg",
+   "themes": [
+    "supplement-pills"
+   ],
+   "kw": "pharmacy tablets",
+   "license": "CC BY-SA 4.0",
+   "attribution": "Jiří Sedláček / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Pill_sign_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks%2C_Trutnov_District.jpg/1280px-Pill_sign_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks%2C_Trutnov_District.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Pill_sign_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks,_Trutnov_District.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "supplement-pills-35.jpg",
+   "themes": [
+    "supplement-pills"
+   ],
+   "kw": "pharmacy tablets",
+   "license": "CC BY-SA 4.0",
+   "attribution": "Jiří Sedláček / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Press_pliers_to_pill_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks%2C_Trutnov_District.jpg/1280px-Press_pliers_to_pill_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks%2C_Trutnov_District.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Press_pliers_to_pill_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks,_Trutnov_District.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "supplement-pills-36.jpg",
+   "themes": [
+    "supplement-pills"
+   ],
+   "kw": "pharmacy tablets",
+   "license": "CC BY-SA 4.0",
+   "attribution": "Jiří Sedláček / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Round_pill_cases_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks%2C_Trutnov_District.jpg/1280px-Round_pill_cases_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks%2C_Trutnov_District.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Round_pill_cases_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks,_Trutnov_District.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "supplement-pills-37.jpg",
+   "themes": [
+    "supplement-pills"
+   ],
+   "kw": "pharmacy tablets",
+   "license": "CC BY-SA 3.0",
+   "attribution": "BrokenSphere / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Silent_Knight_pill_crusher.JPG/1280px-Silent_Knight_pill_crusher.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Silent_Knight_pill_crusher.JPG",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "supplement-pills-38.jpg",
+   "themes": [
+    "supplement-pills"
+   ],
+   "kw": "pharmacy tablets",
+   "license": "CC BY-SA 4.0",
+   "attribution": "Jiří Sedláček / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Spoon_pill_counter_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks%2C_Trutnov_District.jpg/1280px-Spoon_pill_counter_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks%2C_Trutnov_District.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Spoon_pill_counter_in_exposition_History_of_making_of_drugs_in_Kuks_Hospital_in_Kuks,_Trutnov_District.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "doctor-medical-08.jpg",
+   "themes": [
+    "doctor-medical"
+   ],
+   "kw": "medical checkup",
+   "license": "Public domain",
+   "attribution": "Press Information Department / Wikimedia Commons",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/Md_Abdul_Hamid_departure_Dhaka_for_Singapore_for_medical_checkup_2015-04-29_%28PID-0059725%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Md_Abdul_Hamid_departure_Dhaka_for_Singapore_for_medical_checkup_2015-04-29_(PID-0059725).jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "doctor-medical-27.jpg",
+   "themes": [
+    "doctor-medical"
+   ],
+   "kw": "medical checkup",
+   "license": "CC BY-SA 3.0",
+   "attribution": "Arnabdeb1234 / Wikimedia Commons",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Medical_Checkup_Camp_Organized_by_New_Alipore_Multipurpose_School_Alumni_Association.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Medical_Checkup_Camp_Organized_by_New_Alipore_Multipurpose_School_Alumni_Association.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "doctor-medical-28.jpg",
+   "themes": [
+    "doctor-medical"
+   ],
+   "kw": "medical checkup",
+   "license": "GODL-India",
+   "attribution": "Ministry of Information and Broadcasting / Wikimedia Commons",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Medical_checkup_in_progress_during_the_Free_Medical_Camp_organized_as_part_of_Bharat_Nirman_Public_Information_Campaign%2C_at_Pookottur%2C_Malappuram_District%2C_in_Kerala_on_October_13%2C_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Medical_checkup_in_progress_during_the_Free_Medical_Camp_organized_as_part_of_Bharat_Nirman_Public_Information_Campaign,_at_Pookottur,_Malappuram_District,_in_Kerala_on_October_13,_2011.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "doctor-medical-29.jpg",
+   "themes": [
+    "doctor-medical"
+   ],
+   "kw": "medical checkup",
+   "license": "GODL-India",
+   "attribution": "Ministry of Information and Broadcasting / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Mouth_%26_Teeth_checkup_at_the_free_medical_camp%2C_under_National_Rural_Health_Mission%2C_a_part_of_Public_Information_Campaign%2C_organized_by_Press_Information_Bureau%2C_Mumbai%2C_at_Khanvel%2C_Silvassa_%28DNH%29_on_March_31%2C_2012.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Mouth_%26_Teeth_checkup_at_the_free_medical_camp,_under_National_Rural_Health_Mission,_a_part_of_Public_Information_Campaign,_organized_by_Press_Information_Bureau,_Mumbai,_at_Khanvel,_Silvassa_(DNH)_on_March_31,_2012.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "doctor-medical-30.jpg",
+   "themes": [
+    "doctor-medical"
+   ],
+   "kw": "medical checkup",
+   "license": "CC BY 4.0",
+   "attribution": "Goleisureintl / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/NABL_Accredited_Pathology_Lab_and_Diagnostic_Centre_in_Kharghar%2C_Navi_Mumbai_-_Full_Body_Checkup%2C_CBC%2C_Thyroid_Blood_Test_and_Home_Blood_Collection.jpg/1280px-NABL_Accredited_Pathology_Lab_and_Diagnostic_Centre_in_Kharghar%2C_Navi_Mumbai_-_Full_Body_Checkup%2C_CBC%2C_Thyroid_Blood_Test_and_Home_Blood_Collection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:NABL_Accredited_Pathology_Lab_and_Diagnostic_Centre_in_Kharghar,_Navi_Mumbai_-_Full_Body_Checkup,_CBC,_Thyroid_Blood_Test_and_Home_Blood_Collection.jpg",
+   "used_by": null
+  },
+  {
+   "file": "doctor-medical-31.jpg",
+   "themes": [
+    "doctor-medical"
+   ],
+   "kw": "medical checkup",
+   "license": "Public domain",
+   "attribution": "U.S. Navy photo by Petty Officer 3rd Class Ethan Lambert / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Pacific_Partnership_2025_Provides_Medical_Care_to_Samoa_Locals_During_a_Community_Health_Engagement_at_Faleolo_Medical_Center_%289379658%29.jpg/1280px-Pacific_Partnership_2025_Provides_Medical_Care_to_Samoa_Locals_During_a_Community_Health_Engagement_at_Faleolo_Medical_Center_%289379658%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Pacific_Partnership_2025_Provides_Medical_Care_to_Samoa_Locals_During_a_Community_Health_Engagement_at_Faleolo_Medical_Center_(9379658).jpg",
+   "used_by": null
+  },
+  {
+   "file": "doctor-medical-32.jpg",
+   "themes": [
+    "doctor-medical"
+   ],
+   "kw": "medical checkup",
+   "license": "Public domain",
+   "attribution": "Press Information Department / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/President_Abdul_Hamid_Arrives_in_Bangladesh_After_Medical_Checkup%2C_2016-12-11.jpg/1280px-President_Abdul_Hamid_Arrives_in_Bangladesh_After_Medical_Checkup%2C_2016-12-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:President_Abdul_Hamid_Arrives_in_Bangladesh_After_Medical_Checkup,_2016-12-11.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "doctor-medical-33.jpg",
+   "themes": [
+    "doctor-medical"
+   ],
+   "kw": "medical checkup",
+   "license": "Public domain",
+   "attribution": "Press Information Department / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/President_Abdul_Hamid_Arrives_in_Dhaka_After_Medical_Checkups_2022-11-17_%28PID-0020034%29.jpg/1280px-President_Abdul_Hamid_Arrives_in_Dhaka_After_Medical_Checkups_2022-11-17_%28PID-0020034%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:President_Abdul_Hamid_Arrives_in_Dhaka_After_Medical_Checkups_2022-11-17_(PID-0020034).jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "doctor-medical-34.jpg",
+   "themes": [
+    "doctor-medical"
+   ],
+   "kw": "medical checkup",
+   "license": "GODL-India",
+   "attribution": "Ministry of Information and Broadcasting / Wikimedia Commons",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/S._Madhumathi_undergoes_health_checkup_at_the_Medical_camp_organised_as_part_of_Health_Day_celebration%2C_at_the_Bharat_Nirman_Public_Information_Campaign%2C_at_Nagercoil_in_Kanyakumari_District%2C_Tamil_Nadu_on_December_18%2C_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "descurl": "https://commons.wikimedia.org/wiki/File:S._Madhumathi_undergoes_health_checkup_at_the_Medical_camp_organised_as_part_of_Health_Day_celebration,_at_the_Bharat_Nirman_Public_Information_Campaign,_at_Nagercoil_in_Kanyakumari_District,_Tamil_Nadu_on_December_18,_2011.jpg",
+   "used_by": null
+  },
+  {
+   "file": "doctor-medical-35.jpg",
+   "themes": [
+    "doctor-medical"
+   ],
+   "kw": "medical checkup",
+   "license": "GODL-India",
+   "attribution": "Ministry of Information and Broadcasting / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/The_Regional_Research_Centre_for_Ayurveda%2C_Gangtok%2C_organised_a_free_medical_checkup_camp%2C_at_the_Bharat_Nirman_Public_Information_Campaign%2C_at_Kabi_Tingda%2C_in_North_Sikkim_on_November_18%2C_2010.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:The_Regional_Research_Centre_for_Ayurveda,_Gangtok,_organised_a_free_medical_checkup_camp,_at_the_Bharat_Nirman_Public_Information_Campaign,_at_Kabi_Tingda,_in_North_Sikkim_on_November_18,_2010.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "doctor-medical-36.jpg",
+   "themes": [
+    "doctor-medical"
+   ],
+   "kw": "medical checkup",
+   "license": "Public domain",
+   "attribution": "U.S. Navy photo by Mass Communication Specialist Seaman Patrick D. House / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/US_Navy_070716-N-1752H-032_Children_wait_for_a_routine_checkup_during_a_medical_civic_action_program_at_Truong_Tieu_Hoc_Quy_School_in_support_of_Pacific_Partnership_2007.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:US_Navy_070716-N-1752H-032_Children_wait_for_a_routine_checkup_during_a_medical_civic_action_program_at_Truong_Tieu_Hoc_Quy_School_in_support_of_Pacific_Partnership_2007.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "doctor-medical-37.jpg",
+   "themes": [
+    "doctor-medical"
+   ],
+   "kw": "medical checkup",
+   "license": "Public domain",
+   "attribution": "U.S. Navy photo by Mass Communication Specialist Seaman Patrick D. House / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/US_Navy_070716-N-1752H-033_Capt._A._Bhandari%2C_of_the_Indian_navy%2C_performs_a_routine_checkup_on_a_local_Vietnamese_child_during_a_medical_civic_action_program_at_Truong_Tieu_Hoc_Quy_School_in_support_of_Pacific_Partnership_2007.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:US_Navy_070716-N-1752H-033_Capt._A._Bhandari,_of_the_Indian_navy,_performs_a_routine_checkup_on_a_local_Vietnamese_child_during_a_medical_civic_action_program_at_Truong_Tieu_Hoc_Quy_School_in_support_of_Pacific_Partnership_2007.jpg",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "nature-lifestyle-38.jpg",
+   "themes": [
+    "nature-lifestyle"
+   ],
+   "kw": "sunrise landscape",
+   "license": "CC BY-SA 4.0",
+   "attribution": "Pudelek / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Sunrise_near_Krzna_river%2C_Poland_%282%29.jpg/1280px-Sunrise_near_Krzna_river%2C_Poland_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Sunrise_near_Krzna_river,_Poland_(2).jpg",
+   "used_by": null
+  },
+  {
+   "file": "nature-lifestyle-39.jpg",
+   "themes": [
+    "nature-lifestyle"
+   ],
+   "kw": "sunrise landscape",
+   "license": "CC BY-SA 2.5",
+   "attribution": "JJ Harrison (https://www.jjharrison.com.au/) / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Tessellated_Pavement_Sunrise_Landscape.jpg/1280px-Tessellated_Pavement_Sunrise_Landscape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Tessellated_Pavement_Sunrise_Landscape.jpg",
+   "used_by": null
+  },
+  {
+   "file": "nature-lifestyle-40.jpg",
+   "themes": [
+    "nature-lifestyle"
+   ],
+   "kw": "sunrise landscape",
+   "license": "CC BY-SA 4.0",
+   "attribution": "Basile Morin / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Water_reflection_of_a_green_island_at_sunrise_with_blue_sky_and_pirogue_in_Don_Det_Laos.jpg/1280px-Water_reflection_of_a_green_island_at_sunrise_with_blue_sky_and_pirogue_in_Don_Det_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Water_reflection_of_a_green_island_at_sunrise_with_blue_sky_and_pirogue_in_Don_Det_Laos.jpg",
+   "used_by": null
+  },
+  {
+   "file": "nature-lifestyle-41.jpg",
+   "themes": [
+    "nature-lifestyle"
+   ],
+   "kw": "sunrise landscape",
+   "license": "CC BY-SA 4.0",
+   "attribution": "Basile Morin / Wikimedia Commons",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Water_reflection_of_stringy_gray_and_white_clouds_in_a_pond_on_a_sand_beach_of_Don_Khon_at_sunrise_in_Laos.jpg/1280px-Water_reflection_of_stringy_gray_and_white_clouds_in_a_pond_on_a_sand_beach_of_Don_Khon_at_sunrise_in_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descurl": "https://commons.wikimedia.org/wiki/File:Water_reflection_of_stringy_gray_and_white_clouds_in_a_pond_on_a_sand_beach_of_Don_Khon_at_sunrise_in_Laos.jpg",
+   "used_by": null
+  },
+  {
+   "file": "social-connection-08.jpg",
+   "themes": [
+    "social-connection"
+   ],
+   "kw": "family having dinner",
+   "license": "CC BY 2.0",
+   "attribution": "quinet / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/54228988084_eaef61ef7d_b.jpg",
+   "descurl": "https://www.flickr.com/photos/91994044@N00/54228988084",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "social-connection-09.jpg",
+   "themes": [
+    "social-connection"
+   ],
+   "kw": "family having dinner",
+   "license": "PDM",
+   "attribution": "jries333 / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/54691289507_1f327f5481_b.jpg",
+   "descurl": "https://www.flickr.com/photos/200810532@N04/54691289507",
+   "used_by": null
+  },
+  {
+   "file": "social-connection-10.jpg",
+   "themes": [
+    "social-connection"
+   ],
+   "kw": "family having dinner",
+   "license": "CC BY 2.0",
+   "attribution": "Aberdeen Proving Ground / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/52994030733_db97951558_b.jpg",
+   "descurl": "https://www.flickr.com/photos/46262306@N04/52994030733",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "social-connection-11.jpg",
+   "themes": [
+    "social-connection"
+   ],
+   "kw": "family having dinner",
+   "license": "CC BY 2.0",
+   "attribution": "Aberdeen Proving Ground / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/52993931415_753e3cc04c_b.jpg",
+   "descurl": "https://www.flickr.com/photos/46262306@N04/52993931415",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "social-connection-12.jpg",
+   "themes": [
+    "social-connection"
+   ],
+   "kw": "family dinner table",
+   "license": "CC BY 2.0",
+   "attribution": "OakleyOriginals / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/7499/15959855967_3328579096_b.jpg",
+   "descurl": "https://www.flickr.com/photos/47264866@N00/15959855967",
+   "used_by": null
+  },
+  {
+   "file": "social-connection-13.jpg",
+   "themes": [
+    "social-connection"
+   ],
+   "kw": "family dinner table",
+   "license": "CC BY 2.0",
+   "attribution": "Caitlinator / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/7476/15960370000_6f32b1fb2b_b.jpg",
+   "descurl": "https://www.flickr.com/photos/21484712@N00/15960370000",
+   "used_by": null
+  },
+  {
+   "file": "social-connection-14.jpg",
+   "themes": [
+    "social-connection"
+   ],
+   "kw": "family dinner table",
+   "license": "CC BY 2.0",
+   "attribution": "edenpictures / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/51299672620_17f0c7872f_b.jpg",
+   "descurl": "https://www.flickr.com/photos/10485077@N06/51299672620",
+   "used_by": null
+  },
+  {
+   "file": "social-connection-15.jpg",
+   "themes": [
+    "social-connection"
+   ],
+   "kw": "family dinner table",
+   "license": "PDM",
+   "attribution": "USDAgov / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/51614464441_3eba9b82ec_b.jpg",
+   "descurl": "https://www.flickr.com/photos/41284017@N08/51614464441",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "social-connection-16.jpg",
+   "themes": [
+    "social-connection"
+   ],
+   "kw": "family dinner table",
+   "license": "PDM",
+   "attribution": "NavyMedicine / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/52029644758_ed6a4de51c_b.jpg",
+   "descurl": "https://www.flickr.com/photos/61270229@N05/52029644758",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "social-connection-17.jpg",
+   "themes": [
+    "social-connection"
+   ],
+   "kw": "family dinner table",
+   "license": "CC BY-SA 2.0",
+   "attribution": "PattayaPatrol / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/54262295762_a06cfb68e8_b.jpg",
+   "descurl": "https://www.flickr.com/photos/194424926@N05/54262295762",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "social-connection-20.jpg",
+   "themes": [
+    "social-connection"
+   ],
+   "kw": "family dinner table",
+   "license": "CC BY 2.0",
+   "attribution": "Mark F. Levisay / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/51962747269_4ebb70f759_b.jpg",
+   "descurl": "https://www.flickr.com/photos/31395633@N08/51962747269",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "social-connection-21.jpg",
+   "themes": [
+    "social-connection"
+   ],
+   "kw": "family dinner table",
+   "license": "CC0",
+   "attribution": "exit78 / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/54552146540_4b72dc586f_b.jpg",
+   "descurl": "https://www.flickr.com/photos/28826830@N00/54552146540",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "joints-mobility-01.jpg",
+   "themes": [
+    "joints-mobility"
+   ],
+   "kw": "knee brace",
+   "license": "CC BY 2.0",
+   "attribution": "ray3578 / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/52543438160_ba89e1f43e_b.jpg",
+   "descurl": "https://www.flickr.com/photos/12526838@N04/52543438160",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "joints-mobility-02.jpg",
+   "themes": [
+    "joints-mobility"
+   ],
+   "kw": "knee brace",
+   "license": "CC BY-SA 2.0",
+   "attribution": "simonov / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/53824692161_abdf5a760a_b.jpg",
+   "descurl": "https://www.flickr.com/photos/26209464@N00/53824692161",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "joints-mobility-03.jpg",
+   "themes": [
+    "joints-mobility"
+   ],
+   "kw": "knee brace",
+   "license": "CC BY-SA 2.0",
+   "attribution": "simonov / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/53824929283_de1980117a_b.jpg",
+   "descurl": "https://www.flickr.com/photos/26209464@N00/53824929283",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "joints-mobility-04.jpg",
+   "themes": [
+    "joints-mobility"
+   ],
+   "kw": "knee brace",
+   "license": "CC BY-SA 2.0",
+   "attribution": "simonov / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/53824692306_9b435f62e8_b.jpg",
+   "descurl": "https://www.flickr.com/photos/26209464@N00/53824692306",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "joints-mobility-06.jpg",
+   "themes": [
+    "joints-mobility"
+   ],
+   "kw": "knee brace",
+   "license": "CC BY-SA 2.0",
+   "attribution": "simonov / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/53823771882_19741955d7_b.jpg",
+   "descurl": "https://www.flickr.com/photos/26209464@N00/53823771882",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "joints-mobility-07.jpg",
+   "themes": [
+    "joints-mobility"
+   ],
+   "kw": "knee brace",
+   "license": "CC BY-SA 2.0",
+   "attribution": "simonov / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/53824692406_13cf4ae990_b.jpg",
+   "descurl": "https://www.flickr.com/photos/26209464@N00/53824692406",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "joints-mobility-08.jpg",
+   "themes": [
+    "joints-mobility"
+   ],
+   "kw": "knee brace",
+   "license": "CC BY-SA 2.0",
+   "attribution": "patrick20042018 / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/54274314908_2cd8ab5288_b.jpg",
+   "descurl": "https://www.flickr.com/photos/200217583@N05/54274314908",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "joints-mobility-09.jpg",
+   "themes": [
+    "joints-mobility"
+   ],
+   "kw": "knee brace",
+   "license": "CC BY-SA 2.0",
+   "attribution": "patrick20042018 / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/54274495430_bbfa2c8df0_b.jpg",
+   "descurl": "https://www.flickr.com/photos/200217583@N05/54274495430",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "joints-mobility-10.jpg",
+   "themes": [
+    "joints-mobility"
+   ],
+   "kw": "knee brace",
+   "license": "CC BY-SA 2.0",
+   "attribution": "simonov / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/53823771452_5e04acab59_b.jpg",
+   "descurl": "https://www.flickr.com/photos/26209464@N00/53823771452",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "joints-mobility-12.jpg",
+   "themes": [
+    "joints-mobility"
+   ],
+   "kw": "knee brace",
+   "license": "CC BY-SA 2.0",
+   "attribution": "patrick20042018 / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/54274495340_7db674ca6f_b.jpg",
+   "descurl": "https://www.flickr.com/photos/200217583@N05/54274495340",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "joints-mobility-13.jpg",
+   "themes": [
+    "joints-mobility"
+   ],
+   "kw": "knee brace",
+   "license": "CC BY-SA 2.0",
+   "attribution": "patrick20042018 / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/54274066671_1cf5059fb1_b.jpg",
+   "descurl": "https://www.flickr.com/photos/200217583@N05/54274066671",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "joints-mobility-14.jpg",
+   "themes": [
+    "joints-mobility"
+   ],
+   "kw": "knee brace",
+   "license": "CC BY-SA 2.0",
+   "attribution": "simonov / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/53824692431_c7b470bbcd_b.jpg",
+   "descurl": "https://www.flickr.com/photos/26209464@N00/53824692431",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "thinking-memory-07.jpg",
+   "themes": [
+    "thinking-memory"
+   ],
+   "kw": "woman writing notebook",
+   "license": "CC BY-SA 2.0",
+   "attribution": "EU-Ukraine cooperation / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/54241970559_bd9b9d9355_b.jpg",
+   "descurl": "https://www.flickr.com/photos/149400054@N04/54241970559",
+   "used_by": null
+  },
+  {
+   "file": "thinking-memory-08.jpg",
+   "themes": [
+    "thinking-memory"
+   ],
+   "kw": "playing chess",
+   "license": "CC BY-SA 2.0",
+   "attribution": "kellyhogaboom / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/8324/8076051712_a521c2699a_b.jpg",
+   "descurl": "https://www.flickr.com/photos/11597293@N00/8076051712",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "thinking-memory-10.jpg",
+   "themes": [
+    "thinking-memory"
+   ],
+   "kw": "playing chess",
+   "license": "CC BY-SA 2.0",
+   "attribution": "Vicky Brock / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/51634904518_6e35e2bf69_b.jpg",
+   "descurl": "https://www.flickr.com/photos/43881438@N00/51634904518",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "thinking-memory-12.jpg",
+   "themes": [
+    "thinking-memory"
+   ],
+   "kw": "playing chess",
+   "license": "CC BY-SA 2.0",
+   "attribution": "Coral Melody / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/53823464035_0655dc908f_b.jpg",
+   "descurl": "https://www.flickr.com/photos/57622010@N08/53823464035",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "thinking-memory-13.jpg",
+   "themes": [
+    "thinking-memory"
+   ],
+   "kw": "playing chess",
+   "license": "CC BY-SA 2.0",
+   "attribution": "samsaundersbristol / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/51799464794_aaac0270d2_b.jpg",
+   "descurl": "https://www.flickr.com/photos/59993138@N00/51799464794",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "thinking-memory-14.jpg",
+   "themes": [
+    "thinking-memory"
+   ],
+   "kw": "playing chess",
+   "license": "CC BY-SA 2.0",
+   "attribution": "samsaundersbristol / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/51799097641_0c7b5b3d77_b.jpg",
+   "descurl": "https://www.flickr.com/photos/59993138@N00/51799097641",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "thinking-memory-17.jpg",
+   "themes": [
+    "thinking-memory"
+   ],
+   "kw": "playing chess",
+   "license": "CC BY 2.0",
+   "attribution": "Gamma Man / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/51373458355_821617ee35_b.jpg",
+   "descurl": "https://www.flickr.com/photos/51625243@N06/51373458355",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "thinking-memory-23.jpg",
+   "themes": [
+    "thinking-memory"
+   ],
+   "kw": "playing chess",
+   "license": "CC BY-SA 2.0",
+   "attribution": "mikecogh / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/52426780990_161ba970c5_b.jpg",
+   "descurl": "https://www.flickr.com/photos/89165847@N00/52426780990",
+   "used_by": null
+  },
+  {
+   "file": "thinking-memory-25.jpg",
+   "themes": [
+    "thinking-memory"
+   ],
+   "kw": "playing chess",
+   "license": "CC BY-SA 2.0",
+   "attribution": "samsaundersbristol / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/51799830860_1e201e6892_b.jpg",
+   "descurl": "https://www.flickr.com/photos/59993138@N00/51799830860",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "thinking-memory-26.jpg",
+   "themes": [
+    "thinking-memory"
+   ],
+   "kw": "playing chess",
+   "license": "CC BY-SA 2.0",
+   "attribution": "jabberwock / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/51324488069_166f5ccf72_b.jpg",
+   "descurl": "https://www.flickr.com/photos/37996649474@N01/51324488069",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "thinking-memory-27.jpg",
+   "themes": [
+    "thinking-memory"
+   ],
+   "kw": "playing chess",
+   "license": "CC BY 2.0",
+   "attribution": "Matt From London / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/53198904518_48c606358d_b.jpg",
+   "descurl": "https://www.flickr.com/photos/57868312@N00/53198904518",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
+  },
+  {
+   "file": "thinking-memory-28.jpg",
+   "themes": [
+    "thinking-memory"
+   ],
+   "kw": "playing chess",
+   "license": "CC BY-SA 2.0",
+   "attribution": "quinn.anya / Openverse (Flickr)",
+   "src": "https://live.staticflickr.com/65535/53866713610_2b4bbfd85f_b.jpg",
+   "descurl": "https://www.flickr.com/photos/53326337@N00/53866713610",
+   "used_by": "__disqualified__",
+   "reason": "2026-11-23 audit: off-topic, minors, officials/military, museum, artwork or branded"
   }
  ]
 }

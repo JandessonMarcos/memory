@@ -4079,8 +4079,9 @@
       "title": "Blue Light Glasses and Sleep: Does the Evidence Hold Up?",
       "kw": "blue light glasses sleep",
       "cat": "Sleep",
-      "status": "pending",
-      "words": 1900
+      "status": "done",
+      "words": 1900,
+      "published": "2026-11-24"
     },
     {
       "slug": "naps-and-nighttime-sleep-quality",
